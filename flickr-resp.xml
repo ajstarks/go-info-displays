@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+	<photos page="1" pages="105615" perpage="50" total="5280747">
+		<photo id="4671838925" ... secret="b070f3363e" server="4068" farm="5 ... /> 
+		<photo id="3590142202" ... secret="c46752e4d8" server="2441" farm="3" .../>
+		...
+ </photos> 
+</rsp>
