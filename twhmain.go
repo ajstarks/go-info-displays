@@ -10,10 +10,10 @@ func main() {
 
 	for {
 		select {
-		case <-dateticker.C:
-			canvas.clock(*smartcolor)
 		case <-weatherticker.C:
 			canvas.weather(*location)
+		case <-dateticker.C:
+			canvas.clock(*smartcolor)
 		case <-headticker.C:
 			canvas.headlines(*section, *thumb)
 		case <-sigint:
