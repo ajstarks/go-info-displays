@@ -8,7 +8,7 @@
  
 	<slide bg="black" fg="white">
 		<text sp="10" xp="50" yp="70" align="center" color="rgb(140,165,255)" >Go</text>
-		<text sp="8"  xp="50" yp="50" align="center">for Information Displays</text>
+		<text sp="8"  xp="50" yp="50" align="center">For Information Displays</text>
 		<text sp="2"  xp="50" yp="10" align="center" color="rgb(170,170,170)">Anthony Starks</text>
 		<text sp="2"  xp="50" yp="6"  align="center" color="rgb(170,170,170)">@ajstarks</text>
 	</slide>
@@ -240,17 +240,49 @@
 		<text xp="50" yp="5" sp="2" font="mono" align="c">structlayout -json bytes Reader | structlayout-svg -t "bytes.Reader" &gt; reader.svg</text>
 	</slide>
 	
-	<slide><image xp="50" yp="50" name="go-rel.png" width="3334" height="1432" scale="60"/></slide>
-	<slide><image xp="50" yp="50" width="2716" height="1596" scale="67" name="bulletgraph.png"/></slide>
-	<slide><image xp="50" yp="50" width="2166" height="1626" scale="67" name="compx.png"/></slide>
-	<slide><image xp="50" yp="50" width="2106" height="1544" scale="67" name="quad.png"/></slide>
-	<slide><image xp="50" yp="50" width="2146" height="1610" scale="67" name="roadmap.png"/></slide>
-	<slide><image xp="50" yp="50" width="2142" height="1608" scale="67" name="pv.png"/></slide>
-	<slide><image xp="50" yp="50" width="1550" height="1496" scale="72" name="rr0.png"/></slide>
-	<slide><image xp="50" yp="50" width="2132" height="1588" scale="67" name="svgplot.png"/></slide>
-	<slide><image xp="50" yp="50" width="1600" height="900"             name="apple-stockchart.png"/></slide>
-	<slide><image xp="50" yp="50" width="2138" height="1596" scale="67" name="tweetfreq.png"/></slide>
-	<slide bg="black"><image xp="50" yp="50" width="1900" height="600"  name="planets.png"/></slide>
+	<slide>
+		<image xp="50" yp="50" name="go-rel.png" width="3334" height="1432" scale="60"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="2716" height="1596" scale="67" name="bulletgraph.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="2166" height="1626" scale="67" name="compx.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="2106" height="1544" scale="67" name="quad.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="2146" height="1610" scale="67" name="roadmap.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="2142" height="1608" scale="67" name="pv.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="1550" height="1496" scale="72" name="rr0.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="2132" height="1588" scale="67" name="svgplot.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="1600" height="900"             name="apple-stockchart.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="2138" height="1596" scale="67" name="tweetfreq.png"/>
+	</slide>
+
+	<slide bg="black">
+		<image xp="50" yp="50" width="1900" height="600"  name="planets.png"/>
+	</slide>
 	
 	<slide bg="black">
 		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="lt-04-jones-montiel.png"/>
@@ -275,16 +307,45 @@ https://api.flickr.com/services/rest/
 		<image xp="70" yp="70" width="800" height="500" name="sunset.png"/>
 	</slide>
 
-	<slide><image xp="50" yp="50"  width="900" height="846" name="201566.png"/></slide>
-	<slide><image xp="50" yp="50"  width="900" height="846" name="201933.png"/></slide>
-	<slide><image xp="50" yp="50"  width="900" height="846" name="201935.png"/></slide>
-	<slide><image xp="50" yp="50"  width="900" height="846" name="201939.png"/></slide>
-	<slide><image xp="50" yp="50"  width="900" height="846" name="202326.png"/></slide>
-	<slide><image xp="50" yp="50"  width="900" height="846" name="202681.png"/></slide>
-	<slide><image xp="50" yp="50"  width="900" height="846" name="202691.png"/></slide>
-	<slide><image xp="50" yp="50"  width="900" height="846" name="202695.png"/></slide>
-	<slide><image xp="50" yp="50"  width="900" height="846" name="203076.png"/></slide>
-	<slide><image xp="50" yp="50"  width="900" height="846" name="2544.png"/></slide>
+	<slide>
+		<image xp="50" yp="50"  width="900" height="846" name="201566.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50"  width="900" height="846" name="201933.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50"  width="900" height="846" name="201935.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50"  width="900" height="846" name="201939.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50"  width="900" height="846" name="202326.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50"  width="900" height="846" name="202681.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50"  width="900" height="846" name="202691.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50"  width="900" height="846" name="202695.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50"  width="900" height="846" name="203076.png"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50"  width="900" height="846" name="2544.png"/>
+	</slide>
 
 	<slide>
 		<image xp="90" yp="80" width="200" height="200" name="15.png"/>
@@ -297,8 +358,8 @@ https://api.flickr.com/services/rest/
 		<rect xp="13" yp="70" wp="15" hp="5" color="yellow" opacity="40"/>
 	</slide>
 	
-	<slide>
-		<image xp="50" yp="50" width="1920" height="1080" scale="75" name="rotext.raw.png"/>
+	<slide bg="black">
+		<image xp="50" yp="50" width="1920" height="1080" scale="80" name="rotext.raw.png"/>
 	</slide>
 		
 	<slide>
@@ -363,10 +424,21 @@ https://api.flickr.com/services/rest/
 		</list>
 	</slide>
 	
-	<slide><image xp="50" yp="50" name="twh-20170420.png" width="1920" height="1080"/></slide>
-	<slide><image xp="50" yp="50" name="P1220110.JPG" width="4224" height="2376" scale="45"/></slide>
-	<slide><image xp="50" yp="50" name="P1220082.JPG" width="4224" height="2376" scale="45"/></slide>	
-	<slide><image xp="50" yp="50" name="P1220418.JPG" width="4224" height="2376" scale="45"/></slide>
+	<slide>
+		<image xp="50" yp="50" name="twh-20170420.png" width="1920" height="1080"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" name="P1220110.JPG" width="4224" height="2376" scale="45"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" name="P1220082.JPG" width="4224" height="2376" scale="45"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" name="P1220418.JPG" width="4224" height="2376" scale="45"/>
+	</slide>
 	
 	<slide> <!-- plain -->
 		<text file="twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
