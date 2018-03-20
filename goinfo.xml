@@ -2,7 +2,7 @@
 	<title>Go for Infomation Displays</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design, information design, deck, svgo, openvg, dchart</subject>
-	<date>2018-03-18</date>
+	<date>2018-03-19</date>
 	<description>This presentation describes the use of Go for programming pictures, 
 	a departure from the usual back-end view. Go NYC Meetup, April 2017, updated version Gotham Go, April 2018</description>
  
@@ -55,6 +55,10 @@
 		<text xp="3.5" yp="90" sp="5" color="black">I hate pushing pixels</text>
 		<text xp="3.5" yp="80" sp="2.4" color="black" wp="20" type="block">computers are so much better at it</text>
 		<text xp="98" yp="2" sp="1" align="end" color="lightgray">Photo by deborahschillbach</text>
+	</slide>
+	
+	<slide bg="black" fg="white">
+		<image xp="50" yp="50" name="kelsey-tweet.png" width="1572" height="608" link="https://twitter.com/kelseyhightower/status/851450816024125440"/>
 	</slide>
 
 	<slide>
@@ -357,11 +361,12 @@ https://api.flickr.com/services/rest/
 		<text xp="2" yp="95" sp="1.75" font="mono" file="rotext.go"/>
 		<rect xp="13" yp="70" wp="15" hp="5" color="yellow" opacity="40"/>
 	</slide>
-	
-	<slide bg="black">
-		<image xp="50" yp="50" width="1920" height="1080" scale="80" name="rotext.raw.png"/>
-	</slide>
 		
+	<slide bg="black" fg="white">
+		<text xp="5" yp="80" sp="9">OpenVG</text>
+		<image xp="50" yp="50" width="4224" height="2376" scale="45" name="P1220686.JPG"/>
+	</slide>
+	
 	<slide>
 		<image xp="10" yp="85" width="1920" height="1080" scale="25" name="refcard.raw.png"/>
 		<image xp="50" yp="85" width="1920" height="1080" scale="25" name="gradient.raw.png"/>
@@ -687,48 +692,56 @@ https://api.flickr.com/services/rest/
 	</slide>
 
 	<slide>
-	<text xp="5" yp="90" sp="4">Deck Web API</text>
-	<list xp="5" yp="80" sp="2" font="mono" color="rgb(127,0,0)">
-		<li>GET</li>
-		<li>GET</li>
-		<li>GET</li>
-		<li>POST</li>
-		<li>POST</li>
-		<li>POST</li>
-		<li>DELETE</li>
-		<li>POST</li>
-		<li>POST</li>
-		<li>POST</li>
-		<li>POST</li>
-	</list>
-	<list xp="15" yp="80" sp="2" font="mono" color="rgb(0,0,127)">
-		<li>/</li>
-		<li>/deck/</li>
-		<li>/deck/?filter=[type]</li>
-		<li>/deck/content.xml?cmd=1s</li>
-		<li>/deck/content.xml?cmd=stop</li>
-		<li>/deck/content.xml?slide=[num]</li>
-		<li>/deck/content.xml</li>
-		<li>/upload/ Deck:content.xml</li>
-		<li>/table/ Deck:content.txt</li>
-		<li>/table/?textsize=[size]</li>
-		<li>/media/ Media:content.mov</li>
-	</list>
-	<list xp="55" yp="80" sp="2">
-		<li>List the API</li>
-		<li>List the content on the server</li>
-		<li>List content filtered by deck, image, video</li>
-		<li>Play a deck with the specified duration</li>
-		<li>Stop playing a deck</li>
-		<li>Play deck starting at a slide number</li>
-		<li>Remove content</li>
-		<li>Upload content</li>
-		<li>Generate a table from a tab-separated list</li>
-		<li>Specify the text size of the table</li>
-		<li>Play the specified video</li>
-	</list>
-	<text xp="55" yp="90" sp="1" color="rgb(127,0,0)" font="mono">sex -dir [start dir] -listen [address:port] -maxupload [bytes]</text>
-  </slide>
+		<text xp="5" yp="90" sp="4">Deck Web API</text>
+		<list xp="5" yp="80" sp="2" font="mono" color="rgb(127,0,0)">
+			<li>GET</li>
+			<li>GET</li>
+			<li>GET</li>
+			<li>POST</li>
+			<li>POST</li>
+			<li>POST</li>
+			<li>DELETE</li>
+			<li>POST</li>
+			<li>POST</li>
+			<li>POST</li>
+			<li>POST</li>
+		</list>
+		<list xp="15" yp="80" sp="2" font="mono" color="rgb(0,0,127)">
+			<li>/</li>
+			<li>/deck/</li>
+			<li>/deck/?filter=[type]</li>
+			<li>/deck/content.xml?cmd=1s</li>
+			<li>/deck/content.xml?cmd=stop</li>
+			<li>/deck/content.xml?slide=[num]</li>
+			<li>/deck/content.xml</li>
+			<li>/upload/ Deck:content.xml</li>
+			<li>/table/ Deck:content.txt</li>
+			<li>/table/?textsize=[size]</li>
+			<li>/media/ Media:content.mov</li>
+		</list>
+		<list xp="55" yp="80" sp="2">
+			<li>List the API</li>
+			<li>List the content on the server</li>
+			<li>List content filtered by deck, image, video</li>
+			<li>Play a deck with the specified duration</li>
+			<li>Stop playing a deck</li>
+			<li>Play deck starting at a slide number</li>
+			<li>Remove content</li>
+			<li>Upload content</li>
+			<li>Generate a table from a tab-separated list</li>
+			<li>Specify the text size of the table</li>
+			<li>Play the specified video</li>
+		</list>
+		<text xp="55" yp="90" sp="1" color="rgb(127,0,0)" font="mono">sex -dir [start dir] -listen [address:port] -maxupload [bytes]</text>
+	</slide>
+	
+	<slide bg="black">
+		<image xp="50" yp="50" name="P1220669.JPG" width="4424" height="2376" scale="45"/>
+	</slide>
+
+	<slide bg="black">
+		<image xp="50" yp="50" name="P1220670.JPG" width="4224" height="2376" scale="45"/>
+	</slide>
 
 	<slide bg="rgb(127,127,127)" fg="white">
 	   <text xp="10" yp="50" sp="5">Design Examples</text>
@@ -946,7 +959,9 @@ Gate C31C
 		<line sp="0.05" xp1="15.00" yp1="2.00" xp2="80" yp2="2.00"/>
 		</slide>
 
-	<slide bg="black"><image xp="50" yp="50" name="comida.jpg" width="6666" height="3750" scale="29"/></slide>
+	<slide bg="black">
+		<image xp="50" yp="50" name="comida.jpg" width="6666" height="3750" scale="29"/>
+	</slide>
 
 	<slide bg="white" fg="black">
 	   <image xp="95" yp="10" width="75" height="100" name="doc.png"/>
@@ -972,66 +987,6 @@ eyes shall be opened, and ye shall be as gods, knowing good
 and evil.</text>
 	</slide>
 	
-	<slide>
-	<text xp="15.00" yp="95.00" sp="2.00" align="center" wp="0.00" font="sans" opacity="100.00" color="darkgray" type="">Initech Collaboration Profiles</text>
-	<text xp="15.00" yp="89.00" sp="2.50" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">Annie Mills</text>
-	<image xp="15.00" yp="72.00" width="320" height="280" name="annie.png" />
-	<rect xp="15.00" yp="42.00" wp="20.00" hp="30.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="11.50" yp="53.00" sp="1.20" align="right" wp="0.00" font="sans" opacity="100.00" color="white" type="">ROLE</text>
-	<text xp="12.00" yp="53.00" sp="1.20" align="" wp="0.00" font="sans" opacity="100.00" color="white" type="">Executive Assistant</text>
-	<text xp="11.50" yp="50.00" sp="1.20" align="right" wp="0.00" font="sans" opacity="100.00" color="white" type="">LOCATION</text>
-	<text xp="12.00" yp="50.00" sp="1.20" align="" wp="0.00" font="sans" opacity="100.00" color="white" type="">Bridgewater, NJ</text>
-	<text xp="6.00" yp="42.00" sp="1.20" align="" wp="15.00" font="sans" opacity="100.00" color="white" type="block">“I don’t care if a tool is the best, but
-	please stop changing things so often. I don’t have time to learn something new.”</text>
-	<text xp="30.00" yp="55.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">SUMMARY</text>
-	<rect xp="66.00" yp="30.00" wp="75.00" hp="60.00" opacity="7.00" color="rgb(67,74,154)" />
-	<text xp="30.00" yp="51.00" sp="1.20" align="" wp="60.00" font="sans" opacity="100.00" color="black" type="block">In general things things work ok for
-	Annie, but the rate of change and lack of effective communication can be challenging. It can also be frustrating when things change, just she's used to the
-	system. She's busy, and wants tools to just get out of the way, and not give her “a case of the Mondays”</text>
-	<text xp="2.50" yp="20.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">TECHNOLOGY</text>
-	<text xp="2.50" yp="17.00" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">IT and Internet</text>
-	<rect xp="15.00" yp="15.00" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="8.75" yp="15.00" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="2.50" yp="10.75" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Software</text>
-	<rect xp="15.00" yp="8.75" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="15.00" yp="8.75" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="72.50" yp="89.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">PERSONALITY</text>
-	<text xp="72.50" yp="86.00" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Extravert</text>
-	<text xp="97.50" yp="86.00" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Introvert</text>
-	<rect xp="85.00" yp="84.00" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="82.50" yp="84.00" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="72.50" yp="79.75" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Sensing</text>
-	<text xp="97.50" yp="79.75" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Intuition</text>
-	<rect xp="85.00" yp="77.75" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="80.00" yp="77.75" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="72.50" yp="73.50" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Thinking</text>
-	<text xp="97.50" yp="73.50" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Feeling</text>
-	<rect xp="85.00" yp="71.50" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="92.50" yp="71.50" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="72.50" yp="67.25" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Judging</text>
-	<text xp="97.50" yp="67.25" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Percieving</text>
-	<rect xp="85.00" yp="65.25" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="75.00" yp="65.25" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="30.00" yp="89.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">GOALS/LIKES</text>
-	<list type="bullet" xp="30.00" yp="85.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
-	  <li>Lunch and Learns, how-to sessions</li>
-	  <li>Networking in person</li>
-	  <li>A stable set of tools</li>
-	</list>
-	<text xp="30.00" yp="72.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">FRUSTRATIONS</text>
-	<list type="bullet" xp="30.00" yp="68.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
-	  <li>Last minute communications</li>
-	  <li>Collaboration across time zones</li>
-	  <li>Social tools are not useful</li>
-	</list>
-	<text xp="30.00" yp="25.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">RELATED QUESTIONS</text>
-	<list type="bullet" xp="30.00" yp="21.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
-	  <li>Why do other countries use different systems?</li>
-	  <li>Why don't we have more surveys to understand needs?</li>
-	  <li>Why do we get so many email blasts?</li>
-	  <li>Why does IT assume a certain technical ability?</li>
-	</list>
-	</slide>
 	
 	<slide>
 	<text xp="15.00" yp="95.00" sp="2.00" align="center" wp="0.00" font="sans" opacity="100.00" color="darkgray" type="">Initech Collaboration Profiles</text>
@@ -1138,7 +1093,9 @@ and evil.</text>
 		<image xp="20"  yp="2.400000" width="300" height="300" scale="7" name="noun_bomb_193958.png"/>
 	</slide>
 	
-	<slide><image xp="50" yp="50" name="gp3.png" width="2408" height="644" scale="75"/></slide>
+	<slide>
+		<image xp="50" yp="50" name="gp3.png" width="2408" height="644" scale="75"/>
+	</slide>
 	
   	<slide bg="white" fg="rgb(127,0,0)">
     	<text xp="35" yp="70" sp="5" wp="35" type="block">Make the zero value useful.</text>
@@ -1182,8 +1139,8 @@ and evil.</text>
 	</slide>
 	
 	<slide>
-		<text xp="5" yp="92" sp="2.5">Chart Types</text>
-		<list lp="1.5" xp="5" yp="87" sp="1.2" font="mono" color="maroon">
+		<text xp="5" yp="95" sp="2.5">Chart Types</text>
+		<list lp="1.5" xp="5" yp="90" sp="1.3" font="mono" color="maroon">
 			<li>-bar</li>
 			<li>-wbar</li>
 			<li>-hbar</li>
@@ -1195,7 +1152,7 @@ and evil.</text>
 			<li>-pmap</li>
 			<li>-donut</li>
 		</list>
-		<list lp="1.5" xp="15" yp="87" sp="1.2">
+		<list lp="1.5" xp="15" yp="90" sp="1.3">
 			<li>bar chart (default true)</li>
 			<li>word bar chart (default false)</li>
 			<li>horizontal bar chart (default false)</li>
@@ -1208,8 +1165,10 @@ and evil.</text>
 			<li>donut chart (default false)</li>
 		</list>
 		
-		<text xp="50" yp="92" sp="2.5">Chart Elements</text>
-		<list lp="1.5" xp="50" yp="87" sp="1.2" font="mono" color="maroon">
+		<text xp="50" yp="95" sp="2.5">Chart Elements</text>
+		<line xp1="43" yp1="95" xp2="43" yp2="3" />
+		<line xp1="5"  yp1="52" xp2="95" yp2="52"/>
+		<list lp="1.5" xp="50" yp="90" sp="1.3" font="mono" color="maroon">
 			<li>-grid</li>
 			<li>-val</li>
 			<li>-valpos</li>
@@ -1222,7 +1181,7 @@ and evil.</text>
 			<li>-xlast</li>
 			<li>-hline</li>
 		</list>
-		<list lp="1.5" xp="60" yp="87" sp="1.2">
+		<list lp="1.5" xp="60" yp="90" sp="1.3">
 			<li>show gridlines on the y axis (default false)</li>
 			<li>show values (default true)</li>
 			<li>value position (t=top, b=bottom, m=middle) (default "t")</li>
@@ -1236,8 +1195,8 @@ and evil.</text>
 			<li>horizontal line at value with label</li>
 		</list>
 		
-		<text xp="5" yp="47" sp="2.5">Position and Scaling</text>
-		<list lp="1.5" xp="5" yp="42" sp="1.2" font="mono" color="maroon">
+		<text xp="5" yp="45" sp="2.5">Position and Scaling</text>
+		<list lp="1.5" xp="5" yp="40" sp="1.3" font="mono" color="maroon">
 			<li>-top</li>
 			<li>-bottom</li>
 			<li>-left</li>
@@ -1246,7 +1205,7 @@ and evil.</text>
 			<li>-max</li>
 			<li>-dmin</li>
 		</list>
-		<list lp="1.5" xp="15" yp="42" sp="1.2">
+		<list lp="1.5" xp="15" yp="40" sp="1.3">
 			<li>top of the plot (default 80)</li>
 			<li>bottom of the plot (default 30)</li>
 			<li>left margin (default 20)</li>
@@ -1257,8 +1216,8 @@ and evil.</text>
 		</list>
 		
 		
-		<text xp="50" yp="47" sp="2.5">Measures and Attributes</text>
-		<list lp="1.5" xp="50" yp="42" sp="1.2" font="mono" color="maroon">
+		<text xp="50" yp="45" sp="2.5">Measures and Attributes</text>
+		<list lp="1.5" xp="50" yp="40" sp="1.3" font="mono" color="maroon">
 			<li>-barwidth</li>
 			<li>-ls</li>
 			<li>-textsize</li>
@@ -1269,7 +1228,7 @@ and evil.</text>
 			<li>-pwidth</li>
 		</list>
 		
-		<list lp="1.5" xp="60" yp="42" sp="1.2">
+		<list lp="1.5" xp="60" yp="40" sp="1.3">
 			<li>barwidth (default computed from data size)</li>
 			<li>linespacing (default 2.4)</li>
 			<li>text size (default 1.5)</li>
@@ -1280,54 +1239,48 @@ and evil.</text>
 			<li>width of the donut or proportional map (default 3)</li>
 		</list>
 
-		<text xp="5" yp="15" sp="2.5">CSV</text>
-		<list lp="1.5" xp="5" yp="10" sp="1.2" font="mono" color="maroon">
+		<text xp="5" yp="12" sp="2.5">CSV</text>
+		<list lp="1.5" xp="5" yp="7" sp="1.3" font="mono" color="maroon">
 			<li>-csv</li>
 			<li>-csvcol</li>
 		</list>
-		<list lp="1.5" xp="15" yp="10" sp="1.2">
+		<list lp="1.5" xp="12" yp="7" sp="1.3">
 			<li>read CSV files (default false)</li>
 			<li>specify the columns to use for label,value</li>
 		</list>
 	</slide>
 	
 	<slide>
-            <text xp="50.00" yp="80.40" sp="2.25" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">AAPL Volume</text><text xp="15.52" yp="30.00" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">0</text><line xp1="20.00" yp1="30.00" xp2="80.00" yp2="30.00" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="39.21" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">140</text><line xp1="20.00" yp1="39.21" xp2="80.00" yp2="39.21" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="48.42" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">280</text><line xp1="20.00" yp1="48.42" xp2="80.00" yp2="48.42" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="57.62" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">420</text><line xp1="20.00" yp1="57.62" xp2="80.00" yp2="57.62" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="66.83" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">560</text><line xp1="20.00" yp1="66.83" xp2="80.00" yp2="66.83" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="76.04" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">700</text><line xp1="20.00" yp1="76.04" xp2="80.00" yp2="76.04" sp="0.10" opacity="100.00" color="lightgray"/><line xp1="20.00" yp1="30.00" xp2="20.00" yp2="67.04" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="20.00" yp="68.54" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">563.1</text><text xp="20.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-01-01</text><line xp1="25.45" yp1="30.00" xp2="25.45" yp2="67.82" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="25.45" yp="69.32" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">575.0</text><line xp1="30.91" yp1="30.00" xp2="30.91" yp2="66.94" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="30.91" yp="68.44" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">561.6</text><text xp="30.91" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-03-01</text><line xp1="36.36" yp1="30.00" xp2="36.36" yp2="54.55" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="36.36" yp="56.05" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">373.3</text><line xp1="41.82" yp1="30.00" xp2="41.82" yp2="73.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="41.82" yp="74.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">653.8</text><text xp="41.82" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-05-01</text><line xp1="47.27" yp1="30.00" xp2="47.27" yp2="75.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="47.27" yp="76.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">684.2</text><line xp1="52.73" yp1="30.00" xp2="52.73" yp2="57.76" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="52.73" yp="59.26" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">422.0</text><text xp="52.73" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-07-01</text><line xp1="58.18" yp1="30.00" xp2="58.18" yp2="73.48" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="58.18" yp="74.98" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">661.1</text><line xp1="63.64" yp1="30.00" xp2="63.64" yp2="74.72" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="63.64" yp="76.22" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">679.9</text><text xp="63.64" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-09-01</text><line xp1="69.09" yp1="30.00" xp2="69.09" yp2="63.17" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="69.09" yp="64.67" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">504.3</text><line xp1="74.55" yp1="30.00" xp2="74.55" yp2="69.51" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="74.55" yp="71.01" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">600.7</text><text xp="74.55" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-11-01</text><line xp1="80.00" yp1="30.00" xp2="80.00" yp2="57.45" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="80.00" yp="58.95" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">417.4</text>
-		</slide>
+		<text xp="50.00" yp="85.40" sp="2.25" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">AAPL Volume</text><line xp1="10.00" yp1="30.00" xp2="10.00" yp2="71.15" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="10.00" yp="72.65" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">563.1</text><text xp="10.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-01-01</text><line xp1="17.27" yp1="30.00" xp2="17.27" yp2="72.02" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="17.27" yp="73.52" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">575.0</text><text xp="17.27" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-02-01</text><line xp1="24.55" yp1="30.00" xp2="24.55" yp2="71.04" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="24.55" yp="72.54" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">561.6</text><text xp="24.55" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-03-01</text><line xp1="31.82" yp1="30.00" xp2="31.82" yp2="57.28" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="31.82" yp="58.78" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">373.3</text><text xp="31.82" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-04-01</text><line xp1="39.09" yp1="30.00" xp2="39.09" yp2="77.78" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="39.09" yp="79.28" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">653.8</text><text xp="39.09" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-05-01</text><line xp1="46.36" yp1="30.00" xp2="46.36" yp2="80.00" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="46.36" yp="81.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">684.2</text><text xp="46.36" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-06-01</text><line xp1="53.64" yp1="30.00" xp2="53.64" yp2="60.84" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="53.64" yp="62.34" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">422.0</text><text xp="53.64" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-07-01</text><line xp1="60.91" yp1="30.00" xp2="60.91" yp2="78.31" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="60.91" yp="79.81" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">661.1</text><text xp="60.91" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-08-01</text><line xp1="68.18" yp1="30.00" xp2="68.18" yp2="79.69" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="68.18" yp="81.19" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">679.9</text><text xp="68.18" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-09-01</text><line xp1="75.45" yp1="30.00" xp2="75.45" yp2="66.85" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="75.45" yp="68.35" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">504.3</text><text xp="75.45" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-10-01</text><line xp1="82.73" yp1="30.00" xp2="82.73" yp2="73.90" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="82.73" yp="75.40" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">600.7</text><text xp="82.73" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-11-01</text><line xp1="90.00" yp1="30.00" xp2="90.00" yp2="60.50" sp="6.27" opacity="100.00" color="lightsteelblue"/><text xp="90.00" yp="62.00" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">417.4</text><text xp="90.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-12-01</text>
+		<text xp="50" yp="15" sp="2" align="c" font="mono">dchart AAPL.d</text>
+	</slide>
 		
 	<slide>
-			<text xp="20" yp="50" sp="3" align="e" color="maroon">left</text>
-			<text xp="50" yp="75" sp="3" align="c" color="maroon">top</text>
-			<text xp="50" yp="30" sp="3" align="c" color="maroon">bottom</text>
-			<text xp="80" yp="50" sp="3"  color="maroon">right</text>
-			<text xp="50.00" yp="80.40" sp="2.25" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">AAPL Volume</text><text xp="15.52" yp="30.00" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">0</text><line xp1="20.00" yp1="30.00" xp2="80.00" yp2="30.00" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="39.21" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">140</text><line xp1="20.00" yp1="39.21" xp2="80.00" yp2="39.21" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="48.42" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">280</text><line xp1="20.00" yp1="48.42" xp2="80.00" yp2="48.42" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="57.62" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">420</text><line xp1="20.00" yp1="57.62" xp2="80.00" yp2="57.62" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="66.83" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">560</text><line xp1="20.00" yp1="66.83" xp2="80.00" yp2="66.83" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="76.04" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">700</text><line xp1="20.00" yp1="76.04" xp2="80.00" yp2="76.04" sp="0.10" opacity="100.00" color="lightgray"/><line xp1="20.00" yp1="30.00" xp2="20.00" yp2="67.04" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="20.00" yp="68.54" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">563.1</text><text xp="20.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-01-01</text><line xp1="25.45" yp1="30.00" xp2="25.45" yp2="67.82" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="25.45" yp="69.32" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">575.0</text><line xp1="30.91" yp1="30.00" xp2="30.91" yp2="66.94" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="30.91" yp="68.44" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">561.6</text><text xp="30.91" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-03-01</text><line xp1="36.36" yp1="30.00" xp2="36.36" yp2="54.55" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="36.36" yp="56.05" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">373.3</text><line xp1="41.82" yp1="30.00" xp2="41.82" yp2="73.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="41.82" yp="74.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">653.8</text><text xp="41.82" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-05-01</text><line xp1="47.27" yp1="30.00" xp2="47.27" yp2="75.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="47.27" yp="76.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">684.2</text><line xp1="52.73" yp1="30.00" xp2="52.73" yp2="57.76" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="52.73" yp="59.26" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">422.0</text><text xp="52.73" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-07-01</text><line xp1="58.18" yp1="30.00" xp2="58.18" yp2="73.48" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="58.18" yp="74.98" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">661.1</text><line xp1="63.64" yp1="30.00" xp2="63.64" yp2="74.72" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="63.64" yp="76.22" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">679.9</text><text xp="63.64" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-09-01</text><line xp1="69.09" yp1="30.00" xp2="69.09" yp2="63.17" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="69.09" yp="64.67" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">504.3</text><line xp1="74.55" yp1="30.00" xp2="74.55" yp2="69.51" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="74.55" yp="71.01" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">600.7</text><text xp="74.55" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-11-01</text><line xp1="80.00" yp1="30.00" xp2="80.00" yp2="57.45" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="80.00" yp="58.95" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">417.4</text>
-		</slide>
+		<text xp="20" yp="50" sp="3" align="e" color="maroon">left</text>
+		<text xp="50" yp="75" sp="3" align="c" color="maroon">top</text>
+		<text xp="50" yp="30" sp="3" align="c" color="maroon">bottom</text>
+		<text xp="80" yp="50" sp="3"  color="maroon">right</text>
+		<text xp="50.00" yp="80.40" sp="2.25" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">AAPL Volume</text><line xp1="20.00" yp1="30.00" xp2="20.00" yp2="67.04" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="20.00" yp="68.54" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">563.1</text><text xp="20.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-01-01</text><line xp1="25.45" yp1="30.00" xp2="25.45" yp2="67.82" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="25.45" yp="69.32" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">575.0</text><text xp="25.45" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-02-01</text><line xp1="30.91" yp1="30.00" xp2="30.91" yp2="66.94" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="30.91" yp="68.44" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">561.6</text><text xp="30.91" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-03-01</text><line xp1="36.36" yp1="30.00" xp2="36.36" yp2="54.55" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="36.36" yp="56.05" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">373.3</text><text xp="36.36" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-04-01</text><line xp1="41.82" yp1="30.00" xp2="41.82" yp2="73.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="41.82" yp="74.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">653.8</text><text xp="41.82" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-05-01</text><line xp1="47.27" yp1="30.00" xp2="47.27" yp2="75.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="47.27" yp="76.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">684.2</text><text xp="47.27" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-06-01</text><line xp1="52.73" yp1="30.00" xp2="52.73" yp2="57.76" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="52.73" yp="59.26" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">422.0</text><text xp="52.73" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-07-01</text><line xp1="58.18" yp1="30.00" xp2="58.18" yp2="73.48" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="58.18" yp="74.98" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">661.1</text><text xp="58.18" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-08-01</text><line xp1="63.64" yp1="30.00" xp2="63.64" yp2="74.72" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="63.64" yp="76.22" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">679.9</text><text xp="63.64" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-09-01</text><line xp1="69.09" yp1="30.00" xp2="69.09" yp2="63.17" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="69.09" yp="64.67" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">504.3</text><text xp="69.09" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-10-01</text><line xp1="74.55" yp1="30.00" xp2="74.55" yp2="69.51" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="74.55" yp="71.01" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">600.7</text><text xp="74.55" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-11-01</text><line xp1="80.00" yp1="30.00" xp2="80.00" yp2="57.45" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="80.00" yp="58.95" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">417.4</text><text xp="80.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-12-01</text>
+		<text xp="50" yp="15" sp="2" align="c" font="mono">dchart -left=20 -right=80 -top=75 AAPL.d</text>
+	</slide>
 		
     <slide>
-			<text xp="20" yp="72" sp="3" align="c" color="maroon">val</text>
-			<text xp="50" yp="50" sp="3" align="c" color="maroon">bar</text>
-			<text xp="40" yp="80" sp="3" align="e" color="maroon">title</text>
-			<text xp="80" yp="75" sp="3" align="c" color="maroon">grid</text>
-			<text xp="85" yp="27" sp="3" align="c" color="maroon">xlabel</text>
-			<text xp="10" yp="30" sp="3" align="c" color="maroon">yaxis</text>
-			<text xp="20" yp="50" sp="3" align="e" color="maroon">left</text>
-			<text xp="50" yp="75" sp="3" align="c" color="maroon">top</text>
-			<text xp="50" yp="30" sp="3" align="c" color="maroon">bottom</text>
-			<text xp="80" yp="50" sp="3"  color="maroon">right</text>
-			<text xp="50" yp="15" sp="2" align="c" font="mono">dchart -left=20 -right=80 -top=75 -yaxis -xlabel=2 -val -grid AAPL.d</text>
-			<text xp="50.00" yp="80.40" sp="2.25" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">AAPL Volume</text><text xp="15.52" yp="30.00" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">0</text><line xp1="20.00" yp1="30.00" xp2="80.00" yp2="30.00" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="39.21" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">140</text><line xp1="20.00" yp1="39.21" xp2="80.00" yp2="39.21" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="48.42" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">280</text><line xp1="20.00" yp1="48.42" xp2="80.00" yp2="48.42" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="57.62" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">420</text><line xp1="20.00" yp1="57.62" xp2="80.00" yp2="57.62" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="66.83" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">560</text><line xp1="20.00" yp1="66.83" xp2="80.00" yp2="66.83" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="76.04" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">700</text><line xp1="20.00" yp1="76.04" xp2="80.00" yp2="76.04" sp="0.10" opacity="100.00" color="lightgray"/><line xp1="20.00" yp1="30.00" xp2="20.00" yp2="67.04" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="20.00" yp="68.54" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">563.1</text><text xp="20.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-01-01</text><line xp1="25.45" yp1="30.00" xp2="25.45" yp2="67.82" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="25.45" yp="69.32" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">575.0</text><line xp1="30.91" yp1="30.00" xp2="30.91" yp2="66.94" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="30.91" yp="68.44" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">561.6</text><text xp="30.91" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-03-01</text><line xp1="36.36" yp1="30.00" xp2="36.36" yp2="54.55" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="36.36" yp="56.05" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">373.3</text><line xp1="41.82" yp1="30.00" xp2="41.82" yp2="73.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="41.82" yp="74.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">653.8</text><text xp="41.82" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-05-01</text><line xp1="47.27" yp1="30.00" xp2="47.27" yp2="75.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="47.27" yp="76.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">684.2</text><line xp1="52.73" yp1="30.00" xp2="52.73" yp2="57.76" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="52.73" yp="59.26" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">422.0</text><text xp="52.73" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-07-01</text><line xp1="58.18" yp1="30.00" xp2="58.18" yp2="73.48" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="58.18" yp="74.98" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">661.1</text><line xp1="63.64" yp1="30.00" xp2="63.64" yp2="74.72" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="63.64" yp="76.22" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">679.9</text><text xp="63.64" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-09-01</text><line xp1="69.09" yp1="30.00" xp2="69.09" yp2="63.17" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="69.09" yp="64.67" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">504.3</text><line xp1="74.55" yp1="30.00" xp2="74.55" yp2="69.51" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="74.55" yp="71.01" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">600.7</text><text xp="74.55" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-11-01</text><line xp1="80.00" yp1="30.00" xp2="80.00" yp2="57.45" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="80.00" yp="58.95" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">417.4</text>
-		</slide>
-	
-	<slide>
-		<text xp="6.91" yp="30.00" sp="1.50" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">0</text><text xp="6.91" yp="40.61" sp="1.50" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">14</text><text xp="6.91" yp="51.21" sp="1.50" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">28</text><text xp="6.91" yp="61.82" sp="1.50" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">42</text><text xp="6.91" yp="72.42" sp="1.50" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">56</text><text xp="6.91" yp="83.03" sp="1.50" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">70</text><line xp1="10.00" yp1="30.00" xp2="10.00" yp2="36.82" sp="0.18" opacity="100.00" color="lightsteelblue"/><text xp="10.00" yp="26.00" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2018-01-01</text><line xp1="11.18" yp1="30.00" xp2="11.18" yp2="39.85" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="12.35" yp1="30.00" xp2="12.35" yp2="44.39" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="13.53" yp1="30.00" xp2="13.53" yp2="46.67" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="14.71" yp1="30.00" xp2="14.71" yp2="45.91" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="15.88" yp1="30.00" xp2="15.88" yp2="39.09" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="17.06" yp1="30.00" xp2="17.06" yp2="36.06" sp="0.18" opacity="100.00" color="lightsteelblue"/><text xp="17.06" yp="36.16" sp="1.20" align="center" wp="0.00" font="serif" opacity="100.00" color="rgb(75,75,75)" type="">The #MeToo Moment: Covering 'The New Red Carpet'</text><line xp1="18.24" yp1="30.00" xp2="18.24" yp2="42.12" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="19.41" yp1="30.00" xp2="19.41" yp2="51.97" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="20.59" yp1="30.00" xp2="20.59" yp2="55.00" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="21.76" yp1="30.00" xp2="21.76" yp2="57.27" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="22.94" yp1="30.00" xp2="22.94" yp2="62.58" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="24.12" yp1="30.00" xp2="24.12" yp2="75.45" sp="0.18" opacity="100.00" color="lightsteelblue"/><text xp="24.12" yp="26.00" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2018-01-13</text><line xp1="25.29" yp1="30.00" xp2="25.29" yp2="46.67" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="26.47" yp1="30.00" xp2="26.47" yp2="43.64" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="27.65" yp1="30.00" xp2="27.65" yp2="50.45" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="28.82" yp1="30.00" xp2="28.82" yp2="55.00" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="30.00" yp1="30.00" xp2="30.00" yp2="47.42" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="31.18" yp1="30.00" xp2="31.18" yp2="49.70" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="32.35" yp1="30.00" xp2="32.35" yp2="54.24" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="33.53" yp1="30.00" xp2="33.53" yp2="61.82" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="34.71" yp1="30.00" xp2="34.71" yp2="63.33" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="35.88" yp1="30.00" xp2="35.88" yp2="61.82" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="37.06" yp1="30.00" xp2="37.06" yp2="65.61" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="38.24" yp1="30.00" xp2="38.24" yp2="52.73" sp="0.18" opacity="100.00" color="lightsteelblue"/><text xp="38.24" yp="26.00" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2018-01-25</text><line xp1="39.41" yp1="30.00" xp2="39.41" yp2="50.45" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="40.59" yp1="30.00" xp2="40.59" yp2="53.48" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="41.76" yp1="30.00" xp2="41.76" yp2="69.39" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="42.94" yp1="30.00" xp2="42.94" yp2="62.58" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="44.12" yp1="30.00" xp2="44.12" yp2="59.55" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="45.29" yp1="30.00" xp2="45.29" yp2="49.70" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="46.47" yp1="30.00" xp2="46.47" yp2="51.97" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="47.65" yp1="30.00" xp2="47.65" yp2="60.30" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="48.82" yp1="30.00" xp2="48.82" yp2="44.39" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="50.00" yp1="30.00" xp2="50.00" yp2="50.45" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="51.18" yp1="30.00" xp2="51.18" yp2="59.55" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="52.35" yp1="30.00" xp2="52.35" yp2="48.94" sp="0.18" opacity="100.00" color="lightsteelblue"/><text xp="52.35" yp="26.00" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2018-02-06</text><line xp1="53.53" yp1="30.00" xp2="53.53" yp2="51.97" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="54.71" yp1="30.00" xp2="54.71" yp2="60.30" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="55.88" yp1="30.00" xp2="55.88" yp2="50.45" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="57.06" yp1="30.00" xp2="57.06" yp2="55.00" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="58.24" yp1="30.00" xp2="58.24" yp2="62.58" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="59.41" yp1="30.00" xp2="59.41" yp2="72.42" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="60.59" yp1="30.00" xp2="60.59" yp2="57.27" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="61.76" yp1="30.00" xp2="61.76" yp2="53.48" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="62.94" yp1="30.00" xp2="62.94" yp2="64.85" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="64.12" yp1="30.00" xp2="64.12" yp2="70.91" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="65.29" yp1="30.00" xp2="65.29" yp2="60.30" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="66.47" yp1="30.00" xp2="66.47" yp2="55.00" sp="0.18" opacity="100.00" color="lightsteelblue"/><text xp="66.47" yp="26.00" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2018-02-18</text><line xp1="67.65" yp1="30.00" xp2="67.65" yp2="56.52" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="68.82" yp1="30.00" xp2="68.82" yp2="63.33" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="70.00" yp1="30.00" xp2="70.00" yp2="74.70" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="71.18" yp1="30.00" xp2="71.18" yp2="80.00" sp="0.18" opacity="100.00" color="lightsteelblue"/><text xp="71.18" yp="80.10" sp="1.20" align="center" wp="0.00" font="serif" opacity="100.00" color="rgb(75,75,75)" type="">Trump Says Arming Teachers 'Could Solve Your Problem'</text><line xp1="72.35" yp1="30.00" xp2="72.35" yp2="58.79" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="73.53" yp1="30.00" xp2="73.53" yp2="60.30" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="74.71" yp1="30.00" xp2="74.71" yp2="64.09" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="75.88" yp1="30.00" xp2="75.88" yp2="62.58" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="77.06" yp1="30.00" xp2="77.06" yp2="64.09" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="78.24" yp1="30.00" xp2="78.24" yp2="64.09" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="79.41" yp1="30.00" xp2="79.41" yp2="69.39" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="80.59" yp1="30.00" xp2="80.59" yp2="66.36" sp="0.18" opacity="100.00" color="lightsteelblue"/><text xp="80.59" yp="26.00" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2018-03-02</text><line xp1="81.76" yp1="30.00" xp2="81.76" yp2="55.76" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="82.94" yp1="30.00" xp2="82.94" yp2="60.30" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="84.12" yp1="30.00" xp2="84.12" yp2="56.52" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="85.29" yp1="30.00" xp2="85.29" yp2="58.03" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="86.47" yp1="30.00" xp2="86.47" yp2="58.79" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="87.65" yp1="30.00" xp2="87.65" yp2="55.00" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="88.82" yp1="30.00" xp2="88.82" yp2="55.00" sp="0.18" opacity="100.00" color="lightsteelblue"/><line xp1="90.00" yp1="30.00" xp2="90.00" yp2="57.27" sp="0.18" opacity="100.00" color="lightsteelblue"/>
+		<text xp="20" yp="72" sp="3" align="c" color="maroon">val</text>
+		<text xp="50" yp="50" sp="3" align="c" color="maroon">bar</text>
+		<text xp="40" yp="80" sp="3" align="e" color="maroon">title</text>
+		<text xp="80" yp="75" sp="3" align="c" color="maroon">grid</text>
+		<text xp="85" yp="27" sp="3" align="c" color="maroon">xlabel</text>
+		<text xp="10" yp="30" sp="3" align="c" color="maroon">yaxis</text>
+		<text xp="20" yp="50" sp="3" align="e" color="maroon">left</text>
+		<text xp="50" yp="75" sp="3" align="c" color="maroon">top</text>
+		<text xp="50" yp="30" sp="3" align="c" color="maroon">bottom</text>
+		<text xp="80" yp="50" sp="3"  color="maroon">right</text>
+		<text xp="50" yp="15" sp="2" align="c" font="mono">dchart -left=20 -right=80 -top=75 -yaxis -xlabel=2 -grid AAPL.d</text>
+		<text xp="50.00" yp="80.40" sp="2.25" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">AAPL Volume</text><text xp="15.52" yp="30.00" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">0</text><line xp1="20.00" yp1="30.00" xp2="80.00" yp2="30.00" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="39.21" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">140</text><line xp1="20.00" yp1="39.21" xp2="80.00" yp2="39.21" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="48.42" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">280</text><line xp1="20.00" yp1="48.42" xp2="80.00" yp2="48.42" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="57.62" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">420</text><line xp1="20.00" yp1="57.62" xp2="80.00" yp2="57.62" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="66.83" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">560</text><line xp1="20.00" yp1="66.83" xp2="80.00" yp2="66.83" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="76.04" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">700</text><line xp1="20.00" yp1="76.04" xp2="80.00" yp2="76.04" sp="0.10" opacity="100.00" color="lightgray"/><line xp1="20.00" yp1="30.00" xp2="20.00" yp2="67.04" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="20.00" yp="68.54" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">563.1</text><text xp="20.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-01-01</text><line xp1="25.45" yp1="30.00" xp2="25.45" yp2="67.82" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="25.45" yp="69.32" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">575.0</text><line xp1="30.91" yp1="30.00" xp2="30.91" yp2="66.94" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="30.91" yp="68.44" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">561.6</text><text xp="30.91" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-03-01</text><line xp1="36.36" yp1="30.00" xp2="36.36" yp2="54.55" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="36.36" yp="56.05" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">373.3</text><line xp1="41.82" yp1="30.00" xp2="41.82" yp2="73.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="41.82" yp="74.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">653.8</text><text xp="41.82" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-05-01</text><line xp1="47.27" yp1="30.00" xp2="47.27" yp2="75.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="47.27" yp="76.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">684.2</text><line xp1="52.73" yp1="30.00" xp2="52.73" yp2="57.76" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="52.73" yp="59.26" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">422.0</text><text xp="52.73" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-07-01</text><line xp1="58.18" yp1="30.00" xp2="58.18" yp2="73.48" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="58.18" yp="74.98" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">661.1</text><line xp1="63.64" yp1="30.00" xp2="63.64" yp2="74.72" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="63.64" yp="76.22" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">679.9</text><text xp="63.64" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-09-01</text><line xp1="69.09" yp1="30.00" xp2="69.09" yp2="63.17" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="69.09" yp="64.67" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">504.3</text><line xp1="74.55" yp1="30.00" xp2="74.55" yp2="69.51" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="74.55" yp="71.01" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">600.7</text><text xp="74.55" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-11-01</text><line xp1="80.00" yp1="30.00" xp2="80.00" yp2="57.45" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="80.00" yp="58.95" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">417.4</text>
 	</slide>
 	
 	<slide bg="rgb(127,0,0)" fg="white">
 		<text xp="50" yp="50" sp="8" align="center">What is it about Go?</text>
-	</slide>
-	
-	<slide bg="black" fg="white">
-		<image xp="50" yp="50" name="kelsey-tweet.png" width="1572" height="608" link="https://twitter.com/kelseyhightower/status/851450816024125440"/>
 	</slide>
 	
 	<slide bg="black" fg="white">
@@ -1369,7 +1322,6 @@ encoding/json</text>
 		<text xp="25" yp="66" sp="2.5">March 5, 2010 1:14:44 EST</text>
 		<text xp="22" yp="59" sp="2.5" align="end" opacity="70">To:</text>
 		<text xp="25" yp="59" sp="2.5">ajstarks &lt;ajstarks@gmail.com&gt;</text>
-		
 		<line xp1="10" yp1="50" xp2="90" yp2="50" color="gray" sp="0.2"/>
 		<text xp="22" yp="40" sp="3.5" type="block">are you going to share the library or just tease us with pictures?  ;-)</text>
 	</slide>
