@@ -20,9 +20,9 @@
 	</slide>
 
 	<slide bg="black" fg="white">
-	<image name="july-sky.jpg" width="4224" height="2376" scale="45" xp="50" yp="50"/>
-	<rect xp="50" yp="15" wp="100" hp="20" color="black" opacity="15"/>
-	<text xp="50" yp="15" sp="5" align="center" color="white">But sometimes it's about the picture</text>
+		<image name="july-sky.jpg" width="4224" height="2376" scale="45" xp="50" yp="50"/>
+		<rect xp="50" yp="15" wp="100" hp="20" color="black" opacity="15"/>
+		<text xp="50" yp="15" sp="5" align="center" color="white">But sometimes it's about the picture</text>
 	</slide>
 
 	<slide bg="gray" fg="white">
@@ -363,7 +363,7 @@ https://api.flickr.com/services/rest/
 	</slide>
 		
 	<slide bg="black" fg="white">
-		<text xp="5" yp="80" sp="9">OpenVG</text>
+		<text xp="5" yp="65" sp="9">OpenVG</text>
 		<image xp="50" yp="50" width="4224" height="2376" scale="45" name="P1220686.JPG"/>
 	</slide>
 	
@@ -743,6 +743,10 @@ https://api.flickr.com/services/rest/
 		<image xp="50" yp="50" name="P1220670.JPG" width="4224" height="2376" scale="45"/>
 	</slide>
 
+	<slide bg="black">
+		<image xp="50" yp="50" name="P1220689.JPG" width="4224" height="2376" scale="45"/>
+	</slide>
+
 	<slide bg="rgb(127,127,127)" fg="white">
 	   <text xp="10" yp="50" sp="5">Design Examples</text>
 	</slide>
@@ -898,6 +902,11 @@ Gate C31C
 	<slide bg="black" fg="white">
 		<text xp="7.00" yp="85.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">AAPL</text><text xp="51.80" yp="85.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">181.72</text><text xp="74.20" yp="85.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(136,195,38)" type="">1.74</text><text xp="96.60" yp="85.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(136,195,38)" type="">(0.97%)</text><text xp="7.00" yp="71.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">AMZN</text><text xp="51.80" yp="71.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">1598.39</text><text xp="74.20" yp="71.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(136,195,38)" type="">19.50</text><text xp="96.60" yp="71.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(136,195,38)" type="">(1.24%)</text><text xp="7.00" yp="57.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">FB</text><text xp="51.80" yp="57.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">184.76</text><text xp="74.20" yp="57.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-0.47</text><text xp="96.60" yp="57.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-0.25%)</text><text xp="7.00" yp="43.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">GOOGL</text><text xp="51.80" yp="43.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">1165.93</text><text xp="74.20" yp="43.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(136,195,38)" type="">5.09</text><text xp="96.60" yp="43.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(136,195,38)" type="">(0.44%)</text><text xp="7.00" yp="29.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">MSFT</text><text xp="51.80" yp="29.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">96.77</text><text xp="74.20" yp="29.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(136,195,38)" type="">0.23</text><text xp="96.60" yp="29.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(136,195,38)" type="">(0.24%)</text><text xp="7.00" yp="5.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="yellow" type="">2018-03-12 21:05:06</text>
 	</slide>
+
+	<slide bg="black" fg="white">
+		<text xp="7.00" yp="85.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">AAPL</text><text xp="51.80" yp="85.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">175.30</text><text xp="74.20" yp="85.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-2.72</text><text xp="96.60" yp="85.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-1.53%)</text><text xp="7.00" yp="71.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">AMZN</text><text xp="51.80" yp="71.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">1544.93</text><text xp="74.20" yp="71.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-26.75</text><text xp="96.60" yp="71.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-1.70%)</text><text xp="7.00" yp="57.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">FB</text><text xp="51.80" yp="57.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">172.56</text><text xp="74.20" yp="57.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-12.53</text><text xp="96.60" yp="57.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-6.77%)</text><text xp="7.00" yp="43.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">GOOGL</text><text xp="51.80" yp="43.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">1100.07</text><text xp="74.20" yp="43.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-34.35</text><text xp="96.60" yp="43.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-3.03%)</text><text xp="7.00" yp="29.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">MSFT</text><text xp="51.80" yp="29.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">92.89</text><text xp="74.20" yp="29.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-1.71</text><text xp="96.60" yp="29.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-1.81%)</text><text xp="7.00" yp="5.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="yellow" type="">2018-03-20 17:42:56</text>
+	</slide>
+
 	
 	<slide>
 		<text file="stockslide.go" xp="3" yp="95" sp="1.2" font="mono"/>
@@ -909,86 +918,12 @@ Gate C31C
 		<image xp="30" yp="60" name="rotext-play.png" width="3136" height="2352" scale="30"/>
 		<text xp="50" yp="5" sp="3" align="c">codepicdeck</text>
 	</slide>
-	
-	<slide>
-		<text xp="7.5" yp="50" align="center" color="maroon" sp="5">go</text>
-		<text xp="15.00" yp="95.00" sp="2.0">build</text>
-		<text xp="30" yp="95.00" sp="2.0" color="gray">compile packages and dependencies</text>
-		<line sp="0.05" xp1="15.00" yp1="93.00" xp2="80" yp2="93.00"/>
-		<text xp="15.00" yp="88.50" sp="2.0">clean</text>
-		<text xp="30" yp="88.50" sp="2.0" color="gray">remove object files</text>
-		<line sp="0.05" xp1="15.00" yp1="86.50" xp2="80" yp2="86.50"/>
-		<text xp="15.00" yp="82.00" sp="2.0">doc</text>
-		<text xp="30" yp="82.00" sp="2.0" color="gray">show documentation for package or symbol</text>
-		<line sp="0.05" xp1="15.00" yp1="80.00" xp2="80" yp2="80.00"/>
-		<text xp="15.00" yp="75.50" sp="2.0">env</text>
-		<text xp="30" yp="75.50" sp="2.0" color="gray">print Go environment information</text>
-		<line sp="0.05" xp1="15.00" yp1="73.50" xp2="80" yp2="73.50"/>
-		<text xp="15.00" yp="69.00" sp="2.0">fix</text>
-		<text xp="30" yp="69.00" sp="2.0" color="gray">run go tool fix on packages</text>
-		<line sp="0.05" xp1="15.00" yp1="67.00" xp2="80" yp2="67.00"/>
-		<text xp="15.00" yp="62.50" sp="2.0">fmt</text>
-		<text xp="30" yp="62.50" sp="2.0" color="gray">run gofmt on package sources</text>
-		<line sp="0.05" xp1="15.00" yp1="60.50" xp2="80" yp2="60.50"/>
-		<text xp="15.00" yp="56.00" sp="2.0">generate</text>
-		<text xp="30" yp="56.00" sp="2.0" color="gray">generate Go files by processing source</text>
-		<line sp="0.05" xp1="15.00" yp1="54.00" xp2="80" yp2="54.00"/>
-		<text xp="15.00" yp="49.50" sp="2.0">get</text>
-		<text xp="30" yp="49.50" sp="2.0" color="gray">download and install packages and dependencies</text>
-		<line sp="0.05" xp1="15.00" yp1="47.50" xp2="80" yp2="47.50"/>
-		<text xp="15.00" yp="43.00" sp="2.0">install</text>
-		<text xp="30" yp="43.00" sp="2.0" color="gray">compile and install packages and dependencies</text>
-		<line sp="0.05" xp1="15.00" yp1="41.00" xp2="80" yp2="41.00"/>
-		<text xp="15.00" yp="36.50" sp="2.0">list</text>
-		<text xp="30" yp="36.50" sp="2.0" color="gray">list packages</text>
-		<line sp="0.05" xp1="15.00" yp1="34.50" xp2="80" yp2="34.50"/>
-		<text xp="15.00" yp="30.00" sp="2.0">run</text>
-		<text xp="30" yp="30.00" sp="2.0" color="gray">compile and run Go program</text>
-		<line sp="0.05" xp1="15.00" yp1="28.00" xp2="80" yp2="28.00"/>
-		<text xp="15.00" yp="23.50" sp="2.0">test</text>
-		<text xp="30" yp="23.50" sp="2.0" color="gray">test packages</text>
-		<line sp="0.05" xp1="15.00" yp1="21.50" xp2="80" yp2="21.50"/>
-		<text xp="15.00" yp="17.00" sp="2.0">tool</text>
-		<text xp="30" yp="17.00" sp="2.0" color="gray">run specified go tool</text>
-		<line sp="0.05" xp1="15.00" yp1="15.00" xp2="80" yp2="15.00"/>
-		<text xp="15.00" yp="10.50" sp="2.0">version</text>
-		<text xp="30" yp="10.50" sp="2.0" color="gray">print Go version</text>
-		<line sp="0.05" xp1="15.00" yp1="8.50" xp2="80" yp2="8.50"/>
-		<text xp="15.00" yp="4.00" sp="2.0">vet</text>
-		<text xp="30" yp="4.00" sp="2.0" color="gray">run go tool vet on packages</text>
-		<line sp="0.05" xp1="15.00" yp1="2.00" xp2="80" yp2="2.00"/>
-		</slide>
 
-<!--
-	<slide bg="black">
-		<image xp="50" yp="50" name="comida.jpg" width="6666" height="3750" scale="29"/>
-	</slide>
--->
-
-	<slide bg="white" fg="black">
-	   <image xp="95" yp="10" width="75" height="100" name="doc.png"/>
-	   <text xp="20" yp="70" sp="4" wp="40" font="serif" type="block">So, the next time you're about to make a subclass, 
-	   think hard and ask yourself</text>
-	   <text xp="20" yp="35" sp="6" font="serif" color="rgb(127,0,0)">what would Go do</text>
-	   <text xp="20" yp="15" sp="2.5" color="rgb(127,127,127)" 
-	   link="http://mackross.net/about/">Andrew Mackenzie-Ross</text>
-	</slide>
-	
 	<slide>
 		<text xp="20" yp="90" sp="3"  font="serif" align="center" color="maroon">Genesis 3</text>
 		<image xp="20" yp="50" width="360" height="653" name="es.jpg"/>
-		<text font="serif" type="block" xp="35" yp="75" sp="1.8" wp="35">Now the serpent was more subtil than any beast of the field
-which the LORD God had made. And he said unto the woman, 
-Yea, hath God said, Ye shall not eat of every tree of the garden?
-And the woman said unto the serpent, We may eat of the fruit of the trees of the garden: 
-But of the fruit of the tree which is in the midst of the
-garden, God hath said, Ye shall not eat of it, neither shall ye touch it, lest ye die. 
-And the serpent said unto the woman, Ye shall not surely die: 
-For God doth know that in the day ye eat thereof, then your
-eyes shall be opened, and ye shall be as gods, knowing good
-and evil.</text>
+		<text font="serif" type="block" xp="35" yp="75" sp="1.8" wp="35" file="genesis3.txt"/>
 	</slide>
-	
 	
 	<slide>
 	<text xp="15.00" yp="95.00" sp="2.00" align="center" wp="0.00" font="sans" opacity="100.00" color="darkgray" type="">Initech Collaboration Profiles</text>
@@ -1051,6 +986,64 @@ and evil.</text>
 	  <li>Is the concept of the Intranet outdated?</li>
 	  <li>What is the cost to start over with new technologies?</li>
 	</list>
+	</slide>
+
+	<slide bg="white" fg="black">
+	   <image xp="95" yp="10" width="75" height="100" name="doc.png"/>
+	   <text xp="20" yp="70" sp="4" wp="40" font="serif" type="block">So, the next time you're about to make a subclass, 
+	   think hard and ask yourself</text>
+	   <text xp="20" yp="35" sp="6" font="serif" color="rgb(127,0,0)">what would Go do</text>
+	   <text xp="20" yp="15" sp="2.5" color="rgb(127,127,127)" 
+	   link="http://mackross.net/about/">Andrew Mackenzie-Ross</text>
+	</slide>
+
+	<slide>
+		<text xp="7.5" yp="50" align="center" color="maroon" sp="5">go</text>
+		<text xp="15.00" yp="95.00" sp="2.0">build</text>
+		<text xp="30" yp="95.00" sp="2.0" color="gray">compile packages and dependencies</text>
+		<line sp="0.05" xp1="15.00" yp1="93.00" xp2="80" yp2="93.00"/>
+		<text xp="15.00" yp="88.50" sp="2.0">clean</text>
+		<text xp="30" yp="88.50" sp="2.0" color="gray">remove object files</text>
+		<line sp="0.05" xp1="15.00" yp1="86.50" xp2="80" yp2="86.50"/>
+		<text xp="15.00" yp="82.00" sp="2.0">doc</text>
+		<text xp="30" yp="82.00" sp="2.0" color="gray">show documentation for package or symbol</text>
+		<line sp="0.05" xp1="15.00" yp1="80.00" xp2="80" yp2="80.00"/>
+		<text xp="15.00" yp="75.50" sp="2.0">env</text>
+		<text xp="30" yp="75.50" sp="2.0" color="gray">print Go environment information</text>
+		<line sp="0.05" xp1="15.00" yp1="73.50" xp2="80" yp2="73.50"/>
+		<text xp="15.00" yp="69.00" sp="2.0">fix</text>
+		<text xp="30" yp="69.00" sp="2.0" color="gray">run go tool fix on packages</text>
+		<line sp="0.05" xp1="15.00" yp1="67.00" xp2="80" yp2="67.00"/>
+		<text xp="15.00" yp="62.50" sp="2.0">fmt</text>
+		<text xp="30" yp="62.50" sp="2.0" color="gray">run gofmt on package sources</text>
+		<line sp="0.05" xp1="15.00" yp1="60.50" xp2="80" yp2="60.50"/>
+		<text xp="15.00" yp="56.00" sp="2.0">generate</text>
+		<text xp="30" yp="56.00" sp="2.0" color="gray">generate Go files by processing source</text>
+		<line sp="0.05" xp1="15.00" yp1="54.00" xp2="80" yp2="54.00"/>
+		<text xp="15.00" yp="49.50" sp="2.0">get</text>
+		<text xp="30" yp="49.50" sp="2.0" color="gray">download and install packages and dependencies</text>
+		<line sp="0.05" xp1="15.00" yp1="47.50" xp2="80" yp2="47.50"/>
+		<text xp="15.00" yp="43.00" sp="2.0">install</text>
+		<text xp="30" yp="43.00" sp="2.0" color="gray">compile and install packages and dependencies</text>
+		<line sp="0.05" xp1="15.00" yp1="41.00" xp2="80" yp2="41.00"/>
+		<text xp="15.00" yp="36.50" sp="2.0">list</text>
+		<text xp="30" yp="36.50" sp="2.0" color="gray">list packages</text>
+		<line sp="0.05" xp1="15.00" yp1="34.50" xp2="80" yp2="34.50"/>
+		<text xp="15.00" yp="30.00" sp="2.0">run</text>
+		<text xp="30" yp="30.00" sp="2.0" color="gray">compile and run Go program</text>
+		<line sp="0.05" xp1="15.00" yp1="28.00" xp2="80" yp2="28.00"/>
+		<text xp="15.00" yp="23.50" sp="2.0">test</text>
+		<text xp="30" yp="23.50" sp="2.0" color="gray">test packages</text>
+		<line sp="0.05" xp1="15.00" yp1="21.50" xp2="80" yp2="21.50"/>
+		<text xp="15.00" yp="17.00" sp="2.0">tool</text>
+		<text xp="30" yp="17.00" sp="2.0" color="gray">run specified go tool</text>
+		<line sp="0.05" xp1="15.00" yp1="15.00" xp2="80" yp2="15.00"/>
+		<text xp="15.00" yp="10.50" sp="2.0">version</text>
+		<text xp="30" yp="10.50" sp="2.0" color="gray">print Go version</text>
+		<line sp="0.05" xp1="15.00" yp1="8.50" xp2="80" yp2="8.50"/>
+		<text xp="15.00" yp="4.00" sp="2.0">vet</text>
+		<text xp="30" yp="4.00" sp="2.0" color="gray">run go tool vet on packages</text>
+		<line sp="0.05" xp1="15.00" yp1="2.00" xp2="80" yp2="2.00"/>
 	</slide>
 	
 	<slide>
