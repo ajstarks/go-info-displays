@@ -3,7 +3,7 @@
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design, information design, deck, svgo, openvg, dchart</subject>
 	<date>2018-03-20</date>
-	<description>This presentation describes the use of Go for programming pictures, 
+	<description>This presentation describes the use of Go for information displays, 
 	a departure from the usual back-end view. Go NYC Meetup, April 2017, updated version Gotham Go, April 2018</description>
  
 	<slide bg="black" fg="white">
