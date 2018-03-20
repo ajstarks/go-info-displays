@@ -959,9 +959,11 @@ Gate C31C
 		<line sp="0.05" xp1="15.00" yp1="2.00" xp2="80" yp2="2.00"/>
 		</slide>
 
+<!--
 	<slide bg="black">
 		<image xp="50" yp="50" name="comida.jpg" width="6666" height="3750" scale="29"/>
 	</slide>
+-->
 
 	<slide bg="white" fg="black">
 	   <image xp="95" yp="10" width="75" height="100" name="doc.png"/>
