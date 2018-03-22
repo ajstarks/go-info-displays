@@ -47,7 +47,7 @@
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="20" yp="60" sp="5" wp="50" type="block">An interesting arrangement of text and graphics meant to convey a message.</text>
+		<text xp="20" yp="60" sp="5" wp="50" type="block">An interesting arrangement of text and graphics designed to convey a message.</text>
 	</slide>
 
 	<slide>
@@ -186,7 +186,25 @@
 		<line xp1="10" yp1="75" xp2="10" yp2="40" sp="1" color="lightgray"/>
 		<polygon xc="8 10 12" yc="41 36 41" color="lightgray"/>
 	</slide>
+
+	<slide>
+		<text xp="25" yp="90" sp="1.4" type="code" wp="65" file="benchmarks.xml"/>
+		<image xp="50" yp="22" width="2720" height="1140" scale="40" name="barchart.png"/>
+	</slide>
 	
+	<slide>
+		<text xp="5" yp="90" sp="3">f50 sunset</text>
+		<text xp="5" yp="85" sp="2" color="gray">
+https://api.flickr.com/services/rest/
+?method=flickr.photos.search
+&amp;api_key=...
+&amp;text=sunset
+&amp;per_page=50
+&amp;sort=interestingness-desc</text>
+		<text xp="5" yp="45" sp="2" color="rgb(127,0,0)" file="flickr-resp.xml"/>
+		<image xp="70" yp="70" width="800" height="500" name="sunset.png"/>
+	</slide>
+
 	<slide>
 		<text xp="7" yp="90" sp="2.5" font="mono" file="vmap.go" />
 		<rect xp="50" yp="30" wp="30" hr="75" color="lightgray"/>
@@ -195,11 +213,6 @@
 		<ellipse xp="50" yp="30" wp="1.5" hr="100" color="maroon"/>
 		<text xp="50" yp="35" sp="2" align="c">(x, y)</text>
 		<text xp="10" yp="30" sp="2">datax = 15, datay = 5000</text>
-	</slide>
-	
-	<slide>
-		<text xp="25" yp="90" sp="1.4" type="code" wp="65" file="benchmarks.xml"/>
-		<image xp="50" yp="22" width="2720" height="1140" scale="40" name="barchart.png"/>
 	</slide>
 	
 	<slide bg="rgb(127,127,127)" fg="white">
@@ -248,7 +261,7 @@
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="1600" height="900"             name="apple-stockchart.png"/>
+		<image xp="50" yp="50" width="1600" height="900" name="apple-stockchart.png"/>
 	</slide>
 	
 	<slide>
@@ -270,19 +283,6 @@
 	</slide>
 	
 	<slide>
-		<text xp="5" yp="90" sp="3">f50 sunset</text>
-		<text xp="5" yp="85" sp="2" color="gray">
-https://api.flickr.com/services/rest/
-?method=flickr.photos.search
-&amp;api_key=...
-&amp;text=sunset
-&amp;per_page=50
-&amp;sort=interestingness-desc</text>
-		<text xp="5" yp="45" sp="2" color="rgb(127,0,0)" file="flickr-resp.xml"/>
-		<image xp="70" yp="70" width="800" height="500" name="sunset.png"/>
-	</slide>
-
-	<slide>
 		<image xp="50" yp="50"  width="900" height="846" name="201566.png"/>
 	</slide>
 	
@@ -298,30 +298,6 @@ https://api.flickr.com/services/rest/
 		<image xp="50" yp="50"  width="900" height="846" name="201939.png"/>
 	</slide>
 	
-	<slide>
-		<image xp="50" yp="50"  width="900" height="846" name="202326.png"/>
-	</slide>
-	
-	<slide>
-		<image xp="50" yp="50"  width="900" height="846" name="202681.png"/>
-	</slide>
-	
-	<slide>
-		<image xp="50" yp="50"  width="900" height="846" name="202691.png"/>
-	</slide>
-	
-	<slide>
-		<image xp="50" yp="50"  width="900" height="846" name="202695.png"/>
-	</slide>
-	
-	<slide>
-		<image xp="50" yp="50"  width="900" height="846" name="203076.png"/>
-	</slide>
-	
-	<slide>
-		<image xp="50" yp="50"  width="900" height="846" name="2544.png"/>
-	</slide>
-
 	<slide>
 		<image xp="90" yp="80" width="200" height="200" name="15.png"/>
 		<image xp="90" yp="50" width="200" height="200" name="30.png"/>
@@ -423,7 +399,7 @@ https://api.flickr.com/services/rest/
 	
 	<slide> <!-- weather -->
 		<text file="twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
-		<rect xp="64" yp="74" wp="22.5" hp="17" color="red" opacity="30"/>
+		<rect xp="64" yp="74" wp="22.9" hp="17" color="red" opacity="30"/>
 		<rect xp="27" yp="52" wp="35" hp="8" color="red" opacity="30"/>
 		<image xp="75" yp="60" name="twh-20170420.png" width="1920" height="1080" scale="45"/>
 	</slide>
@@ -442,12 +418,7 @@ https://api.flickr.com/services/rest/
 
 		<image xp="75" yp="60" name="twh-20170420.png" width="1920" height="1080" scale="45"/>
 	</slide>
-	
-	<!-- <slide>
-		<text xp="2" yp="95" sp="1" font="mono" file="clockmain.go"/>
-		<image xp="80" yp="55" width="690" height="690" name="c0.png"/>
-	</slide> -->
-	
+		
 	<slide bg="white" fg="rgb(50,50,50)">
 		<text xp="5" yp="45" sp="18">Deck</text>
 		<rect xp="75" yp="50" wp="40" hr="100" color="rgb(240,240,240)"/>
@@ -897,66 +868,66 @@ Gate C31C
 	</slide>
 	
 	<slide>
-	<text xp="15.00" yp="95.00" sp="2.00" align="center" wp="0.00" font="sans" opacity="100.00" color="darkgray" type="">Initech Collaboration Profiles</text>
-	<text xp="15.00" yp="89.00" sp="2.50" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">Samir Nagheenanajar</text>
-	<image xp="15.00" yp="72.00" width="320" height="280" name="sam.png" />
-	<rect xp="15.00" yp="42.00" wp="20.00" hp="30.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="11.50" yp="53.00" sp="1.20" align="right" wp="0.00" font="sans" opacity="100.00" color="white" type="">ROLE</text>
-	<text xp="12.00" yp="53.00" sp="1.20" align="" wp="0.00" font="sans" opacity="100.00" color="white" type="">Design and UX Head</text>
-	<text xp="11.50" yp="50.00" sp="1.20" align="right" wp="0.00" font="sans" opacity="100.00" color="white" type="">LOCATION</text>
-	<text xp="12.00" yp="50.00" sp="1.20" align="" wp="0.00" font="sans" opacity="100.00" color="white" type="">Bridgewater, NJ</text>
-	<text xp="6.00" yp="42.00" sp="1.20" align="" wp="15.00" font="sans" opacity="100.00" color="white" type="block">“I’m all about applying great design to
-	all our products. We should provide a good experience in everything we do.”</text>
-	<text xp="30.00" yp="55.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">SUMMARY</text>
-	<rect xp="66.00" yp="30.00" wp="75.00" hp="60.00" opacity="7.00" color="rgb(67,74,154)" />
-	<text xp="30.00" yp="51.00" sp="1.20" align="" wp="60.00" font="sans" opacity="100.00" color="black" type="block">Technically savvy, and demanding, Samir
-	appreciates the value of good design, and is frustrated when the collaboration products fall short in this regard. On the other hand, he will actively
-	promote tools that are designed well, and is very willing to share his knowledge and insights. Further, Samir will be a strong advocate for new effective
-	ways of working togther.</text>
-	<text xp="2.50" yp="20.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">TECHNOLOGY</text>
-	<text xp="2.50" yp="17.00" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">IT and Internet</text>
-	<rect xp="15.00" yp="15.00" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="27.50" yp="15.00" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="2.50" yp="10.75" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Software</text>
-	<rect xp="15.00" yp="8.75" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="25.00" yp="8.75" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="72.50" yp="89.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">PERSONALITY</text>
-	<text xp="72.50" yp="86.00" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Extravert</text>
-	<text xp="97.50" yp="86.00" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Introvert</text>
-	<rect xp="85.00" yp="84.00" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="92.50" yp="84.00" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="72.50" yp="79.75" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Sensing</text>
-	<text xp="97.50" yp="79.75" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Intuition</text>
-	<rect xp="85.00" yp="77.75" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="85.00" yp="77.75" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="72.50" yp="73.50" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Thinking</text>
-	<text xp="97.50" yp="73.50" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Feeling</text>
-	<rect xp="85.00" yp="71.50" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="82.50" yp="71.50" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="72.50" yp="67.25" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Judging</text>
-	<text xp="97.50" yp="67.25" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Percieving</text>
-	<rect xp="85.00" yp="65.25" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-	<ellipse xp="92.50" yp="65.25" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-	<text xp="30.00" yp="89.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">GOALS/LIKES</text>
-	<list type="bullet" xp="30.00" yp="85.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
-	  <li>To have simple intuitive tools</li>
-	  <li>Be open to new tools and methods</li>
-	  <li>To apply good design across the whole environment</li>
-	</list>
-	<text xp="30.00" yp="72.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">FRUSTRATIONS</text>
-	<list type="bullet" xp="30.00" yp="68.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
-	  <li>One size fits all mentality</li>
-	  <li>IT imposing tools with no real input</li>
-	  <li>Not designing for multiple form-factors and use-cases</li>
-	</list>
-	<text xp="30.00" yp="25.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">RELATED QUESTIONS</text>
-	<list type="bullet" xp="30.00" yp="21.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
-	  <li>Why do we use outdated products?</li>
-	  <li>What are the cultural aspects of collaboration?</li>
-	  <li>When will design be included in our requirements?</li>
-	  <li>Is the concept of the Intranet outdated?</li>
-	  <li>What is the cost to start over with new technologies?</li>
-	</list>
+		<text xp="15.00" yp="95.00" sp="2.00" align="center" wp="0.00" font="sans" opacity="100.00" color="darkgray" type="">Initech Collaboration Profiles</text>
+		<text xp="15.00" yp="89.00" sp="2.50" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">Samir Nagheenanajar</text>
+		<image xp="15.00" yp="72.00" width="320" height="280" name="sam.png" />
+		<rect xp="15.00" yp="42.00" wp="20.00" hp="30.00" opacity="100.00" color="rgb(67,74,154)" />
+		<text xp="11.50" yp="53.00" sp="1.20" align="right" wp="0.00" font="sans" opacity="100.00" color="white" type="">ROLE</text>
+		<text xp="12.00" yp="53.00" sp="1.20" align="" wp="0.00" font="sans" opacity="100.00" color="white" type="">Design and UX Head</text>
+		<text xp="11.50" yp="50.00" sp="1.20" align="right" wp="0.00" font="sans" opacity="100.00" color="white" type="">LOCATION</text>
+		<text xp="12.00" yp="50.00" sp="1.20" align="" wp="0.00" font="sans" opacity="100.00" color="white" type="">Bridgewater, NJ</text>
+		<text xp="6.00" yp="42.00" sp="1.20" align="" wp="15.00" font="sans" opacity="100.00" color="white" type="block">“I’m all about applying great design to
+		all our products. We should provide a good experience in everything we do.”</text>
+		<text xp="30.00" yp="55.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">SUMMARY</text>
+		<rect xp="66.00" yp="30.00" wp="75.00" hp="60.00" opacity="7.00" color="rgb(67,74,154)" />
+		<text xp="30.00" yp="51.00" sp="1.20" align="" wp="60.00" font="sans" opacity="100.00" color="black" type="block">Technically savvy, and demanding, Samir
+		appreciates the value of good design, and is frustrated when the collaboration products fall short in this regard. On the other hand, he will actively
+		promote tools that are designed well, and is very willing to share his knowledge and insights. Further, Samir will be a strong advocate for new effective
+		ways of working togther.</text>
+		<text xp="2.50" yp="20.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">TECHNOLOGY</text>
+		<text xp="2.50" yp="17.00" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">IT and Internet</text>
+		<rect xp="15.00" yp="15.00" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
+		<ellipse xp="27.50" yp="15.00" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
+		<text xp="2.50" yp="10.75" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Software</text>
+		<rect xp="15.00" yp="8.75" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
+		<ellipse xp="25.00" yp="8.75" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
+		<text xp="72.50" yp="89.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">PERSONALITY</text>
+		<text xp="72.50" yp="86.00" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Extravert</text>
+		<text xp="97.50" yp="86.00" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Introvert</text>
+		<rect xp="85.00" yp="84.00" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
+		<ellipse xp="92.50" yp="84.00" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
+		<text xp="72.50" yp="79.75" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Sensing</text>
+		<text xp="97.50" yp="79.75" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Intuition</text>
+		<rect xp="85.00" yp="77.75" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
+		<ellipse xp="85.00" yp="77.75" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
+		<text xp="72.50" yp="73.50" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Thinking</text>
+		<text xp="97.50" yp="73.50" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Feeling</text>
+		<rect xp="85.00" yp="71.50" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
+		<ellipse xp="82.50" yp="71.50" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
+		<text xp="72.50" yp="67.25" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Judging</text>
+		<text xp="97.50" yp="67.25" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Percieving</text>
+		<rect xp="85.00" yp="65.25" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
+		<ellipse xp="92.50" yp="65.25" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
+		<text xp="30.00" yp="89.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">GOALS/LIKES</text>
+		<list type="bullet" xp="30.00" yp="85.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
+		  <li>To have simple intuitive tools</li>
+		  <li>Be open to new tools and methods</li>
+		  <li>To apply good design across the whole environment</li>
+		</list>
+		<text xp="30.00" yp="72.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">FRUSTRATIONS</text>
+		<list type="bullet" xp="30.00" yp="68.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
+		  <li>One size fits all mentality</li>
+		  <li>IT imposing tools with no real input</li>
+		  <li>Not designing for multiple form-factors and use-cases</li>
+		</list>
+		<text xp="30.00" yp="25.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">RELATED QUESTIONS</text>
+		<list type="bullet" xp="30.00" yp="21.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
+		  <li>Why do we use outdated products?</li>
+		  <li>What are the cultural aspects of collaboration?</li>
+		  <li>When will design be included in our requirements?</li>
+		  <li>Is the concept of the Intranet outdated?</li>
+		  <li>What is the cost to start over with new technologies?</li>
+		</list>
 	</slide>
 
 	<slide bg="white" fg="black">
@@ -1242,6 +1213,21 @@ Gate C31C
 		<text xp="50" yp="15" sp="2" align="c" font="mono">dchart -left=20 -right=80 -top=75 -yaxis -xlabel=2 -grid AAPL.d</text>
 		<text xp="50.00" yp="80.40" sp="2.25" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">AAPL Volume</text><text xp="15.52" yp="30.00" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">0</text><line xp1="20.00" yp1="30.00" xp2="80.00" yp2="30.00" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="39.21" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">140</text><line xp1="20.00" yp1="39.21" xp2="80.00" yp2="39.21" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="48.42" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">280</text><line xp1="20.00" yp1="48.42" xp2="80.00" yp2="48.42" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="57.62" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">420</text><line xp1="20.00" yp1="57.62" xp2="80.00" yp2="57.62" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="66.83" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">560</text><line xp1="20.00" yp1="66.83" xp2="80.00" yp2="66.83" sp="0.10" opacity="100.00" color="lightgray"/><text xp="15.52" yp="76.04" sp="1.12" align="right" wp="0.00" font="sans" opacity="100.00" color="black" type="">700</text><line xp1="20.00" yp1="76.04" xp2="80.00" yp2="76.04" sp="0.10" opacity="100.00" color="lightgray"/><line xp1="20.00" yp1="30.00" xp2="20.00" yp2="67.04" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="20.00" yp="68.54" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">563.1</text><text xp="20.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-01-01</text><line xp1="25.45" yp1="30.00" xp2="25.45" yp2="67.82" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="25.45" yp="69.32" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">575.0</text><line xp1="30.91" yp1="30.00" xp2="30.91" yp2="66.94" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="30.91" yp="68.44" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">561.6</text><text xp="30.91" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-03-01</text><line xp1="36.36" yp1="30.00" xp2="36.36" yp2="54.55" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="36.36" yp="56.05" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">373.3</text><line xp1="41.82" yp1="30.00" xp2="41.82" yp2="73.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="41.82" yp="74.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">653.8</text><text xp="41.82" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-05-01</text><line xp1="47.27" yp1="30.00" xp2="47.27" yp2="75.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="47.27" yp="76.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">684.2</text><line xp1="52.73" yp1="30.00" xp2="52.73" yp2="57.76" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="52.73" yp="59.26" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">422.0</text><text xp="52.73" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-07-01</text><line xp1="58.18" yp1="30.00" xp2="58.18" yp2="73.48" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="58.18" yp="74.98" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">661.1</text><line xp1="63.64" yp1="30.00" xp2="63.64" yp2="74.72" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="63.64" yp="76.22" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">679.9</text><text xp="63.64" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-09-01</text><line xp1="69.09" yp1="30.00" xp2="69.09" yp2="63.17" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="69.09" yp="64.67" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">504.3</text><line xp1="74.55" yp1="30.00" xp2="74.55" yp2="69.51" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="74.55" yp="71.01" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">600.7</text><text xp="74.55" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-11-01</text><line xp1="80.00" yp1="30.00" xp2="80.00" yp2="57.45" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="80.00" yp="58.95" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">417.4</text>
 	</slide>
+	
+	<slide>
+    	<text xp="5" yp="85" sp="2" file="sine.go" type="code" wp="65" font="mono"/>
+    	<text xp="70" yp="85" sp="2" file="sine.out" font="mono" color="maroon"/>
+    </slide>
+        
+    <slide>
+    	<text xp="10" yp="10" sp="2" font="mono">sine | dchart -val=f -bottom=50 -xlabel=10</text>
+        <text xp="50.00" yp="85.40" sp="2.25" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">y=sin(x)</text><line xp1="10.00" yp1="50.00" xp2="10.00" yp2="50.00" sp="0.29" opacity="100.00" color="lightsteelblue"/><text xp="10.00" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">0.00</text><line xp1="11.29" yp1="50.00" xp2="11.29" yp2="53.00" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="12.58" yp1="50.00" xp2="12.58" yp2="55.96" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="13.87" yp1="50.00" xp2="13.87" yp2="58.87" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="15.16" yp1="50.00" xp2="15.16" yp2="61.69" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="16.45" yp1="50.00" xp2="16.45" yp2="64.39" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="17.74" yp1="50.00" xp2="17.74" yp2="66.94" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="19.03" yp1="50.00" xp2="19.03" yp2="69.33" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="20.32" yp1="50.00" xp2="20.32" yp2="71.53" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="21.61" yp1="50.00" xp2="21.61" yp2="73.51" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="22.90" yp1="50.00" xp2="22.90" yp2="75.26" sp="0.29" opacity="100.00" color="lightsteelblue"/><text xp="22.90" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">1.00</text><line xp1="24.19" yp1="50.00" xp2="24.19" yp2="76.75" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="25.48" yp1="50.00" xp2="25.48" yp2="77.97" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="26.77" yp1="50.00" xp2="26.77" yp2="78.92" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="28.06" yp1="50.00" xp2="28.06" yp2="79.57" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="29.35" yp1="50.00" xp2="29.35" yp2="79.94" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="30.65" yp1="50.00" xp2="30.65" yp2="80.00" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="31.94" yp1="50.00" xp2="31.94" yp2="79.76" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="33.23" yp1="50.00" xp2="33.23" yp2="79.23" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="34.52" yp1="50.00" xp2="34.52" yp2="78.40" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="35.81" yp1="50.00" xp2="35.81" yp2="77.29" sp="0.29" opacity="100.00" color="lightsteelblue"/><text xp="35.81" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2.00</text><line xp1="37.10" yp1="50.00" xp2="37.10" yp2="75.91" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="38.39" yp1="50.00" xp2="38.39" yp2="74.26" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="39.68" yp1="50.00" xp2="39.68" yp2="72.38" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="40.97" yp1="50.00" xp2="40.97" yp2="70.27" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="42.26" yp1="50.00" xp2="42.26" yp2="67.96" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="43.55" yp1="50.00" xp2="43.55" yp2="65.47" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="44.84" yp1="50.00" xp2="44.84" yp2="62.83" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="46.13" yp1="50.00" xp2="46.13" yp2="60.05" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="47.42" yp1="50.00" xp2="47.42" yp2="57.18" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="48.71" yp1="50.00" xp2="48.71" yp2="54.23" sp="0.29" opacity="100.00" color="lightsteelblue"/><text xp="48.71" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">3.00</text><line xp1="50.00" yp1="50.00" xp2="50.00" yp2="51.25" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="51.29" yp1="50.00" xp2="51.29" yp2="48.25" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="52.58" yp1="50.00" xp2="52.58" yp2="45.27" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="53.87" yp1="50.00" xp2="53.87" yp2="42.33" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="55.16" yp1="50.00" xp2="55.16" yp2="39.47" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="56.45" yp1="50.00" xp2="56.45" yp2="36.72" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="57.74" yp1="50.00" xp2="57.74" yp2="34.10" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="59.03" yp1="50.00" xp2="59.03" yp2="31.64" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="60.32" yp1="50.00" xp2="60.32" yp2="29.36" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="61.61" yp1="50.00" xp2="61.61" yp2="27.29" sp="0.29" opacity="100.00" color="lightsteelblue"/><text xp="61.61" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">4.00</text><line xp1="62.90" yp1="50.00" xp2="62.90" yp2="25.44" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="64.19" yp1="50.00" xp2="64.19" yp2="23.84" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="65.48" yp1="50.00" xp2="65.48" yp2="22.50" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="66.77" yp1="50.00" xp2="66.77" yp2="21.44" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="68.06" yp1="50.00" xp2="68.06" yp2="20.66" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="69.35" yp1="50.00" xp2="69.35" yp2="20.18" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="70.65" yp1="50.00" xp2="70.65" yp2="19.99" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="71.94" yp1="50.00" xp2="71.94" yp2="20.10" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="73.23" yp1="50.00" xp2="73.23" yp2="20.51" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="74.52" yp1="50.00" xp2="74.52" yp2="21.22" sp="0.29" opacity="100.00" color="lightsteelblue"/><text xp="74.52" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">5.00</text><line xp1="75.81" yp1="50.00" xp2="75.81" yp2="22.21" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="77.10" yp1="50.00" xp2="77.10" yp2="23.48" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="78.39" yp1="50.00" xp2="78.39" yp2="25.02" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="79.68" yp1="50.00" xp2="79.68" yp2="26.81" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="80.97" yp1="50.00" xp2="80.97" yp2="28.83" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="82.26" yp1="50.00" xp2="82.26" yp2="31.05" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="83.55" yp1="50.00" xp2="83.55" yp2="33.47" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="84.84" yp1="50.00" xp2="84.84" yp2="36.06" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="86.13" yp1="50.00" xp2="86.13" yp2="38.78" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="87.42" yp1="50.00" xp2="87.42" yp2="41.61" sp="0.29" opacity="100.00" color="lightsteelblue"/><text xp="87.42" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">6.00</text><line xp1="88.71" yp1="50.00" xp2="88.71" yp2="44.53" sp="0.29" opacity="100.00" color="lightsteelblue"/><line xp1="90.00" yp1="50.00" xp2="90.00" yp2="47.51" sp="0.29" opacity="100.00" color="lightsteelblue"/>
+    </slide>
+        
+    <slide>
+        <text xp="10" yp="10" sp="2" font="mono">sine | dchart -val=f -bottom=50 -xlabel=10 -bar=f -line -vol</text>
+		<text xp="50.00" yp="85.40" sp="2.25" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">y=sin(x)</text><text xp="10.00" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">0.00</text><line xp1="10.00" yp1="50.00" xp2="11.29" yp2="53.00" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="11.29" yp1="53.00" xp2="12.58" yp2="55.96" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="12.58" yp1="55.96" xp2="13.87" yp2="58.87" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="13.87" yp1="58.87" xp2="15.16" yp2="61.69" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="15.16" yp1="61.69" xp2="16.45" yp2="64.39" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="16.45" yp1="64.39" xp2="17.74" yp2="66.94" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="17.74" yp1="66.94" xp2="19.03" yp2="69.33" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="19.03" yp1="69.33" xp2="20.32" yp2="71.53" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="20.32" yp1="71.53" xp2="21.61" yp2="73.51" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="21.61" yp1="73.51" xp2="22.90" yp2="75.26" sp="0.20" opacity="100.00" color="lightsteelblue"/><text xp="22.90" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">1.00</text><line xp1="22.90" yp1="75.26" xp2="24.19" yp2="76.75" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="24.19" yp1="76.75" xp2="25.48" yp2="77.97" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="25.48" yp1="77.97" xp2="26.77" yp2="78.92" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="26.77" yp1="78.92" xp2="28.06" yp2="79.57" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="28.06" yp1="79.57" xp2="29.35" yp2="79.94" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="29.35" yp1="79.94" xp2="30.65" yp2="80.00" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="30.65" yp1="80.00" xp2="31.94" yp2="79.76" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="31.94" yp1="79.76" xp2="33.23" yp2="79.23" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="33.23" yp1="79.23" xp2="34.52" yp2="78.40" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="34.52" yp1="78.40" xp2="35.81" yp2="77.29" sp="0.20" opacity="100.00" color="lightsteelblue"/><text xp="35.81" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2.00</text><line xp1="35.81" yp1="77.29" xp2="37.10" yp2="75.91" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="37.10" yp1="75.91" xp2="38.39" yp2="74.26" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="38.39" yp1="74.26" xp2="39.68" yp2="72.38" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="39.68" yp1="72.38" xp2="40.97" yp2="70.27" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="40.97" yp1="70.27" xp2="42.26" yp2="67.96" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="42.26" yp1="67.96" xp2="43.55" yp2="65.47" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="43.55" yp1="65.47" xp2="44.84" yp2="62.83" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="44.84" yp1="62.83" xp2="46.13" yp2="60.05" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="46.13" yp1="60.05" xp2="47.42" yp2="57.18" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="47.42" yp1="57.18" xp2="48.71" yp2="54.23" sp="0.20" opacity="100.00" color="lightsteelblue"/><text xp="48.71" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">3.00</text><line xp1="48.71" yp1="54.23" xp2="50.00" yp2="51.25" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="50.00" yp1="51.25" xp2="51.29" yp2="48.25" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="51.29" yp1="48.25" xp2="52.58" yp2="45.27" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="52.58" yp1="45.27" xp2="53.87" yp2="42.33" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="53.87" yp1="42.33" xp2="55.16" yp2="39.47" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="55.16" yp1="39.47" xp2="56.45" yp2="36.72" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="56.45" yp1="36.72" xp2="57.74" yp2="34.10" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="57.74" yp1="34.10" xp2="59.03" yp2="31.64" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="59.03" yp1="31.64" xp2="60.32" yp2="29.36" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="60.32" yp1="29.36" xp2="61.61" yp2="27.29" sp="0.20" opacity="100.00" color="lightsteelblue"/><text xp="61.61" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">4.00</text><line xp1="61.61" yp1="27.29" xp2="62.90" yp2="25.44" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="62.90" yp1="25.44" xp2="64.19" yp2="23.84" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="64.19" yp1="23.84" xp2="65.48" yp2="22.50" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="65.48" yp1="22.50" xp2="66.77" yp2="21.44" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="66.77" yp1="21.44" xp2="68.06" yp2="20.66" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="68.06" yp1="20.66" xp2="69.35" yp2="20.18" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="69.35" yp1="20.18" xp2="70.65" yp2="19.99" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="70.65" yp1="19.99" xp2="71.94" yp2="20.10" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="71.94" yp1="20.10" xp2="73.23" yp2="20.51" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="73.23" yp1="20.51" xp2="74.52" yp2="21.22" sp="0.20" opacity="100.00" color="lightsteelblue"/><text xp="74.52" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">5.00</text><line xp1="74.52" yp1="21.22" xp2="75.81" yp2="22.21" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="75.81" yp1="22.21" xp2="77.10" yp2="23.48" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="77.10" yp1="23.48" xp2="78.39" yp2="25.02" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="78.39" yp1="25.02" xp2="79.68" yp2="26.81" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="79.68" yp1="26.81" xp2="80.97" yp2="28.83" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="80.97" yp1="28.83" xp2="82.26" yp2="31.05" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="82.26" yp1="31.05" xp2="83.55" yp2="33.47" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="83.55" yp1="33.47" xp2="84.84" yp2="36.06" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="84.84" yp1="36.06" xp2="86.13" yp2="38.78" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="86.13" yp1="38.78" xp2="87.42" yp2="41.61" sp="0.20" opacity="100.00" color="lightsteelblue"/><text xp="87.42" yp="47.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">6.00</text><line xp1="87.42" yp1="41.61" xp2="88.71" yp2="44.53" sp="0.20" opacity="100.00" color="lightsteelblue"/><line xp1="88.71" yp1="44.53" xp2="90.00" yp2="47.51" sp="0.20" opacity="100.00" color="lightsteelblue"/><polygon xc="10.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 10.00 10.00 11.29 12.58 13.87 15.16 16.45 17.74 19.03 20.32 21.61 22.90 24.19 25.48 26.77 28.06 29.35 30.65 31.94 33.23 34.52 35.81 37.10 38.39 39.68 40.97 42.26 43.55 44.84 46.13 47.42 48.71 50.00 51.29 52.58 53.87 55.16 56.45 57.74 59.03 60.32 61.61 62.90 64.19 65.48 66.77 68.06 69.35 70.65 71.94 73.23 74.52 75.81 77.10 78.39 79.68 80.97 82.26 83.55 84.84 86.13 87.42 88.71 90.00 90.00" yc="50.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 50.00 50.00 53.00 55.96 58.87 61.69 64.39 66.94 69.33 71.53 73.51 75.26 76.75 77.97 78.92 79.57 79.94 80.00 79.76 79.23 78.40 77.29 75.91 74.26 72.38 70.27 67.96 65.47 62.83 60.05 57.18 54.23 51.25 48.25 45.27 42.33 39.47 36.72 34.10 31.64 29.36 27.29 25.44 23.84 22.50 21.44 20.66 20.18 19.99 20.10 20.51 21.22 22.21 23.48 25.02 26.81 28.83 31.05 33.47 36.06 38.78 41.61 44.53 47.51 50.00" opacity="50.00" color="lightsteelblue"/>
+    </slide>
 	
 	<slide bg="rgb(127,0,0)" fg="white">
 		<text xp="50" yp="50" sp="8" align="center">What is it about Go?</text>
