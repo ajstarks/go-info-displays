@@ -192,8 +192,8 @@
 		<rect xp="50" yp="30" wp="30" hr="75" color="lightgray"/>
 		<text xp="66" yp="30" sp="2">1024</text>
 		<text xp="50" yp="6"  sp="2"  align="c">768</text>
-		<ellipse xp="55" yp="30" wp="1.5" hr="100" color="maroon"/>
-		<text xp="55" yp="35" sp="2" align="c">(x, y)</text>
+		<ellipse xp="50" yp="30" wp="1.5" hr="100" color="maroon"/>
+		<text xp="50" yp="35" sp="2" align="c">(x, y)</text>
 		<text xp="10" yp="30" sp="2">datax = 15, datay = 5000</text>
 	</slide>
 	
