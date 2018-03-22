@@ -188,6 +188,16 @@
 	</slide>
 	
 	<slide>
+		<text xp="7" yp="90" sp="2.5" font="mono" file="vmap.go" />
+		<rect xp="50" yp="30" wp="30" hr="75" color="lightgray"/>
+		<text xp="66" yp="30" sp="2">1024</text>
+		<text xp="50" yp="6"  sp="2"  align="c">768</text>
+		<ellipse xp="55" yp="30" wp="1.5" hr="100" color="maroon"/>
+		<text xp="55" yp="35" sp="2" align="c">(x, y)</text>
+		<text xp="10" yp="30" sp="2">datax = 15, datay = 5000</text>
+	</slide>
+	
+	<slide>
 		<text xp="25" yp="90" sp="1.4" type="code" wp="65" file="benchmarks.xml"/>
 		<image xp="50" yp="22" width="2720" height="1140" scale="40" name="barchart.png"/>
 	</slide>
