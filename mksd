@@ -1,2 +1,2 @@
-(echo '<deck>'; go run stockdeck.go AAPL AMZN FB GOOG MSFT; echo '</deck>')  > sd.xml
-pdfdeck -pagesize=1920,1080 -sans FiraSans-Regular -mono FiraMono-Regular -sans FiraSans-Regular -serif Charter\ Regular sd.xml
+#!/bin/sh
+go run stockdeck.go AAPL AMZN FB GOOG MSFT 

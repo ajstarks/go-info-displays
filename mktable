@@ -27,7 +27,7 @@ dchart -fulldeck=f -textsize=0.75  $r2opt -line 	$r2tb $colm4	AAPL.d
 
 dchart -fulldeck=f -textsize=0.75 -donut -psize=9 -pwidth=1 -val=f  -top=24 -bottom=10 $colt1 go-platform.d
 dchart -fulldeck=f -textsize=0.75 -pmap  -pwidth=3 -val=f -top=27 -left=30 -right=70 go-platform.d
-dchart -fulldeck=f -textsize=0.75 -ls=1.5 -pgrid -top=30 -left=75 -right=90 -val=f incar.d
+dchart -fulldeck=f -textsize=0.75 -ls=1.5 -pgrid -top=30 -left=75 -right=90 -val=f go-platform.d # incar.d
 #echo '</slide></deck>'
 )
  

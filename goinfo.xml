@@ -50,10 +50,10 @@
 		<text xp="20" yp="60" sp="5" wp="50" type="block">An interesting arrangement of text and graphics designed to convey a message.</text>
 	</slide>
 
-	<slide>
+	<slide bg="black">
 		<image xp="50" yp="50" width="1920" height="1080" name="sisyphus3.png"/>
 		<text xp="3.5" yp="90" sp="5" color="black">I hate pushing pixels</text>
-		<text xp="3.5" yp="80" sp="2.4" color="black" wp="20" type="block">computers are so much better at it</text>
+		<text xp="3.5" yp="80" sp="2.4" color="black" wp="20" type="block">programs are so much better at it</text>
 		<text xp="98" yp="2" sp="1" align="end" color="lightgray">Photo by deborahschillbach</text>
 	</slide>
 	
@@ -81,56 +81,55 @@
 	</slide>
 
 	<slide>
-		<text xp="15" yp="90" sp="2.5" align="center" color="gray">Element</text>
-		<text xp="40" yp="90" sp="2.5" align="center" color="gray">Arguments</text>
-		<line xp1="15" yp1="89" xp2="15" yp2="85"/>
-		<line xp1="40" yp1="89" xp2="40" yp2="85"/>
-		<text xp="15" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
-		<text xp="40" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125)</text>
-		<text xp="5" yp="60" sp="2.5" type="block" font="mono" wp="70">&lt;rect x=&quot;100&quot; 
-		y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot;/&gt;</text>
+		<text xp="30" yp="90" sp="2.5" align="center" color="gray">Element</text>
+		<text xp="50" yp="90" sp="2.5" align="center" color="gray">Arguments</text>
+		<line xp1="30" yp1="89" xp2="30" yp2="85"/>
+		<line xp1="50" yp1="89" xp2="50" yp2="85"/>
+		<text xp="30" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
+		<text xp="50" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125)</text>
+		<text xp="50" yp="60" sp="2.5" align="c"font="mono">&lt;rect x=&quot;100&quot; y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot;/&gt;</text>
 		<rect xp="50" yp="25" wp="30" hr="50" color="black"/>
-		<text xp="35" yp="35" sp="2" align="right">(100, 200)</text>
-		<text xp="50" yp="7" sp="2" align="center">250</text>
-		<text xp="70" yp="25" sp="2" align="center">125</text>
+		<text xp="35" yp="35" sp="2" align="right" color="rgb(0,0,127)">(100, 200)</text>
+		<text xp="50" yp="7" sp="2" align="center" color="rgb(0,0,127)">250</text>
+		<text xp="70" yp="25" sp="2" align="center" color="rgb(0,0,127)">125</text>
 	</slide>
 	
 	<slide>
-		<text xp="15" yp="90" sp="2.5" align="center" color="gray">Element</text>
-		<text xp="40" yp="90" sp="2.5" align="center" color="gray">Arguments</text>
-		<text xp="75" yp="90" sp="2.5" align="center" color="gray">CSS Style</text>
-		<line xp1="15" yp1="89" xp2="15" yp2="85"/>
-		<line xp1="40" yp1="89" xp2="40" yp2="85"/>
-		<line xp1="75" yp1="89" xp2="75" yp2="85"/>
-		<text xp="15" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
-		<text xp="40" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125,</text>
-		<text xp="75" yp="80" sp="3.5" color="rgb(127,127,127)" align="center">"fill:gray;stroke:blue")</text>
-		<text xp="5" yp="60" sp="2.5" type="block" font="mono" wp="70">&lt;rect x=&quot;100&quot; 
-		y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot; style=&quot;fill:gray;stroke:blue&quot;/&gt;</text>
+		<text xp="30" yp="90" sp="2.5" align="center" color="gray">Element</text>
+		<text xp="50" yp="90" sp="2.5" align="center" color="gray">Arguments</text>
+		<text xp="67" yp="90" sp="2.5" align="center" color="gray">CSS Style</text>
+		<line xp1="30" yp1="89" xp2="30" yp2="85"/>
+		<line xp1="50" yp1="89" xp2="50" yp2="85"/>
+		<line xp1="67" yp1="89" xp2="67" yp2="80"/>
+		<text xp="30" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
+		<text xp="50" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125,</text>
+		<text xp="37" yp="72" sp="3.5" color="rgb(127,127,127)">"fill:gray;stroke:blue")</text>
+		<text xp="50" yp="60" sp="2.5" align="c" font="mono">&lt;rect x=&quot;100&quot; y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot;</text>
+		<text xp="50" yp="54" sp="2.5" align="c" font="mono">style=&quot;fill:gray;stroke:blue&quot;/&gt;</text>
 		<rect xp="50" yp="25" wp="30" hr="50" color="blue"/>
 		<rect xp="50" yp="25" wp="29.5" hr="49" color="gray"/>
-		<text xp="35" yp="35" sp="2" align="right">(100, 200)</text>
-		<text xp="50" yp="7" sp="2" align="center">250</text>
-		<text xp="70" yp="25" sp="2" align="center">125</text>
+		<text xp="35" yp="35" sp="2" align="right" color="rgb(0,0,127)">(100, 200)</text>
+		<text xp="50" yp="7" sp="2" align="center" color="rgb(0,0,127)">250</text>
+		<text xp="70" yp="25" sp="2" align="center" color="rgb(0,0,127)">125</text>
 	</slide>
 	
 	<slide>
-		<text xp="15" yp="90" sp="2.5" align="center" color="gray">Element</text>
-		<text xp="40" yp="90" sp="2.5" align="center" color="gray">Arguments</text>
+		<text xp="30" yp="90" sp="2.5" align="center" color="gray">Element</text>
+		<text xp="50" yp="90" sp="2.5" align="center" color="gray">Arguments</text>
 		<text xp="75" yp="90" sp="2.5" align="center" color="gray">Attributes</text>
-		<line xp1="15" yp1="89" xp2="15" yp2="85"/>
-		<line xp1="40" yp1="89" xp2="40" yp2="85"/>
+		<line xp1="30" yp1="89" xp2="30" yp2="85"/>
+		<line xp1="50" yp1="89" xp2="50" yp2="85"/>
 		<line xp1="75" yp1="89" xp2="75" yp2="80"/>
-		<text xp="15" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
-		<text xp="40" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125,</text>
-		<text xp="60" yp="72" sp="3.5" color="rgb(127,127,127)" align="center">`id="box"`, `fill="gray"`, `stroke="blue"`)</text>
-		<text xp="5" yp="60" sp="2.5" type="block" font="mono" wp="70">&lt;rect x=&quot;100&quot; 
-		y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot; id="box" fill="gray" stroke="blue"/&gt;</text>
+		<text xp="30" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
+		<text xp="50" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125,</text>
+		<text xp="37" yp="72" sp="3.5" color="rgb(127,127,127)">`id="box"`, `fill="gray"`, `stroke="blue"`)</text>
+		<text xp="50" yp="60" sp="2.5" align="c" font="mono">&lt;rect x=&quot;100&quot; y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot;</text>
+		<text xp="50" yp="54" sp="2.5" align="c" font="mono">id="box" fill="gray" stroke="blue"/&gt;</text>
 		<rect xp="50" yp="25" wp="30" hr="50" color="blue"/>
 		<rect xp="50" yp="25" wp="29.5" hr="49" color="gray"/>
-		<text xp="35" yp="35" sp="2" align="right">(100, 200)</text>
-		<text xp="50" yp="7" sp="2" align="center">250</text>
-		<text xp="70" yp="25" sp="2" align="center">125</text>
+		<text xp="35" yp="35" sp="2" align="right" color="rgb(0,0,127)">(100, 200)</text>
+		<text xp="50" yp="7" sp="2" align="center" color="rgb(0,0,127)">250</text>
+		<text xp="70" yp="25" sp="2" align="center" color="rgb(0,0,127)">125</text>
 	</slide>
 	
 	<slide>
@@ -180,11 +179,11 @@
 	
 	<slide>
 		<text xp="10" yp="80" sp="5" align="center">Data</text>
-		<text xp="10" yp="25" sp="5" align="center">Picture</text>
+		<text xp="10" yp="15" sp="5" align="center">Picture</text>
 		<text xp="17" yp="87" sp="1.6" font="mono" file="thing.xml"/>
-		<image xp="40" yp="30" width="622" height="291" name="rpd-small.png"/>
-		<line xp1="10" yp1="75" xp2="10" yp2="40" sp="1" color="lightgray"/>
-		<polygon xc="8 10 12" yc="41 36 41" color="lightgray"/>
+		<image xp="55" yp="35" width="2642" height="1140" name="thingss.png" scale="50"/>
+		<line xp1="10" yp1="75" xp2="10" yp2="30" sp="1" color="lightgray"/>
+		<polygon xc="8 10 12" yc="31 25 31" color="lightgray"/>
 	</slide>
 
 	<slide>
@@ -220,25 +219,27 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
+		<image xp="50" yp="50" width="2166" height="1626" scale="67" name="compx.png"/>
+	</slide>
+	
+	<slide>
 		<image xp="50" yp="50" width="2018" height="1610" scale="67" name="benchviz.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" name="bytesreader.png" width="827" height="828"/>
+		<image xp="50" yp="50" width="827" height="828"  name="bytesreader.png"/>
 		<text xp="50" yp="5" sp="2" font="mono" align="c">structlayout -json bytes Reader | structlayout-svg -t "bytes.Reader" &gt; reader.svg</text>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" name="go-rel.png" width="3334" height="1432" scale="60"/>
+		<image xp="50" yp="50" width="3334" height="1432" scale="60" name="go-rel.png"/>
 	</slide>
 	
 	<slide>
 		<image xp="50" yp="50" width="2716" height="1596" scale="67" name="bulletgraph.png"/>
 	</slide>
 	
-	<slide>
-		<image xp="50" yp="50" width="2166" height="1626" scale="67" name="compx.png"/>
-	</slide>
+	
 	
 	<slide>
 		<image xp="50" yp="50" width="2106" height="1544" scale="67" name="quad.png"/>
@@ -254,10 +255,6 @@ https://api.flickr.com/services/rest/
 	
 	<slide>
 		<image xp="50" yp="50" width="1550" height="1496" scale="72" name="rr0.png"/>
-	</slide>
-	
-	<slide>
-		<image xp="50" yp="50" width="2132" height="1588" scale="67" name="svgplot.png"/>
 	</slide>
 	
 	<slide>
@@ -320,11 +317,11 @@ https://api.flickr.com/services/rest/
 		<image xp="80" yp="85" width="1920" height="1080" scale="25" name="rotext.raw.png"/>
 		
 		<image xp="10" yp="55" width="1920" height="1080" scale="25" name="plot.raw.png"/>
-		<image xp="50" yp="55" width="1920" height="1080" scale="25" name="planets.raw.png"/>
+		<image xp="50" yp="55" width="1920" height="1080" scale="25" name="hellovg.raw.png"/>
 		<image xp="80" yp="55" width="1920" height="1080" scale="25" name="image.raw.png"/>
 		
 		<image xp="10" yp="25" width="1920" height="1080" scale="25" name="slide1.raw.png"/>
-		<image xp="50" yp="25" width="1920" height="1080" scale="25" name="hellovg.raw.png"/>
+		<image xp="50" yp="25" width="1920" height="1080" scale="25" name="planets.raw.png"/>
 		<image xp="80" yp="25" width="1920" height="1080" scale="25" name="slide4.raw.png"/>
 	</slide>
 	
@@ -380,15 +377,15 @@ https://api.flickr.com/services/rest/
 		<image xp="50" yp="50" name="twh-20170420.png" width="1920" height="1080"/>
 	</slide>
 	
-	<slide>
+	<slide bg="black">
 		<image xp="50" yp="50" name="P1220110.JPG" width="4224" height="2376" scale="45"/>
 	</slide>
 	
-	<slide>
+	<slide bg="black">
 		<image xp="50" yp="50" name="P1220082.JPG" width="4224" height="2376" scale="45"/>
 	</slide>
 	
-	<slide>
+	<slide bg="black">
 		<image xp="50" yp="50" name="P1220418.JPG" width="4224" height="2376" scale="45"/>
 	</slide>
 	
@@ -674,7 +671,7 @@ https://api.flickr.com/services/rest/
 			<li>Specify the text size of the table</li>
 			<li>Play the specified video</li>
 		</list>
-		<text xp="55" yp="90" sp="1" color="rgb(127,0,0)" font="mono">sex -dir [start dir] -listen [address:port] -maxupload [bytes]</text>
+		<text xp="55" yp="90" sp="1.2" color="rgb(127,0,0)" font="mono">sex -dir [start dir] -listen [address:port] -maxupload [bytes]</text>
 	</slide>
 	
 	<slide bg="black">
@@ -985,45 +982,45 @@ Gate C31C
 	</slide>
 	
 	<slide>
-		<text xp="10" yp="50" align="center" sp="2.5" color="maroon">Go Proverbs</text>
-		<text  xp="25" yp="95.000000" sp="1.600000" align="left">Don’t communicate by sharing memory, share memory by communicating.</text>
-		<image xp="20"  yp="96.000000" width="300" height="300" scale="7" name="noun_skill-share_14291.png"/>
-		<text  xp="25" yp="89.800000" sp="1.600000" align="left">Concurrency is not parallelism.</text>
-		<image xp="20"  yp="90.800000" width="300" height="300" scale="7" name="noun_up-arrows_220576.png"/>
-		<text  xp="25" yp="84.600000" sp="1.600000" align="left">Channels orchestrate; mutexes serialize.</text>
-		<image xp="20"  yp="85.600000" width="300" height="300" scale="7" name="noun_pipes_61289.png"/>
-		<text  xp="25" yp="79.400000" sp="1.600000" align="left">The bigger the interface, the weaker the abstraction.</text>
-		<image xp="20"  yp="80.400000" width="300" height="300" scale="7" name="noun_whale_149531.png"/>
-		<text  xp="25" yp="74.200000" sp="1.600000" align="left">Make the zero value useful.</text>
-		<image xp="20"  yp="75.200000" width="300" height="300" scale="7" name="noun_okay_13505.png"/>
-		<text  xp="25" yp="69.000000" sp="1.600000" align="left">interface{} says nothing.</text>
-		<image xp="20"  yp="70.000000" width="300" height="300" scale="7" name="noun_mute_163525.png"/>
-		<text  xp="25" yp="63.800000" sp="1.600000" align="left">Gofmt’s style is no one’s favorite, yet gofmt is everyone’s favorite.</text>
-		<image xp="20"  yp="64.800000" width="300" height="300" scale="7" name="noun_curly-brackets_108564.png"/>
-		<text  xp="25" yp="58.600000" sp="1.600000" align="left">A little copying is better than a little dependency.</text>
-		<image xp="20"  yp="59.600000" width="300" height="300" scale="7" name="noun_copy_110923.png"/>
-		<text  xp="25" yp="53.400000" sp="1.600000" align="left">Syscall must always be guarded with build tags.</text>
-		<image xp="20"  yp="54.400000" width="300" height="300" scale="7" name="noun_tools_59222.png"/>
-		<text  xp="25" yp="48.200000" sp="1.600000" align="left">Cgo must always be guarded with build tags.</text>
-		<image xp="20"  yp="49.200000" width="300" height="300" scale="7" name="noun_copyright_62293.png"/>
-		<text  xp="25" yp="43.000000" sp="1.600000" align="left">Cgo is not Go.</text>
-		<image xp="20"  yp="44.000000" width="300" height="300" scale="7" name="noun_capybara_90002.png"/>
-		<text  xp="25" yp="37.800000" sp="1.600000" align="left">With the unsafe package there are no guarantees.</text>
-		<image xp="20"  yp="38.800000" width="300" height="300" scale="7" name="noun_caution_82742.png"/>
-		<text  xp="25" yp="32.600000" sp="1.600000" align="left">Clear is better than clever.</text>
-		<image xp="20"  yp="33.600000" width="300" height="300" scale="7" name="noun_eye_209057.png"/>
-		<text  xp="25" yp="27.400000" sp="1.600000" align="left">Reflection is never clear.</text>
-		<image xp="20"  yp="28.400000" width="300" height="300" scale="7" name="noun_mirror_59940.png"/>
-		<text  xp="25" yp="22.200000" sp="1.600000" align="left">Errors are values.</text>
-		<image xp="20"  yp="23.200000" width="300" height="300" scale="7" name="noun_danger_206486.png"/>
-		<text  xp="25" yp="17.000000" sp="1.600000" align="left">Don’t just check errors, handle them gracefully.</text>
-		<image xp="20"  yp="18.000000" width="300" height="300" scale="7" name="noun_handle-with-care_69.png"/>
-		<text  xp="25" yp="11.800000" sp="1.600000" align="left">Design the architecture, name the components, document the details.</text>
-		<image xp="20"  yp="12.800000" width="300" height="300" scale="7" name="noun_bridge_19693.png"/>
-		<text  xp="25" yp="6.600000" sp="1.600000" align="left">Documentation is for users.</text>
-		<image xp="20"  yp="7.600000" width="300" height="300" scale="7" name="noun_document_12036.png"/>
-		<text  xp="25" yp="1.400000" sp="1.600000" align="left">Don’t panic.</text>
-		<image xp="20"  yp="2.400000" width="300" height="300" scale="7" name="noun_bomb_193958.png"/>
+		<text xp="25" yp="50" align="end" sp="4" color="maroon">Go Proverbs</text>
+		<text  xp="35" yp="95.000000" sp="1.600000" align="left">Don’t communicate by sharing memory, share memory by communicating.</text>
+		<image xp="30"  yp="96.000000" width="300" height="300" scale="15" name="noun_skill-share_14291.png"/>
+		<text  xp="35" yp="89.800000" sp="1.600000" align="left">Concurrency is not parallelism.</text>
+		<image xp="30"  yp="90.800000" width="300" height="300" scale="15" name="noun_up-arrows_220576.png"/>
+		<text  xp="35" yp="84.600000" sp="1.600000" align="left">Channels orchestrate; mutexes serialize.</text>
+		<image xp="30"  yp="85.600000" width="300" height="300" scale="15" name="noun_pipes_61289.png"/>
+		<text  xp="35" yp="79.400000" sp="1.600000" align="left">The bigger the interface, the weaker the abstraction.</text>
+		<image xp="30"  yp="80.400000" width="300" height="300" scale="15" name="noun_whale_149531.png"/>
+		<text  xp="35" yp="74.200000" sp="1.600000" align="left">Make the zero value useful.</text>
+		<image xp="30"  yp="75.200000" width="300" height="300" scale="15" name="noun_okay_13505.png"/>
+		<text  xp="35" yp="69.000000" sp="1.600000" align="left">interface{} says nothing.</text>
+		<image xp="30"  yp="70.000000" width="300" height="300" scale="15" name="noun_mute_163525.png"/>
+		<text  xp="35" yp="63.800000" sp="1.600000" align="left">Gofmt’s style is no one’s favorite, yet gofmt is everyone’s favorite.</text>
+		<image xp="30"  yp="64.800000" width="300" height="300" scale="15" name="noun_curly-brackets_108564.png"/>
+		<text  xp="35" yp="58.600000" sp="1.600000" align="left">A little copying is better than a little dependency.</text>
+		<image xp="30"  yp="59.600000" width="300" height="300" scale="15" name="noun_copy_110923.png"/>
+		<text  xp="35" yp="53.400000" sp="1.600000" align="left">Syscall must always be guarded with build tags.</text>
+		<image xp="30"  yp="54.400000" width="300" height="300" scale="15" name="noun_tools_59222.png"/>
+		<text  xp="35" yp="48.200000" sp="1.600000" align="left">Cgo must always be guarded with build tags.</text>
+		<image xp="30"  yp="49.200000" width="300" height="300" scale="15" name="noun_copyright_62293.png"/>
+		<text  xp="35" yp="43.000000" sp="1.600000" align="left">Cgo is not Go.</text>
+		<image xp="30"  yp="44.000000" width="300" height="300" scale="15" name="noun_capybara_90002.png"/>
+		<text  xp="35" yp="37.800000" sp="1.600000" align="left">With the unsafe package there are no guarantees.</text>
+		<image xp="30"  yp="38.800000" width="300" height="300" scale="15" name="noun_caution_82742.png"/>
+		<text  xp="35" yp="32.600000" sp="1.600000" align="left">Clear is better than clever.</text>
+		<image xp="30"  yp="33.600000" width="300" height="300" scale="15" name="noun_eye_209057.png"/>
+		<text  xp="35" yp="27.400000" sp="1.600000" align="left">Reflection is never clear.</text>
+		<image xp="30"  yp="28.400000" width="300" height="300" scale="15" name="noun_mirror_59940.png"/>
+		<text  xp="35" yp="22.200000" sp="1.600000" align="left">Errors are values.</text>
+		<image xp="30"  yp="23.200000" width="300" height="300" scale="15" name="noun_danger_206486.png"/>
+		<text  xp="35" yp="17.000000" sp="1.600000" align="left">Don’t just check errors, handle them gracefully.</text>
+		<image xp="30"  yp="18.000000" width="300" height="300" scale="15" name="noun_handle-with-care_69.png"/>
+		<text  xp="35" yp="11.800000" sp="1.600000" align="left">Design the architecture, name the components, document the details.</text>
+		<image xp="30"  yp="12.800000" width="300" height="300" scale="15" name="noun_bridge_19693.png"/>
+		<text  xp="35" yp="6.600000" sp="1.600000" align="left">Documentation is for users.</text>
+		<image xp="30"  yp="7.600000" width="300" height="300" scale="15" name="noun_document_12036.png"/>
+		<text  xp="35" yp="1.400000" sp="1.600000" align="left">Don’t panic.</text>
+		<image xp="30"  yp="2.400000" width="300" height="300" scale="15" name="noun_bomb_193958.png"/>
 	</slide>
 	
 	<slide>
@@ -1316,12 +1313,7 @@ We were just trying to get something that worked for us.</text>
 	<slide bg="black" fg="white">
 		<text xp="10" yp="60" sp="5" wp="60" type="block">Reducing the distance from the idea to the picture</text>
 	</slide>
-	
-	<slide bg="black">
-		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
-		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
-	</slide>
-	
+		
 	<slide bg="black" fg="white">
 		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
 		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
