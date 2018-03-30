@@ -983,44 +983,44 @@ Gate C31C
 	
 	<slide>
 		<text xp="25" yp="50" align="end" sp="4" color="maroon">Go Proverbs</text>
-		<text  xp="35" yp="95.000000" sp="1.600000" align="left">Don’t communicate by sharing memory, share memory by communicating.</text>
-		<image xp="30"  yp="96.000000" width="300" height="300" scale="15" name="noun_skill-share_14291.png"/>
-		<text  xp="35" yp="89.800000" sp="1.600000" align="left">Concurrency is not parallelism.</text>
-		<image xp="30"  yp="90.800000" width="300" height="300" scale="15" name="noun_up-arrows_220576.png"/>
-		<text  xp="35" yp="84.600000" sp="1.600000" align="left">Channels orchestrate; mutexes serialize.</text>
-		<image xp="30"  yp="85.600000" width="300" height="300" scale="15" name="noun_pipes_61289.png"/>
-		<text  xp="35" yp="79.400000" sp="1.600000" align="left">The bigger the interface, the weaker the abstraction.</text>
-		<image xp="30"  yp="80.400000" width="300" height="300" scale="15" name="noun_whale_149531.png"/>
-		<text  xp="35" yp="74.200000" sp="1.600000" align="left">Make the zero value useful.</text>
-		<image xp="30"  yp="75.200000" width="300" height="300" scale="15" name="noun_okay_13505.png"/>
-		<text  xp="35" yp="69.000000" sp="1.600000" align="left">interface{} says nothing.</text>
-		<image xp="30"  yp="70.000000" width="300" height="300" scale="15" name="noun_mute_163525.png"/>
-		<text  xp="35" yp="63.800000" sp="1.600000" align="left">Gofmt’s style is no one’s favorite, yet gofmt is everyone’s favorite.</text>
-		<image xp="30"  yp="64.800000" width="300" height="300" scale="15" name="noun_curly-brackets_108564.png"/>
-		<text  xp="35" yp="58.600000" sp="1.600000" align="left">A little copying is better than a little dependency.</text>
-		<image xp="30"  yp="59.600000" width="300" height="300" scale="15" name="noun_copy_110923.png"/>
-		<text  xp="35" yp="53.400000" sp="1.600000" align="left">Syscall must always be guarded with build tags.</text>
-		<image xp="30"  yp="54.400000" width="300" height="300" scale="15" name="noun_tools_59222.png"/>
-		<text  xp="35" yp="48.200000" sp="1.600000" align="left">Cgo must always be guarded with build tags.</text>
-		<image xp="30"  yp="49.200000" width="300" height="300" scale="15" name="noun_copyright_62293.png"/>
-		<text  xp="35" yp="43.000000" sp="1.600000" align="left">Cgo is not Go.</text>
-		<image xp="30"  yp="44.000000" width="300" height="300" scale="15" name="noun_capybara_90002.png"/>
-		<text  xp="35" yp="37.800000" sp="1.600000" align="left">With the unsafe package there are no guarantees.</text>
-		<image xp="30"  yp="38.800000" width="300" height="300" scale="15" name="noun_caution_82742.png"/>
-		<text  xp="35" yp="32.600000" sp="1.600000" align="left">Clear is better than clever.</text>
-		<image xp="30"  yp="33.600000" width="300" height="300" scale="15" name="noun_eye_209057.png"/>
-		<text  xp="35" yp="27.400000" sp="1.600000" align="left">Reflection is never clear.</text>
-		<image xp="30"  yp="28.400000" width="300" height="300" scale="15" name="noun_mirror_59940.png"/>
-		<text  xp="35" yp="22.200000" sp="1.600000" align="left">Errors are values.</text>
-		<image xp="30"  yp="23.200000" width="300" height="300" scale="15" name="noun_danger_206486.png"/>
-		<text  xp="35" yp="17.000000" sp="1.600000" align="left">Don’t just check errors, handle them gracefully.</text>
-		<image xp="30"  yp="18.000000" width="300" height="300" scale="15" name="noun_handle-with-care_69.png"/>
-		<text  xp="35" yp="11.800000" sp="1.600000" align="left">Design the architecture, name the components, document the details.</text>
-		<image xp="30"  yp="12.800000" width="300" height="300" scale="15" name="noun_bridge_19693.png"/>
-		<text  xp="35" yp="6.600000" sp="1.600000" align="left">Documentation is for users.</text>
-		<image xp="30"  yp="7.600000" width="300" height="300" scale="15" name="noun_document_12036.png"/>
-		<text  xp="35" yp="1.400000" sp="1.600000" align="left">Don’t panic.</text>
-		<image xp="30"  yp="2.400000" width="300" height="300" scale="15" name="noun_bomb_193958.png"/>
+		<text  xp="35" yp="95" sp="1.6" align="left">Don’t communicate by sharing memory, share memory by communicating.</text>
+		<image xp="30"  yp="96" width="300" height="300" scale="15" name="noun_skill-share_14291.png"/>
+		<text  xp="35" yp="89.8" sp="1.6" align="left">Concurrency is not parallelism.</text>
+		<image xp="30"  yp="90.8" width="300" height="300" scale="15" name="noun_up-arrows_220576.png"/>
+		<text  xp="35" yp="84.6" sp="1.6" align="left">Channels orchestrate; mutexes serialize.</text>
+		<image xp="30"  yp="85.6" width="300" height="300" scale="15" name="noun_pipes_61289.png"/>
+		<text  xp="35" yp="79.4" sp="1.6" align="left">The bigger the interface, the weaker the abstraction.</text>
+		<image xp="30"  yp="80.4" width="300" height="300" scale="15" name="noun_whale_149531.png"/>
+		<text  xp="35" yp="74.2" sp="1.6" align="left">Make the zero value useful.</text>
+		<image xp="30"  yp="75.2" width="300" height="300" scale="15" name="noun_okay_13505.png"/>
+		<text  xp="35" yp="69" sp="1.6" align="left">interface{} says nothing.</text>
+		<image xp="30"  yp="70" width="300" height="300" scale="15" name="noun_mute_163525.png"/>
+		<text  xp="35" yp="63.8" sp="1.6" align="left">Gofmt’s style is no one’s favorite, yet gofmt is everyone’s favorite.</text>
+		<image xp="30"  yp="64.8" width="300" height="300" scale="15" name="noun_curly-brackets_108564.png"/>
+		<text  xp="35" yp="58.6" sp="1.6" align="left">A little copying is better than a little dependency.</text>
+		<image xp="30"  yp="59.6" width="300" height="300" scale="15" name="noun_copy_110923.png"/>
+		<text  xp="35" yp="53.4" sp="1.6" align="left">Syscall must always be guarded with build tags.</text>
+		<image xp="30"  yp="54.4" width="300" height="300" scale="15" name="noun_tools_59222.png"/>
+		<text  xp="35" yp="48.2" sp="1.6" align="left">Cgo must always be guarded with build tags.</text>
+		<image xp="30"  yp="49.2" width="300" height="300" scale="15" name="noun_copyright_62293.png"/>
+		<text  xp="35" yp="43" sp="1.6" align="left">Cgo is not Go.</text>
+		<image xp="30"  yp="44" width="300" height="300" scale="15" name="noun_capybara_90002.png"/>
+		<text  xp="35" yp="37.8" sp="1.6" align="left">With the unsafe package there are no guarantees.</text>
+		<image xp="30"  yp="38.8" width="300" height="300" scale="15" name="noun_caution_82742.png"/>
+		<text  xp="35" yp="32.6" sp="1.6" align="left">Clear is better than clever.</text>
+		<image xp="30"  yp="33.6" width="300" height="300" scale="15" name="noun_eye_209057.png"/>
+		<text  xp="35" yp="27.4" sp="1.6" align="left">Reflection is never clear.</text>
+		<image xp="30"  yp="28.4" width="300" height="300" scale="15" name="noun_mirror_59940.png"/>
+		<text  xp="35" yp="22.2" sp="1.6" align="left">Errors are values.</text>
+		<image xp="30"  yp="23.2" width="300" height="300" scale="15" name="noun_danger_206486.png"/>
+		<text  xp="35" yp="17" sp="1.6" align="left">Don’t just check errors, handle them gracefully.</text>
+		<image xp="30"  yp="18" width="300" height="300" scale="15" name="noun_handle-with-care_69.png"/>
+		<text  xp="35" yp="11.8" sp="1.6" align="left">Design the architecture, name the components, document the details.</text>
+		<image xp="30"  yp="12.8" width="300" height="300" scale="15" name="noun_bridge_19693.png"/>
+		<text  xp="35" yp="6.6" sp="1.6" align="left">Documentation is for users.</text>
+		<image xp="30"  yp="7.6" width="300" height="300" scale="15" name="noun_document_12036.png"/>
+		<text  xp="35" yp="1.4" sp="1.6" align="left">Don’t panic.</text>
+		<image xp="30"  yp="2.4" width="300" height="300" scale="15" name="noun_bomb_193958.png"/>
 	</slide>
 	
 	<slide>
