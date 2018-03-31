@@ -2,7 +2,7 @@
 	<title>Go for Infomation Displays</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design, information design, deck, svgo, openvg, dchart</subject>
-	<date>2018-03-20</date>
+	<date>2018-03-31</date>
 	<description>This presentation describes the use of Go for information displays, 
 	a departure from the usual back-end view. Go NYC Meetup, April 2017, updated version Gotham Go, April 2018</description>
  
@@ -239,8 +239,6 @@ https://api.flickr.com/services/rest/
 		<image xp="50" yp="50" width="2716" height="1596" scale="67" name="bulletgraph.png"/>
 	</slide>
 	
-	
-	
 	<slide>
 		<image xp="50" yp="50" width="2106" height="1544" scale="67" name="quad.png"/>
 	</slide>
@@ -269,8 +267,6 @@ https://api.flickr.com/services/rest/
 		<image xp="50" yp="50" width="1900" height="600"  name="planets.png"/>
 	</slide>
 	
-
-	
 	<slide bg="black">
 		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="lt-04-jones-montiel.png"/>
 		<image xp="50" yp="50"  width="1150" height="2072" scale="45" name="lt-04-dkng-ddl.png"/>
@@ -298,8 +294,8 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-		<text xp="5" yp="98" sp="0.75" font="mono" file="shining.go"/>
-		<image xp="65" yp="50" width="800" height="800" name="shining.png"/>
+		<text xp="5" yp="97" sp="0.8" lp="1.3" font="mono" file="shining.go"/>
+		<image xp="70" yp="45" width="800" height="800" name="shining.png"/>
 	</slide>
 	
 	<slide>
@@ -339,7 +335,7 @@ https://api.flickr.com/services/rest/
 	
 	<slide>
 		<text xp="2.4" yp="90" sp="4">OpenVG Functions</text>
-		<list xp="2.4" yp="75" sp="2.5" color="maroon">
+		<list xp="2.4" yp="70" sp="2.5" color="maroon">
 			<li>Circle</li>
 			<li>Ellipse</li>
 			<li>Rect</li>
@@ -349,7 +345,7 @@ https://api.flickr.com/services/rest/
 			<li>Polygon</li>
 		</list>
 		
-		<list xp="15" yp="75" sp="2.5" color="gray">
+		<list xp="15" yp="70" sp="2.5" color="gray">
 			<li>(x, y, r VGfloat)</li>
 			<li>(x, y, w, h VGfloat)</li>
 			<li>(x, y, w, h VGfloat)</li>
@@ -359,7 +355,7 @@ https://api.flickr.com/services/rest/
 			<li>(x, y []VGfloat)</li>
 		</list>
 		
-		<list xp="45" yp="75" sp="2.5" color="maroon">
+		<list xp="45" yp="70" sp="2.5" color="maroon">
 			<li>Arc</li>
 			<li>Qbezier</li>
 			<li>Cbezier</li>
@@ -369,7 +365,7 @@ https://api.flickr.com/services/rest/
 			<li>TextEnd</li>
 		</list>
 		
-		<list xp="55" yp="75" sp="2.5" color="gray">
+		<list xp="55" yp="70" sp="2.5" color="gray">
 			<li>(x, y, w, h, sa, aext VGfloat)</li>
 			<li>(sx, sy, cx, cy, ex, ey VGfloat)</li>
 			<li>(sx, sy, cx, cy, px, py, ex, ey VGfloat)</li>
@@ -403,22 +399,22 @@ https://api.flickr.com/services/rest/
 	
 	<slide> <!-- weather -->
 		<text file="twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
-		<rect xp="64" yp="74" wp="22.9" hp="17" color="red" opacity="30"/>
-		<rect xp="27" yp="52" wp="35" hp="8" color="red" opacity="30"/>
+		<rect xp="64" yp="74" wp="22.9" hp="17" color="red" opacity="20"/>
+		<rect xp="27" yp="52" wp="35" hp="8" color="red" opacity="20"/>
 		<image xp="75" yp="60" name="twh-20170420.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- time -->
 		<text file="twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
-		<rect xp="86.5" yp="74" wp="22" hp="17" color="red" opacity="30"/>
-		<rect xp="27" yp="45" wp="35" hp="8" color="red" opacity="30"/>
+		<rect xp="86.5" yp="74" wp="22" hp="17" color="red" opacity="20"/>
+		<rect xp="27" yp="45" wp="35" hp="8" color="red" opacity="20"/>
 		<image xp="75" yp="60" name="twh-20170420.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- headlines -->
 		<text file="twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
-		<rect xp="75" yp="50" wp="45" hp="25" color="red" opacity="30"/>
-		<rect xp="27" yp="38" wp="35" hp="8" color="red" opacity="30"/>
+		<rect xp="75" yp="50" wp="45" hp="25" color="red" opacity="20"/>
+		<rect xp="27" yp="38" wp="35" hp="8" color="red" opacity="20"/>
 
 		<image xp="75" yp="60" name="twh-20170420.png" width="1920" height="1080" scale="45"/>
 	</slide>
@@ -849,7 +845,6 @@ Gate C31C
 		<text xp="7.00" yp="85.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">AAPL</text><text xp="51.80" yp="85.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">175.30</text><text xp="74.20" yp="85.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-2.72</text><text xp="96.60" yp="85.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-1.53%)</text><text xp="7.00" yp="71.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">AMZN</text><text xp="51.80" yp="71.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">1544.93</text><text xp="74.20" yp="71.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-26.75</text><text xp="96.60" yp="71.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-1.70%)</text><text xp="7.00" yp="57.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">FB</text><text xp="51.80" yp="57.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">172.56</text><text xp="74.20" yp="57.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-12.53</text><text xp="96.60" yp="57.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-6.77%)</text><text xp="7.00" yp="43.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">GOOGL</text><text xp="51.80" yp="43.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">1100.07</text><text xp="74.20" yp="43.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-34.35</text><text xp="96.60" yp="43.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-3.03%)</text><text xp="7.00" yp="29.00" sp="5.60" align="" wp="0.00" font="sans" opacity="100.00" color="" type="">MSFT</text><text xp="51.80" yp="29.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="" type="">92.89</text><text xp="74.20" yp="29.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">-1.71</text><text xp="96.60" yp="29.00" sp="5.60" align="right" wp="0.00" font="sans" opacity="100.00" color="red" type="">(-1.81%)</text><text xp="7.00" yp="5.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="yellow" type="">2018-03-20 17:42:56</text>
 	</slide>
 
-	
 	<slide>
 		<text file="stockslide.go" xp="3" yp="95" sp="1.2" font="mono"/>
 		<image xp="70" yp="70" name="sd2.png" width="2000" height="1125" scale="45"/>
@@ -1035,8 +1030,8 @@ Gate C31C
 	</slide>
 	
   	<slide bg="white" fg="rgb(127,0,0)">
-    	<text xp="35" yp="70" sp="5" wp="35" type="block">Make the zero value useful.</text>
-    	<image xp="15" yp="65" width="300" height="300"  name="noun_okay_13505.png" />
+    	<text xp="35" yp="65" sp="7" wp="35" type="block">Make the zero value useful.</text>
+    	<image xp="15" yp="60" width="500" height="500"  name="noun_okay_13505.png" />
   	</slide>
 
 	<slide bg="rgb(27,116,166)">
@@ -1070,7 +1065,7 @@ Gate C31C
 	
 	<slide>
 		<text xp="5" yp="70" sp="1.25" font="mono" color="maroon" file="AAPL.d"/>
-		<text xp="25" yp="65" sp="1.25" font="mono" color="rgb(100,100,100)" file="mockdeck.xml"/>
+		<text xp="25" yp="65" sp="1.25" font="mono" color="rgb(50,50,50)" file="mockdeck.xml"/>
 		<text xp="82.50" yp="68.60" sp="1.50" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">AAPL Volume</text><line xp1="70.00" yp1="45.00" xp2="70.00" yp2="61.46" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="70.00" yp="62.46" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">563.1</text><text xp="70.00" yp="43.00" sp="0.80" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-01-01</text><line xp1="72.27" yp1="45.00" xp2="72.27" yp2="61.81" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="72.27" yp="62.81" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">575.0</text><line xp1="74.55" yp1="45.00" xp2="74.55" yp2="61.42" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="74.55" yp="62.42" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">561.6</text><line xp1="76.82" yp1="45.00" xp2="76.82" yp2="55.91" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="76.82" yp="56.91" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">373.3</text><text xp="76.82" yp="43.00" sp="0.80" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-04-01</text><line xp1="79.09" yp1="45.00" xp2="79.09" yp2="64.11" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="79.09" yp="65.11" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">653.8</text><line xp1="81.36" yp1="45.00" xp2="81.36" yp2="65.00" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="81.36" yp="66.00" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">684.2</text><line xp1="83.64" yp1="45.00" xp2="83.64" yp2="57.34" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="83.64" yp="58.34" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">422.0</text><text xp="83.64" yp="43.00" sp="0.80" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-07-01</text><line xp1="85.91" yp1="45.00" xp2="85.91" yp2="64.32" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="85.91" yp="65.32" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">661.1</text><line xp1="88.18" yp1="45.00" xp2="88.18" yp2="64.87" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="88.18" yp="65.87" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">679.9</text><line xp1="90.45" yp1="45.00" xp2="90.45" yp2="59.74" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="90.45" yp="60.74" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">504.3</text><text xp="90.45" yp="43.00" sp="0.80" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-10-01</text><line xp1="92.73" yp1="45.00" xp2="92.73" yp2="62.56" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="92.73" yp="63.56" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">600.7</text><line xp1="95.00" yp1="45.00" xp2="95.00" yp2="57.20" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="95.00" yp="58.20" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">417.4</text>
 		<text xp="50" yp="20" sp="4" align="c">data | dchart | pdf</text>
 	</slide>
