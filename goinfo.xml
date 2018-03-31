@@ -269,6 +269,8 @@ https://api.flickr.com/services/rest/
 		<image xp="50" yp="50" width="1900" height="600"  name="planets.png"/>
 	</slide>
 	
+
+	
 	<slide bg="black">
 		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="lt-04-jones-montiel.png"/>
 		<image xp="50" yp="50"  width="1150" height="2072" scale="45" name="lt-04-dkng-ddl.png"/>
@@ -293,6 +295,11 @@ https://api.flickr.com/services/rest/
 	
 	<slide>
 		<image xp="50" yp="50"  width="900" height="846" name="201939.png"/>
+	</slide>
+	
+	<slide>
+		<text xp="5" yp="98" sp="0.75" font="mono" file="shining.go"/>
+		<image xp="65" yp="50" width="800" height="800" name="shining.png"/>
 	</slide>
 	
 	<slide>
@@ -1319,17 +1326,19 @@ We were just trying to get something that worked for us.</text>
 	</slide>
 
 	<slide bg="black" fg="rgb(240,240,240)">
-		<text xp="25" yp="80" sp="7" color="white">Thank you</text>
-		<image name="100-GitHub-Mark.png"		width="75" height="75" xp="15" yp="65" />
-		<image name="100-Twitter_logo_blue.png" width="74" height="60" xp="15" yp="55" />
-		<image name="100-gmail-logo-2013.png"	width="75" height="75" xp="15" yp="45" />
-		<image name="100-speakerdeck.png"		width="75" height="75" xp="15" yp="35" />
-		<image name="100-flickr-logo.png"		width="75" height="75" xp="15" yp="25" />
+		<text xp="15" yp="80" sp="7" color="white">Thank you</text>
+		<image name="100-Twitter_logo_blue.png" width="74" height="60" xp="17.5" yp="65" />
+		<image name="100-gmail-logo-2013.png"	width="75" height="75" xp="17.5" yp="55" />
+		<image name="100-GitHub-Mark.png"		width="75" height="75" xp="17.5" yp="45" />
+		<image name="100-speakerdeck.png"		width="75" height="75" xp="17.5" yp="35" />
+		<image name="100-flickr-logo.png"		width="75" height="75" xp="17.5" yp="25" />
 	
-		<text xp="25" yp="63" sp="4">github.com/ajstarks</text>
-		<text xp="25" yp="53" sp="4">@ajstarks</text>
-		<text xp="25" yp="43" sp="4">ajstarks@gmail.com</text>
-		<text xp="25" yp="33" sp="4">speakerdeck.com/ajstarks</text>
-		<text xp="25" yp="23" sp="4">flickr.com/photos/ajstarks</text>
+		<list xp="25" yp="63" sp="4" lp="1.42">
+			<li>@ajstarks</li>
+			<li>ajstarks@gmail.com</li>
+			<li>github.com/ajstarks</li>
+			<li>speakerdeck.com/ajstarks</li>
+			<li>flickr.com/photos/ajstarks</li>
+		</list>
 	</slide>
 </deck>
