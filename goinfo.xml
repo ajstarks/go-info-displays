@@ -859,7 +859,7 @@ Gate C31C
 	<slide>
 		<text xp="20" yp="90" sp="3"  font="serif" align="center" color="maroon">Genesis 3</text>
 		<image xp="20" yp="50" width="360" height="653" name="es.jpg"/>
-		<text font="serif" type="block" xp="35" yp="75" sp="1.8" wp="35" file="genesis3.txt"/>
+		<text font="serif" type="block" xp="35" yp="75" sp="1.8" wp="38" file="genesis3.txt"/>
 	</slide>
 	
 	<slide>
@@ -1321,14 +1321,14 @@ We were just trying to get something that worked for us.</text>
 	</slide>
 
 	<slide bg="black" fg="rgb(240,240,240)">
-		<text xp="15" yp="80" sp="7" color="white">Thank you</text>
-		<image name="100-Twitter_logo_blue.png" width="74" height="60" xp="17.5" yp="65" />
-		<image name="100-gmail-logo-2013.png"	width="75" height="75" xp="17.5" yp="55" />
-		<image name="100-GitHub-Mark.png"		width="75" height="75" xp="17.5" yp="45" />
-		<image name="100-speakerdeck.png"		width="75" height="75" xp="17.5" yp="35" />
-		<image name="100-flickr-logo.png"		width="75" height="75" xp="17.5" yp="25" />
+		<text xp="15" yp="75" sp="7" color="white">Thank you</text>
+		<image name="100-Twitter_logo_blue.png" width="74" height="60" xp="17.5" yp="60" />
+		<image name="100-gmail-logo-2013.png"	width="75" height="75" xp="17.5" yp="50" />
+		<image name="100-GitHub-Mark.png"		width="75" height="75" xp="17.5" yp="40" />
+		<image name="100-speakerdeck.png"		width="75" height="75" xp="17.5" yp="30" />
+		<image name="100-flickr-logo.png"		width="75" height="75" xp="17.5" yp="20" />
 	
-		<list xp="25" yp="63" sp="4" lp="1.42">
+		<list xp="25" yp="57.5" sp="4" lp="1.42">
 			<li>@ajstarks</li>
 			<li>ajstarks@gmail.com</li>
 			<li>github.com/ajstarks</li>
