@@ -19,11 +19,6 @@ const (
 	dloc   = "~/Downloads"
 )
 
-var dmap = map[string]string{
-	"volume": vopt,
-	"close":  copt,
-}
-
 func main() {
 	deck := generate.NewSlides(os.Stdout, 0, 0)
 	deck.StartDeck()
@@ -37,7 +32,7 @@ func process(deck *generate.Deck, r io.Reader) {
 
 	plotwidth := 20.0
 	plotheight := 15.0
-	
+
 	cleft := 40.0
 	cright := cleft + plotwidth
 	vleft := 65.0
@@ -67,13 +62,13 @@ func process(deck *generate.Deck, r io.Reader) {
 		if len(data) != 2 {
 			continue
 		}
-		
+
 		symbol := data[0]
-		name   := data[1]
-		deck.Text(nx, bottom, name,   "sans", 3.5, "")
+		name := data[1]
+		deck.Text(nx, bottom, name, "sans", 3.5, "")
 		deck.Text(sx, bottom, symbol, "sans", 2.5, "gray")
-		plot(fmt.Sprintf("%s/%s.csv", dloc, symbol), "volume", top, bottom, vleft, vright)
-		plot(fmt.Sprintf("%s/%s.csv", dloc, symbol), "close",  top, bottom, cleft, cright)
+		plot(fmt.Sprintf("%s/%s.csv", dloc, symbol), vopt, top, bottom, vleft, vright)
+		plot(fmt.Sprintf("%s/%s.csv", dloc, symbol), copt, top, bottom, cleft, cright)
 
 		top -= plotheight
 		bottom -= plotheight
@@ -81,7 +76,7 @@ func process(deck *generate.Deck, r io.Reader) {
 }
 
 func plot(fname, datatype string, top, bottom, left, right float64) {
-	pcmd := fmt.Sprintf(cmdfmt, opts, top, bottom, left, right, dmap[datatype], fname)
+	pcmd := fmt.Sprintf(cmdfmt, opts, top, bottom, left, right, datatype, fname)
 	out, err := exec.Command("/bin/sh", "-c", pcmd).Output()
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "%v\n", err)
