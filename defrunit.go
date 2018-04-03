@@ -1,0 +1,6 @@
+canvas.Gid("runit")
+canvas.TranslateRotate(150, 180, 180)
+canvas.Use(0, 0, "#unit")
+canvas.Gend()
+canvas.Gend()
+canvas.DefEnd()

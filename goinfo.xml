@@ -292,10 +292,15 @@ https://api.flickr.com/services/rest/
 	<slide>
 		<image xp="50" yp="50"  width="900" height="846" name="201939.png"/>
 	</slide>
-	
+		
 	<slide>
-		<text xp="5" yp="97" sp="0.8" lp="1.3" font="mono" file="shining.go"/>
-		<image xp="70" yp="45" width="800" height="800" name="shining.png"/>
+		<image xp="24" yp="50" width="800" height="800" name="shining.png"/>
+		<image xp="54" yp="84" width="522" height="414" name="unit.png" scale="40"/>
+		<image xp="58" yp="54" width="462" height="412" name="runit.png" scale="40"/> -->
+		<image xp="58" yp="22" width="1054" height="700" name="unit+runit2.png" scale="40"/>
+		<text xp="72" yp="87" sp="1.2" font="mono" file="defunit.go"/>
+		<text xp="72" yp="62" sp="1.2" font="mono" file="defrunit.go"/>
+		<text xp="72" yp="29" sp="1.2" font="mono" file="shloop.go"/>
 	</slide>
 	
 	<slide>
