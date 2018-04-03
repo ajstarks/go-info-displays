@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"flag"
 	"fmt"
 	"io"
 	"os"
@@ -12,7 +13,7 @@ import (
 )
 
 const (
-	opts   = "-bar=f -vol -line -xlabel=0 -val=f -yaxis=f -title=f -fulldeck=f -csv -yaxis=f"
+	opts   = "-dmin=t -bar=f -vol -xlabel=0 -val=f -yaxis=f -title=f -fulldeck=f -csv"
 	cmdfmt = "dchart %s -top=%.1f -bottom=%.1f -left=%.1f -right=%.1f %s %s"
 	copt   = "-csvcol=Date,Close"
 	vopt   = "-color=lightgray -csvcol=Date,Volume"
@@ -20,29 +21,43 @@ const (
 )
 
 func main() {
+	title := flag.String("title", "Stock Performance", "title")
+	time := flag.String("time", "", "time period")
+	flag.Parse()
 	deck := generate.NewSlides(os.Stdout, 0, 0)
 	deck.StartDeck()
 	deck.StartSlide()
-	process(deck, os.Stdin)
+	process(deck, *title, *time, os.Stdin)
 	deck.EndSlide()
 	deck.EndDeck()
 }
 
-func process(deck *generate.Deck, r io.Reader) {
+
+var xmlmap = strings.NewReplacer(
+	"&", "&amp;",
+	"<", "&lt;",
+	">", "&gt;")
+	
+func xmlesc(s string) string {
+	return xmlmap.Replace(s)
+}
+
+
+func process(deck *generate.Deck, title, time string, r io.Reader) {
 
 	plotwidth := 20.0
 	plotheight := 15.0
 
-	cleft := 40.0
+	cleft := 50.0
 	cright := cleft + plotwidth
-	vleft := 65.0
+	vleft := 75.0
 	vright := vleft + plotwidth
 
 	tx := 5.0
 	ty := 90.0
 
 	nx := 5.0
-	sx := nx + 20.0
+	sx := cleft - 10
 
 	dx := vright
 	cx := cleft + ((cright - cleft) / 2)
@@ -51,8 +66,8 @@ func process(deck *generate.Deck, r io.Reader) {
 	top := 80.0
 	bottom := 70.0
 
-	deck.Text(tx, ty, "One Year Stock Performance", "sans", 4, "")
-	deck.TextEnd(dx, ty, "(2017-02-03 to 2018-02-02)", "sans", 2, "")
+	deck.Text(tx, ty, xmlesc(title), "sans", 5, "")
+	deck.TextEnd(dx, ty, xmlesc(time), "sans", 2, "")
 	deck.TextMid(cx, top, "Closing Price", "sans", 1, "")
 	deck.TextMid(vx, top, "Volume", "sans", 1, "")
 
@@ -65,8 +80,8 @@ func process(deck *generate.Deck, r io.Reader) {
 
 		symbol := data[0]
 		name := data[1]
-		deck.Text(nx, bottom, name, "sans", 3.5, "")
-		deck.Text(sx, bottom, symbol, "sans", 2.5, "gray")
+		deck.Text(nx, bottom, xmlesc(name), "sans", 3.5, "")
+		deck.Text(sx, bottom, symbol, "sans", 1.5, "gray")
 		plot(fmt.Sprintf("%s/%s.csv", dloc, symbol), vopt, top, bottom, vleft, vright)
 		plot(fmt.Sprintf("%s/%s.csv", dloc, symbol), copt, top, bottom, cleft, cright)
 
