@@ -1,2 +1,0 @@
-#!/bin/sh
-go run stockdeck.go AAPL AMZN FB GOOG MSFT 

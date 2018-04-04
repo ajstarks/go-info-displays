@@ -1,1 +1,0 @@
-$ dchart -val=f -vol=f -bar -xlabel=12 -yaxis -textsize=2 -fulldeck=f  2018-weather.d > weather.xml
