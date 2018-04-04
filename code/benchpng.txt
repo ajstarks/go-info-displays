@@ -1,0 +1,27 @@
+# image/png package: Go 1.3 vs Go 1.4
+benchmark                        old ns/op     new ns/op     delta
+BenchmarkPaeth                   5.22          5.30          +1.53%
+BenchmarkDecodeGray              1037540       1018369       -1.85%
+BenchmarkDecodeNRGBAGradient     4391776       3838947       -12.59%
+BenchmarkDecodeNRGBAOpaque       3148985       3145987       -0.10%
+BenchmarkDecodePaletted          747152        803097        +7.49%
+BenchmarkDecodeRGB               2861484       2751671       -3.84%
+BenchmarkEncodeGray              3912599       3940407       +0.71%
+BenchmarkEncodeNRGBOpaque        12066176      12072256      +0.05%
+BenchmarkEncodeNRGBA             13863837      13898732      +0.25%
+BenchmarkEncodePaletted          3908491       3939133       +0.78%
+BenchmarkEncodeRGBOpaque         12021250      12040434      +0.16%
+BenchmarkEncodeRGBA              33623263      48841059      +45.26%
+
+benchmark                        old MB/s     new MB/s     speedup
+BenchmarkDecodeGray              63.16        64.35        1.02x
+BenchmarkDecodeNRGBAGradient     59.69        68.29        1.14x
+BenchmarkDecodeNRGBAOpaque       83.25        83.33        1.00x
+BenchmarkDecodePaletted          87.71        81.60        0.93x
+BenchmarkDecodeRGB               91.61        95.27        1.04x
+BenchmarkEncodeGray              78.52        77.96        0.99x
+BenchmarkEncodeNRGBOpaque        101.84       101.79       1.00x
+BenchmarkEncodeNRGBA             88.63        88.41        1.00x
+BenchmarkEncodePaletted          78.60        77.99        0.99x
+BenchmarkEncodeRGBOpaque         102.22       102.06       1.00x
+BenchmarkEncodeRGBA              36.55        25.16        0.69x

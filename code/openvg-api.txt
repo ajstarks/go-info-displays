@@ -1,0 +1,110 @@
+package openvg // import "github.com/ajstarks/openvg"
+
+Package openvg is a wrapper to a C library of high-level 2D graphics
+operations built on OpenVG 1.1
+
+The typical "hello world" program looks like this:
+
+    package main
+
+    import (
+    	"bufio"
+    	"github.com/ajstarks/openvg"
+    	"os"
+    )
+
+    func main() {
+    	width, height := openvg.Init() // OpenGL, etc initialization
+
+    	w2 := openvg.VGfloat(width / 2)
+    	h2 := openvg.VGfloat(height / 2)
+    	w := openvg.VGfloat(width)
+
+    	openvg.Start(width, height)                               // Start the picture
+    	openvg.BackgroundColor("black")                           // Black background
+    	openvg.FillRGB(44, 100, 232, 1)                           // Big blue marble
+    	openvg.Circle(w2, 0, w)                                   // The "world"
+    	openvg.FillColor("rgb(100,255,123)")                      // White text
+    	openvg.TextMid(w2, h2, "hello, world", "serif", width/10) // Greetings
+    	openvg.End()                                              // End the picture
+    	bufio.NewReader(os.Stdin).ReadBytes('\n')                 // Pause until [RETURN]
+    	openvg.Finish()                                           // Graphics cleanup
+    }
+
+
+Functions
+
+The Init function provides the necessary graphics subsystem initialization
+and the dimensions of the whole canvas. The Init() call must be paired with
+a corresponding Finish() call, which performs an orderly shutdown.
+
+Typically a "drawing" begins with the Start() call, and ends with End(). A
+program can have an arbitrary set of Start()/End() pairs.
+
+The coordinate system uses float64 coordinates, with the origin at the lower
+left, with x increasing to the right, and y increasing upwards.
+
+Currently, the library provides no mouse or keyboard events, other than
+those provided by the base operating system. It is typical to pause for user
+input between drawings by reading standard input.
+
+The library's functionally includes shapes, attributes, transformations,
+text, images, and convenince functions. Shape functions include Polygon,
+Polyline, Cbezier, Qbezier, Rect, Roundrect, Line, Elipse, Circle, and Arc.
+Transformation functions are: Translate, Rotate, Shear, and Scale. For
+displaying and measuring text: Text, TextMid, TextEnd, and TextWidth. The
+attribute functions are StrokeColor, StrokeRGB, StrokeWidth, and FillRGB,
+FillColor, FillLinearGradient, and FillRadialGradient. Colors are specfied
+with RGB triples (0-255) with alpha values (0.0-1.0), or named colors as
+specified by the SVG standard.
+
+Convenience functions are used to set the Background color, start the
+drawing with a background color, and save the raster to a file. The input
+terminal may be set/restored to/from raw and cooked mode.
+
+Package openvg is a high-level 2D vector graphics library built on OpenVG
+func Arc(x, y, w, h, sa, aext VGfloat, style ...string)
+func Background(r, g, b uint8)
+func BackgroundColor(s string, alpha ...VGfloat)
+func BackgroundRGB(r, g, b uint8, alpha VGfloat)
+func Cbezier(sx, sy, cx, cy, px, py, ex, ey VGfloat, style ...string)
+func Circle(x, y, r VGfloat, style ...string)
+func ClipEnd()
+func ClipRect(x, y, w, h int)
+func Ellipse(x, y, w, h VGfloat, style ...string)
+func End()
+func FillColor(s string, alpha ...VGfloat)
+func FillLinearGradient(x1, y1, x2, y2 VGfloat, ramp []Offcolor)
+func FillRGB(r, g, b uint8, alpha VGfloat)
+func FillRadialGradient(cx, cy, fx, fy, radius VGfloat, ramp []Offcolor)
+func Finish()
+func Image(x, y VGfloat, w, h int, s string)
+func Img(x, y VGfloat, im image.Image)
+func Init() (int, int)
+func Line(x1, y1, x2, y2 VGfloat, style ...string)
+func Polygon(x, y []VGfloat, style ...string)
+func Polyline(x, y []VGfloat, style ...string)
+func Qbezier(sx, sy, cx, cy, ex, ey VGfloat, style ...string)
+func RawTerm()
+func Rect(x, y, w, h VGfloat, style ...string)
+func RestoreTerm()
+func Rotate(r VGfloat)
+func Roundrect(x, y, w, h, rw, rh VGfloat, style ...string)
+func SaveEnd(filename string)
+func SaveTerm()
+func Scale(x, y VGfloat)
+func Shear(x, y VGfloat)
+func Start(w, h int, color ...uint8)
+func StartColor(w, h int, color string, alpha ...VGfloat)
+func StrokeColor(s string, alpha ...VGfloat)
+func StrokeRGB(r, g, b uint8, alpha VGfloat)
+func StrokeWidth(w VGfloat)
+func Text(x, y VGfloat, s string, font string, size int, style ...string)
+func TextEnd(x, y VGfloat, s string, font string, size int, style ...string)
+func TextMid(x, y VGfloat, s string, font string, size int, style ...string)
+func Translate(x, y VGfloat)
+func TextWidth(s string, font string, size int) VGfloat
+type Offcolor struct { ... }
+type RGB struct { ... }
+type VGfloat C.VGfloat
+type VGint C.VGint

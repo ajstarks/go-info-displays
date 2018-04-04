@@ -1,0 +1,23 @@
+Usage of pdfdeck:
+  -author string
+    	document author
+  -fontdir string
+    	directory for fonts (defaults to DECKFONTS environment variable) (default "/Users/ajstarks/Library/deckfonts")
+  -grid float
+    	draw a percentage grid on each slide
+  -mono string
+    	mono font (default "courier")
+  -outdir string
+    	output directory (default ".")
+  -pagesize string
+    	pagesize: w,h, or one of: Letter, Legal, Tabloid, A3, A4, A5, ArchA, 4R, Index, Widescreen (default "Letter")
+  -sans string
+    	sans font (default "helvetica")
+  -serif string
+    	serif font (default "times")
+  -stdout
+    	output to standard output
+  -symbol string
+    	symbol font (default "zapfdingbats")
+  -title string
+    	document title

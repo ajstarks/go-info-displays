@@ -1,0 +1,21 @@
+#!/bin/sh
+awk -F\t '
+BEGIN {
+		incr=6.5
+		x=15
+		y=95
+		left=20
+		right=80
+		size = 2.0
+		spacing = 2
+		print "<slide>"
+} 
+{
+	printf "\t<text xp=\"%.2f\" yp=\"%.2f\" sp=\"%.1f\">%s</text>\n", x, y, size, $1
+	printf "\t<text xp=\"%.2f\" yp=\"%.2f\" sp=\"%.1f\" color=\"gray\">%s</text>\n", x+left, y, size, $2
+	printf "\t<line xp1=\"%.2f\" yp1=\"%.2f\" xp2=\"%.2f\" yp2=\"%.2f\"/>\n", x, y-spacing, x+right, y-spacing
+	y-=incr
+}
+END {
+	print "</slide>"
+}' $*

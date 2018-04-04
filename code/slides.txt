@@ -1,0 +1,4 @@
+# Designing for People
+title	A View of User Experience: Designing for People	Anthony Starks / ajstarks@gmail.com / @ajstarks
+section	Design	gray	white
+caption	eames.png	Ray Eames	What works good is better than what looks good, because what works good lasts.

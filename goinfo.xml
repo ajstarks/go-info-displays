@@ -16,11 +16,11 @@
 	<slide bg="black" fg="white">
 		<text xp="50" yp="15" sp="5" align="center">Go is great in the back end</text>
 		<rect xp="50" yp="15" wp="100" hp="20" color="black" opacity="20"/>
-		<image name="ds.jpg" width="1920" height="1280" xp="50" yp="50"/>
+		<image name="images/ds.jpg" width="1920" height="1280" xp="50" yp="50"/>
 	</slide>
 
 	<slide bg="black" fg="white">
-		<image name="july-sky.jpg" width="4224" height="2376" scale="45" xp="50" yp="50"/>
+		<image name="images/july-sky.jpg" width="4224" height="2376" scale="45" xp="50" yp="50"/>
 		<rect xp="50" yp="15" wp="100" hp="20" color="black" opacity="15"/>
 		<text xp="50" yp="15" sp="5" align="center" color="white">But sometimes it's about the picture</text>
 	</slide>
@@ -35,13 +35,13 @@
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<image xp="20" yp="70" name="greyscale_edward-tufte.png" width="1644" height="1081" scale="30" align="left" sp="1.5" color="lightgray" caption="Edward Tufte" />
+		<image xp="20" yp="70" name="images/greyscale_edward-tufte.png" width="1644" height="1081" scale="30" align="left" sp="1.5" color="lightgray" caption="Edward Tufte" />
 		<list xp="35" yp="80" sp="2.5" lp="1.6" font="serif" link="http://edwardtufte.com/">
 			<li>Display data for precise, effective, quick analysis,</li>
 			<li>Small multiples, Optimizing the data-ink ratio,</li>
 			<li>Visual and beautiful evidence.</li>
 		</list>
-		<image xp="17" yp="30" name="nigel-holmes-main.jpg" width="419" height="281" align="left" sp="1.5" color="lightgray" caption="Nigel Holmes"/>
+		<image xp="17" yp="30" name="images/nigel-holmes-main.jpg" width="419" height="281" align="left" sp="1.5" color="lightgray" caption="Nigel Holmes"/>
 		<text xp="35" yp="40" sp="2.5" wp="40" type="block" font="serif" link="http://www.nigelholmes.com/">Designing for the context: The data visualizer asks: 
 		“What’s the data?”, the infographics designer: “What’s the Story?”</text>
 	</slide>
@@ -51,25 +51,25 @@
 	</slide>
 
 	<slide bg="black">
-		<image xp="50" yp="50" width="1920" height="1080" name="sisyphus3.png"/>
+		<image xp="50" yp="50" width="1920" height="1080" name="images/sisyphus3.png"/>
 		<text xp="3.5" yp="90" sp="5" color="black">I hate pushing pixels</text>
 		<text xp="3.5" yp="80" sp="2.4" color="black" wp="20" type="block">programs are so much better at it</text>
 		<text xp="98" yp="2" sp="1" align="end" color="lightgray">Photo by deborahschillbach</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<image xp="50" yp="50" name="kelsey-tweet.png" width="1572" height="608" link="https://twitter.com/kelseyhightower/status/851450816024125440"/>
+		<image xp="50" yp="50" name="images/kelsey-tweet.png" width="1572" height="608" link="https://twitter.com/kelseyhightower/status/851450816024125440"/>
 	</slide>
 
 	<slide>
 		<text xp="15"   yp="80" sp="7" align="c" link="http://github.com/ajstarks/svgo">SVGo</text>
 		<text xp="50"   yp="80" sp="7" align="c" link="http://github.com/ajstarks/openvg">OpenVG</text>
 		<text xp="80"   yp="80" sp="7" align="c" link="http://github.com/ajstarks/deck">Deck</text>
-		<image xp="15"  yp="55" width="1336" height="729" scale="50" name="svgopher.png"/>
+		<image xp="15"  yp="55" width="1336" height="729" scale="50" name="images/svgopher.png"/>
 		<text xp="5"    yp="30" sp="1.25" font="mono">go get github.com/ajstarks/svgo/...</text>
-		<image xp="50"  yp="55" width="1920" height="1080" scale="25" name="rotext.raw.png"/>
+		<image xp="50"  yp="55" width="1920" height="1080" scale="25" name="images/rotext.raw.png"/>
 		<text xp="37.5" yp="30" sp="1.25" font="mono">go get github.com/ajstarks/openvg</text>
-		<image xp="80"  yp="55" name="deck.png" width="1240" height="1240" scale="25"/>
+		<image xp="80"  yp="55" name="images/deck.png" width="1240" height="1240" scale="25"/>
 		<text xp="67"   yp="30" sp="1.25" font="mono">go get github.com/ajstarks/deck/</text>
 		<text xp="67"   yp="25" sp="1.25" font="mono">go get github.com/ajstarks/deck/generate</text>
 		<text xp="67"   yp="20" sp="1.25" font="mono">go get github.com/ajstarks/deck/cmd/pdfdeck/</text>
@@ -77,7 +77,7 @@
 	</slide>
 
 	<slide>
-		<image xp="50" yp="60" width="1336" height="729" name="svgopher.png"/>
+		<image xp="50" yp="60" width="1336" height="729" name="images/svgopher.png"/>
 	</slide>
 
 	<slide>
@@ -133,12 +133,12 @@
 	</slide>
 	
 	<slide>
-		<image xp="75" yp="72" width="900" height="560" name="hw.png"/>
-	  	<text xp="4" yp="95" sp="2" wp="50" font="mono" file="hwsvg.go"/>
+		<image xp="75" yp="72" width="900" height="560" name="images/hw.png"/>
+	  	<text xp="4" yp="95" sp="2" wp="50" font="mono" file="code/hwsvg.go"/>
 	</slide>
 
 	<slide>
-		<image xp="50" yp="50" width="877" height="877" name="android.png"/>
+		<image xp="50" yp="50" width="877" height="877" name="images/android.png"/>
 	</slide>
 	
 	<slide>
@@ -150,45 +150,45 @@
 		<text xp="75" yp="55" sp="4" align="center">Line</text>
 		<text xp="63" yp="37" sp="4" align="center">Arc</text>
 		<text xp="50" yp="65" sp="4">fill:rgb(164,198,57)</text>
-		<image xp="50" yp="50" width="877" height="877" name="android.png"/>
+		<image xp="50" yp="50" width="877" height="877" name="images/android.png"/>
 	</slide>
 
 	<slide>
-		<image xp="85" yp="75" width="1006" height="958" scale="50" name="websvg-red.png"/>
-		<image xp="85" yp="25" width="998" height="956" scale="50" name="websvg-green.png"/>
-		<text xp="5" yp="90" sp="2" font="mono" file="swebsvg.go"/>
+		<image xp="85" yp="75" width="1006" height="958" scale="50" name="images/websvg-red.png"/>
+		<image xp="85" yp="25" width="998" height="956" scale="50" name="images/websvg-green.png"/>
+		<text xp="5" yp="90" sp="2" font="mono" file="code/swebsvg.go"/>
 	</slide>
 
 	<slide>
 		<text xp="50" yp="95" sp="2.5" link="https://ajstarks.org:1958/" align="c">https://ajstarks.org:1958/{thing}/</text>
-		<image xp="20" yp="80" width="256" height="256" color="gray" name="clock.png" sp="1.6" caption="clock"/>
-		<image xp="40" yp="80" width="256" height="256" color="gray" name="funnel.png" sp="1.6"  caption="funnel"/>
-		<image xp="60" yp="80" width="256" height="256" color="gray" name="rotext.png" sp="1.6"  caption="rotext"/>
-		<image xp="80" yp="80" width="256" height="256" color="gray" name="flower.png" sp="1.6"  caption="flower"/>
+		<image xp="20" yp="80" width="256" height="256" color="gray" name="images/clock.png" sp="1.6" caption="clock"/>
+		<image xp="40" yp="80" width="256" height="256" color="gray" name="images/funnel.png" sp="1.6"  caption="funnel"/>
+		<image xp="60" yp="80" width="256" height="256" color="gray" name="images/rotext.png" sp="1.6"  caption="rotext"/>
+		<image xp="80" yp="80" width="256" height="256" color="gray" name="images/flower.png" sp="1.6"  caption="flower"/>
 		
-		<image xp="20" yp="50" width="256" height="256" color="gray" name="rshape.png" sp="1.6"  caption="rshape"/>
-		<image xp="40" yp="50" width="256" height="256" color="gray" name="cube.png" sp="1.6"  caption="cube"/>
-		<image xp="60" yp="50" width="256" height="256" color="gray" name="mondrian.png" sp="1.6"  caption="mondrian"/>
-		<image xp="80" yp="50" width="256" height="256" color="gray" name="lewitt.png" sp="1.6"  caption="lewitt"/>
+		<image xp="20" yp="50" width="256" height="256" color="gray" name="images/rshape.png" sp="1.6"  caption="rshape"/>
+		<image xp="40" yp="50" width="256" height="256" color="gray" name="images/cube.png" sp="1.6"  caption="cube"/>
+		<image xp="60" yp="50" width="256" height="256" color="gray" name="images/mondrian.png" sp="1.6"  caption="mondrian"/>
+		<image xp="80" yp="50" width="256" height="256" color="gray" name="images/lewitt.png" sp="1.6"  caption="lewitt"/>
 		
-		<image xp="20" yp="20" width="256" height="256" color="gray" name="face.png" sp="1.6"  caption="face"/>
-		<image xp="40" yp="20" width="256" height="256" color="gray" name="pacman.png" sp="1.6"  caption="pacman"/>
-		<image xp="60" yp="20" width="256" height="256" color="gray" name="tux.png" sp="1.6"  caption="tux"/>
-		<image xp="80" yp="20" width="256" height="256" color="gray" name="concentric.png" sp="1.6"  caption="concentric"/>
+		<image xp="20" yp="20" width="256" height="256" color="gray" name="images/face.png" sp="1.6"  caption="face"/>
+		<image xp="40" yp="20" width="256" height="256" color="gray" name="images/pacman.png" sp="1.6"  caption="pacman"/>
+		<image xp="60" yp="20" width="256" height="256" color="gray" name="images/tux.png" sp="1.6"  caption="tux"/>
+		<image xp="80" yp="20" width="256" height="256" color="gray" name="images/concentric.png" sp="1.6"  caption="concentric"/>
 	</slide>
 	
 	<slide>
 		<text xp="10" yp="80" sp="5" align="center">Data</text>
 		<text xp="10" yp="15" sp="5" align="center">Picture</text>
-		<text xp="17" yp="87" sp="1.6" font="mono" file="thing.xml"/>
-		<image xp="55" yp="35" width="2642" height="1140" name="thingss.png" scale="50"/>
+		<text xp="17" yp="87" sp="1.6" font="mono" file="code/thing.xml"/>
+		<image xp="55" yp="35" width="2642" height="1140" name="images/thingss.png" scale="50"/>
 		<line xp1="10" yp1="75" xp2="10" yp2="30" sp="1" color="lightgray"/>
 		<polygon xc="8 10 12" yc="31 25 31" color="lightgray"/>
 	</slide>
 
 	<slide>
-		<text xp="25" yp="90" sp="1.4" type="code" wp="65" file="benchmarks.xml"/>
-		<image xp="50" yp="22" width="2720" height="1140" scale="40" name="barchart.png"/>
+		<text xp="25" yp="90" sp="1.4" type="code" wp="65" file="code/benchmarks.xml"/>
+		<image xp="50" yp="22" width="2720" height="1140" scale="40" name="images/barchart.png"/>
 	</slide>
 	
 	<slide>
@@ -200,12 +200,12 @@ https://api.flickr.com/services/rest/
 &amp;text=sunset
 &amp;per_page=50
 &amp;sort=interestingness-desc</text>
-		<text xp="5" yp="45" sp="2" color="rgb(127,0,0)" file="flickr-resp.xml"/>
-		<image xp="70" yp="70" width="800" height="500" name="sunset.png"/>
+		<text xp="5" yp="45" sp="2" color="rgb(127,0,0)" file="code/flickr-resp.xml"/>
+		<image xp="70" yp="70" width="800" height="500" name="images/sunset.png"/>
 	</slide>
 
 	<slide>
-		<text xp="7" yp="90" sp="2.5" font="mono" file="vmap.go" />
+		<text xp="7" yp="90" sp="2.5" font="mono" file="code/vmap.go" />
 		<rect xp="50" yp="30" wp="30" hr="75" color="lightgray"/>
 		<text xp="66" yp="30" sp="2">1024</text>
 		<text xp="50" yp="6"  sp="2"  align="c">768</text>
@@ -219,123 +219,123 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="2166" height="1626" scale="67" name="compx.png"/>
+		<image xp="50" yp="50" width="2166" height="1626" scale="67" name="images/compx.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="2018" height="1610" scale="67" name="benchviz.png"/>
+		<image xp="50" yp="50" width="2018" height="1610" scale="67" name="images/benchviz.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="827" height="828"  name="bytesreader.png"/>
+		<image xp="50" yp="50" width="827" height="828"  name="images/bytesreader.png"/>
 		<text xp="50" yp="5" sp="2" font="mono" align="c">structlayout -json bytes Reader | structlayout-svg -t "bytes.Reader" &gt; reader.svg</text>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="3334" height="1432" scale="60" name="go-rel.png"/>
+		<image xp="50" yp="50" width="3334" height="1432" scale="60" name="images/go-rel.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="2716" height="1596" scale="67" name="bulletgraph.png"/>
+		<image xp="50" yp="50" width="2716" height="1596" scale="67" name="images/bulletgraph.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="2106" height="1544" scale="67" name="quad.png"/>
+		<image xp="50" yp="50" width="2106" height="1544" scale="67" name="images/quad.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="2146" height="1610" scale="67" name="roadmap.png"/>
+		<image xp="50" yp="50" width="2146" height="1610" scale="67" name="images/roadmap.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="2142" height="1608" scale="67" name="pv.png"/>
+		<image xp="50" yp="50" width="2142" height="1608" scale="67" name="images/pv.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="1550" height="1496" scale="72" name="rr0.png"/>
+		<image xp="50" yp="50" width="1550" height="1496" scale="72" name="images/rr0.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="1600" height="900" name="apple-stockchart.png"/>
+		<image xp="50" yp="50" width="1600" height="900" name="images/apple-stockchart.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="2138" height="1596" scale="67" name="tweetfreq.png"/>
+		<image xp="50" yp="50" width="2138" height="1596" scale="67" name="images/tweetfreq.png"/>
 	</slide>
 
 	<slide bg="black">
-		<image xp="50" yp="50" width="1900" height="600"  name="planets.png"/>
+		<image xp="50" yp="50" width="1900" height="600"  name="images/planets.png"/>
 	</slide>
 	
 	<slide bg="black">
-		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="lt-04-jones-montiel.png"/>
-		<image xp="50" yp="50"  width="1150" height="2072" scale="45" name="lt-04-dkng-ddl.png"/>
-		<image xp="80" yp="50"  width="1150" height="2072" scale="45" name="lt-04-anderson-dkng.png"/>
+		<image xp="20" yp="50"  width="1150" height="2072" scale="45" name="images/lt-04-jones-montiel.png"/>
+		<image xp="50" yp="50"  width="1150" height="2072" scale="45" name="images/lt-04-dkng-ddl.png"/>
+		<image xp="80" yp="50"  width="1150" height="2072" scale="45" name="images/lt-04-anderson-dkng.png"/>
 	</slide>
 	
 	<slide bg="black">
-		<image xp="50" yp="50" width="1425" height="1000" name="ar.jpg"/>
+		<image xp="50" yp="50" width="1425" height="1000" name="images/ar.jpg"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50"  width="900" height="846" name="201566.png"/>
+		<image xp="50" yp="50"  width="900" height="846" name="images/201566.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50"  width="900" height="846" name="201933.png"/>
+		<image xp="50" yp="50"  width="900" height="846" name="images/201933.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50"  width="900" height="846" name="201935.png"/>
+		<image xp="50" yp="50"  width="900" height="846" name="images/201935.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50"  width="900" height="846" name="201939.png"/>
+		<image xp="50" yp="50"  width="900" height="846" name="images/201939.png"/>
 	</slide>
 		
 	<slide>
-		<image xp="24" yp="50" width="800" height="800" name="shining.png"/>
-		<image xp="54" yp="84" width="522" height="414" name="unit.png" scale="40"/>
-		<image xp="58" yp="54" width="462" height="412" name="runit.png" scale="40"/> -->
-		<image xp="58" yp="22" width="1054" height="700" name="unit+runit2.png" scale="40"/>
-		<text xp="72" yp="87" sp="1.2" font="mono" file="defunit.go"/>
-		<text xp="72" yp="62" sp="1.2" font="mono" file="defrunit.go"/>
-		<text xp="72" yp="29" sp="1.2" font="mono" file="shloop.go"/>
+		<image xp="24" yp="50" width="800" height="800" name="images/shining.png"/>
+		<image xp="54" yp="84" width="522" height="414" name="images/unit.png" scale="40"/>
+		<image xp="58" yp="54" width="462" height="412" name="images/runit.png" scale="40"/> -->
+		<image xp="58" yp="22" width="1054" height="700" name="images/unit+runit2.png" scale="40"/>
+		<text xp="72" yp="87" sp="1.2" font="mono" file="code/defunit.go"/>
+		<text xp="72" yp="62" sp="1.2" font="mono" file="code/defrunit.go"/>
+		<text xp="72" yp="29" sp="1.2" font="mono" file="code/shloop.go"/>
 	</slide>
 	
 	<slide>
-		<image xp="90" yp="80" width="200" height="200" name="15.png"/>
-		<image xp="90" yp="50" width="200" height="200" name="30.png"/>
-		<image xp="90" yp="20" width="200" height="200" name="45.png"/>
+		<image xp="90" yp="80" width="200" height="200" name="images/15.png"/>
+		<image xp="90" yp="50" width="200" height="200" name="images/30.png"/>
+		<image xp="90" yp="20" width="200" height="200" name="images/45.png"/>
 		<text xp="75" yp="80" sp="2.5"  align="center">ti = 15</text>
 		<text xp="75" yp="50" sp="2.5"  align="center">ti = 30</text>
 		<text xp="75" yp="20" sp="2.5"  align="center">ti = 45</text>
-		<text xp="2" yp="95" sp="1.75" font="mono" file="rotext.go"/>
+		<text xp="2" yp="95" sp="1.75" font="mono" file="code/rotext.go"/>
 		<rect xp="13" yp="70" wp="15" hp="5" color="yellow" opacity="40"/>
 	</slide>
 		
 	<slide bg="black" fg="white">
 		<text xp="5" yp="65" sp="9">OpenVG</text>
-		<image xp="50" yp="50" width="4224" height="2376" scale="45" name="P1220686.JPG"/>	
+		<image xp="50" yp="50" width="4224" height="2376" scale="45" name="images/P1220686.JPG"/>	
 	</slide>
 	
 	<slide>
-		<image xp="10" yp="85" width="1920" height="1080" scale="25" name="refcard.raw.png"/>
-		<image xp="50" yp="85" width="1920" height="1080" scale="25" name="gradient.raw.png"/>
-		<image xp="80" yp="85" width="1920" height="1080" scale="25" name="rotext.raw.png"/>
+		<image xp="10" yp="85" width="1920" height="1080" scale="25" name="images/refcard.raw.png"/>
+		<image xp="50" yp="85" width="1920" height="1080" scale="25" name="images/gradient.raw.png"/>
+		<image xp="80" yp="85" width="1920" height="1080" scale="25" name="images/rotext.raw.png"/>
 		
-		<image xp="10" yp="55" width="1920" height="1080" scale="25" name="plot.raw.png"/>
-		<image xp="50" yp="55" width="1920" height="1080" scale="25" name="hellovg.raw.png"/>
-		<image xp="80" yp="55" width="1920" height="1080" scale="25" name="image.raw.png"/>
+		<image xp="10" yp="55" width="1920" height="1080" scale="25" name="images/plot.raw.png"/>
+		<image xp="50" yp="55" width="1920" height="1080" scale="25" name="images/hellovg.raw.png"/>
+		<image xp="80" yp="55" width="1920" height="1080" scale="25" name="images/image.raw.png"/>
 		
-		<image xp="10" yp="25" width="1920" height="1080" scale="25" name="slide1.raw.png"/>
-		<image xp="50" yp="25" width="1920" height="1080" scale="25" name="planets.raw.png"/>
-		<image xp="80" yp="25" width="1920" height="1080" scale="25" name="slide4.raw.png"/>
+		<image xp="10" yp="25" width="1920" height="1080" scale="25" name="images/slide1.raw.png"/>
+		<image xp="50" yp="25" width="1920" height="1080" scale="25" name="images/planets.raw.png"/>
+		<image xp="80" yp="25" width="1920" height="1080" scale="25" name="images/slide4.raw.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="70" yp="70" width="1920" height="1080" scale="50" name="hellovg.raw.png"/>
-		<text xp="4" yp="95" sp="1.5" wp="50" font="mono" file="hwopenvg.go"/>
+		<image xp="70" yp="70" width="1920" height="1080" scale="50" name="images/hellovg.raw.png"/>
+		<text xp="4" yp="95" sp="1.5" wp="50" font="mono" file="code/hwopenvg.go"/>
 	</slide>
 	
 	<slide>
@@ -382,46 +382,46 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" name="twh-20170420.png" width="1920" height="1080"/>
+		<image xp="50" yp="50" name="images/twh-20170420.png" width="1920" height="1080"/>
 	</slide>
 	
 	<slide bg="black">
-		<image xp="50" yp="50" name="P1220110.JPG" width="4224" height="2376" scale="45"/>
+		<image xp="50" yp="50" name="images/P1220110.JPG" width="4224" height="2376" scale="45"/>
 	</slide>
 	
 	<slide bg="black">
-		<image xp="50" yp="50" name="P1220082.JPG" width="4224" height="2376" scale="45"/>
+		<image xp="50" yp="50" name="images/P1220082.JPG" width="4224" height="2376" scale="45"/>
 	</slide>
 	
 	<slide bg="black">
-		<image xp="50" yp="50" name="P1220418.JPG" width="4224" height="2376" scale="45"/>
+		<image xp="50" yp="50" name="images/P1220418.JPG" width="4224" height="2376" scale="45"/>
 	</slide>
 	
 	<slide> <!-- plain -->
-		<text file="twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
-		<image xp="75" yp="60" name="twh-20170420.png" width="1920" height="1080" scale="45"/>
+		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
+		<image xp="75" yp="60" name="images/twh-20170420.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- weather -->
-		<text file="twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
+		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
 		<rect xp="64" yp="74" wp="22.9" hp="17" color="red" opacity="20"/>
 		<rect xp="27" yp="52" wp="35" hp="8" color="red" opacity="20"/>
-		<image xp="75" yp="60" name="twh-20170420.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh-20170420.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- time -->
-		<text file="twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
+		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
 		<rect xp="86.5" yp="74" wp="22" hp="17" color="red" opacity="20"/>
 		<rect xp="27" yp="45" wp="35" hp="8" color="red" opacity="20"/>
-		<image xp="75" yp="60" name="twh-20170420.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh-20170420.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- headlines -->
-		<text file="twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
+		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
 		<rect xp="75" yp="50" wp="45" hp="25" color="red" opacity="20"/>
 		<rect xp="27" yp="38" wp="35" hp="8" color="red" opacity="20"/>
 
-		<image xp="75" yp="60" name="twh-20170420.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh-20170420.png" width="1920" height="1080" scale="45"/>
 	</slide>
 		
 	<slide bg="white" fg="rgb(50,50,50)">
@@ -435,7 +435,7 @@ https://api.flickr.com/services/rest/
 	
 	<slide>
 		<text xp="95" yp="5" sp="2.5" align="right">Anatomy of a Deck</text>
-		<text xp="18" yp="90" sp="1.4" lp="2" file="exampledeck.xml" font="mono"/>
+		<text xp="18" yp="90" sp="1.4" lp="2" file="code/exampledeck.xml" font="mono"/>
 		<list xp="3" yp="90" sp="1.4" color="rgb(127,0,0)" >
 		  <li>Start the deck</li>
 		  <li>Set the canvas size</li>
@@ -459,7 +459,7 @@ https://api.flickr.com/services/rest/
 	</slide>
 
 	<slide bg="white" fg="black">
-	    <image xp="70" yp="60" width="640" height="480" name="follow.jpg" sp="1" caption="Dreams" />
+	    <image xp="70" yp="60" width="640" height="480" name="images/follow.jpg" sp="1" caption="Dreams" />
 	    <text  xp="20" yp="90" sp="5" link="http://goo.gl/Wm05Ex">Deck elements</text>
 	    <list  xp="20" yp="70" sp="3" type="bullet">
 	       <li>text, list, image</li>
@@ -521,7 +521,7 @@ https://api.flickr.com/services/rest/
 	<slide bg="white" fg="rgb(50,50,50)">
 		<text xp="50" yp="5" sp="4" align="center">Percentage-based layout</text>
 		<text xp="10" yp="50" sp="4" color="rgb(127,0,0)">Hello</text>
-		<image xp="50" yp="50" width="640" height="480" scale="75" name="follow.jpg"/>
+		<image xp="50" yp="50" width="640" height="480" scale="75" name="images/follow.jpg"/>
 		<rect xp="90" yp="50" wp="10" hr="100" color="rgb(127,0,0)" opacity="50"/>
 		<text xp="10" yp="80" sp="4"  align="center">10%, 50%</text>
 		<text xp="50" yp="80" sp="4"  align="center">50%, 50%</text>
@@ -537,8 +537,8 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide bg="white" fg="rgb(50,50,50)">
-		<image xp="25" yp="60" width="800" height="600" name="land.png" caption="Landscape"/>
-		<image xp="75" yp="60" width="600" height="800" name="port.png" caption="Portrait"/>
+		<image xp="25" yp="60" width="800" height="600" name="images/land.png" caption="Landscape"/>
+		<image xp="75" yp="60" width="600" height="800" name="images/port.png" caption="Portrait"/>
 		<text xp="50" yp="5" sp="4" align="center">Scaling the canvas</text>
 	</slide>
 	
@@ -609,33 +609,33 @@ https://api.flickr.com/services/rest/
 	</slide>
 
 	<slide>
-		<text xp="5" yp="90" sp="2" font="mono" file="slidegen.go"/>
-		<image xp="75" yp="65" width="1431" height="807" scale="25" name="gen1.png"/>
-		<image xp="75" yp="45" width="1431" height="811" scale="25" name="gen2.png"/>	
-		<image xp="75" yp="25" width="1429" height="810" scale="25" name="gen3.png"/>
+		<text xp="5" yp="90" sp="2" font="mono" file="code/slidegen.go"/>
+		<image xp="75" yp="65" width="1431" height="807" scale="25" name="images/gen1.png"/>
+		<image xp="75" yp="45" width="1431" height="811" scale="25" name="images/gen2.png"/>	
+		<image xp="75" yp="25" width="1429" height="810" scale="25" name="images/gen3.png"/>
 	</slide>
 
 	<slide>
-		<text xp="15" yp="92" sp="2" font="mono" file="gen1.go"/>
-		<image xp="35" yp="25" width="1431" height="807" scale="60" name="gen1.png"/>
+		<text xp="15" yp="92" sp="2" font="mono" file="code/gen1.go"/>
+		<image xp="35" yp="25" width="1431" height="807" scale="60" name="images/gen1.png"/>
 	</slide>
 	
 	<slide>
-		<text xp="15" yp="92" sp="2" font="mono" file="gen2.go"/>
-		<image xp="35" yp="25" width="1431" height="811" scale="60" name="gen2.png"/>
+		<text xp="15" yp="92" sp="2" font="mono" file="code/gen2.go"/>
+		<image xp="35" yp="25" width="1431" height="811" scale="60" name="images/gen2.png"/>
 	</slide>
 
 	<slide>
-		<text xp="15" yp="92" sp="2" font="mono" file="gen3.go"/>
-		<image xp="35" yp="25" width="1429" height="810" scale="60" name="gen3.png"/>
+		<text xp="15" yp="92" sp="2" font="mono" file="code/gen3.go"/>
+		<image xp="35" yp="25" width="1429" height="810" scale="60" name="images/gen3.png"/>
 	</slide>
 
 	<slide bg="rgb(240,240,240)" fg="black">
-		<image xp="20" yp="70" width="1400" height="1050" scale="40" name="title.png"/>
-		<image xp="50" yp="70" width="1400" height="1050" scale="40" name="section.png"/>
-		<image xp="80" yp="70" width="1400" height="1050" scale="40" name="eames.png"/>
+		<image xp="20" yp="70" width="1400" height="1050" scale="40" name="images/title.png"/>
+		<image xp="50" yp="70" width="1400" height="1050" scale="40" name="images/section.png"/>
+		<image xp="80" yp="70" width="1400" height="1050" scale="40" name="images/eames.png"/>
 		<text xp="50" yp="10" sp="3.5" align="center">capgen slides.txt | pdfdeck ... > slides.pdf</text>
-		<text xp="2" yp="40" sp="1.8" file="slides.txt"/>
+		<text xp="2" yp="40" sp="1.8" file="code/slides.txt"/>
 	</slide>
 
 	<slide>
@@ -683,11 +683,11 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide bg="black">
-		<image xp="50" yp="50" name="P1220669.JPG" width="4424" height="2376" scale="45"/>
+		<image xp="50" yp="50" name="images/P1220669.JPG" width="4424" height="2376" scale="45"/>
 	</slide>
 
 	<slide bg="black">
-		<image xp="50" yp="50" name="P1220689.JPG" width="4224" height="2376" scale="45"/>
+		<image xp="50" yp="50" name="images/P1220689.JPG" width="4224" height="2376" scale="45"/>
 	</slide>
 
 	<slide bg="rgb(127,127,127)" fg="white">
@@ -751,14 +751,14 @@ https://api.flickr.com/services/rest/
 		<text xp="5" yp="90" sp="6">Document Links</text>
 		<text xp="5" yp="80" sp="2.5" type="block" wp="20">Add web and mailto links with the link attribute of the text element.</text>
 		<text xp="5" yp="45" sp="2.5" type="block" wp="20">Once rendered as a PDF, clicking on the link opens the default browser or email client.</text>
-		<image xp="65" yp="45" width="1337" height="820" name="links.png"/>
+		<image xp="65" yp="45" width="1337" height="820" name="images/links.png"/>
 		<text xp="5" yp="5" sp="1.5">A Guide to Deck</text>
 		<text xp="95"  yp="5" sp="1.5" align="right">Page 10</text>
 	</slide>
 	
 	<slide bg="black" fg="white">
 	    <text  xp="15"  yp="70" sp="11" align="center">BOS</text>
-	    <image xp="15"  yp="55" width="100" height="100" name="white-plane.png"/>
+	    <image xp="15"  yp="55" width="100" height="100" name="images/white-plane.png"/>
 	    <text  xp="15"  yp="25" sp="11" align="center">SFO</text>
 	    <line  xp1="30" yp1="90" xp2="30" yp2="15" color="white" sp="0.1"/>
 	    <text  xp="35"  yp="75" sp="6.25">Virgin America 351
@@ -769,7 +769,7 @@ Gate B38
 
 	<slide bg="black" fg="white">
 	<text  xp="15"  yp="70" sp="11" align="center">JFK</text>
-	<image xp="15"  yp="55" width="100" height="100" name="white-plane.png"/>
+	<image xp="15"  yp="55" width="100" height="100" name="images/white-plane.png"/>
 	<text  xp="15"  yp="25" sp="11" align="center">IND</text>
 	<line  xp1="30" yp1="90" xp2="30" yp2="15" color="white" sp="0.1"/>
 	<text  xp="35"  yp="75" sp="6.25">US Airways 1207
@@ -781,7 +781,7 @@ Gate C31C
 	<slide bg="blue" fg="white">
 		<text xp="50" yp="90" sp="3" align="c">Flight Information</text>
 		<text xp="45" yp="80" sp="2" align="e">Los Angeles (LAX)</text>
-		<image xp="50"  yp="81" width="100" height="100" name="white-plane.png" scale="100"/>
+		<image xp="50"  yp="81" width="100" height="100" name="images/white-plane.png" scale="100"/>
 		<text xp="55" yp="80" sp="2" align="">New York/Newark (EWR)</text>
 		
 		<text xp="5" yp="60" sp="1.5">Distance Traveled</text>
@@ -793,7 +793,7 @@ Gate C31C
 		<ellipse xp="30" yp="65" wp="1.5" hr="100" color="white"/>
 		<arc xp="25" yp="65" wp="10" hp="5" a1="180" a2="90" color="white"/>
 		<arc xp="25" yp="65" wp="10" hp="5" a1="90" a2="0" color="white"/>
-		<image xp="25"  yp="69.2" width="100" height="100" name="white-plane.png" scale="50"/>
+		<image xp="25"  yp="69.2" width="100" height="100" name="images/white-plane.png" scale="50"/>
 
 		<text xp="30" yp="60" sp="1.5">Distance to Destination</text>
 		<text xp="30" yp="55" sp="2">596 mi</text>
@@ -831,7 +831,7 @@ Gate C31C
 		<arc xp="60" yp="20" wp="12" hp="12" a1="230" a2="210" sp="0.6" color="lightblue"/>
 
 		<text xp="80" yp="35" sp="2" align="c">Current Altitude</text>
-		<image xp="80" yp="25" width="1200" height="1200" name="plane-head.png" scale="12.5"/>
+		<image xp="80" yp="25" width="1200" height="1200" name="images/plane-head.png" scale="12.5"/>
 		<text xp="80" yp="15" sp="2" align="c">25,000 ft</text>
 		<text xp="80" yp="10" sp="1.5" align="c">7620 m</text>
 		<line xp1="75.00" yp1="30.00" xp2="75.00" yp2="10.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="30.00" xp2="74.00" yp2="30.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="28.00" xp2="74.00" yp2="28.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="26.00" xp2="74.00" yp2="26.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="24.00" xp2="74.00" yp2="24.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="22.00" xp2="74.00" yp2="22.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="20.00" xp2="74.00" yp2="20.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="18.00" xp2="74.00" yp2="18.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="16.00" xp2="74.00" yp2="16.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="14.00" xp2="74.00" yp2="14.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="12.00" xp2="74.00" yp2="12.00" sp="0.10" opacity="100.00" color="white"/><line xp1="75.00" yp1="10.00" xp2="74.00" yp2="10.00" sp="0.10" opacity="100.00" color="white"/>
@@ -851,26 +851,26 @@ Gate C31C
 	</slide>
 
 	<slide>
-		<text file="stockslide.go" xp="3" yp="95" sp="1.2" font="mono"/>
-		<image xp="70" yp="70" name="sd2.png" width="2000" height="1125" scale="45"/>
+		<text file="code/stockslide.go" xp="3" yp="95" sp="1.2" font="mono"/>
+		<image xp="70" yp="70" name="images/sd2.png" width="2000" height="1125" scale="45"/>
 	</slide>
 	
 	<slide>
-		<image xp="60" yp="50" name="svgplay.png" width="3136" height="2344" scale="35"/>
-		<image xp="30" yp="60" name="rotext-play.png" width="3136" height="2352" scale="30"/>
+		<image xp="60" yp="50" name="images/svgplay.png" width="3136" height="2344" scale="35"/>
+		<image xp="30" yp="60" name="images/rotext-play.png" width="3136" height="2352" scale="30"/>
 		<text xp="50" yp="5" sp="3" align="c">codepicdeck</text>
 	</slide>
 
 	<slide>
 		<text xp="20" yp="90" sp="3"  font="serif" align="center" color="maroon">Genesis 3</text>
-		<image xp="20" yp="50" width="360" height="653" name="es.jpg"/>
-		<text font="serif" type="block" xp="35" yp="75" sp="1.8" wp="38" file="genesis3.txt"/>
+		<image xp="20" yp="50" width="360" height="653" name="images/es.jpg"/>
+		<text font="serif" type="block" xp="35" yp="75" sp="1.8" wp="38" file="code/genesis3.txt"/>
 	</slide>
 	
 	<slide>
 		<text xp="15.00" yp="95.00" sp="2.00" align="center" wp="0.00" font="sans" opacity="100.00" color="darkgray" type="">Initech Collaboration Profiles</text>
 		<text xp="15.00" yp="89.00" sp="2.50" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">Samir Nagheenanajar</text>
-		<image xp="15.00" yp="72.00" width="320" height="280" name="sam.png" />
+		<image xp="15.00" yp="72.00" width="320" height="280" name="images/sam.png" />
 		<rect xp="15.00" yp="42.00" wp="20.00" hp="30.00" opacity="100.00" color="rgb(67,74,154)" />
 		<text xp="11.50" yp="53.00" sp="1.20" align="right" wp="0.00" font="sans" opacity="100.00" color="white" type="">ROLE</text>
 		<text xp="12.00" yp="53.00" sp="1.20" align="" wp="0.00" font="sans" opacity="100.00" color="white" type="">Design and UX Head</text>
@@ -931,7 +931,7 @@ Gate C31C
 	</slide>
 
 	<slide bg="white" fg="black">
-	   <image xp="95" yp="10" width="75" height="100" name="doc.png"/>
+	   <image xp="95" yp="10" width="75" height="100" name="images/doc.png"/>
 	   <text xp="20" yp="70" sp="4" wp="40" font="serif" type="block">So, the next time you're about to make a subclass, 
 	   think hard and ask yourself</text>
 	   <text xp="20" yp="35" sp="6" font="serif" color="rgb(127,0,0)">what would Go do</text>
@@ -991,52 +991,52 @@ Gate C31C
 	<slide>
 		<text xp="25" yp="50" align="end" sp="4" color="maroon">Go Proverbs</text>
 		<text  xp="35" yp="95" sp="1.6" align="left">Don’t communicate by sharing memory, share memory by communicating.</text>
-		<image xp="30"  yp="96" width="300" height="300" scale="15" name="noun_skill-share_14291.png"/>
+		<image xp="30"  yp="96" width="300" height="300" scale="15" name="images/noun_skill-share_14291.png"/>
 		<text  xp="35" yp="89.8" sp="1.6" align="left">Concurrency is not parallelism.</text>
-		<image xp="30"  yp="90.8" width="300" height="300" scale="15" name="noun_up-arrows_220576.png"/>
+		<image xp="30"  yp="90.8" width="300" height="300" scale="15" name="images/noun_up-arrows_220576.png"/>
 		<text  xp="35" yp="84.6" sp="1.6" align="left">Channels orchestrate; mutexes serialize.</text>
-		<image xp="30"  yp="85.6" width="300" height="300" scale="15" name="noun_pipes_61289.png"/>
+		<image xp="30"  yp="85.6" width="300" height="300" scale="15" name="images/noun_pipes_61289.png"/>
 		<text  xp="35" yp="79.4" sp="1.6" align="left">The bigger the interface, the weaker the abstraction.</text>
-		<image xp="30"  yp="80.4" width="300" height="300" scale="15" name="noun_whale_149531.png"/>
+		<image xp="30"  yp="80.4" width="300" height="300" scale="15" name="images/noun_whale_149531.png"/>
 		<text  xp="35" yp="74.2" sp="1.6" align="left">Make the zero value useful.</text>
-		<image xp="30"  yp="75.2" width="300" height="300" scale="15" name="noun_okay_13505.png"/>
+		<image xp="30"  yp="75.2" width="300" height="300" scale="15" name="images/noun_okay_13505.png"/>
 		<text  xp="35" yp="69" sp="1.6" align="left">interface{} says nothing.</text>
-		<image xp="30"  yp="70" width="300" height="300" scale="15" name="noun_mute_163525.png"/>
+		<image xp="30"  yp="70" width="300" height="300" scale="15" name="images/noun_mute_163525.png"/>
 		<text  xp="35" yp="63.8" sp="1.6" align="left">Gofmt’s style is no one’s favorite, yet gofmt is everyone’s favorite.</text>
-		<image xp="30"  yp="64.8" width="300" height="300" scale="15" name="noun_curly-brackets_108564.png"/>
+		<image xp="30"  yp="64.8" width="300" height="300" scale="15" name="images/noun_curly-brackets_108564.png"/>
 		<text  xp="35" yp="58.6" sp="1.6" align="left">A little copying is better than a little dependency.</text>
-		<image xp="30"  yp="59.6" width="300" height="300" scale="15" name="noun_copy_110923.png"/>
+		<image xp="30"  yp="59.6" width="300" height="300" scale="15" name="images/noun_copy_110923.png"/>
 		<text  xp="35" yp="53.4" sp="1.6" align="left">Syscall must always be guarded with build tags.</text>
-		<image xp="30"  yp="54.4" width="300" height="300" scale="15" name="noun_tools_59222.png"/>
+		<image xp="30"  yp="54.4" width="300" height="300" scale="15" name="images/noun_tools_59222.png"/>
 		<text  xp="35" yp="48.2" sp="1.6" align="left">Cgo must always be guarded with build tags.</text>
-		<image xp="30"  yp="49.2" width="300" height="300" scale="15" name="noun_copyright_62293.png"/>
+		<image xp="30"  yp="49.2" width="300" height="300" scale="15" name="images/noun_copyright_62293.png"/>
 		<text  xp="35" yp="43" sp="1.6" align="left">Cgo is not Go.</text>
-		<image xp="30"  yp="44" width="300" height="300" scale="15" name="noun_capybara_90002.png"/>
+		<image xp="30"  yp="44" width="300" height="300" scale="15" name="images/noun_capybara_90002.png"/>
 		<text  xp="35" yp="37.8" sp="1.6" align="left">With the unsafe package there are no guarantees.</text>
-		<image xp="30"  yp="38.8" width="300" height="300" scale="15" name="noun_caution_82742.png"/>
+		<image xp="30"  yp="38.8" width="300" height="300" scale="15" name="images/noun_caution_82742.png"/>
 		<text  xp="35" yp="32.6" sp="1.6" align="left">Clear is better than clever.</text>
-		<image xp="30"  yp="33.6" width="300" height="300" scale="15" name="noun_eye_209057.png"/>
+		<image xp="30"  yp="33.6" width="300" height="300" scale="15" name="images/noun_eye_209057.png"/>
 		<text  xp="35" yp="27.4" sp="1.6" align="left">Reflection is never clear.</text>
-		<image xp="30"  yp="28.4" width="300" height="300" scale="15" name="noun_mirror_59940.png"/>
+		<image xp="30"  yp="28.4" width="300" height="300" scale="15" name="images/noun_mirror_59940.png"/>
 		<text  xp="35" yp="22.2" sp="1.6" align="left">Errors are values.</text>
-		<image xp="30"  yp="23.2" width="300" height="300" scale="15" name="noun_danger_206486.png"/>
+		<image xp="30"  yp="23.2" width="300" height="300" scale="15" name="images/noun_danger_206486.png"/>
 		<text  xp="35" yp="17" sp="1.6" align="left">Don’t just check errors, handle them gracefully.</text>
-		<image xp="30"  yp="18" width="300" height="300" scale="15" name="noun_handle-with-care_69.png"/>
+		<image xp="30"  yp="18" width="300" height="300" scale="15" name="images/noun_handle-with-care_69.png"/>
 		<text  xp="35" yp="11.8" sp="1.6" align="left">Design the architecture, name the components, document the details.</text>
-		<image xp="30"  yp="12.8" width="300" height="300" scale="15" name="noun_bridge_19693.png"/>
+		<image xp="30"  yp="12.8" width="300" height="300" scale="15" name="images/noun_bridge_19693.png"/>
 		<text  xp="35" yp="6.6" sp="1.6" align="left">Documentation is for users.</text>
-		<image xp="30"  yp="7.6" width="300" height="300" scale="15" name="noun_document_12036.png"/>
+		<image xp="30"  yp="7.6" width="300" height="300" scale="15" name="images/noun_document_12036.png"/>
 		<text  xp="35" yp="1.4" sp="1.6" align="left">Don’t panic.</text>
-		<image xp="30"  yp="2.4" width="300" height="300" scale="15" name="noun_bomb_193958.png"/>
+		<image xp="30"  yp="2.4" width="300" height="300" scale="15" name="images/noun_bomb_193958.png"/>
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" name="gp-grid.png" width="2786" height="1816" scale="60"/>
+		<image xp="50" yp="50" name="images/gp-grid.png" width="2786" height="1816" scale="60"/>
 	</slide>
 	
   	<slide bg="white" fg="rgb(127,0,0)">
     	<text xp="35" yp="65" sp="7" wp="35" type="block">Make the zero value useful.</text>
-    	<image xp="15" yp="60" width="500" height="500"  name="noun_okay_13505.png" />
+    	<image xp="15" yp="60" width="500" height="500"  name="images/noun_okay_13505.png" />
   	</slide>
 
 	<slide bg="rgb(27,116,166)">
@@ -1045,7 +1045,7 @@ Gate C31C
 		<text xp="7" yp="50" sp="2" wp="40" type="block" color="white">They have had no exposure to the humanities or the social sciences, 
 		the academic disciplines that aim to provide some understanding of how society works, of history and of 
 		the roles that beliefs, philosophies, laws, norms, religion and customs play in the evolution of human culture</text>
-		<image xp="30" yp="50" name="zuk.png" width="3350" height="2002" scale="58"/>
+		<image xp="30" yp="50" name="images/zuk.png" width="3350" height="2002" scale="58"/>
 		<text xp="7" yp="10" sp="1.5" link="https://www.theguardian.com/commentisfree/2017/nov/19/how-tech-leaders-delivered-us-into-evil-john-naughton" color="white">John Naughton, The Guardian, 19 November, 2017</text>
 	</slide>
 
@@ -1069,8 +1069,8 @@ Gate C31C
 	</slide>
 	
 	<slide>
-		<text xp="5" yp="70" sp="1.25" font="mono" color="maroon" file="AAPL.d"/>
-		<text xp="25" yp="65" sp="1.25" font="mono" color="rgb(50,50,50)" file="mockdeck.xml"/>
+		<text xp="5" yp="70" sp="1.25" font="mono" color="maroon" file="code/AAPL.d"/>
+		<text xp="25" yp="65" sp="1.25" font="mono" color="rgb(50,50,50)" file="code/mockdeck.xml"/>
 		<text xp="82.50" yp="68.60" sp="1.50" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">AAPL Volume</text><line xp1="70.00" yp1="45.00" xp2="70.00" yp2="61.46" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="70.00" yp="62.46" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">563.1</text><text xp="70.00" yp="43.00" sp="0.80" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-01-01</text><line xp1="72.27" yp1="45.00" xp2="72.27" yp2="61.81" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="72.27" yp="62.81" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">575.0</text><line xp1="74.55" yp1="45.00" xp2="74.55" yp2="61.42" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="74.55" yp="62.42" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">561.6</text><line xp1="76.82" yp1="45.00" xp2="76.82" yp2="55.91" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="76.82" yp="56.91" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">373.3</text><text xp="76.82" yp="43.00" sp="0.80" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-04-01</text><line xp1="79.09" yp1="45.00" xp2="79.09" yp2="64.11" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="79.09" yp="65.11" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">653.8</text><line xp1="81.36" yp1="45.00" xp2="81.36" yp2="65.00" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="81.36" yp="66.00" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">684.2</text><line xp1="83.64" yp1="45.00" xp2="83.64" yp2="57.34" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="83.64" yp="58.34" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">422.0</text><text xp="83.64" yp="43.00" sp="0.80" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-07-01</text><line xp1="85.91" yp1="45.00" xp2="85.91" yp2="64.32" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="85.91" yp="65.32" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">661.1</text><line xp1="88.18" yp1="45.00" xp2="88.18" yp2="64.87" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="88.18" yp="65.87" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">679.9</text><line xp1="90.45" yp1="45.00" xp2="90.45" yp2="59.74" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="90.45" yp="60.74" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">504.3</text><text xp="90.45" yp="43.00" sp="0.80" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-10-01</text><line xp1="92.73" yp1="45.00" xp2="92.73" yp2="62.56" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="92.73" yp="63.56" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">600.7</text><line xp1="95.00" yp1="45.00" xp2="95.00" yp2="57.20" sp="1.27" opacity="100.00" color="lightsteelblue"/><text xp="95.00" yp="58.20" sp="0.75" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">417.4</text>
 		<text xp="50" yp="20" sp="4" align="c">data | dchart | pdf</text>
 	</slide>
@@ -1215,8 +1215,8 @@ Gate C31C
 	</slide>
 	
 	<slide>
-    	<text xp="5" yp="85" sp="2" file="sine.go" type="code" wp="65" font="mono"/>
-    	<text xp="70" yp="85" sp="2" file="sine.out" font="mono" color="maroon"/>
+    	<text xp="5" yp="85" sp="2" file="code/sine.go" type="code" wp="65" font="mono"/>
+    	<text xp="70" yp="85" sp="2" file="code/sine.out" font="mono" color="maroon"/>
     </slide>
         
     <slide>
@@ -1330,8 +1330,8 @@ We were just trying to get something that worked for us.</text>
 	</slide>
 		
 	<slide bg="black" fg="white">
-		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="picasso-hires.png"/>
-		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="alan-turing.jpg"/>
+		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="images/picasso-hires.png"/>
+		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="images/alan-turing.jpg"/>
 		<text xp="30" yp="5" sp="2" align="right" link="http://www.picasso.fr/us/picasso_page_index.php">Pic</text>
 		<text xp="30" yp="5" sp="2"  color="gray" link="http://www.picasso.fr/us/picasso_page_index.php">asso</text>
 		<text xp="70" yp="5" sp="2" align="right" link="https://en.wikipedia.org/wiki/Alan_Turing">Tur</text>
@@ -1340,11 +1340,11 @@ We were just trying to get something that worked for us.</text>
 
 	<slide bg="black" fg="rgb(240,240,240)">
 		<text xp="15" yp="75" sp="7" color="white">Thank you</text>
-		<image name="100-Twitter_logo_blue.png" width="74" height="60" xp="17.5" yp="60" />
-		<image name="100-gmail-logo-2013.png"	width="75" height="75" xp="17.5" yp="50" />
-		<image name="100-GitHub-Mark.png"		width="75" height="75" xp="17.5" yp="40" />
-		<image name="100-speakerdeck.png"		width="75" height="75" xp="17.5" yp="30" />
-		<image name="100-flickr-logo.png"		width="75" height="75" xp="17.5" yp="20" />
+		<image name="images/100-Twitter_logo_blue.png" width="74" height="60" xp="17.5" yp="60" />
+		<image name="images/100-gmail-logo-2013.png"	width="75" height="75" xp="17.5" yp="50" />
+		<image name="images/100-GitHub-Mark.png"		width="75" height="75" xp="17.5" yp="40" />
+		<image name="images/100-speakerdeck.png"		width="75" height="75" xp="17.5" yp="30" />
+		<image name="images/100-flickr-logo.png"		width="75" height="75" xp="17.5" yp="20" />
 	
 		<list xp="25" yp="57.5" sp="4" lp="1.42">
 			<li>@ajstarks</li>
