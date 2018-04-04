@@ -1,5 +1,0 @@
-canvas.Def()
-canvas.Gid("unit")
-canvas.Polyline(xl, yl, "fill:none")
-canvas.Polygon(xp, yp)
-canvas.Gend()
