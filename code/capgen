@@ -1,0 +1,45 @@
+#!/bin/sh
+awk -F\t '
+BEGIN {
+	print "<deck>"
+	tx = 10
+	ty = 50
+	tw = 70
+	ts = 6
+	
+	sx = 50
+	sy = 50
+	ss = 5
+	
+	cx = 20
+	cy = 10
+	cs = 2
+}
+/^#/ {
+	printf "   <title>%s</title>\n\n", substr($0, 3)
+}
+
+$1 == "title" {
+	printf "   <slide>\n"
+	printf "      <text xp=\"%d\" yp=\"%d\" type=\"block\" wp=\"%d\" sp=\"%d\">%s</text>\n", tx, ty, tw, ts, $2
+	printf "      <text xp=\"%d\" yp=\"%d\" sp=\"%d\">%s</text>\n", tx, cy, cs, $3
+	printf "   </slide>\n\n"
+}
+
+$1 == "section" {
+	printf "   <slide bg=\"%s\" fg=\"%s\">\n", $3, $4
+	printf "      <text xp=\"%d\" yp=\"%d\" align=\"c\" sp=\"%d\">%s</text>\n", sx, sy, ss, $2
+	printf "   </slide>\n\n"
+
+}
+
+$1 == "caption" {
+	printf "   <slide>\n"
+	printf "      <image xp=\"50\" yp=\"50\" width=\"800\" height=\"450\" name=\"%s\" caption=\"%s\"/>\n", $2, $4
+	printf "      <text  xp=\"%d\" yp=\"%d\" sp=\"%d\" align=\"c\" color=\"gray\">%s</text>\n", sx, cy/2, cs/2, $3
+	printf "   </slide>\n\n"
+}
+END {
+	print "</deck>"
+}
+' $*

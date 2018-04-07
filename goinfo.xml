@@ -478,7 +478,7 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-		<text xp="50" yp="50" sp="5" align="center">Percent Grid</text>
+		<text xp="50" yp="50" sp="7" align="center">Percent Grid</text>
 		<line xp1="0.00" yp1="0.00" xp2="0.00" yp2="100.00" sp="0.10"  color="steelblue" />
 		<line xp1="10.00" yp1="0.00" xp2="10.00" yp2="100.00" sp="0.10"  color="steelblue" />
 		<text xp="10.00" yp="95.00" sp="3.00" align="center" wp="0.00" font="sans"  color="gray" type="">10</text>
@@ -523,9 +523,9 @@ https://api.flickr.com/services/rest/
 
 	<slide bg="white" fg="rgb(50,50,50)">
 		<text xp="50" yp="5" sp="4" align="center">Percentage-based layout</text>
-		<text xp="10" yp="50" sp="4" color="rgb(127,0,0)">Hello</text>
-		<image xp="50" yp="50" width="640" height="480" scale="75" name="images/follow.jpg"/>
-		<rect xp="90" yp="50" wp="10" hr="100" color="rgb(127,0,0)" opacity="50"/>
+		<text xp="10" yp="50" sp="6" color="rgb(127,0,0)">Hello</text>
+		<image xp="50" yp="50" width="640" height="480" scale="100" name="images/follow.jpg"/>
+		<rect xp="90" yp="50" wp="15" hr="100" color="rgb(127,0,0)" opacity="50"/>
 		<text xp="10" yp="80" sp="4"  align="center">10%, 50%</text>
 		<text xp="50" yp="80" sp="4"  align="center">50%, 50%</text>
 		<text xp="90" yp="80" sp="4"  align="center">90%, 50%</text>
