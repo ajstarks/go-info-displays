@@ -2,7 +2,7 @@
 	<title>Go for Infomation Displays</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design, information design, deck, svgo, openvg, dchart</subject>
-	<date>2018-03-31</date>
+	<date>2018-04-08</date>
 	<description>This presentation describes the use of Go for information displays, 
 	a departure from the usual back-end view. Go NYC Meetup, April 2017, updated version Gotham Go, April 2018</description>
  
@@ -42,7 +42,7 @@
 			<li>Visual and beautiful evidence.</li>
 		</list>
 		<image xp="17" yp="30" name="images/nigel-holmes-main.jpg" width="419" height="281" align="left" sp="1.5" color="lightgray" caption="Nigel Holmes"/>
-		<text xp="35" yp="40" sp="2.5" wp="40" type="block" font="serif" link="http://www.nigelholmes.com/">Designing for the context: The data visualizer asks: 
+		<text xp="35" yp="40" sp="2.5" wp="50" type="block" font="serif" link="http://www.nigelholmes.com/">Designing for the context: The data visualizer asks: 
 		“What’s the data?”, the infographics designer: “What’s the Story?”</text>
 	</slide>
 	
@@ -122,7 +122,7 @@
 		<line xp1="75" yp1="89" xp2="75" yp2="80"/>
 		<text xp="30" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
 		<text xp="50" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125,</text>
-		<text xp="37" yp="72" sp="3.5" color="rgb(127,127,127)">`id="box"`, `fill="gray"`, `stroke="blue"`)</text>
+		<text xp="35" yp="72" sp="3.5" color="rgb(127,127,127)">`id="box"`, `fill="gray"`, `stroke="blue"`)</text>
 		<text xp="50" yp="60" sp="2.5" align="c" font="mono">&lt;rect x=&quot;100&quot; y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot;</text>
 		<text xp="50" yp="54" sp="2.5" align="c" font="mono">id="box" fill="gray" stroke="blue"/&gt;</text>
 		<rect xp="50" yp="25" wp="30" hr="50" color="blue"/>
@@ -294,9 +294,9 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="1920" height="1080" name="images/shining.png"/>
+		<image  xp="50" yp="50" width="1920" height="1080" name="images/danny.jpg"/>
 	</slide>
-	
+
 	<slide>
 		<image xp="13" yp="84" width="522" height="414" name="images/unit.png" scale="50"/>
 		<image xp="17" yp="54" width="462" height="412" name="images/runit.png" scale="50"/>
@@ -304,6 +304,10 @@ https://api.flickr.com/services/rest/
 		<text xp="45" yp="92" sp="1.8" font="mono" file="code/defunit.go"/>
 		<text xp="45" yp="65" sp="1.8" font="mono" file="code/defrunit.go"/>
 		<text xp="45" yp="33" sp="1.8" font="mono" file="code/shloop.go"/>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="1920" height="1080" name="images/shining.png"/>
 	</slide>
 	
 	<slide>
@@ -363,7 +367,7 @@ https://api.flickr.com/services/rest/
 			<li>(x, y []VGfloat)</li>
 		</list>
 		
-		<list xp="45" yp="70" sp="2.5" color="maroon">
+		<list xp="47" yp="70" sp="2.5" color="maroon">
 			<li>Arc</li>
 			<li>Qbezier</li>
 			<li>Cbezier</li>
@@ -373,7 +377,7 @@ https://api.flickr.com/services/rest/
 			<li>TextEnd</li>
 		</list>
 		
-		<list xp="55" yp="70" sp="2.5" color="gray">
+		<list xp="57" yp="70" sp="2.5" color="gray">
 			<li>(x, y, w, h, sa, aext VGfloat)</li>
 			<li>(sx, sy, cx, cy, ex, ey VGfloat)</li>
 			<li>(sx, sy, cx, cy, px, py, ex, ey VGfloat)</li>
@@ -526,9 +530,9 @@ https://api.flickr.com/services/rest/
 		<text xp="10" yp="50" sp="6" color="rgb(127,0,0)">Hello</text>
 		<image xp="50" yp="50" width="640" height="480" scale="100" name="images/follow.jpg"/>
 		<rect xp="90" yp="50" wp="15" hr="100" color="rgb(127,0,0)" opacity="50"/>
-		<text xp="10" yp="80" sp="4"  align="center">10%, 50%</text>
-		<text xp="50" yp="80" sp="4"  align="center">50%, 50%</text>
-		<text xp="90" yp="80" sp="4"  align="center">90%, 50%</text>
+		<text xp="10" yp="80" sp="4"  color="gray" align="center">10%, 50%</text>
+		<text xp="50" yp="80" sp="4"  color="gray" align="center">50%, 50%</text>
+		<text xp="90" yp="80" sp="4"  color="gray" align="center">90%, 50%</text>
 
 		<line xp1="10" yp1="80" xp2="10" yp2="50" sp="0.1" color="gray"/>
 		<line xp1="50" yp1="80" xp2="50" yp2="50" sp="0.1" color="gray"/>
@@ -859,20 +863,6 @@ Gate C31C
 	</slide>
 	
 	<slide>
-		<image xp="60" yp="50" name="images/svgplay.png" width="3136" height="2344" scale="35"/>
-		<image xp="30" yp="60" name="images/rotext-play.png" width="3136" height="2352" scale="30"/>
-		<text xp="50" yp="5" sp="3" align="c">codepicdeck</text>
-	</slide>
-
-<!--
-	<slide>
-		<text xp="20" yp="90" sp="3"  font="serif" align="center" color="maroon">Genesis 3</text>
-		<image xp="20" yp="50" width="360" height="653" name="images/es.jpg"/>
-		<text font="serif" type="block" xp="35" yp="75" sp="1.8" wp="38" file="code/genesis3.txt"/>
-	</slide>
--->
-	
-	<slide>
 		<text xp="15.00" yp="95.00" sp="2.00" align="center" wp="0.00" font="sans" opacity="100.00" color="darkgray" type="">Initech Collaboration Profiles</text>
 		<text xp="15.00" yp="89.00" sp="2.50" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">Samir Nagheenanajar</text>
 		<image xp="15.00" yp="72.00" width="320" height="280" name="images/sam.png" />
@@ -1052,6 +1042,15 @@ Gate C31C
 		the roles that beliefs, philosophies, laws, norms, religion and customs play in the evolution of human culture</text>
 		<image xp="30" yp="50" name="images/zuk.png" width="3350" height="2002" scale="58"/>
 		<text xp="7" yp="10" sp="1.5" link="https://www.theguardian.com/commentisfree/2017/nov/19/how-tech-leaders-delivered-us-into-evil-john-naughton" color="white">John Naughton, The Guardian, 19 November, 2017</text>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" name="images/svgplay-title.png" width="1800" height="1200" scale="90"/>
+		<text xp="95" yp="5" sp="3" align="e">codepicdeck</text>
+	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" name="images/svgplay-4up.png" width="1800" height="1200" scale="90"/>
 	</slide>
 
 	<slide>
