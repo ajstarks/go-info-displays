@@ -644,6 +644,11 @@ https://api.flickr.com/services/rest/
 		<text xp="50" yp="10" sp="3.5" align="center">capgen slides.txt | pdfdeck ... > slides.pdf</text>
 		<text xp="2" yp="40" sp="1.8" file="code/slides.txt"/>
 	</slide>
+	
+	<slide bg="rgb(240,240,240)" fg="black">
+		<text xp="2.5" yp="90" sp="1.5" file="code/exampledeck.sh" font="mono"/>
+		<image xp="72" yp="50" width="960" height="540" name="images/ed.png"/>
+	</slide>
 
 	<slide>
 		<text xp="5" yp="90" sp="4">Deck Web API</text>
