@@ -58,7 +58,11 @@
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<image xp="50" yp="50" name="images/kelsey-tweet.png" width="1572" height="608" link="https://twitter.com/kelseyhightower/status/851450816024125440"/>
+		<image xp="50" yp="50" name="images/kt.png" width="1902" height="918" scale="80" link="https://twitter.com/kelseyhightower/status/851450816024125440"/>
+	</slide>
+	
+	<slide bg="black">
+		<image xp="50" yp="50" name="images/ft.png" width="1910" height="920" scale="80" link="https://twitter.com/fatih/status/984351173737099264"/>
 	</slide>
 
 	<slide>
@@ -92,7 +96,7 @@
 		<text xp="63" yp="20" sp="4" align="center">Rect</text>
 		<text xp="75" yp="55" sp="4" align="center">Line</text>
 		<text xp="63" yp="37" sp="4" align="center">Arc</text>
-		<text xp="50" yp="65" sp="4">fill:rgb(164,198,57)</text>
+		<text xp="50" yp="65" sp="4">rgb(164,198,57)</text>
 		<image xp="50" yp="50" width="877" height="877" name="images/android.png"/>
 	</slide>
 
@@ -152,12 +156,6 @@
 	<slide>
 		<image xp="75" yp="72" width="900" height="560" name="images/hw.png"/>
 	  	<text xp="4" yp="95" sp="2" wp="50" font="mono" file="code/hwsvg.go"/>
-	</slide>
-
-	<slide>
-		<image xp="85" yp="75" width="1006" height="958" scale="50" name="images/websvg-red.png"/>
-		<image xp="85" yp="25" width="998" height="956" scale="50" name="images/websvg-green.png"/>
-		<text xp="5" yp="90" sp="2" font="mono" file="code/swebsvg.go"/>
 	</slide>
 
 	<slide>
@@ -1336,10 +1334,6 @@ We were just trying to get something that worked for us.</text>
 
 	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="9" align="center">Making Tools</text>
-	</slide>
-	
-	<slide bg="black">
-		<image xp="50" yp="50" name="images/fatih1.png" width="1268" height="602" link="https://twitter.com/fatih/status/984351173737099264"/>
 	</slide>
 	
 	<slide bg="orange" fg="black">
