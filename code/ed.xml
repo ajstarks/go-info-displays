@@ -1,0 +1,7 @@
+<deck>
+<slide>
+<text xp="2.5" yp="90" sp="1.5" file="exampledeck.sh" font="mono"/>
+<rect xp="75" yp="50" wp="50" hp="50" color="lightgray" opacity="10"/>
+<image xp="70" yp="50" width="960" height="540" name="ed.png"/>
+</slide>
+</deck>

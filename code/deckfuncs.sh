@@ -17,6 +17,10 @@ function slide {
 	esac
 }
 
+function canvas {
+	echo "<canvas width=\"$1\" height=\"$2\"/>"
+}
+
 function text {
 	echo "<text xp=\"$2\" yp=\"$3\" sp=\"$4\" font=\"$5\" color=\"$6\" opacity=\"$7\">$1</text>"
 }
@@ -27,6 +31,10 @@ function ctext {
 
 function etext {
 	echo "<text xp=\"$2\" yp=\"$3\" sp=\"$4\" font=\"$5\" color=\"$6\" opacity=\"$7\" align=\"e\">$1</text>"
+}
+
+function textfile {
+	echo "<text file=\"$1\" xp=\"$2\" yp=\"$3\" sp=\"$4\" font=\"$5\" color=\"$6\" opacity=\"$7\"/>"
 }
 
 function textblock {
@@ -57,6 +65,10 @@ function elist {
 	echo "</list>"
 }
 
+function listend {
+	echo "</list>"
+}
+
 function image {
 	echo "<image name=\"$1\" xp=\"$2\" yp=\"$3\" width=\"$4\" height=\"$5\" scale=\"$6\"/>"
 }
@@ -74,7 +86,7 @@ function rect {
 }
 
 function square {
-	echo "<rect xp=\"$1\" yp=\"$2\" wp=\"$3\" hr=\"100\" color=\"$5\" opacity=\"$6\"/>" 
+	echo "<rect xp=\"$1\" yp=\"$2\" wp=\"$3\" hr=\"100\" color=\"$4\" opacity=\"$5\"/>" 
 }
 
 function ellipse {

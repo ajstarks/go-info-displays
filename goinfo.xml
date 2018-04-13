@@ -79,6 +79,23 @@
 	<slide>
 		<image xp="50" yp="60" width="1336" height="729" name="images/svgopher.png"/>
 	</slide>
+	
+	<slide>
+		<image xp="50" yp="50" width="877" height="877" name="images/android.png"/>
+	</slide>
+	
+	<slide>
+		<text xp="28" yp="70" sp="4" align="right">Scale</text>
+		<text xp="42.5" yp="50" sp="4" align="right">Roundrect</text>
+		<text xp="57.5" yp="48" sp="4" align="center">Circle</text>
+		<text xp="40" yp="20" sp="4" >Line</text>
+		<text xp="63" yp="20" sp="4" align="center">Rect</text>
+		<text xp="75" yp="55" sp="4" align="center">Line</text>
+		<text xp="63" yp="37" sp="4" align="center">Arc</text>
+		<text xp="50" yp="65" sp="4">fill:rgb(164,198,57)</text>
+		<image xp="50" yp="50" width="877" height="877" name="images/android.png"/>
+	</slide>
+
 
 	<slide>
 		<text xp="30" yp="90" sp="2.5" align="center" color="gray">Element</text>
@@ -135,22 +152,6 @@
 	<slide>
 		<image xp="75" yp="72" width="900" height="560" name="images/hw.png"/>
 	  	<text xp="4" yp="95" sp="2" wp="50" font="mono" file="code/hwsvg.go"/>
-	</slide>
-
-	<slide>
-		<image xp="50" yp="50" width="877" height="877" name="images/android.png"/>
-	</slide>
-	
-	<slide>
-		<text xp="28" yp="70" sp="4" align="right">Scale</text>
-		<text xp="42.5" yp="50" sp="4" align="right">Roundrect</text>
-		<text xp="57.5" yp="48" sp="4" align="center">Circle</text>
-		<text xp="40" yp="20" sp="4" >Line</text>
-		<text xp="63" yp="20" sp="4" align="center">Rect</text>
-		<text xp="75" yp="55" sp="4" align="center">Line</text>
-		<text xp="63" yp="37" sp="4" align="center">Arc</text>
-		<text xp="50" yp="65" sp="4">fill:rgb(164,198,57)</text>
-		<image xp="50" yp="50" width="877" height="877" name="images/android.png"/>
 	</slide>
 
 	<slide>
@@ -440,6 +441,10 @@ https://api.flickr.com/services/rest/
 		<text xp="95" yp="5" sp="2.5" align="right">a Go package for presentations</text>
 	</slide>
 	
+	<slide bg="black" fg="white">
+		<image xp="50" yp="50" name="images/gs.jpg" width="3264" height="2448" scale="40"/>
+	</slide>
+	
 	<slide>
 		<text xp="95" yp="5" sp="2.5" align="right">Anatomy of a Deck</text>
 		<text xp="18" yp="90" sp="1.4" lp="2" file="code/exampledeck.xml" font="mono"/>
@@ -447,8 +452,8 @@ https://api.flickr.com/services/rest/
 		  <li>Start the deck</li>
 		  <li>Set the canvas size</li>
 		  <li>Begin a slide</li>
-		  <li>Place an image</li>
 		  <li>Draw some text</li>
+		  <li>Place an image</li>
 		  <li>Make a bullet list</li>
 		  <li></li>
 		  <li></li>
@@ -467,8 +472,8 @@ https://api.flickr.com/services/rest/
 
 	<slide bg="white" fg="black">
 	    <image xp="70" yp="60" width="640" height="480" name="images/follow.jpg" sp="1" caption="Dreams" />
-	    <text  xp="20" yp="90" sp="5" link="http://goo.gl/Wm05Ex">Deck elements</text>
-	    <list  xp="20" yp="70" sp="3" type="bullet">
+	    <text  xp="50" yp="90" sp="5" align="c" link="http://goo.gl/Wm05Ex">Deck elements</text>
+	    <list  xp="10" yp="70" sp="3" type="bullet">
 	       <li>text, list, image</li>
 	       <li>line, rect, ellipse</li>
 	       <li>arc, curve, polygon</li>
@@ -557,9 +562,9 @@ https://api.flickr.com/services/rest/
 	  <text xp="75" yp="47.5" sp="4" color="white">PDF</text>
 	  <text xp="75" yp="22.5" sp="4" color="white">SVG</text>
 
-	  <line xp1="25" yp1="50" xp2="35" yp2="50" sp=".25" color="rgb(127,127,127)"/>
+	  <line xp1="25" yp1="50" 	xp2="35" yp2="50" sp=".25" color="rgb(127,127,127)"/>
 	  <line xp1="65" yp1="57.5" xp2="70" yp2="75" sp=".25" color="rgb(0,0,127)" />
-	  <line xp1="65" yp1="50" xp2="70" yp2="50" sp=".25" color="rgb(127,0,0)" />
+	  <line xp1="65" yp1="50"	xp2="70" yp2="50" sp=".25" color="rgb(127,0,0)" />
 	  <line xp1="65" yp1="42.5" xp2="70" yp2="25" sp=".25" color="rgb(0,127,0)"/>
 
 	  <rect xp="50" yp="50" wp="30" hp="15" color="rgb(100,100,100)"/>
@@ -647,7 +652,7 @@ https://api.flickr.com/services/rest/
 	
 	<slide bg="rgb(240,240,240)" fg="black">
 		<text xp="2.5" yp="90" sp="1.5" file="code/exampledeck.sh" font="mono"/>
-		<image xp="72" yp="50" width="960" height="540" name="images/ed.png"/>
+		<image xp="73" yp="45" width="900" height="675" name="images/ed.png"/>
 	</slide>
 
 	<slide>
@@ -696,10 +701,6 @@ https://api.flickr.com/services/rest/
 	
 	<slide bg="black">
 		<image xp="50" yp="50" name="images/P1220669.JPG" width="4424" height="2376" scale="45"/>
-	</slide>
-
-	<slide bg="black">
-		<image xp="50" yp="50" name="images/P1220689.JPG" width="4224" height="2376" scale="45"/>
 	</slide>
 
 	<slide bg="rgb(127,127,127)" fg="white">
@@ -1039,15 +1040,6 @@ Gate C31C
     	<image xp="15" yp="60" width="500" height="500"  name="images/noun_okay_13505.png" />
   	</slide>
 
-	<slide bg="rgb(27,116,166)">
-		<text xp="7" yp="85" sp="3.5" wp="40" type="block" color="white">The new masters of our universe are people who are essentially only half-educated.</text>
-		<text xp="7" yp="50" sp="2" wp="40" type="block" color="white">They have had no exposure to the humanities or the social sciences, 
-		the academic disciplines that aim to provide some understanding of how society works, of history and of 
-		the roles that beliefs, philosophies, laws, norms, religion and customs play in the evolution of human culture</text>
-		<image xp="30" yp="50" name="images/zuk.png" width="3350" height="2002" scale="58"/>
-		<text xp="7" yp="10" sp="1.5" link="https://www.theguardian.com/commentisfree/2017/nov/19/how-tech-leaders-delivered-us-into-evil-john-naughton" color="white">John Naughton, The Guardian, 19 November, 2017</text>
-	</slide>
-	
 	<slide>
 		<image xp="25" yp="50" name="images/Alice_05a-1116x1492.jpg" width="1116" height="1492" scale="45"/>
 		<text xp="15" yp="85" sp="3" color="maroon" font="serif">Chapter V</text>
@@ -1064,6 +1056,15 @@ Gate C31C
 	
 	<slide>
 		<image xp="50" yp="50" name="images/svgplay-4up.png" width="1800" height="1200" scale="90"/>
+	</slide>
+	
+	<slide bg="rgb(27,116,166)">
+		<text xp="7" yp="85" sp="3.5" wp="40" type="block" color="white">The new masters of our universe are people who are essentially only half-educated.</text>
+		<text xp="7" yp="50" sp="2" wp="40" type="block" color="white">They have had no exposure to the humanities or the social sciences, 
+		the academic disciplines that aim to provide some understanding of how society works, of history and of 
+		the roles that beliefs, philosophies, laws, norms, religion and customs play in the evolution of human culture</text>
+		<image xp="30" yp="50" name="images/zuk.png" width="3350" height="2002" scale="58"/>
+		<text xp="7" yp="10" sp="1.5" link="https://www.theguardian.com/commentisfree/2017/nov/19/how-tech-leaders-delivered-us-into-evil-john-naughton" color="white">John Naughton, The Guardian, 19 November, 2017</text>
 	</slide>
 
 	<slide>
@@ -1329,6 +1330,10 @@ We were just trying to get something that worked for us.</text>
 
 	<slide bg="black" fg="white">
 		<text xp="50" yp="50" sp="9" align="center">Making Tools</text>
+	</slide>
+	
+	<slide bg="black">
+		<image xp="50" yp="50" name="images/fatih1.png" width="1268" height="602" link="https://twitter.com/fatih/status/984351173737099264"/>
 	</slide>
 	
 	<slide bg="orange" fg="black">
