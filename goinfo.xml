@@ -1054,8 +1054,14 @@ Gate C31C
 		<text xp="95" yp="5" sp="3" align="e">codepicdeck</text>
 	</slide>
 	
-	<slide>
-		<image xp="50" yp="50" name="images/svgplay-4up.png" width="1800" height="1200" scale="90"/>
+	<slide bg="rgb(240,240,240)">
+		<image xp="25" yp="50" name="images/p8.pdf.png" width="2500" height="1875" scale="37"/>
+		<image xp="75" yp="50" name="images/p9.pdf.png" width="2500" height="1875" scale="37"/>
+	</slide>
+	
+	<slide bg="rgb(240,240,240)">
+		<image xp="25" yp="50" name="images/p36.pdf.png" width="2500" height="1875" scale="37"/>
+		<image xp="75" yp="50" name="images/p37.pdf.png" width="2500" height="1875" scale="37"/>
 	</slide>
 	
 	<slide bg="rgb(27,116,166)">
