@@ -7,8 +7,8 @@ import (
 
 func main() {
 	canvas := svg.New(os.Stdout)
-	width := 900
-	height := 560
+	width := 700
+	height := 500
 	style := "font-size:72pt;fill:white;text-anchor:middle"
 
 	canvas.Start(width, height)
