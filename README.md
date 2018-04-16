@@ -18,7 +18,7 @@ This command line to generates the deck:
 The command can also make variations using	
 [Fira Sans, Fira Mono](https://en.wikipedia.org/wiki/Fira_Sans) and 
 [Bitstream Charter](https://en.wikipedia.org/wiki/Bitstream_Charter) 
-the [Go fonts](https://blog.golang.org/go-fonts) and Charter.
+or the [Go fonts](https://blog.golang.org/go-fonts) and Charter.
 
 	$ ./mkdeck fira
 	$ ./mkdeck go
