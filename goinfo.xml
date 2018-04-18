@@ -2,7 +2,7 @@
 	<title>Go for Infomation Displays</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design, information design, deck, svgo, openvg, dchart</subject>
-	<date>2018-04-16</date>
+	<date>2018-04-17</date>
 	<description>This presentation describes the use of Go for information displays, 
 	a departure from the usual back-end view. Go NYC Meetup, April 2017, updated version Gotham Go, April 2018</description>
  
@@ -56,11 +56,7 @@
 		<text xp="3.5" yp="80" sp="2.4" color="black" wp="20" type="block">programs are so much better at it</text>
 		<text xp="98" yp="2" sp="1" align="end" color="lightgray">Photo by deborahschillbach</text>
 	</slide>
-	
-	<slide bg="black" fg="white">
-		<image xp="50" yp="50" name="images/kt.png" width="1902" height="918" scale="80" link="https://twitter.com/kelseyhightower/status/851450816024125440"/>
-	</slide>
-	
+		
 	<slide bg="black">
 		<image xp="50" yp="50" name="images/ft.png" width="1910" height="920" scale="80" link="https://twitter.com/fatih/status/984351173737099264"/>
 	</slide>
@@ -212,16 +208,6 @@ https://api.flickr.com/services/rest/
 		<text xp="5" yp="45" sp="2" color="rgb(127,0,0)" file="code/flickr-resp.xml"/>
 		<image xp="70" yp="70" width="800" height="500" name="images/sunset.png"/>
 	</slide>
-
-	<slide>
-		<text xp="7" yp="90" sp="2.5" font="mono" file="code/vmap.go" />
-		<rect xp="50" yp="30" wp="30" hr="75" color="lightgray"/>
-		<text xp="66" yp="30" sp="2">1024</text>
-		<text xp="50" yp="6"  sp="2"  align="c">768</text>
-		<ellipse xp="50" yp="30" wp="1.5" hr="100" color="maroon"/>
-		<text xp="50" yp="35" sp="2" align="c">(x, y)</text>
-		<text xp="10" yp="30" sp="2">datax = 15, datay = 5000</text>
-	</slide>
 	
 	<slide bg="rgb(127,127,127)" fg="white">
 	   <text xp="10" yp="50" sp="7">SVGo Clients</text>
@@ -308,7 +294,7 @@ https://api.flickr.com/services/rest/
 
 	<slide>
 		<image xp="13" yp="84" width="522" height="414" name="images/unit.png" scale="50"/>
-		<image xp="17" yp="54" width="462" height="412" name="images/runit.png" scale="50"/>
+		<image xp="18" yp="55" width="462" height="412" name="images/runit.png" scale="50"/>
 		<image xp="20" yp="22" width="1054" height="700" name="images/unit+runit2.png" scale="50"/>
 		<text xp="45" yp="92" sp="1.8" font="mono" file="code/defunit.go"/>
 		<text xp="45" yp="65" sp="1.8" font="mono" file="code/defrunit.go"/>
@@ -383,7 +369,7 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" name="images/twh-20170420.png" width="1920" height="1080"/>
+		<image xp="50" yp="50" name="images/twh-20180417.png" width="1920" height="1080"/>
 	</slide>
 	
 	<slide bg="black">
@@ -400,21 +386,21 @@ https://api.flickr.com/services/rest/
 	
 	<slide> <!-- plain -->
 		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
-		<image xp="75" yp="60" name="images/twh-20170420.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh-20180417.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- weather -->
 		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
 		<rect xp="64" yp="74" wp="22.9" hp="17" color="red" opacity="20"/>
 		<rect xp="27" yp="52" wp="35" hp="8" color="red" opacity="20"/>
-		<image xp="75" yp="60" name="images/twh-20170420.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh-20180417.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- time -->
 		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
 		<rect xp="86.5" yp="74" wp="22" hp="17" color="red" opacity="20"/>
 		<rect xp="27" yp="45" wp="35" hp="8" color="red" opacity="20"/>
-		<image xp="75" yp="60" name="images/twh-20170420.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh-20180417.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- headlines -->
@@ -422,7 +408,7 @@ https://api.flickr.com/services/rest/
 		<rect xp="75" yp="50" wp="45" hp="25" color="red" opacity="20"/>
 		<rect xp="27" yp="38" wp="35" hp="8" color="red" opacity="20"/>
 
-		<image xp="75" yp="60" name="images/twh-20170420.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh-20180417.png" width="1920" height="1080" scale="45"/>
 	</slide>
 		
 	<slide bg="white" fg="rgb(50,50,50)">
@@ -856,69 +842,6 @@ Gate C31C
 		<text file="code/stockslide.go" xp="3" yp="95" sp="1.2" font="mono"/>
 		<image xp="70" yp="70" name="images/sd2.png" width="2000" height="1125" scale="45"/>
 	</slide>
-	
-	<slide>
-		<text xp="15.00" yp="95.00" sp="2.00" align="center" wp="0.00" font="sans" opacity="100.00" color="darkgray" type="">Initech Collaboration Profiles</text>
-		<text xp="15.00" yp="89.00" sp="2.50" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">Samir Nagheenanajar</text>
-		<image xp="15.00" yp="72.00" width="320" height="280" name="images/sam.png" />
-		<rect xp="15.00" yp="42.00" wp="20.00" hp="30.00" opacity="100.00" color="rgb(67,74,154)" />
-		<text xp="11.50" yp="53.00" sp="1.20" align="right" wp="0.00" font="sans" opacity="100.00" color="white" type="">ROLE</text>
-		<text xp="12.00" yp="53.00" sp="1.20" align="" wp="0.00" font="sans" opacity="100.00" color="white" type="">Design and UX Head</text>
-		<text xp="11.50" yp="50.00" sp="1.20" align="right" wp="0.00" font="sans" opacity="100.00" color="white" type="">LOCATION</text>
-		<text xp="12.00" yp="50.00" sp="1.20" align="" wp="0.00" font="sans" opacity="100.00" color="white" type="">Bridgewater, NJ</text>
-		<text xp="6.00" yp="42.00" sp="1.20" align="" wp="15.00" font="sans" opacity="100.00" color="white" type="block">“I’m all about applying great design to
-		all our products. We should provide a good experience in everything we do.”</text>
-		<text xp="30.00" yp="55.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">SUMMARY</text>
-		<rect xp="66.00" yp="30.00" wp="75.00" hp="60.00" opacity="7.00" color="rgb(67,74,154)" />
-		<text xp="30.00" yp="51.00" sp="1.20" align="" wp="60.00" font="sans" opacity="100.00" color="black" type="block">Technically savvy, and demanding, Samir
-		appreciates the value of good design, and is frustrated when the collaboration products fall short in this regard. On the other hand, he will actively
-		promote tools that are designed well, and is very willing to share his knowledge and insights. Further, Samir will be a strong advocate for new effective
-		ways of working togther.</text>
-		<text xp="2.50" yp="20.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">TECHNOLOGY</text>
-		<text xp="2.50" yp="17.00" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">IT and Internet</text>
-		<rect xp="15.00" yp="15.00" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-		<ellipse xp="27.50" yp="15.00" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-		<text xp="2.50" yp="10.75" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Software</text>
-		<rect xp="15.00" yp="8.75" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-		<ellipse xp="25.00" yp="8.75" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-		<text xp="72.50" yp="89.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">PERSONALITY</text>
-		<text xp="72.50" yp="86.00" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Extravert</text>
-		<text xp="97.50" yp="86.00" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Introvert</text>
-		<rect xp="85.00" yp="84.00" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-		<ellipse xp="92.50" yp="84.00" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-		<text xp="72.50" yp="79.75" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Sensing</text>
-		<text xp="97.50" yp="79.75" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Intuition</text>
-		<rect xp="85.00" yp="77.75" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-		<ellipse xp="85.00" yp="77.75" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-		<text xp="72.50" yp="73.50" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Thinking</text>
-		<text xp="97.50" yp="73.50" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Feeling</text>
-		<rect xp="85.00" yp="71.50" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-		<ellipse xp="82.50" yp="71.50" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-		<text xp="72.50" yp="67.25" sp="1.00" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Judging</text>
-		<text xp="97.50" yp="67.25" sp="1.00" align="right" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">Percieving</text>
-		<rect xp="85.00" yp="65.25" wp="25.00" hp="2.50" opacity="100.00" color="rgb(230,230,230)" />
-		<ellipse xp="92.50" yp="65.25" wp="1.25" hr="100.00" opacity="100.00" color="rgb(67,74,154)" />
-		<text xp="30.00" yp="89.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">GOALS/LIKES</text>
-		<list type="bullet" xp="30.00" yp="85.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
-		  <li>To have simple intuitive tools</li>
-		  <li>Be open to new tools and methods</li>
-		  <li>To apply good design across the whole environment</li>
-		</list>
-		<text xp="30.00" yp="72.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">FRUSTRATIONS</text>
-		<list type="bullet" xp="30.00" yp="68.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
-		  <li>One size fits all mentality</li>
-		  <li>IT imposing tools with no real input</li>
-		  <li>Not designing for multiple form-factors and use-cases</li>
-		</list>
-		<text xp="30.00" yp="25.00" sp="1.50" align="" wp="0.00" font="sans" opacity="100.00" color="rgb(67,74,154)" type="">RELATED QUESTIONS</text>
-		<list type="bullet" xp="30.00" yp="21.25" sp="1.10" lp="1.40" wp="40.00" font="sans" color="black">
-		  <li>Why do we use outdated products?</li>
-		  <li>What are the cultural aspects of collaboration?</li>
-		  <li>When will design be included in our requirements?</li>
-		  <li>Is the concept of the Intranet outdated?</li>
-		  <li>What is the cost to start over with new technologies?</li>
-		</list>
-	</slide>
 
 	<slide bg="white" fg="black">
 	   <image xp="95" yp="10" width="75" height="100" name="images/doc.png"/>
@@ -1020,10 +943,11 @@ Gate C31C
 		<image xp="30"  yp="2.4" width="300" height="300" scale="15" name="images/noun_bomb_193958.png"/>
 	</slide>
 	
-	<slide>
-		<image xp="50" yp="50" name="images/gp-grid.png" width="2786" height="1816" scale="60"/>
+	<slide bg="rgb(240,240,240)">
+		<image xp="10" yp="50" name="images/gp-share.png" width="2303" height="1293" scale="40"/>
+		<image xp="74.5" yp="50" name="images/gp-big.png" width="2298" height="1292" scale="40"/>
 	</slide>
-	
+		
   	<slide bg="white" fg="rgb(127,0,0)">
     	<text xp="35" yp="65" sp="7" wp="35" type="block">Make the zero value useful.</text>
     	<image xp="15" yp="60" width="500" height="500"  name="images/noun_okay_13505.png" />
@@ -1203,15 +1127,6 @@ Gate C31C
 		<text xp="50" yp="15" sp="2.5" align="c" font="mono">dchart AAPL.d</text>
 	</slide>
 		
-	<slide>
-		<text xp="20" yp="50" sp="3" align="e" color="maroon">left</text>
-		<text xp="50" yp="75" sp="3" align="c" color="maroon">top</text>
-		<text xp="50" yp="30" sp="3" align="c" color="maroon">bottom</text>
-		<text xp="80" yp="50" sp="3"  color="maroon">right</text>
-		<text xp="50.00" yp="80.40" sp="2.25" align="center" wp="0.00" font="sans" opacity="100.00" color="black" type="">AAPL Volume</text><line xp1="20.00" yp1="30.00" xp2="20.00" yp2="67.04" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="20.00" yp="68.54" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">563.1</text><text xp="20.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-01-01</text><line xp1="25.45" yp1="30.00" xp2="25.45" yp2="67.82" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="25.45" yp="69.32" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">575.0</text><text xp="25.45" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-02-01</text><line xp1="30.91" yp1="30.00" xp2="30.91" yp2="66.94" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="30.91" yp="68.44" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">561.6</text><text xp="30.91" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-03-01</text><line xp1="36.36" yp1="30.00" xp2="36.36" yp2="54.55" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="36.36" yp="56.05" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">373.3</text><text xp="36.36" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-04-01</text><line xp1="41.82" yp1="30.00" xp2="41.82" yp2="73.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="41.82" yp="74.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">653.8</text><text xp="41.82" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-05-01</text><line xp1="47.27" yp1="30.00" xp2="47.27" yp2="75.00" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="47.27" yp="76.50" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">684.2</text><text xp="47.27" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-06-01</text><line xp1="52.73" yp1="30.00" xp2="52.73" yp2="57.76" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="52.73" yp="59.26" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">422.0</text><text xp="52.73" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-07-01</text><line xp1="58.18" yp1="30.00" xp2="58.18" yp2="73.48" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="58.18" yp="74.98" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">661.1</text><text xp="58.18" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-08-01</text><line xp1="63.64" yp1="30.00" xp2="63.64" yp2="74.72" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="63.64" yp="76.22" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">679.9</text><text xp="63.64" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-09-01</text><line xp1="69.09" yp1="30.00" xp2="69.09" yp2="63.17" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="69.09" yp="64.67" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">504.3</text><text xp="69.09" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-10-01</text><line xp1="74.55" yp1="30.00" xp2="74.55" yp2="69.51" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="74.55" yp="71.01" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">600.7</text><text xp="74.55" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-11-01</text><line xp1="80.00" yp1="30.00" xp2="80.00" yp2="57.45" sp="4.45" opacity="100.00" color="lightsteelblue"/><text xp="80.00" yp="58.95" sp="1.12" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(127,0,0)" type="">417.4</text><text xp="80.00" yp="27.00" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="rgb(75,75,75)" type="">2017-12-01</text>
-		<text xp="50" yp="15" sp="2.5" align="c" font="mono">dchart -left=20 -right=80 -top=75 AAPL.d</text>
-	</slide>
-		
     <slide>
 		<text xp="20" yp="72" sp="3" align="c" color="maroon">val</text>
 		<text xp="50" yp="50" sp="3" align="c" color="maroon">bar</text>
@@ -1353,11 +1268,11 @@ We were just trying to get something that worked for us.</text>
 
 	<slide bg="black" fg="rgb(240,240,240)">
 		<text xp="15" yp="75" sp="7" color="white">Thank you</text>
-		<image name="images/100-Twitter_logo_blue.png"  width="74" height="60" xp="17.5" yp="60" />
-		<image name="images/100-gmail-logo-2013.png"	width="75" height="75" xp="17.5" yp="50" />
-		<image name="images/100-GitHub-Mark.png"		width="75" height="75" xp="17.5" yp="40" />
-		<image name="images/100-speakerdeck.png"		width="75" height="75" xp="17.5" yp="30" />
-		<image name="images/100-flickr-logo.png"		width="75" height="75" xp="17.5" yp="20" />
+		<image width="74" height="60" xp="17.5" yp="60" name="images/100-Twitter_logo_blue.png"  />
+		<image width="75" height="75" xp="17.5" yp="50" name="images/100-gmail-logo-2013.png"/>
+		<image width="75" height="75" xp="17.5" yp="40" name="images/100-GitHub-Mark.png"/>
+		<image width="75" height="75" xp="17.5" yp="30" name="images/100-speakerdeck.png"/>
+		<image width="75" height="75" xp="17.5" yp="20" name="images/100-flickr-logo.png" />
 	
 		<list xp="25" yp="57.5" sp="4" lp="1.42">
 			<li>@ajstarks</li>
