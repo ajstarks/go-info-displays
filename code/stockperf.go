@@ -16,7 +16,7 @@ const (
 	opts   = "-dmin=t -bar=f -vol -xlabel=0 -val=f -yaxis=f -title=f -fulldeck=f -csv"
 	cmdfmt = "dchart %s -top=%.1f -bottom=%.1f -left=%.1f -right=%.1f %s %s"
 	copt   = "-csvcol=Date,Close"
-	vopt   = "-color=lightgray -csvcol=Date,Volume"
+	vopt   = "-color=slategray -csvcol=Date,Volume"
 	dloc   = "~/Downloads"
 )
 
