@@ -15,7 +15,7 @@ tb=14
 ts=5
 tg=2
 ti=$((tg+$ts))
-tt=$((tb+25))
+tt=$((tb+22))
 
 deck begin
 	slide begin
