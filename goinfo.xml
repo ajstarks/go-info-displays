@@ -2,7 +2,7 @@
 	<title>Go for Infomation Displays</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design, information design, deck, svgo, openvg, dchart</subject>
-	<date>2018-04-17</date>
+	<date>2018-04-18</date>
 	<description>This presentation describes the use of Go for information displays, 
 	a departure from the usual back-end view. Go NYC Meetup, April 2017, updated version Gotham Go, April 2018</description>
  
@@ -35,13 +35,13 @@
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<image xp="20" yp="70" name="images/greyscale_edward-tufte.png" width="1644" height="1081" scale="30" align="left" sp="1.5" color="lightgray" caption="Edward Tufte" />
-		<list xp="35" yp="80" sp="2.5" lp="1.6" font="serif" link="http://edwardtufte.com/">
+		<image xp="20" yp="70" name="images/greyscale_edward-tufte.png" width="1644" height="1081" scale="30" align="left" sp="1.5" color="lightgray" caption="Edward Tufte"  link="http://edwardtufte.com/" />
+		<list xp="35" yp="80" sp="2.5" lp="1.6" font="serif">
 			<li>Display data for precise, effective, quick analysis,</li>
 			<li>Small multiples, optimizing the data-ink ratio,</li>
 			<li>Visual and beautiful evidence.</li>
 		</list>
-		<image xp="17" yp="30" name="images/nigel-holmes-main.jpg" width="419" height="281" align="left" sp="1.5" color="lightgray" caption="Nigel Holmes"/>
+		<image xp="17" yp="30" name="images/nigel-holmes-main.jpg" width="419" height="281" align="left" sp="1.5" color="lightgray" caption="Nigel Holmes" link="http://www.nigelholmes.com/"/>
 		<text xp="35" yp="40" sp="2.5" wp="50" type="block" font="serif" link="http://www.nigelholmes.com/">Designing for the context: The data visualizer asks: 
 		“What’s the data?”, the infographics designer: “What’s the Story?”</text>
 	</slide>
@@ -77,7 +77,7 @@
 	</slide>
 
 	<slide>
-		<image xp="50" yp="60" width="1336" height="729" name="images/svgopher.png"/>
+		<image xp="50" yp="60" width="1336" height="729" name="images/svgopher.png" link="https://github.com/ajstarks/svgo"/>
 	</slide>
 	
 	<slide>
@@ -289,7 +289,7 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" width="1920" height="1080" name="images/shining.png"/>
+		<image xp="50" yp="50" width="1920" height="1080" name="images/shining.png" link="https://www.youtube.com/watch?v=5N3ME6vQOnQ"/>
 	</slide>
 
 	<slide>
@@ -302,7 +302,7 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<text xp="5" yp="65" sp="9">OpenVG</text>
+		<text xp="5" yp="65" sp="9" link="https://github.com/ajstarks/openvg">OpenVG</text>
 		<image xp="50" yp="50" width="4224" height="2376" scale="45" name="images/P1220686.JPG"/>	
 	</slide>
 	
@@ -321,7 +321,7 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-		<image xp="70" yp="70" width="1920" height="1080" scale="50" name="images/hellovg.raw.png"/>
+		<image xp="70" yp="70" width="1920" height="1080" scale="50" name="images/hellovg.raw.png" link="https://github.com/ajstarks/openvg/blob/master/go-client/hellovg/hellovg.go"/>
 		<text xp="4" yp="95" sp="1.5" wp="50" font="mono" file="code/hwopenvg.go"/>
 	</slide>
 	
@@ -385,26 +385,26 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide> <!-- plain -->
-		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
+		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono" link="https://github.com/ajstarks/openvg/blob/master/go-client/twh/twh.go"/>
 		<image xp="75" yp="60" name="images/twh-20180417.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- weather -->
-		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
+		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono" link="https://github.com/ajstarks/openvg/blob/master/go-client/twh/twh.go"/>
 		<rect xp="64" yp="74" wp="22.9" hp="17" color="red" opacity="20"/>
 		<rect xp="27" yp="52" wp="35" hp="8" color="red" opacity="20"/>
 		<image xp="75" yp="60" name="images/twh-20180417.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- time -->
-		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
+		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono" link="https://github.com/ajstarks/openvg/blob/master/go-client/twh/twh.go"/>
 		<rect xp="86.5" yp="74" wp="22" hp="17" color="red" opacity="20"/>
 		<rect xp="27" yp="45" wp="35" hp="8" color="red" opacity="20"/>
 		<image xp="75" yp="60" name="images/twh-20180417.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- headlines -->
-		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono"/>
+		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono" link="https://github.com/ajstarks/openvg/blob/master/go-client/twh/twh.go"/>
 		<rect xp="75" yp="50" wp="45" hp="25" color="red" opacity="20"/>
 		<rect xp="27" yp="38" wp="35" hp="8" color="red" opacity="20"/>
 
@@ -412,7 +412,7 @@ https://api.flickr.com/services/rest/
 	</slide>
 		
 	<slide bg="white" fg="rgb(50,50,50)">
-		<text xp="5" yp="45" sp="18">Deck</text>
+		<text xp="5" yp="45" sp="18" link="https://github.com/ajstarks/deck">Deck</text>
 		<rect xp="75" yp="50" wp="40" hr="100" color="rgb(240,240,240)"/>
 		<rect xp="70" yp="55" wp="20" hr="56.2" color="rgb(127,0,0)"/>
 		<rect xp="80" yp="50" wp="20" hr="56.2" color="rgb(255,255,255)"/>
