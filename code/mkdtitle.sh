@@ -1,6 +1,6 @@
 #!/bin/sh
 (
-echo '<deck><slide><text xp="5" yp="90" sp="5">dchart: charts for deck</text>'
+echo '<deck><slide><text xp="50" yp="90" sp="5" align="center">dchart: charts for deck</text>'
 dchart \
 	-fulldeck=f \
 	-textsize=1 \
@@ -14,7 +14,6 @@ dchart \
 	-chartitle="BITCOIN to USD" \
 	-val=f \
 	-xlabel=0 \
-	-line \
 	-yaxis \
 	-grid \
 	-csv \
