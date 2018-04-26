@@ -955,9 +955,68 @@ Gate C31C
 		<image xp="25" yp="50" name="images/Alice_05a-1116x1492.jpg" width="1116" height="1492" scale="45" link="http://www.gutenberg.org/files/28885/28885-8.txt"/>
 		<text xp="15" yp="85" sp="3" color="maroon" font="serif" link="http://www.gutenberg.org/files/28885/28885-8.txt">Chapter V</text>
 		<text xp="40" yp="85" sp="3" color="maroon" font="serif" link="http://www.gutenberg.org/files/28885/28885-8.txt">Advice from a Caterpillar</text>
-		<text xp="40" yp="75" sp="2" type="block" wp="40" font="serif" lp="1.6">THE Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth,
-	and addressed her in a languid, sleepy voice. “Who are you?” said the Caterpillar. This was not an encouraging opening for a
-	conversation. Alice replied, rather shyly, “I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have been changed several times times since then.”</text>
+		<text xp="40" yp="75" sp="2" type="block" wp="40" font="serif" lp="1.6">THE Caterpillar and Alice looked at each other for some time in silence:
+at last the Caterpillar took the hookah out of its mouth, and addressed
+her in a languid, sleepy voice. “Who are you?” said the Caterpillar.
+This was not an encouraging opening for a conversation. Alice replied,
+rather shyly, “I—I hardly know, sir, just at present—at least I know who
+I was when I got up this morning, but I think I must have been changed
+several times times since then.”</text>
+	</slide>
+	
+	<slide>
+	<image xp="32" yp="68" width="1200" height="800" name="images/dodo.jpg" scale="75"/>
+	<text xp="10" yp="33" sp="1.5" type="block" font="serif" wp="40">“You promised to tell me
+your history, you know,” said Alice, “and why it is you hate—C and D,”
+she added in a whisper, half afraid that it would be offended again.
+“Mine is a long and a sad tale!” said the Mouse, turning to Alice, and
+sighing. “It is a long tail, certainly,” said Alice, looking down with
+wonder at the Mouse’s tail; “but why do you call it sad?” And she kept
+on puzzling about it while the Mouse was speaking, so that her idea of
+the tale was something like this:—</text>
+		<text xp="70" yp="96" sp="1.2" font="serif">Fury said to a </text>
+		<text xp="68" yp="93.6" sp="1.2" font="serif">mouse, That he</text>
+		<text xp="66" yp="91.2" sp="1.2" font="serif">met in the</text>
+		<text xp="64" yp="88.8" sp="1.2" font="serif">house, </text>
+		<text xp="61" yp="86.4" sp="1.2" font="serif">“Let us</text>
+		<text xp="63" yp="84" sp="1.2" font="serif">both go to</text>
+		<text xp="65" yp="81.6" sp="1.2" font="serif">law:I will</text>
+		<text xp="67" yp="79.2" sp="1.2" font="serif">prosecute</text>
+		<text xp="70" yp="77" sp="1.1" font="serif">YOU—Come,</text>
+		<text xp="73" yp="75" sp="1.1" font="serif">I'll take no</text>
+		<text xp="74" yp="73" sp="1.1" font="serif">denial; We</text>
+		<text xp="71" yp="71" sp="1.1" font="serif">must have a</text>
+		<text xp="67" yp="69" sp="1.1" font="serif">trial:For</text>
+		<text xp="64" yp="67" sp="1.1" font="serif">really this</text>
+		<text xp="61" yp="65" sp="1.1" font="serif">morning I've</text>
+		<text xp="60" yp="63" sp="1.1" font="serif">nothing</text>
+		<text xp="59" yp="61" sp="1.1" font="serif">to do.”</text>
+		<text xp="61" yp="59" sp="1" font="serif">Said the</text>
+		<text xp="63" yp="57" sp="1" font="serif">mouse to the</text>
+		<text xp="65" yp="55" sp="1" font="serif">cur, “Such</text>
+		<text xp="67" yp="53" sp="1" font="serif">a trial,</text>
+		<text xp="69" yp="51" sp="1" font="serif">dear Sir,</text>
+		<text xp="72" yp="49" sp="1" font="serif">With no</text>
+		<text xp="71" yp="47" sp="1" font="serif">jury</text>
+		<text xp="68" yp="45" sp="1" font="serif">or judge,</text>
+		<text xp="66" yp="43" sp="1" font="serif">would be</text>
+		<text xp="64" yp="41" sp="1" font="serif">wasting</text>
+		<text xp="63" yp="39" sp="1" font="serif">our</text>
+		<text xp="64" yp="37" sp="1" font="serif">breath.”</text>
+		<text xp="65" yp="35" sp="1" font="serif">“I‘ll be</text>
+		<text xp="67" yp="33" sp="1" font="serif">judge, I‘ll</text>
+		<text xp="69" yp="31" sp="1" font="serif">be jury,"</text>
+		<text xp="70" yp="29" sp="1" font="serif">Said</text>
+		<text xp="71" yp="27" sp="1" font="serif">cunning</text>
+		<text xp="72" yp="25" sp="1" font="serif">old Fury:</text>
+		<text xp="71" yp="23" sp="1" font="serif">“I‘ll try</text>
+		<text xp="72" yp="21" sp="1" font="serif">the whole</text>
+		<text xp="76" yp="19" sp="1" font="serif">cause,</text>
+		<text xp="77" yp="17" sp="1" font="serif">and</text>
+		<text xp="74" yp="15" sp="1" font="serif">condemn</text>
+		<text xp="73" yp="13" sp="1" font="serif">you</text>
+		<text xp="72" yp="11" sp="1" font="serif">to</text>
+		<text xp="73" yp="9" sp="1" font="serif">death.”’</text>
 	</slide>
 	
 	<slide>
