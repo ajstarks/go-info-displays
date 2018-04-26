@@ -5,7 +5,7 @@ deck begin
 	canvas 1200 900
 	slide begin white black
 		ctext "Deck elements" 50 90 5
-		cimage follow.jpg "Dreams" 70 60 640 480 
+		image follow.jpg "Dreams" 70 60 640 480 
 
 		blist 10 70 3
 			li text, list, image
