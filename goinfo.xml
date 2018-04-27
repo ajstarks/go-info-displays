@@ -942,7 +942,7 @@ Gate C31C
 		<image xp="30"  yp="2.4" width="300" height="300" scale="15" name="images/noun_bomb_193958.png"/>
 	</slide>
 	
-	<slide bg="rgb(240,240,240)">
+	<slide bg="rgb(200,200,200)">
 		<image xp="10" yp="50" name="images/gp-share.png" width="2303" height="1293" scale="40"/>
 		<image xp="74.5" yp="50" name="images/gp-big.png" width="2298" height="1292" scale="40"/>
 	</slide>
@@ -1025,12 +1025,12 @@ the tale was something like this:—</text>
 		<text xp="95" yp="5" sp="3" align="e" link="https://github.com/ajstarks/deck/blob/master/cmd/codepicdeck/codepicdeck.go">codepicdeck</text>
 	</slide>
 	
-	<slide bg="rgb(240,240,240)">
+	<slide bg="rgb(200,200,200)">
 		<image xp="25" yp="50" name="images/p8.pdf.png" width="2500" height="1875" scale="37"/>
 		<image xp="75" yp="50" name="images/p9.pdf.png" width="2500" height="1875" scale="37"/>
 	</slide>
 	
-	<slide bg="rgb(240,240,240)">
+	<slide bg="rgb(200,200,200)">
 		<image xp="25" yp="50" name="images/p36.pdf.png" width="2500" height="1875" scale="37"/>
 		<image xp="75" yp="50" name="images/p37.pdf.png" width="2500" height="1875" scale="37"/>
 	</slide>
