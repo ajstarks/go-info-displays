@@ -164,7 +164,7 @@
 	</slide>
 
 	<slide>
-		<text xp="50" yp="95" sp="2.5" link="https://ajstarks.org:1958/" align="c">https://ajstarks.org:1958/{thing}/</text>
+		<text xp="50" yp="95" sp="2.5" link="https://ajstarks.org:1958/" align="c">https://ajstarks.org:1958/</text>
 		<image xp="20" yp="80" width="256" height="256" color="gray" name="images/clock.png" sp="1.6" caption="clock"/>
 		<image xp="40" yp="80" width="256" height="256" color="gray" name="images/funnel.png" sp="1.6"  caption="funnel"/>
 		<image xp="60" yp="80" width="256" height="256" color="gray" name="images/rotext.png" sp="1.6"  caption="rotext"/>
