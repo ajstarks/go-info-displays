@@ -2,17 +2,18 @@
 	<title>Go for Infomation Displays</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design, information design, deck, svgo, openvg, dchart</subject>
-	<date>2018-04-18</date>
+	<date>2018-04-27</date>
 	<description>This presentation describes the use of Go for information displays, 
 	a departure from the usual back-end view. Go NYC Meetup, April 2017, updated version Gotham Go, April 2018</description>
- 
+	
+	
 	<slide bg="black" fg="white">
-		<text sp="10" xp="50" yp="70" align="center" color="rgb(140,165,255)" >Go</text>
-		<text sp="8"  xp="50" yp="50" align="center">For Information Displays</text>
+		<image xp="47" yp="70" width="1061" height="938" name="images/Go-Logo_White.png" scale="45" />
+		<text sp="7"  xp="50" yp="30" align="center">For Information Displays</text>
 		<text sp="2"  xp="50" yp="10" align="center" color="rgb(170,170,170)">Anthony Starks</text>
 		<text sp="2"  xp="50" yp="6"  align="center" color="rgb(170,170,170)">@ajstarks</text>
 	</slide>
-	
+
 	<slide bg="black" fg="white">
 		<text xp="50" yp="15" sp="5" align="center">Go is great in the back end</text>
 		<rect xp="50" yp="15" wp="100" hp="20" color="black" opacity="20"/>
@@ -531,7 +532,7 @@ https://api.flickr.com/services/rest/
 	  <text xp="5" yp="47.5" sp="4">Process</text>
 	  <polygon xc="32 35 32" yc="52 50 48" color="gray"/>
 	  <text xp="50" yp="47.5" sp="4" align="center" color="white">deck code</text>
-	  <text xp="75" yp="72.5" sp="4" color="white">interactive</text>
+	  <text xp="75" yp="72.5" sp="4" color="white">vgdeck</text>
 	  <text xp="75" yp="47.5" sp="4" color="white">PDF</text>
 	  <text xp="75" yp="22.5" sp="4" color="white">SVG</text>
 
