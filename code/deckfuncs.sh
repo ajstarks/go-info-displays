@@ -108,3 +108,8 @@ function curve {
 function polygon {
 	echo "<polygon xc=\"$1\" yc=\"$2\" color=\"$3\" opacity=\"$4\"/>"
 }
+
+function legend {
+		text $1 $2 $3 $4 $5
+		line $2 $3 $(($2 + 5)) $3 $(($4 * 2)) $6 40
+}
