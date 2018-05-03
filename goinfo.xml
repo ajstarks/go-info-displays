@@ -406,7 +406,6 @@ https://api.flickr.com/services/rest/
 		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono" link="https://github.com/ajstarks/openvg/blob/master/go-client/twh/twh.go"/>
 		<rect xp="75" yp="50" wp="45" hp="25" color="red" opacity="20"/>
 		<rect xp="27" yp="38" wp="35" hp="8" color="red" opacity="20"/>
-
 		<image xp="75" yp="60" name="images/twh-20180417.png" width="1920" height="1080" scale="45"/>
 	</slide>
 		
@@ -418,10 +417,15 @@ https://api.flickr.com/services/rest/
 		<rect xp="75" yp="45" wp="20" hr="56.2" color="rgb(127,127,127)"/>
 		<text xp="95" yp="5" sp="2.5" align="right">a Go package for presentations</text>
 	</slide>
-
+	
+	<slide>
+		<text xp="10" yp="90" sp="2" font="mono" file="code/hello-deck.xml"/>
+		<image xp="50" yp="35" width="835" height="638" name="images/hellodeck.png"/>
+	</slide>
+	
 	<slide>
 		<text xp="95" yp="5" sp="2.5" align="right">Anatomy of a Deck</text>
-		<text xp="18" yp="90" sp="1.4" lp="2" file="code/exampledeck.xml" font="mono"/>
+		<text xp="16" yp="90" sp="1.4" lp="2" file="code/exampledeck.xml" font="mono"/>
 		<list xp="3" yp="90" sp="1.4" color="rgb(127,0,0)" >
 		  <li>Start the deck</li>
 		  <li>Set the canvas size</li>
