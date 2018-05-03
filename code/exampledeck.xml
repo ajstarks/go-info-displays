@@ -1,18 +1,18 @@
 <deck>
 	<canvas width="1200" height="900"/>
 	<slide bg="white" fg="black">
-	<text xp="50" yp="90" sp="5" font="" color="" opacity="" align="c">Deck elements</text>
-	<image name="follow.jpg" caption="Dreams" xp="70" yp="60" width="640" height="480" scale=""/>
+		<text xp="50" yp="90" sp="5" align="c">Deck elements</text>
+		<image name="follow.jpg" caption="Dreams" xp="70" yp="60" width="640" height="480"/>
 		<list xp="10" yp="70" sp="3" color="" opacity="" type="bullet">
-		<li>text, list, image</li>
-		<li>line, rect, ellipse</li>
-		<li>arc, curve, polygon</li>
-	</list>
-	<line     xp1="20" yp1="10" xp2="30" yp2="10" sp="" color="" opacity=""/>
-	<rect     xp="35" yp="10" wp="4" hp="3" color="rgb(127,0,0)" opacity=""/>
-	<ellipse  xp="45" yp="10" wp="4" hp="3" color="rgb(0,127,0)" opacity=""/>
-	<arc      xp="55" yp="10" wp="4" hp="3" a1="0" a2="180" color="rgb(0,0,127)" opacity=""/>
-	<curve    xp1="60" yp1="10" xp2="75" yp2="20" xp3="70" yp3="10" color="" opacity=""/>
-	<polygon  xc="75 75 80" yc="8 12 10" color="rgb(0,0,127)" opacity=""/>
-</slide>
+			<li>text, list, image</li>
+			<li>line, rect, ellipse</li>
+			<li>arc, curve, polygon</li>
+		</list>
+		<line     xp1="20" yp1="10" xp2="30" yp2="10" sp="" color="" opacity=""/>
+		<rect     xp="35" yp="10" wp="4" hp="3" color="rgb(127,0,0)" opacity=""/>
+		<ellipse  xp="45" yp="10" wp="4" hp="3" color="rgb(0,127,0)" opacity=""/>
+		<arc      xp="55" yp="10" wp="4" hp="3" a1="0" a2="180" color="rgb(0,0,127)" opacity=""/>
+		<curve    xp1="60" yp1="10" xp2="75" yp2="20" xp3="70" yp3="10" color="" opacity=""/>
+		<polygon  xc="75 75 80" yc="8 12 10" color="rgb(0,0,127)" opacity=""/>
+	</slide>
 </deck>
