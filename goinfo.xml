@@ -947,7 +947,7 @@ Gate C31C
 	</slide>
 	
 	<slide bg="rgb(200,200,200)">
-		<image xp="10" yp="50" name="images/gp-share.png" width="2303" height="1293" scale="40"/>
+		<image xp="25" yp="50" name="images/gp-share.png" width="2303" height="1293" scale="40"/>
 		<image xp="74.5" yp="50" name="images/gp-big.png" width="2298" height="1292" scale="40"/>
 	</slide>
 		
@@ -1044,7 +1044,7 @@ the tale was something like this:—</text>
 		<text xp="7" yp="50" sp="2" wp="40" type="block" color="white" link="https://www.theguardian.com/commentisfree/2017/nov/19/how-tech-leaders-delivered-us-into-evil-john-naughton">They have had no exposure to the humanities or the social sciences, 
 		the academic disciplines that aim to provide some understanding of how society works, of history and of 
 		the roles that beliefs, philosophies, laws, norms, religion and customs play in the evolution of human culture</text>
-		<image xp="30" yp="50" name="images/zuk.png" width="3350" height="2002" scale="58"/>
+		<image xp="50" yp="50" name="images/zuk.png" width="3350" height="2002" scale="58"/>
 		<text xp="7" yp="10" sp="1.5" link="https://www.theguardian.com/commentisfree/2017/nov/19/how-tech-leaders-delivered-us-into-evil-john-naughton" color="white">John Naughton, The Guardian, 19 November, 2017</text>
 	</slide>
 
