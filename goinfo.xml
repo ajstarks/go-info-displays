@@ -306,15 +306,15 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-		<image xp="10" yp="85" width="1920" height="1080" scale="25" name="images/refcard.raw.png"/>
+		<image xp="20" yp="85" width="1920" height="1080" scale="25" name="images/refcard.raw.png"/>
 		<image xp="50" yp="85" width="1920" height="1080" scale="25" name="images/gradient.raw.png"/>
 		<image xp="80" yp="85" width="1920" height="1080" scale="25" name="images/rotext.raw.png"/>
 		
-		<image xp="10" yp="55" width="1920" height="1080" scale="25" name="images/plot.raw.png"/>
+		<image xp="20" yp="55" width="1920" height="1080" scale="25" name="images/plot.raw.png"/>
 		<image xp="50" yp="55" width="1920" height="1080" scale="25" name="images/hellovg.raw.png"/>
 		<image xp="80" yp="55" width="1920" height="1080" scale="25" name="images/image.raw.png"/>
 		
-		<image xp="10" yp="25" width="1920" height="1080" scale="25" name="images/slide1.raw.png"/>
+		<image xp="20" yp="25" width="1920" height="1080" scale="25" name="images/slide1.raw.png"/>
 		<image xp="50" yp="25" width="1920" height="1080" scale="25" name="images/planets.raw.png"/>
 		<image xp="80" yp="25" width="1920" height="1080" scale="25" name="images/slide4.raw.png"/>
 	</slide>
