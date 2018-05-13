@@ -782,8 +782,8 @@ Gate C31C
 		<line xp1="31" yp1="65" xp2="45" yp2="65" color="lightblue"/>
 		<ellipse xp="20" yp="65" wp="1.5" hr="100" color="white"/>
 		<ellipse xp="30" yp="65" wp="1.5" hr="100" color="white"/>
-		<arc xp="25" yp="65" wp="10" hp="5" a1="180" a2="90" color="white"/>
-		<arc xp="25" yp="65" wp="10" hp="5" a1="90" a2="0" color="white"/>
+		<arc xp="25" yp="65" wp="10" hp="5" a1="0" a2="90" color="white"/>
+		<arc xp="25" yp="65" wp="10" hp="5" a1="90" a2="180" color="white"/>
 		<image xp="25"  yp="69.2" width="100" height="100" name="images/white-plane.png" scale="50"/>
 
 		<text xp="30" yp="60" sp="1.5">Distance to Destination</text>
@@ -807,19 +807,19 @@ Gate C31C
 		<text xp="20" yp="20" sp="2" align="c">547 mph</text>
 		<text xp="20" yp="15" sp="1.5" align="c">382 kph</text>
 		<arc xp="20" yp="20" wp="12" hp="12" a1="-50" a2="230" sp="1.2" color="white"/>
-		<arc xp="20" yp="20" wp="12" hp="12" a1="230" a2="40" sp="0.6" color="lightblue"/>
+		<arc xp="20" yp="20" wp="12" hp="12" a1="40" a2="230" sp="0.6" color="lightblue"/>
 
 		<text xp="40" yp="35" sp="2" align="c">Headwind</text>
 		<text xp="40" yp="20" sp="2" align="c">50 mph</text>
 		<text xp="40" yp="15" sp="1.5" align="c">80 kph</text>
 		<arc xp="40" yp="20" wp="12" hp="12" a1="-50" a2="230" sp="1.2" color="white"/>
-		<arc xp="40" yp="20" wp="12" hp="12" a1="230" a2="180" sp="0.6" color="lightblue"/>
+		<arc xp="40" yp="20" wp="12" hp="12" a1="180" a2="230" sp="0.6" color="lightblue"/>
 
 		<text xp="60" yp="35" sp="2" align="c">Outside Temperature</text>
 		<text xp="60" yp="20" sp="2" align="c">-30° F</text>
 		<text xp="60" yp="15" sp="1.5" align="c">-34.4 C</text>
 		<arc xp="60" yp="20" wp="12" hp="12" a1="-50" a2="230" sp="1.2" color="white"/>
-		<arc xp="60" yp="20" wp="12" hp="12" a1="230" a2="210" sp="0.6" color="lightblue"/>
+		<arc xp="60" yp="20" wp="12" hp="12" a1="210" a2="230" sp="0.6" color="lightblue"/>
 
 		<text xp="80" yp="35" sp="2" align="c">Current Altitude</text>
 		<image xp="80" yp="25" width="1200" height="1200" name="images/plane-head.png" scale="12.5"/>
