@@ -1,5 +1,5 @@
 <deck>
-	<title>Go for Infomation Displays</title>
+	<title>Go for Information Displays</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design, information design, deck, svgo, openvg, dchart</subject>
 	<date>2018-04-27</date>
@@ -54,6 +54,14 @@
 		<text xp="3.5" yp="90" sp="5" color="black">I hate pushing pixels</text>
 		<text xp="3.5" yp="80" sp="2.4" color="black" wp="20" type="block">programs are so much better at it</text>
 		<text xp="98" yp="2" sp="1" align="end" color="lightgray">Photo by deborahschillbach</text>
+	</slide>
+	
+	<slide bg="black" fg="white">
+		<list xp="10" yp="80" sp="6">
+			<li>Precise</li>
+			<li>Efficient</li>
+			<li>Consistent</li>
+		</list>
 	</slide>
 		
 	<slide bg="black">
@@ -1123,8 +1131,8 @@ the tale was something like this:—</text>
 			<li>specify the y axis labels (min,max,step)</li>
 			<li>generate full deck markup (default true)</li>
 			<li>show the title (default true)</li>
-			<li>specify the title (overiding title in the data)</li>
-			<li>x axis label interval (default 1, 0 to supress all labels)</li>
+			<li>specify the title (overriding title in the data)</li>
+			<li>x axis label interval (default 1, 0 to suppress all labels)</li>
 			<li>show the last x label</li>
 			<li>horizontal line at value with label</li>
 		</list>
