@@ -541,22 +541,32 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-	  <text xp="5" yp="47.5" sp="4">Process</text>
-	  <polygon xc="32 35 32" yc="52 50 48" color="gray"/>
-	  <text xp="50" yp="47.5" sp="4" align="center" color="white">deck code</text>
-	  <text xp="75" yp="72.5" sp="4" color="white">vgdeck</text>
-	  <text xp="75" yp="47.5" sp="4" color="white">PDF</text>
-	  <text xp="75" yp="22.5" sp="4" color="white">SVG</text>
+		<text xp="15" yp="48.5" sp="3" align="e">Data</text>
+		<text xp="25" yp="48.5" sp="3" align="c">Process</text>
+		<text xp="40" yp="48.5" sp="3" align="c" color="white">deck</text>
 
-	  <line xp1="25" yp1="50" 	xp2="35" yp2="50" sp=".25" color="rgb(127,127,127)"/>
-	  <line xp1="65" yp1="57.5" xp2="70" yp2="75" sp=".25" color="rgb(0,0,127)" />
-	  <line xp1="65" yp1="50"	xp2="70" yp2="50" sp=".25" color="rgb(127,0,0)" />
-	  <line xp1="65" yp1="42.5" xp2="70" yp2="25" sp=".25" color="rgb(0,127,0)"/>
-
-	  <rect xp="50" yp="50" wp="30" hp="15" color="rgb(100,100,100)"/>
-	  <rect xp="85" yp="75" wp="30" hp="15" color="rgb(0,0,127)"  />
-	  <rect xp="85" yp="50" wp="30" hp="15" color="rgb(127,0,0)"  />
-	  <rect xp="85" yp="25" wp="30" hp="15" color="rgb(0,127,0)"/>
+		<line xp1="15" yp1="50" xp2="35" yp2="50" sp="2" color="gray" opacity="30"/>
+		<ellipse xp="40" yp="50" wp="10" hr="100" color="black" opacity="60"/>
+		
+		<line xp1="45" yp1="50" xp2="70" yp2="80" sp="2" color="maroon" opacity="30"/>  
+		<line xp1="45" yp1="50" xp2="70" yp2="60" sp="2" color="blue"	opacity="30"/>  
+		<line xp1="45" yp1="50" xp2="70" yp2="40" sp="2" color="green"	opacity="30"/>  
+		<line xp1="45" yp1="50" xp2="70" yp2="20" sp="2" color="purple"	opacity="30"/>
+		
+		<ellipse xp="70" yp="80" wp="2" hr="100" color="maroon"/>
+		<ellipse xp="70" yp="60" wp="2" hr="100" color="blue"/>
+		<ellipse xp="70" yp="40" wp="2" hr="100" color="green"/>
+		<ellipse xp="70" yp="20" wp="2" hr="100" color="purple"/>
+		
+		<rect xp="85" yp="80" wp="30" hp="10" color="maroon"/>
+		<rect xp="85" yp="60" wp="30" hp="10" color="blue"/>
+		<rect xp="85" yp="40" wp="30" hp="10" color="green"/>
+		<rect xp="85" yp="20" wp="30" hp="10" color="purple"/>
+		
+		<text xp="85" yp="78" sp="3" align="c" color="white">PDF (pdfdeck)</text>
+		<text xp="85" yp="58" sp="3" align="c" color="white">PNG (pngdeck)</text>
+		<text xp="85" yp="38" sp="3" align="c" color="white">SVG (svgdeck)</text>
+		<text xp="85" yp="18" sp="3" align="c" color="white">OpenVG (vgdeck)</text>
 	</slide>
 	
 	<slide>
