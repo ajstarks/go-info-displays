@@ -111,7 +111,7 @@
 		<line xp1="50" yp1="89" xp2="50" yp2="85"/>
 		<text xp="30" yp="80" sp="3.5" color="rgb(127,0,0)" align="center">Rect</text>
 		<text xp="50" yp="80" sp="3.5" color="rgb(0,0,127)" align="center">(100,200,250,125)</text>
-		<text xp="50" yp="60" sp="2.5" align="c"font="mono">&lt;rect x=&quot;100&quot; y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot;/&gt;</text>
+		<text xp="50" yp="60" sp="2.5" align="c" font="mono">&lt;rect x=&quot;100&quot; y=&quot;200&quot; width=&quot;250&quot; height=&quot;125&quot;/&gt;</text>
 		<rect xp="50" yp="25" wp="30" hr="50" color="black"/>
 		<text xp="35" yp="35" sp="2" align="right" color="rgb(0,0,127)">(100, 200)</text>
 		<text xp="50" yp="7" sp="2" align="center" color="rgb(0,0,127)">250</text>
