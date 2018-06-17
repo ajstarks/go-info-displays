@@ -57,10 +57,10 @@
 	</slide>
 	
 	<slide bg="black" fg="white">
-		<list xp="10" yp="80" sp="6">
-			<li>Precise</li>
-			<li>Efficient</li>
-			<li>Consistent</li>
+		<list xp="10" yp="70" sp="6">
+			<li>Precision</li>
+			<li>Efficiency</li>
+			<li>Consistency</li>
 		</list>
 	</slide>
 		
