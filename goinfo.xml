@@ -872,54 +872,47 @@ Gate C31C
 	   <text xp="20" yp="15" sp="2.5" color="rgb(127,127,127)" 
 	   link="http://mackross.net/about/">Andrew Mackenzie-Ross</text>
 	</slide>
-
+	
 	<slide>
 		<text xp="7.5" yp="50" align="center" color="maroon" sp="5">go</text>
-		<text xp="15.00" yp="95.00" sp="2.0">build</text>
-		<text xp="30" yp="95.00" sp="2.0" color="gray">compile packages and dependencies</text>
-		<line sp="0.05" xp1="15.00" yp1="93.00" xp2="80" yp2="93.00"/>
-		<text xp="15.00" yp="88.50" sp="2.0">clean</text>
-		<text xp="30" yp="88.50" sp="2.0" color="gray">remove object files</text>
-		<line sp="0.05" xp1="15.00" yp1="86.50" xp2="80" yp2="86.50"/>
-		<text xp="15.00" yp="82.00" sp="2.0">doc</text>
-		<text xp="30" yp="82.00" sp="2.0" color="gray">show documentation for package or symbol</text>
-		<line sp="0.05" xp1="15.00" yp1="80.00" xp2="80" yp2="80.00"/>
-		<text xp="15.00" yp="75.50" sp="2.0">env</text>
-		<text xp="30" yp="75.50" sp="2.0" color="gray">print Go environment information</text>
-		<line sp="0.05" xp1="15.00" yp1="73.50" xp2="80" yp2="73.50"/>
-		<text xp="15.00" yp="69.00" sp="2.0">fix</text>
-		<text xp="30" yp="69.00" sp="2.0" color="gray">run go tool fix on packages</text>
-		<line sp="0.05" xp1="15.00" yp1="67.00" xp2="80" yp2="67.00"/>
-		<text xp="15.00" yp="62.50" sp="2.0">fmt</text>
-		<text xp="30" yp="62.50" sp="2.0" color="gray">run gofmt on package sources</text>
-		<line sp="0.05" xp1="15.00" yp1="60.50" xp2="80" yp2="60.50"/>
-		<text xp="15.00" yp="56.00" sp="2.0">generate</text>
-		<text xp="30" yp="56.00" sp="2.0" color="gray">generate Go files by processing source</text>
-		<line sp="0.05" xp1="15.00" yp1="54.00" xp2="80" yp2="54.00"/>
-		<text xp="15.00" yp="49.50" sp="2.0">get</text>
-		<text xp="30" yp="49.50" sp="2.0" color="gray">download and install packages and dependencies</text>
-		<line sp="0.05" xp1="15.00" yp1="47.50" xp2="80" yp2="47.50"/>
-		<text xp="15.00" yp="43.00" sp="2.0">install</text>
-		<text xp="30" yp="43.00" sp="2.0" color="gray">compile and install packages and dependencies</text>
-		<line sp="0.05" xp1="15.00" yp1="41.00" xp2="80" yp2="41.00"/>
-		<text xp="15.00" yp="36.50" sp="2.0">list</text>
-		<text xp="30" yp="36.50" sp="2.0" color="gray">list packages</text>
-		<line sp="0.05" xp1="15.00" yp1="34.50" xp2="80" yp2="34.50"/>
-		<text xp="15.00" yp="30.00" sp="2.0">run</text>
-		<text xp="30" yp="30.00" sp="2.0" color="gray">compile and run Go program</text>
-		<line sp="0.05" xp1="15.00" yp1="28.00" xp2="80" yp2="28.00"/>
-		<text xp="15.00" yp="23.50" sp="2.0">test</text>
-		<text xp="30" yp="23.50" sp="2.0" color="gray">test packages</text>
-		<line sp="0.05" xp1="15.00" yp1="21.50" xp2="80" yp2="21.50"/>
-		<text xp="15.00" yp="17.00" sp="2.0">tool</text>
-		<text xp="30" yp="17.00" sp="2.0" color="gray">run specified go tool</text>
-		<line sp="0.05" xp1="15.00" yp1="15.00" xp2="80" yp2="15.00"/>
-		<text xp="15.00" yp="10.50" sp="2.0">version</text>
-		<text xp="30" yp="10.50" sp="2.0" color="gray">print Go version</text>
-		<line sp="0.05" xp1="15.00" yp1="8.50" xp2="80" yp2="8.50"/>
-		<text xp="15.00" yp="4.00" sp="2.0">vet</text>
-		<text xp="30" yp="4.00" sp="2.0" color="gray">run go tool vet on packages</text>
-		<line sp="0.05" xp1="15.00" yp1="2.00" xp2="80" yp2="2.00"/>
+		<list xp="15" yp="94" sp="2" font="mono" lp="1.7">
+			<li>build</li>
+			<li>clean</li>
+			<li>doc</li>
+			<li>env</li>
+			<li>bug</li>
+			<li>fix</li>
+			<li>fmt</li>
+			<li>generate</li>
+			<li>get</li>
+			<li>install</li>
+			<li>list</li>
+			<li>run</li>
+			<li>test</li>
+			<li>tool</li>
+			<li>version</li>
+			<li>vet</li>
+		</list>
+
+		<list xp="30" yp="94" sp="2" color="gray" lp="1.7">
+			<li>compile packages and dependencies</li>
+			<li>remove object files and cached files</li>
+			<li>show documentation for package or symbol</li>
+			<li>print Go environment information</li>
+			<li>start a bug report</li>
+			<li>update packages to use new APIs</li>
+			<li>gofmt (reformat) package sources</li>
+			<li>generate Go files by processing source</li>
+			<li>download and install packages and dependencies</li>
+			<li>compile and install packages and dependencies</li>
+			<li>list packages</li>
+			<li>compile and run Go program</li>
+			<li>test packages</li>
+			<li>run specified go tool</li>
+			<li>print Go version</li>
+			<li>report likely mistakes in packages</li>
+		</list>
+
 	</slide>
 	
 	<slide>
