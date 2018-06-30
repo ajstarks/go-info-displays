@@ -110,6 +110,6 @@ function polygon {
 }
 
 function legend {
-		text $1 $(($2 + 2)) $3 $4 $5
-		square $2 $3".5" $(($4 * 2)) $6 50 
+		text "$1" $(($2 + 2)) $3 $4 $5
+		circle $2 $3".5" $4 "$6"
 }
