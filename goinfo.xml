@@ -1174,6 +1174,7 @@ the tale was something like this:—</text>
 			<li>-datafmt</li>
 			<li>-psize</li>
 			<li>-pwidth</li>
+			<li>-spokes</li>
 		</list>
 		
 		<list lp="1.5" xp="60" yp="40" sp="1.3">
@@ -1185,6 +1186,8 @@ the tale was something like this:—</text>
 			<li>data format for values (default "%.1f")</li>
 			<li>diameter of the donut (default 30)</li>
 			<li>width of the donut or proportional map (default 3)</li>
+			<li>show spokes on radial charts (default false)</li>
+
 		</list>
 
 		<text xp="5" yp="12" sp="2.5">CSV</text>
