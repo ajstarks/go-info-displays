@@ -5,19 +5,19 @@ deck begin
 	canvas 1200 900
 	slide begin white black
 		ctext "Deck elements" 50 90 5
-		cimage follow.jpg "Dreams" 70 60 640 480 
+		cimage follow.jpg "Dreams" 70 60 640 480 80
 
 		blist 10 70 3
-			li text, list, image
-			li line, rect, ellipse
-			li arc, curve, polygon
+			li text, image, list
+			li rect, ellipse, polygon
+			li line, arc, curve
 		elist
 
-		line    20 10 30 10
-		rect    35 10 4 3        "rgb(127,0,0)"
-		ellipse 45 10 4 3        "rgb(0,127,0)"
-		arc     55 10 4 3 0 180  "rgb(0,0,127)"
-		curve   60 10 75 20 70 10
-		polygon "75 75 80" "8 12 10" "rgb(0,0,127)"
+		rect    15 20 8 6             "rgb(127,0,0)"
+		ellipse 27.5 20 8 6           "rgb(0,127,0)"
+		polygon "37 37 45" "17 23 20" "rgb(0,0,127)"
+		line    50 20 60 20 
+		arc     70 20 10 8 0 180      "rgb(0,0,127)"
+		curve   80 20 95 30 90 20
 	slide end
 deck end

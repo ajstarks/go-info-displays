@@ -433,8 +433,8 @@ https://api.flickr.com/services/rest/
 	
 	<slide>
 		<text xp="95" yp="5" sp="2.5" align="right">Anatomy of a Deck</text>
-		<text xp="16" yp="90" sp="1.4" lp="2" file="code/exampledeck.xml" font="mono"/>
-		<list xp="3" yp="90" sp="1.4" color="rgb(127,0,0)" >
+		<text xp="13" yp="90" sp="1.4" lp="2" file="code/exampledeck.xml" font="mono"/>
+		<list xp="2.5" yp="90" sp="1.4" color="rgb(127,0,0)" >
 		  <li>Start the deck</li>
 		  <li>Set the canvas size</li>
 		  <li>Begin a slide</li>
@@ -445,31 +445,31 @@ https://api.flickr.com/services/rest/
 		  <li></li>
 		  <li></li>
 		  <li>End the list</li>
-		  <li>Draw a line</li>
 		  <li>Draw a rectangle</li>
-		  <li>Draw an ellipse</li>
-		  <li>Draw an arc</li>
-		  <li>Draw a quadratic bezier</li>
+		  <li>Draw a ellipse</li>
 		  <li>Draw a polygon</li>
+		  <li>Draw a line</li>
+		  <li>Draw an arc</li>
+		  <li>Draw a bezier</li>
 		  <li>End the slide</li>
 		<li>End of the deck</li>
 		</list>
 	</slide>
 
 	<slide bg="white" fg="black">
-	    <image xp="70" yp="60" width="640" height="480" name="images/follow.jpg" sp="1" caption="Dreams" />
-	    <text  xp="50" yp="90" sp="5" align="c" link="http://goo.gl/Wm05Ex">Deck elements</text>
-	    <list  xp="10" yp="70" sp="3" type="bullet">
-	       <li>text, list, image</li>
-	       <li>line, rect, ellipse</li>
-	       <li>arc, curve, polygon</li>
-	    </list>
-	    <line    xp1="20" yp1="10" xp2="30" yp2="10"/>
-	    <rect    xp="35"  yp="10" wp="4" hr="75" color="rgb(127,0,0)"/>
-	    <ellipse xp="45"  yp="10" wp="4" hr="75" color="rgb(0,127,0)"/>
-	    <arc     xp="55"  yp="10" wp="4" hp="3" a1="0" a2="180" color="rgb(0,0,127)"/>
-	    <curve   xp1="60" yp1="10" xp2="75" yp2="20" xp3="70" yp3="10" />
-	    <polygon xc="75 75 80" yc="8 12 10" color="rgb(0,0,127)"/>
+		<text xp="50" yp="90" sp="5" align="c">Deck elements</text>
+		<image name="images/follow.jpg" caption="Dreams" xp="70" yp="60" width="640" height="480" scale="80"/>
+		<list xp="10" yp="70" sp="3" type="bullet">
+			<li>text, image, list</li>
+			<li>rect, ellipse, polygon</li>
+			<li>line, arc, curve</li>
+		</list>
+		<rect xp="15" yp="20" wp="8" hp="6" color="rgb(127,0,0)"/>
+		<ellipse xp="27.5" yp="20" wp="8" hp="6" color="rgb(0,127,0)"/>
+		<polygon xc="37 37 45" yc="17 23 20" color="rgb(0,0,127)"/>
+		<line xp1="50" yp1="20" xp2="60" yp2="20"/>
+		<arc xp="70" yp="20" wp="10" hp="8" a1="0" a2="180" color="rgb(0,0,127)"/>
+		<curve xp1="80" yp1="20" xp2="95" yp2="30" xp3="90" yp3="20"/>
 	</slide>
 	
 	<slide>
@@ -648,7 +648,7 @@ https://api.flickr.com/services/rest/
 	
 	<slide bg="rgb(240,240,240)" fg="black">
 		<text xp="2.5" yp="90" sp="1.5" file="code/exampledeck.sh" font="mono"/>
-		<image xp="73" yp="45" width="900" height="675" name="images/ed.png"/>
+		<image xp="75" yp="45" width="900" height="675" name="images/ed.png"/>
 	</slide>
 
 	<slide>
