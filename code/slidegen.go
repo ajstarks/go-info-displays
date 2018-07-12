@@ -6,7 +6,7 @@ func main() {
 	// ... 
 	deck.EndSlide()
 	
-	deck.StartSlide()
+	deck.StartSlide("blanchedalmond")
 	// ...
 	deck.EndSlide()
 	
