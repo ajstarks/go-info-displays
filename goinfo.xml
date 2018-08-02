@@ -376,7 +376,7 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide>
-		<image xp="50" yp="50" name="images/twh20180730.png" width="1920" height="1080"/>
+		<image xp="50" yp="50" name="images/twh20180802.png" width="1920" height="1080"/>
 	</slide>
 
 	<slide bg="black">
@@ -393,28 +393,28 @@ https://api.flickr.com/services/rest/
 	
 	<slide> <!-- plain -->
 		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono" link="https://github.com/ajstarks/openvg/blob/master/go-client/twh/twh.go"/>
-		<image xp="75" yp="60" name="images/twh20180730.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh20180802.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- weather -->
 		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono" link="https://github.com/ajstarks/openvg/blob/master/go-client/twh/twh.go"/>
 		<rect xp="64" yp="74" wp="22.9" hp="17" color="red" opacity="20"/>
 		<rect xp="27" yp="52" wp="35" hp="8" color="red" opacity="20"/>
-		<image xp="75" yp="60" name="images/twh20180730.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh20180802.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- time -->
 		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono" link="https://github.com/ajstarks/openvg/blob/master/go-client/twh/twh.go"/>
 		<rect xp="86.5" yp="74" wp="22" hp="17" color="red" opacity="20"/>
 		<rect xp="27" yp="45" wp="35" hp="8" color="red" opacity="20"/>
-		<image xp="75" yp="60" name="images/twh20180730.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh20180802.png" width="1920" height="1080" scale="45"/>
 	</slide>
 	
 	<slide> <!-- headlines -->
 		<text file="code/twhmain.go" xp="5" yp="95" sp="1.4" font="mono" link="https://github.com/ajstarks/openvg/blob/master/go-client/twh/twh.go"/>
 		<rect xp="75" yp="50" wp="45" hp="25" color="red" opacity="20"/>
 		<rect xp="27" yp="38" wp="35" hp="8" color="red" opacity="20"/>
-		<image xp="75" yp="60" name="images/twh20180730.png" width="1920" height="1080" scale="45"/>
+		<image xp="75" yp="60" name="images/twh20180802.png" width="1920" height="1080" scale="45"/>
 	</slide>
 		
 	<slide bg="white" fg="rgb(50,50,50)">
