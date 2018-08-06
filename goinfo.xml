@@ -170,23 +170,23 @@
 		<image xp="50" yp="50" name="images/svgplay2.png" width="3432" height="1858" scale="55"/>
 		<text xp="5" yp="5" sp="2" font="mono" color="gray">svgplay</text>
 	</slide>
-
+	
 	<slide>
 		<text xp="50" yp="95" sp="2.5" link="https://ajstarks.org:1958/" align="c">https://ajstarks.org:1958/</text>
-		<image xp="20" yp="80" width="256" height="256" color="gray" name="images/clock.png" sp="1.6" caption="clock"/>
-		<image xp="40" yp="80" width="256" height="256" color="gray" name="images/funnel.png" sp="1.6"  caption="funnel"/>
+		<image xp="10" yp="80" width="256" height="256" color="gray" name="images/clock.png" sp="1.6" caption="clock"/>
+		<image xp="35" yp="80" width="256" height="256" color="gray" name="images/funnel.png" sp="1.6"  caption="funnel"/>
 		<image xp="60" yp="80" width="256" height="256" color="gray" name="images/rotext.png" sp="1.6"  caption="rotext"/>
-		<image xp="80" yp="80" width="256" height="256" color="gray" name="images/flower.png" sp="1.6"  caption="flower"/>
+		<image xp="85" yp="80" width="256" height="256" color="gray" name="images/flower.png" sp="1.6"  caption="flower"/>
 		
-		<image xp="20" yp="50" width="256" height="256" color="gray" name="images/rshape.png" sp="1.6"  caption="rshape"/>
-		<image xp="40" yp="50" width="256" height="256" color="gray" name="images/cube.png" sp="1.6"  caption="cube"/>
+		<image xp="10" yp="50" width="256" height="256" color="gray" name="images/rshape.png" sp="1.6"  caption="rshape"/>
+		<image xp="35" yp="50" width="256" height="256" color="gray" name="images/cube.png" sp="1.6"  caption="cube"/>
 		<image xp="60" yp="50" width="256" height="256" color="gray" name="images/mondrian.png" sp="1.6"  caption="mondrian"/>
-		<image xp="80" yp="50" width="256" height="256" color="gray" name="images/lewitt.png" sp="1.6"  caption="lewitt"/>
+		<image xp="85" yp="50" width="256" height="256" color="gray" name="images/lewitt.png" sp="1.6"  caption="lewitt"/>
 		
-		<image xp="20" yp="20" width="256" height="256" color="gray" name="images/face.png" sp="1.6"  caption="face"/>
-		<image xp="40" yp="20" width="256" height="256" color="gray" name="images/pacman.png" sp="1.6"  caption="pacman"/>
+		<image xp="10" yp="20" width="256" height="256" color="gray" name="images/face.png" sp="1.6"  caption="face"/>
+		<image xp="35" yp="20" width="256" height="256" color="gray" name="images/pacman.png" sp="1.6"  caption="pacman"/>
 		<image xp="60" yp="20" width="256" height="256" color="gray" name="images/tux.png" sp="1.6"  caption="tux"/>
-		<image xp="80" yp="20" width="256" height="256" color="gray" name="images/concentric.png" sp="1.6"  caption="concentric"/>
+		<image xp="85" yp="20" width="256" height="256" color="gray" name="images/concentric.png" sp="1.6"  caption="concentric"/>
 	</slide>
 	
 	<slide>
