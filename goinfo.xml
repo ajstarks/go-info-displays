@@ -1174,6 +1174,7 @@ the tale was something like this:—</text>
 			<li>-textsize</li>
 			<li>-color</li>
 			<li>-vcolor</li>
+			<li>-volop</li>
 			<li>-datafmt</li>
 			<li>-psize</li>
 			<li>-pwidth</li>
@@ -1186,6 +1187,7 @@ the tale was something like this:—</text>
 			<li>text size (default 1.5)</li>
 			<li>data color (default "lightsteelblue")</li>
 			<li>value color (default "rgb(127,0,0)")</li>
+			<li>volume opacity (default 50)</li>
 			<li>data format for values (default "%.1f")</li>
 			<li>diameter of the donut (default 30)</li>
 			<li>width of the donut or proportional map (default 3)</li>
