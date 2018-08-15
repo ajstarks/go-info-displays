@@ -2,9 +2,9 @@
 	<title>Go for Information Displays</title>
 	<creator>Anthony Starks</creator>
 	<subject>Go, markup, design, information design, deck, svgo, openvg, dchart</subject>
-	<date>2018-04-27</date>
+	<date>2018-08-15</date>
 	<description>This presentation describes the use of Go for information displays, 
-	a departure from the usual back-end view. Go NYC Meetup, April 2017, updated version Gotham Go, April 2018, Gophercon August 2018</description>
+	a departure from the usual back-end view.</description>
 	
 	
 	<slide bg="black" fg="white">
@@ -25,7 +25,7 @@
 		<rect xp="50" yp="15" wp="100" hp="20" color="black" opacity="15"/>
 		<text xp="50" yp="15" sp="5" align="center" color="white">But sometimes it's about the picture</text>
 	</slide>
-
+	
 	<slide bg="gray" fg="white">
 		<list xp="10" yp="80" sp="6">
 			<li>Information Displays</li>
@@ -878,18 +878,19 @@ Gate C31C
 	
 	<slide>
 		<text xp="7.5" yp="50" align="center" color="maroon" sp="5">go</text>
-		<list xp="15" yp="94" sp="2" font="mono" lp="1.7">
+		<list xp="15" yp="94" sp="2" font="mono" lp="1.6">
+			<li>bug</li>
 			<li>build</li>
 			<li>clean</li>
 			<li>doc</li>
 			<li>env</li>
-			<li>bug</li>
 			<li>fix</li>
 			<li>fmt</li>
 			<li>generate</li>
 			<li>get</li>
 			<li>install</li>
 			<li>list</li>
+			<li>mod</li>
 			<li>run</li>
 			<li>test</li>
 			<li>tool</li>
@@ -897,18 +898,19 @@ Gate C31C
 			<li>vet</li>
 		</list>
 
-		<list xp="30" yp="94" sp="2" color="gray" lp="1.7">
+		<list xp="30" yp="94" sp="2" color="gray" lp="1.6">
+			<li>start a bug report</li>
 			<li>compile packages and dependencies</li>
 			<li>remove object files and cached files</li>
 			<li>show documentation for package or symbol</li>
 			<li>print Go environment information</li>
-			<li>start a bug report</li>
 			<li>update packages to use new APIs</li>
 			<li>gofmt (reformat) package sources</li>
 			<li>generate Go files by processing source</li>
 			<li>download and install packages and dependencies</li>
 			<li>compile and install packages and dependencies</li>
-			<li>list packages</li>
+			<li>list packages or modules</li>
+			<li>module maintenance</li>
 			<li>compile and run Go program</li>
 			<li>test packages</li>
 			<li>run specified go tool</li>
