@@ -3,14 +3,14 @@
 . $HOME/Library/deckfuncs.sh
 
 colors="red,green,blue,orange,purple,lightsteelblue,gray,brown,salmon"
-
+title="Evoultion of Baby Names in the US: 1880-2015"
 opt="-max=100000 -title=f -fulldeck=f -vol -val=f -bar=f"
 deck begin
 	slide begin
 		cp=0
 		lx=10
 		ly=20
-		ctext "Distribution of Female Baby Names: 1880-2015" 50 93 2 sans
+		ctext "$title" 50 93 2 sans
 		for i in Amanda Ashley Betty Deborah Dorothy Helen Jessica Linda Patricia 
 		do
 			cp=$(( $cp + 1 ))
@@ -32,7 +32,7 @@ deck begin
 		left=10
 		top=88
 		cp=0
-		ctext "Distribution of Female Baby Names: 1880-2015" 50 93 2 sans
+		ctext "$title" 50 93 2 sans
 		for i in Amanda Ashley Betty Deborah Dorothy Helen Jessica Linda Patricia
 		do
 			cp=$(( $cp + 1 ))
