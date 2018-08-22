@@ -2,8 +2,8 @@
 
 . $HOME/Library/deckfuncs.sh
 
-colors="red,green,blue,orange,purple,lightsteelblue,gray,brown,salmon"
-title="Evoultion of Baby Names in the US: 1880-2015"
+colors="red,green,blue,orange,purple,steelblue,gray,brown,salmon"
+title="Evolution of Baby Names in the US: 1880-2015"
 opt="-max=100000 -title=f -fulldeck=f -vol -val=f -bar=f"
 deck begin
 	slide begin
