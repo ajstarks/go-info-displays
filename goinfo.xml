@@ -26,7 +26,7 @@
 		<text xp="50" yp="15" sp="5" align="center" color="white">But sometimes it's about the picture</text>
 	</slide>
 	
-	<slide bg="gray" fg="white">
+	<slide bg="steelblue" fg="white">
 		<list xp="10" yp="80" sp="6">
 			<li>Information Displays</li>
 			<li>Packages and Tools</li>
@@ -216,7 +216,7 @@ https://api.flickr.com/services/rest/
 		<image xp="70" yp="70" width="800" height="500" name="images/sunset.png"/>
 	</slide>
 	
-	<slide bg="rgb(127,127,127)" fg="white">
+	<slide bg="lightsteelblue" fg="white">
 	   <text xp="10" yp="50" sp="7">SVGo Clients</text>
 	</slide>
 	
@@ -702,7 +702,7 @@ https://api.flickr.com/services/rest/
 		<image xp="50" yp="50" name="images/P1220669.JPG" width="4424" height="2376" scale="45"/>
 	</slide>
 
-	<slide bg="rgb(127,127,127)" fg="white">
+	<slide bg="lightsteelblue" fg="white">
 	   <text xp="10" yp="50" sp="7">Design Examples</text>
 	</slide>
 
@@ -1151,6 +1151,7 @@ TERMINATED</text>
 			<li>-grid</li>
 			<li>-val</li>
 			<li>-valpos</li>
+			<li>-pct</li>
 			<li>-yaxis</li>
 			<li>-yrange</li>
 			<li>-fulldeck</li>
@@ -1164,6 +1165,7 @@ TERMINATED</text>
 			<li>show gridlines on the y axis (default false)</li>
 			<li>show values (default true)</li>
 			<li>value position (t=top, b=bottom, m=middle) (default "t")</li>
+			<li>show computed percentage with the values (default false)</li>
 			<li>show a y axis (default true)</li>
 			<li>specify the y axis labels (min,max,step)</li>
 			<li>generate full deck markup (default true)</li>
