@@ -695,7 +695,7 @@ https://api.flickr.com/services/rest/
 			<li>Specify the text size of the table</li>
 			<li>Play the specified video</li>
 		</list>
-		<text xp="55" yp="90" sp="1.2" color="rgb(127,0,0)" font="mono">sex -dir [start dir] -listen [address:port] -maxupload [bytes]</text>
+		<text xp="55" yp="90" sp="1.2" color="rgb(127,0,0)" font="mono">deckd -dir [start dir] -listen [address:port] -maxupload [bytes]</text>
 	</slide>
 	
 	<slide bg="black">
