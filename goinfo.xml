@@ -216,7 +216,7 @@ https://api.flickr.com/services/rest/
 		<image xp="70" yp="70" width="800" height="500" name="images/sunset.png"/>
 	</slide>
 	
-	<slide bg="lightsteelblue" fg="white">
+	<slide bg="steelblue" fg="white">
 	   <text xp="10" yp="50" sp="7">SVGo Clients</text>
 	</slide>
 	
@@ -651,7 +651,7 @@ https://api.flickr.com/services/rest/
 	
 	<slide bg="rgb(240,240,240)" fg="black">
 		<text xp="2.5" yp="90" sp="1.5" file="code/exampledeck.sh" font="mono"/>
-		<image xp="75" yp="45" width="900" height="675" name="images/ed.png"/>
+		<image xp="75" yp="45" width="900" height="695" name="images/ed.png"/>
 	</slide>
 
 	<slide>
@@ -702,7 +702,7 @@ https://api.flickr.com/services/rest/
 		<image xp="50" yp="50" name="images/P1220669.JPG" width="4424" height="2376" scale="45"/>
 	</slide>
 
-	<slide bg="lightsteelblue" fg="white">
+	<slide bg="steelblue" fg="white">
 	   <text xp="10" yp="50" sp="7">Design Examples</text>
 	</slide>
 
