@@ -650,8 +650,8 @@ https://api.flickr.com/services/rest/
 	</slide>
 	
 	<slide bg="rgb(240,240,240)" fg="black">
-		<text xp="2.5" yp="90" sp="1.5" file="code/exampledeck.sh" font="mono"/>
-		<image xp="75" yp="45" width="900" height="695" name="images/ed.png"/>
+		<text xp="2.5" yp="90" sp="1.5" file="code/ed.sh" font="mono"/>
+		<image xp="75" yp="55" width="900" height="695" name="images/ed.png"/>
 	</slide>
 
 	<slide>
