@@ -1,6 +1,6 @@
-deck begin
+deck
 	canvas 1200 900
-	slide begin "white" "black"
+	slide "white" "black"
 		ctext "Deck elements" 50 90 5
 		cimage "follow.jpg" "Dreams" 70 60 640 480 50
 
@@ -16,5 +16,5 @@ deck begin
 		line    50 20 60 20 0.2        "rgb(127,0,0)"
 		arc     70 20 10 8 0 180  0.2  "rgb(0,127,0)"
 		curve   80 20 95 30 90 20 0.2  "rgb(0,0,127)"
-	slide end
-deck end
+	eslide
+edeck
