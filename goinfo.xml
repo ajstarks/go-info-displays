@@ -1200,6 +1200,7 @@ TERMINATED</text>
 		<text xp="50" yp="45" sp="2.5">Measures and Attributes</text>
 		<list lp="1.5" xp="50" yp="40" sp="1.3" font="mono" color="maroon">
 			<li>-barwidth</li>
+			<li>-linewidth</li>
 			<li>-ls</li>
 			<li>-textsize</li>
 			<li>-color</li>
@@ -1213,6 +1214,7 @@ TERMINATED</text>
 		
 		<list lp="1.5" xp="60" yp="40" sp="1.3">
 			<li>barwidth (default computed from data size)</li>
+			<li>linewidth (default 0.2)</li>
 			<li>linespacing (default 2.4)</li>
 			<li>text size (default 1.5)</li>
 			<li>data color (default "lightsteelblue")</li>
