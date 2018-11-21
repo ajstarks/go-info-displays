@@ -1429,11 +1429,11 @@ We were just trying to get something that worked for us.</text>
 
 	<slide bg="black" fg="rgb(240,240,240)">
 		<text xp="15" yp="75" sp="7" color="white">Thank you</text>
-		<image width="74" height="60" xp="17.5" yp="60" name="images/100-Twitter_logo_blue.png"  />
-		<image width="75" height="75" xp="17.5" yp="50" name="images/100-gmail-logo-2013.png"/>
-		<image width="75" height="75" xp="17.5" yp="40" name="images/100-GitHub-Mark.png"/>
-		<image width="75" height="75" xp="17.5" yp="30" name="images/100-speakerdeck.png"/>
-		<image width="75" height="75" xp="17.5" yp="20" name="images/100-flickr-logo.png" />
+		<image width="74" height="60" xp="17.5" yp="60" name="images/twitter-logo.png"  />
+		<image width="75" height="75" xp="17.5" yp="50" name="images/gmail-logo.png"/>
+		<image width="75" height="75" xp="17.5" yp="40" name="images/gitHub-logo.png"/>
+		<image width="75" height="75" xp="17.5" yp="30" name="images/speakerdeck-logo.png"/>
+		<image width="75" height="75" xp="17.5" yp="20" name="images/flickr-logo.png" />
 	
 		<list xp="25" yp="57.5" sp="4" lp="1.42">
 			<li>@ajstarks</li>
