@@ -1,9 +1,6 @@
 deck
     canvas 1920 1080
 
-	cx=50
-	cy=50
-
 	tuftesays="Display data for precise, effective, quick analysis, Small multiples, optimizing the data-ink ratio Visual and beautiful evidence."
 	holmesays="Designing for the context: The data visualizer asks: “What’s the data?”, the infographics designer: “What’s the Story?”"
 	ajsays="An interesting arrangement of text and graphics, designed to convey a message"
@@ -18,6 +15,8 @@ deck
 	zukq1="The new masters of our universe are people who are essentially only half-educated."
 	zukq2="They have had no exposure to the humanities or the social sciences, the academic disciplines that aim to provide some understanding of how society works, of history and of the roles that beliefs, philosophies, laws, norms, religion and customs play in the evolution of human culture"
 	multi="The number and share of Americans living in multi- generational family households have continued to rise, despite improvements in the U.S. economy since the Great Recession. In 2016, a record 64 million people, or 20% of the U.S.population, lived with multiple generations under one roof, according to a new Pew Research Center analysis of census data."
+	cx=50
+	cy=50
 	qleft=10
     qtop=75
     qwidth=65
@@ -117,7 +116,7 @@ deck
 		text	"rgb(164,198,57)" 50 65 4
 		image	"images/android.png" cx cy 877 877
 	eslide
-// slide 14
+
 	slide 
 		ctext	"Element" 30 90 2.5 "sans" "gray"
 		ctext	"Arguments" 50 90 2.5 "sans" "gray"
@@ -132,7 +131,7 @@ deck
 		line	50 89 50 85
 	eslide
 
-	// slide 15
+	
 	slide 
 		ctext	"Element" 30 90 2.5 "sans" "gray"
 		ctext	"Arguments" 50 90 2.5 "sans" "gray"
@@ -152,7 +151,7 @@ deck
 		line	67 89 67 80
 	eslide
 
-	// slide 16
+	
 	slide 
 		ctext	"Element" 30 90 2.5 "sans" "gray"
 		ctext	"Arguments" 50 90 2.5 "sans" "gray"
@@ -172,7 +171,7 @@ deck
 		line	75 89 75 80
 	eslide
 
-	// slide 17
+	
 	slide 
 		textfile "code/hwsvg.go" 4 95 2 "mono"
 		image	"images/hw.png" 75 72 1600 1138 50
@@ -180,19 +179,19 @@ deck
 
 	
 	
-	// slide 18
+	
 	slide 
 		text	"svgplay" 5 5 2
 		image	"images/svgplay1.png" cx cy 3432 1858 55
 	eslide
 
-	// slide 19
+	
 	slide 
 		text	"svgplay" 5 5 2
 		image	"images/svgplay2.png" cx cy 3432 1858 55
 	eslide
 
-	// slide 20
+	
 	slide 
 		ctext	"https://ajstarks.org:1958/" 50 95 2.5
 		image	"images/clock.png" 12.5 80 256 256
@@ -210,7 +209,7 @@ deck
 	eslide
 
 
-	// slide 21
+	
 	slide 
 		ctext	"Data" 10 80 5
 		ctext	"Picture" 10 15 5
@@ -220,13 +219,13 @@ deck
 		polygon	"8 10 12" "31 25 31"
 	eslide
 
-	// slide 22
+	
 	slide 
 		textfile "code/benchmarks.xml" 25 90 1.4 "mono"
 		image	"images/barchart.png" 50 22 2720 1140 40
 	eslide
 
-	// slide 23
+	
 	slide 
 		text		"f50 sunset" 5 90 3
 		textblock	"https://api.flickr.com/services/rest/? method=flickr.photos.search &api_key=... &text=sunset &per_page=50 &sort=interestingness-desc" 5 80 10 2 "sans" "gray"
@@ -234,110 +233,110 @@ deck
 		image		"images/sunset.png" 70 70 800 500
 	eslide
 
-	// slide 24
+	
 	slide "steelblue" "white"
 		text	"SVGo Clients" 10 50 7
 	eslide
 
-	// slide 25
+	
 	slide 
 		image	"images/compx.png" cx cy 2166 1626 67
 	eslide
 
-	// slide 26
+	
 	slide 
 		image	"images/benchviz.png" cx cy 2018 1610 67
 	eslide
 
-	// slide 27
+	
 	slide 
 		ctext	"structlayout -json bytes Reader | structlayout-svg -t bytes.Reader > reader.svg" 50 5 2
 		image	"images/bytesreader.png" cx cy 827 828
 	eslide
 
-	// slide 28
+	
 	slide 
 		image	"images/go-rel.png" cx cy 3334 1432 60
 	eslide
 
-	// slide 29
+	
 	slide 
 		image	"images/bulletgraph.png" cx cy 2716 1596 67
 	eslide
 
-	// slide 30
+	
 	slide 
 		image	"images/quad.png" cx cy 2106 1544 67
 	eslide
 
-	// slide 31
+	
 	slide 
 		image	"images/roadmap.png" cx cy 2146 1610 67
 	eslide
 
-	// slide 32
+	
 	slide 
 		image	"images/pv.png" cx cy 2142 1608 67
 	eslide
 
-	// slide 33
+	
 	slide 
 		image	"images/rr0.png" cx cy 1550 1496 72
 	eslide
 
-	// slide 34
+	
 	slide 
 		image	"images/apple-stockchart.png" cx cy 1600 900
 	eslide
 
-	// slide 35
+	
 	slide 
 		image	"images/tweetfreq.png" cx cy 2138 1596 67
 	eslide
 
-	// slide 36
+	
 	slide "black"
 		image	"images/planets.png" cx cy 1900 600
 	eslide
 
-	// slide 37
+	
 	slide "black"
 		image	"images/lt-04-jones-montiel.png" 20 50 1150 2072 45
 		image	"images/lt-04-dkng-ddl.png" cx cy 1150 2072 45
 		image	"images/lt-04-anderson-dkng.png" 80 50 1150 2072 45
 	eslide
 
-	// slide 38
+	
 	slide "black"
 		image	"images/ar.jpg" cx cy 1425 1000
 	eslide
 
-	// slide 39
+	
 	slide 
 		image	"images/201933.png" cx cy 900 846
 	eslide
 
-	// slide 40
+	
 	slide 
 		image	"images/201935.png" cx cy 900 846
 	eslide
 
-	// slide 41
+	
 	slide 
 		image	"images/201939.png" cx cy 900 846
 	eslide
 
-	// slide 42
+	
 	slide 
 		image	"images/danny.jpg" cx cy 1920 1080
 	eslide
 
-	// slide 43
+	
 	slide 
 		image	"images/shining.png" cx cy 1920 1080
 	eslide
 	
-	// slide 44
+	
 	slide 
 		textfile "code/defunit.go" 45 92 1.8 "mono"
 		textfile "code/defrunit.go" 45 65 1.8 "mono"
@@ -347,13 +346,13 @@ deck
 		image	"images/unit+runit2.png" 20 22 1054 700 50
 	eslide
 
-	// slide 45
+	
 	slide "black" "white"
 		text	"OpenVG" 5 65 9
 		image	"images/P1220686.JPG" cx cy 4224 2376 45
 	eslide
 
-	// slide 46
+	
 	slide 
 		image	"images/refcard.raw.png" 20 85 1920 1080 25
 		image	"images/gradient.raw.png" 50 85 1920 1080 25
@@ -366,13 +365,13 @@ deck
 		image	"images/slide4.raw.png" 80 25 1920 1080 25
 	eslide
 
-	// slide 47
+	
 	slide 
 		textfile	"code/hwopenvg.go" 4 95 1.5 "mono"
 		image		"images/hellovg.raw.png" 70 70 1920 1080 50
 	eslide
 
-	// slide 48
+	
 	slide 
 		text	"OpenVG Functions" 2.4 90 4
 		list	2.4 70 2.5 "sans" "maroon"
@@ -413,33 +412,33 @@ deck
 		elist
 	eslide
 
-	// slide 49
+	
 	slide 
 		image	"images/twh20180802.png" cx cy 1920 1080
 	eslide
 
-	// slide 50
+	
 	slide "black"
 		image	"images/P1220110.JPG" cx cy 4224 2376 45
 	eslide
 
-	// slide 51
+	
 	slide "black"
 		image	"images/P1220082.JPG" cx cy 4224 2376 45
 	eslide
 
-	// slide 52
+	
 	slide "black"
 		image	"images/P1220418.JPG" cx cy 4224 2376 45
 	eslide
 
-	// slide 53
+	
 	slide 
 		textfile	"code/twhmain.go" 5 95 1.4 "mono"
 		image		"images/twh20180802.png" 75 60 1920 1080 45
 	eslide
 
-	// slide 54
+	
 	slide 
 		textfile	"code/twhmain.go" 5 95 1.4 "mono"
 		image		"images/twh20180802.png" 75 60 1920 1080 45
@@ -447,7 +446,7 @@ deck
 		rect 27 52 35 8 "red" 20
 	eslide
 
-	// slide 55
+	
 	slide 
 		textfile	"code/twhmain.go" 5 95 1.4 "mono"
 		image		"images/twh20180802.png" 75 60 1920 1080 45
@@ -455,7 +454,7 @@ deck
 		rect 86.5 74 22 17 "red" 20
 	eslide
 
-	// slide 56
+	
 	slide 
 		textfile	"code/twhmain.go" 5 95 1.4 "mono"
 		image		"images/twh20180802.png" 75 60 1920 1080 45
@@ -463,19 +462,19 @@ deck
 		rect 27 38 35 8 "red" 20
 	eslide
 
-	// slide 57
+	
 	slide "white" "rgb(50,50,50)"
 		text	"Deck" 5 45 18
 		etext	"a Go package for presentations" 95 5 2.5
 	eslide
 
-	// slide 58
+	
 	slide 
 		textfile	"code/hello-deck.xml" 10 90 2 "mono"
 		image		"images/hellodeck.png" 50 35 835 638
 	eslide
 
-	// slide 59
+	
 	slide 
 		etext		"Anatomy of a Deck" 95 5 2.5
 		textfile	"code/exampledeck.xml" 13 90 1.4 "mono" "black" 100 2
@@ -501,7 +500,7 @@ deck
 		elist
 	eslide
 
-	// slide 60
+	
 	slide "white" "black"
 		ctext	"Deck elements" 50 90 5
 		image	"images/follow.jpg" 70 60 640 480 80
@@ -518,7 +517,7 @@ deck
 		polygon	"37 37 45" "17 23 20" "rgb(0,0,127)"
 	eslide
 
-	// slide 61
+	
 	slide 
 		ctext	"Percent Grid" cx cy 7
 		ctext	"10" 10 95 3
@@ -586,7 +585,7 @@ deck
 		ctext "Scaling the canvas" 50 5 4
 	eslide
 
-	// slide 64
+	
 	slide 
 		etext	"Data" 15 48.5 3 "sans" "black"
 		ctext	"Process" 25 48.5 3 "sans" "black"
@@ -611,7 +610,7 @@ deck
 		circle	70 20 2 "purple"
 	eslide
 
-	// slide 65
+	
 	slide 
 		text	"deck/generate text and list functions" 2.2 90 4
 		list	2.2 75 2.4 "sans" "maroon"
@@ -632,7 +631,7 @@ deck
 		elist
 	eslide
 
-	// slide 66
+	
 	slide 
 		text	"deck/generate graphic functions" 2.2 90 4
 		list	2.2 75 2.4 "sans" "maroon"
@@ -659,7 +658,7 @@ deck
 		elist
 	eslide
 
-	// slide 67
+	
 	slide 
 		textfile	"code/slidegen.go" 5 90 2 "mono"
 		image		"images/g1w.png" 75 65 1600 900 20
@@ -667,25 +666,25 @@ deck
 		image		"images/g3w.png" 75 25 1600 900 20
 	eslide
 
-	// slide 68
+	
 	slide 
 		textfile	"code/gen1w.go" 5 92 2 "mono"
 		image		"images/g1w.png" 28 30 1600 900 55
 	eslide
 
-	// slide 69
+	
 	slide 
 		textfile	"code/gen2w.go" 5 92 2 "mono"
 		image		"images/g2w.png" 28 30 1600 900 55
 	eslide
 
-	// slide 70
+	
 	slide 
 		textfile	"code/gen3w.go" 5 92 2 "mono"
 		image		"images/g3w.png" 28 30 1600 900 55
 	eslide
 
-	// slide 71
+	
 	slide "rgb(240,240,240)" "black"
 		ctext		"capgen slides.txt | pdfdeck ... > slides.pdf" 50 10 3.5 "mono"
 		textfile	"code/slides.txt"		2 40 1.8
@@ -694,13 +693,13 @@ deck
 		image		"images/eames.png"		80 70 1400 1050 40
 	eslide
 
-	// slide 72
+	
 	slide "rgb(240,240,240)" "black"
 		textfile	"code/ed.sh" 2.5 90 1.5 "mono"
 		image		"images/ed.png" 75 55 900 695
 	eslide
 
-	// slide 73
+	
 	slide 
 		text	"Deck Web API" 5 90 4
 		text	"deckd -dir [start dir] -listen [address:port] -maxupload [bytes]" 52 90 1.2 "mono" "rgb(127,0,0)"
@@ -745,17 +744,17 @@ deck
 		elist
 	eslide
 
-	// slide 74
+	
 	slide "black"
 		image	"images/P1220669.JPG" cx cy 4424 2376 45
 	eslide
 
-	// slide 75
+	
 	slide "steelblue" "white"
 		text	"Design Examples" 10 50 7
 	eslide
 
-	// slide 76
+	
 	slide
 		ctext	"Bottom" 50 3 4 
 		ctext	"Top" 50 93 4 
@@ -767,7 +766,7 @@ deck
 		rect	65 50 70 80 "rgb(48,76,123)"
 	eslide
 
-	// slide 77
+	
 	slide
 		ctext	"10%" 50 3 4 
 		ctext	"10%" 50 93 4 
@@ -779,7 +778,7 @@ deck
 		rect	65 50 70 80 "rgb(48,76,123)"
 	eslide
 
-	// slide 78
+	
 	slide
 		ctext	"Footer (bottom 10%)" 50 3 4 
 		ctext	"Header (top 10%)" 50 93 4
@@ -794,7 +793,7 @@ deck
 	eslide
 
 
-	// slide 79
+	
 	slide "black" "white"
 		text	"My Story" 5 90 6
 		ctext	"Section" 20 50 5
@@ -919,13 +918,12 @@ deck
 		text	"2018-03-20 17:42:56" 7 5 1.5 "sans" "yellow"
 	eslide
 
-	// slide 87
 	slide 
 		textfile "code/stockslide.go" 3 95 1.2 "mono"
 		image	"images/sd2.png" 70 70 2000 1125 45
 	eslide
 
-	// slide 88
+
 	slide "white" "black"
 		textblock	subclass 20 70 40 4 "serif"
 		text	"what would Go do" 20 35 6 "serif" "rgb(127,0,0)"
@@ -933,7 +931,7 @@ deck
 		image	"images/doc.png" 95 10 75 100
 	eslide
 
-	// slide 89
+
 	slide 
 		ctext	"go" 7.5 50 5 "sans" "rgb(127,0,0)"
 		list	15 94 2 "mono" "black" 100 1.6
@@ -976,7 +974,6 @@ deck
 		elist
 	eslide
 
-	// slide 90
 	slide 
 		etext	"Go Proverbs" 25 50 4
 		text	"Don’t communicate by sharing memory, share memory by communicating." 35 95 1.6
@@ -1019,19 +1016,16 @@ deck
 		image	"images/noun_bomb_193958.png" 30 2.4 300 300 15
 	eslide
 
-	// slide 91
 	slide "rgb(200,200,200)"
 		image	"images/gp-share.png" 25 50 2303 1293 40
 		image	"images/gp-big.png" 74.5 50 2298 1292 40
 	eslide
 
-	// slide 92
 	slide "white" "rgb(127,0,0)"
 		textblock	"Make the zero value useful." 35 65 35 7  "sans" "rgb(127,0,0)"
 		image	"images/noun_okay_13505.png" 15 60 500 500
 	eslide
 
-	// slide 93
 	slide  
 		text	"Chapter V" 15 85 3 "serif" "rgb(127,0,0)"
 		text	"Advice from a Caterpillar" 40 85 3 "serif" "rgb(127,0,0)"
@@ -1039,7 +1033,6 @@ deck
 		image	"images/Alice_05a-1116x1492.jpg" 25 50 1116 1492 45
 	eslide
 
-	// slide 94
 	slide 
 		textblock alice2 10 33 40 1.5 "serif"
 		text	"Fury said to a " 70 96 1.2 "serif"
@@ -1088,25 +1081,21 @@ deck
 		image	"images/dodo.jpg" 32 68 1200 800 75
 	eslide
 
-	// slide 95
 	slide 
 		etext	"codepicdeck" 95 5 3
 		image	"images/svgplay-title.png" cx cy 1800 1200 90
 	eslide
 
-	// slide 96
 	slide "rgb(200,200,200)"
 		image	"images/p8.pdf.png" 25 50 2500 1875 37
 		image	"images/p9.pdf.png" 75 50 2500 1875 37
 	eslide
 
-	// slide 97
 	slide "rgb(200,200,200)"
 		image	"images/p36.pdf.png" 25 50 2500 1875 37
 		image	"images/p37.pdf.png" 75 50 2500 1875 37
 	eslide
 
-	// slide 98
 	slide "rgb(27,116,166)" "white"
 		textblock	zukq1 7 85 40 3.5
 		textblock	zukq2 7 50 40 2
@@ -1117,7 +1106,7 @@ deck
 	slide
 		text "dchart: charts for deck" 5 90 5
 		ctext "Bitcoin to USD" 35 79 1.5
-		dchart -fulldeck=f -textsize=1   -top=75 -left=10 -bottom=50 -right=60 -color=steelblue -title=f -bar=f -vol -val=f -xlabel=0 -line -yaxis -grid -csv -csvcol=Date,Close -yrange=0,20000,4000 code/BTC-USD.csv
+		dchart -fulldeck=f -textsize=1   -top=75 -left=10 -bottom=50 -right=60 -color=steelblue -title=f -bar=f -vol -val=f -xlabel=0 -yaxis -grid -csv -csvcol=Date,Close -yrange=0,20000,4000 code/BTC-USD.csv
 		dchart -fulldeck=f -textsize=1   -top=48 -left=10 -bottom=40 -right=60 -color=orange -yaxis=f -bar -val=f -xlabel=100 -xlast -title=f -csv -csvcol=Date,Volume code/BTC-USD.csv
 		dchart -fulldeck=f -textsize=1   -top=75 -left=72 -bottom=50 -right=95 -xlabel=5  code/AAPL.d
 		dchart -fulldeck=f -textsize=0.9 -top=40 -left=72            -right=75 -pgrid  -ls=2.4 -val=f code/incar.d
@@ -1193,8 +1182,6 @@ deck
 		ctext	"dchart -left=20 -right=80 -top=75 -yaxis -xlabel=2 -grid AAPL.d" 50 15 2.5 "mono" "black"
 	eslide
 
-
-	// slide 117
 	slide 
 		text	"Chart Types" 5 95 2.5
 		text	"Chart Elements" 50 95 2.5
@@ -1310,12 +1297,11 @@ deck
 	eslide
 
 
-// slide 120
+
 	slide
 		rect 35 55 62 70 "gray" 10
-		rect 80 50 24 80 "maroon" 10
 		textfile "code/sine.go" 5 85 2 "mono" "black"
-		textfile "code/sine.out" 70 85 2 "mono" "maroon"
+		textfile "code/sine.out" 70 90 2 "mono" "maroon"
 	eslide
 	
 	slide
@@ -1348,6 +1334,148 @@ deck
 		dchart topts -left=76 -right=81  code/hkids
 		dchart topts -left=83 -right=88  code/okids
 		dchart topts -left=90 -right=95  code/wkids
+	eslide
+	
+	slide
+		sopts="-dmin=t -bar=f -vol -xlabel=0 -val=f -yaxis=f -title=f -fulldeck=f -csv"
+		vopts="-color=slategray -csvcol=Date,Volume"
+		copts="-color=steelblue -csvcol=Date,Close"
+		cleft=50
+		cright=70
+		
+		vleft=75
+		vright=95
+		
+		stop=80
+		sbot=70
+		
+		nsize=3.5
+		ssize=1.5
+		lsize=1
+		
+		text	"Tech Stock Performance" 5 90 5
+		etext	"July 2017 - July 2018" 95 90 2
+		ctext	"Closing Price" 60 stop lsize
+		ctext	"Volume"		85 stop lsize
+		
+		text	"Apple"			5  70 nsize
+		text	"AAPL"			40 70 ssize
+		dchart sopts copts -top stop -bottom sbot -left cleft -right cright code/AAPL.csv
+		dchart sopts vopts -top stop -bottom sbot -left vleft -right vright code/AAPL.csv
+		
+		stop-=15
+		sbot-=15
+		
+		text	"Amazon.com"	5  55 nsize
+		text	"AMZN"			40 55 ssize
+		dchart sopts copts -top stop -bottom sbot -left cleft -right cright code/AMZN.csv
+		dchart sopts vopts -top stop -bottom sbot -left vleft -right vright code/AMZN.csv
+		
+		stop-=15
+		sbot-=15
+		
+		text	"Facebook"		5  40 nsize
+		text	"FB"			40 40 ssize
+		dchart sopts copts -top stop -bottom sbot -left cleft -right cright code/FB.csv
+		dchart sopts vopts -top stop -bottom sbot -left vleft -right vright code/FB.csv
+		
+		stop-=15
+		sbot-=15
+		
+		text	"Alphabet" 		5  25 nsize
+		text	"GOOG" 			40 25 ssize
+		dchart sopts copts -top stop -bottom sbot -left cleft -right cright code/GOOG.csv
+		dchart sopts vopts -top stop -bottom sbot -left vleft -right vright code/GOOG.csv
+		
+		stop-=15
+		sbot-=15
+
+		text	"Microsoft"		5  10 3.5
+		text	"MSFT"			40 10 1.5
+		dchart sopts copts -top stop -bottom sbot -left cleft -right cright code/MSFT.csv
+		dchart sopts vopts -top stop -bottom sbot -left vleft -right vright code/MSFT.csv
+	eslide
+	
+
+	// Aggregated on one chart
+	slide
+		bntitle="Evolution of Baby Names in the US: 1880-2015"
+		opt="-max=100000 -title=f -fulldeck=f -vol -val=f -bar=f -xlabel=0 -yrange=0,100000,25000"
+		lsize=1.25
+		ctext bntitle 50 93 2 "sans"
+		dchart -color=red		opt  -xlabel=20 -grid -yaxis code/Amanda.d
+		dchart -color=green		opt   code/Ashley.d
+		dchart -color=blue		opt   code/Betty.d
+		dchart -color=orange	opt   code/Deborah.d
+		dchart -color=purple	opt   code/Dorothy.d
+		dchart -color=steelblue	opt   code/Helen.d
+		dchart -color=gray		opt   code/Jessica.d
+		dchart -color=brown		opt   code/Linda.d
+		dchart -color=salmon	opt   code/Patricia.d
+
+		ly=20
+		legend "Amanda"		10 ly lsize "sans" "red"
+		legend "Ashley"		20 ly lsize "sans" "green"
+		legend "Betty"		30 ly lsize "sans" "blue"
+		legend "Deborah"	40 ly lsize "sans" "orange"
+		legend "Dorothy"	50 ly lsize "sans" "purple"
+		legend "Helen"		60 ly lsize "sans" "steelblue"
+		legend "Jessica"	70 ly lsize "sans" "gray"
+		legend "Linda"		80 ly lsize "sans" "brown"
+		legend "Patricia"	90 ly lsize "sans" "salmon"
+	eslide
+
+	// Chart Grid
+	slide
+		top=88
+		bottom=68
+		boxw=20
+		boxh=20
+		boxop=7
+		ctext bntitle 50 93 2 "sans"
+
+		ctext "Amanda"		20 top lsize
+		ctext "Ashley"		50 top lsize
+		ctext "Betty"		80 top lsize
+
+		rect 20 78 boxw boxh "red"		boxop
+		rect 50 78 boxw boxh "green"	boxop
+		rect 80 78 boxw boxh "blue"		boxop
+
+		dchart -color=red		-top top -bottom bottom -left=10 -right=30 opt  -yaxis  code/Amanda.d
+		dchart -color=green 	-top top -bottom bottom -left=40 -right=60 opt   code/Ashley.d
+		dchart -color=blue 		-top top -bottom bottom -left=70 -right=90 opt   code/Betty.d
+
+		top-=30
+		bottom-=30
+
+		ctext "Deborah" 	20 top lsize
+		ctext "Dorothy" 	50 top lsize
+		ctext "Helen"   	80 top lsize
+
+		rect 20 48 boxw boxh "orange"		boxop
+		rect 50 48 boxw boxh "purple"		boxop
+		rect 80 48 boxw boxh "steelblue" 	boxop
+
+
+		dchart -color=orange	-top top -bottom bottom -left=10 -right=30 opt  -yaxis code/Deborah.d
+		dchart -color=purple	-top top -bottom bottom -left=40 -right=60 opt  code/Dorothy.d
+		dchart -color=steelblue -top top -bottom bottom -left=70 -right=90 opt  code/Helen.d
+
+		top-=30
+		bottom-=30
+
+		ctext "Jessica"		20 top lsize
+		ctext "Linda"		50 top lsize
+		ctext "Patricia"	80 top lsize
+
+		rect 20 18 boxw boxh "gray"		boxop
+		rect 50 18 boxw boxh "brown"	boxop
+		rect 80 18 boxw boxh "salmon"	boxop
+
+		dchart -color=gray		-top top -bottom bottom -left=10 -right=30 opt -xlabel=20 -yaxis  code/Jessica.d
+		dchart -color=brown		-top top -bottom bottom -left=40 -right=60 opt -xlabel=20 code/Linda.d
+		dchart -color=salmon	-top top -bottom bottom -left=70 -right=90 opt -xlabel=20 code/Patricia.d
 	eslide
 	
 	slide "rgb(127,0,0)" "white"
