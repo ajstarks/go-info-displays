@@ -185,47 +185,41 @@ deck
 		image	"images/svgplay1.png" cx cy 3432 1858 55
 	eslide
 
-	
 	slide 
 		text	"svgplay" 5 5 2
 		image	"images/svgplay2.png" cx cy 3432 1858 55
 	eslide
 
-	
 	slide 
 		ctext	"https://ajstarks.org:1958/" 50 95 2.5
-		image	"images/clock.png" 12.5 80 256 256
-		image	"images/funnel.png" 37.5 80 256 256
-		image	"images/rotext.png" 62.5 80 256 256
-		image	"images/flower.png" 87.5 80 256 256
-		image	"images/rshape.png" 12.5 50 256 256
-		image	"images/cube.png" 37.5 50 256 256
-		image	"images/mondrian.png" 62.5 50 256 256
-		image	"images/lewitt.png" 87.5 50 256 256
-		image	"images/face.png" 12.5 20 256 256
-		image	"images/pacman.png" 37.5 20 256 256
-		image	"images/tux.png" 62.5 20 256 256
-		image	"images/concentric.png" 87.5 20 256 256
+		cimage	"images/clock.png" "clock" 12.5 80 256 256
+		cimage	"images/funnel.png" "funnel" 37.5 80 256 256 
+		cimage	"images/rotext.png" "rotext" 62.5 80 256 256 
+		cimage	"images/flower.png" "flower" 87.5 80 256 256 
+		cimage	"images/rshape.png" "rshape" 12.5 50 256 256 
+		cimage	"images/cube.png" "cube" 37.5 50 256 256 
+		cimage	"images/mondrian.png" "mondrian" 62.5 50 256 256 
+		cimage	"images/lewitt.png" "lewitt" 87.5 50 256 256 
+		cimage	"images/face.png" "face" 12.5 20 256 256 
+		cimage	"images/pacman.png" "pacman" 37.5 20 256 256 
+		cimage	"images/tux.png" "tux" 62.5 20 256 256 
+		cimage	"images/concentric.png" "concentric" 87.5 20 256 256 
 	eslide
 
-
-	
 	slide 
 		ctext	"Data" 10 80 5
 		ctext	"Picture" 10 15 5
 		textfile "code/thing.xml" 17 87 1.6 "mono"
 		image	"images/thingss.png" 55 35 2642 1140 50
-		line	10 75 10 30 1
-		polygon	"8 10 12" "31 25 31"
+		line	10 75 10 30 1 "lightgray"
+		polygon	"8 10 12" "31 25 31" "lightgray"
 	eslide
 
-	
 	slide 
 		textfile "code/benchmarks.xml" 25 90 1.4 "mono"
 		image	"images/barchart.png" 50 22 2720 1140 40
 	eslide
 
-	
 	slide 
 		text		"f50 sunset" 5 90 3
 		textblock	"https://api.flickr.com/services/rest/? method=flickr.photos.search &api_key=... &text=sunset &per_page=50 &sort=interestingness-desc" 5 80 10 2 "sans" "gray"
@@ -233,110 +227,89 @@ deck
 		image		"images/sunset.png" 70 70 800 500
 	eslide
 
-	
 	slide "steelblue" "white"
 		text	"SVGo Clients" 10 50 7
 	eslide
 
-	
 	slide 
 		image	"images/compx.png" cx cy 2166 1626 67
 	eslide
 
-	
 	slide 
 		image	"images/benchviz.png" cx cy 2018 1610 67
 	eslide
 
-	
 	slide 
 		ctext	"structlayout -json bytes Reader | structlayout-svg -t bytes.Reader > reader.svg" 50 5 2
 		image	"images/bytesreader.png" cx cy 827 828
 	eslide
 
-	
 	slide 
 		image	"images/go-rel.png" cx cy 3334 1432 60
 	eslide
 
-	
 	slide 
 		image	"images/bulletgraph.png" cx cy 2716 1596 67
 	eslide
 
-	
 	slide 
 		image	"images/quad.png" cx cy 2106 1544 67
 	eslide
 
-	
 	slide 
 		image	"images/roadmap.png" cx cy 2146 1610 67
 	eslide
-
 	
 	slide 
 		image	"images/pv.png" cx cy 2142 1608 67
 	eslide
 
-	
 	slide 
 		image	"images/rr0.png" cx cy 1550 1496 72
 	eslide
 
-	
 	slide 
 		image	"images/apple-stockchart.png" cx cy 1600 900
 	eslide
 
-	
 	slide 
 		image	"images/tweetfreq.png" cx cy 2138 1596 67
 	eslide
 
-	
 	slide "black"
 		image	"images/planets.png" cx cy 1900 600
 	eslide
 
-	
 	slide "black"
 		image	"images/lt-04-jones-montiel.png" 20 50 1150 2072 45
 		image	"images/lt-04-dkng-ddl.png" cx cy 1150 2072 45
 		image	"images/lt-04-anderson-dkng.png" 80 50 1150 2072 45
 	eslide
 
-	
 	slide "black"
 		image	"images/ar.jpg" cx cy 1425 1000
 	eslide
 
-	
 	slide 
 		image	"images/201933.png" cx cy 900 846
 	eslide
 
-	
 	slide 
 		image	"images/201935.png" cx cy 900 846
 	eslide
 
-	
 	slide 
 		image	"images/201939.png" cx cy 900 846
 	eslide
 
-	
 	slide 
 		image	"images/danny.jpg" cx cy 1920 1080
 	eslide
 
-	
 	slide 
 		image	"images/shining.png" cx cy 1920 1080
 	eslide
-	
-	
+
 	slide 
 		textfile "code/defunit.go" 45 92 1.8 "mono"
 		textfile "code/defrunit.go" 45 65 1.8 "mono"
@@ -346,13 +319,11 @@ deck
 		image	"images/unit+runit2.png" 20 22 1054 700 50
 	eslide
 
-	
 	slide "black" "white"
 		text	"OpenVG" 5 65 9
 		image	"images/P1220686.JPG" cx cy 4224 2376 45
 	eslide
 
-	
 	slide 
 		image	"images/refcard.raw.png" 20 85 1920 1080 25
 		image	"images/gradient.raw.png" 50 85 1920 1080 25
@@ -365,13 +336,11 @@ deck
 		image	"images/slide4.raw.png" 80 25 1920 1080 25
 	eslide
 
-	
 	slide 
 		textfile	"code/hwopenvg.go" 4 95 1.5 "mono"
 		image		"images/hellovg.raw.png" 70 70 1920 1080 50
 	eslide
 
-	
 	slide 
 		text	"OpenVG Functions" 2.4 90 4
 		list	2.4 70 2.5 "sans" "maroon"
@@ -412,33 +381,27 @@ deck
 		elist
 	eslide
 
-	
 	slide 
 		image	"images/twh20180802.png" cx cy 1920 1080
 	eslide
 
-	
 	slide "black"
 		image	"images/P1220110.JPG" cx cy 4224 2376 45
 	eslide
-
 	
 	slide "black"
 		image	"images/P1220082.JPG" cx cy 4224 2376 45
 	eslide
 
-	
 	slide "black"
 		image	"images/P1220418.JPG" cx cy 4224 2376 45
 	eslide
 
-	
 	slide 
 		textfile	"code/twhmain.go" 5 95 1.4 "mono"
 		image		"images/twh20180802.png" 75 60 1920 1080 45
 	eslide
 
-	
 	slide 
 		textfile	"code/twhmain.go" 5 95 1.4 "mono"
 		image		"images/twh20180802.png" 75 60 1920 1080 45
@@ -446,7 +409,6 @@ deck
 		rect 27 52 35 8 "red" 20
 	eslide
 
-	
 	slide 
 		textfile	"code/twhmain.go" 5 95 1.4 "mono"
 		image		"images/twh20180802.png" 75 60 1920 1080 45
@@ -454,7 +416,6 @@ deck
 		rect 86.5 74 22 17 "red" 20
 	eslide
 
-	
 	slide 
 		textfile	"code/twhmain.go" 5 95 1.4 "mono"
 		image		"images/twh20180802.png" 75 60 1920 1080 45
@@ -465,16 +426,18 @@ deck
 	
 	slide "white" "rgb(50,50,50)"
 		text	"Deck" 5 45 18
+		square	75 50 40 "rgb(240,240,240)"
+		rect	70 55 20 20 "rgb(127,0,0)"
+		rect	80 50 20 20 "white"
+		rect	75 45 20 20 "rgb(127,127,127)"
 		etext	"a Go package for presentations" 95 5 2.5
 	eslide
 
-	
 	slide 
 		textfile	"code/hello-deck.xml" 10 90 2 "mono"
 		image		"images/hellodeck.png" 50 35 835 638
 	eslide
 
-	
 	slide 
 		etext		"Anatomy of a Deck" 95 5 2.5
 		textfile	"code/exampledeck.xml" 13 90 1.4 "mono" "black" 100 2
@@ -500,7 +463,6 @@ deck
 		elist
 	eslide
 
-	
 	slide "white" "black"
 		ctext	"Deck elements" 50 90 5
 		image	"images/follow.jpg" 70 60 640 480 80
@@ -517,7 +479,6 @@ deck
 		polygon	"37 37 45" "17 23 20" "rgb(0,0,127)"
 	eslide
 
-	
 	slide 
 		ctext	"Percent Grid" cx cy 7
 		ctext	"10" 10 95 3
@@ -562,7 +523,6 @@ deck
 		line	0 100 100 100
 	eslide
 
-	
 	slide
 		ctext "Percentage-based layout" 50 5 4
 		ctext "10%, 50%" 10 80 4 "sans" "gray"
@@ -585,7 +545,6 @@ deck
 		ctext "Scaling the canvas" 50 5 4
 	eslide
 
-	
 	slide 
 		etext	"Data" 15 48.5 3 "sans" "black"
 		ctext	"Process" 25 48.5 3 "sans" "black"
@@ -610,7 +569,6 @@ deck
 		circle	70 20 2 "purple"
 	eslide
 
-	
 	slide 
 		text	"deck/generate text and list functions" 2.2 90 4
 		list	2.2 75 2.4 "sans" "maroon"
@@ -631,7 +589,6 @@ deck
 		elist
 	eslide
 
-	
 	slide 
 		text	"deck/generate graphic functions" 2.2 90 4
 		list	2.2 75 2.4 "sans" "maroon"
@@ -658,7 +615,6 @@ deck
 		elist
 	eslide
 
-	
 	slide 
 		textfile	"code/slidegen.go" 5 90 2 "mono"
 		image		"images/g1w.png" 75 65 1600 900 20
@@ -666,25 +622,21 @@ deck
 		image		"images/g3w.png" 75 25 1600 900 20
 	eslide
 
-	
 	slide 
 		textfile	"code/gen1w.go" 5 92 2 "mono"
 		image		"images/g1w.png" 28 30 1600 900 55
 	eslide
 
-	
 	slide 
 		textfile	"code/gen2w.go" 5 92 2 "mono"
 		image		"images/g2w.png" 28 30 1600 900 55
 	eslide
 
-	
 	slide 
 		textfile	"code/gen3w.go" 5 92 2 "mono"
 		image		"images/g3w.png" 28 30 1600 900 55
 	eslide
 
-	
 	slide "rgb(240,240,240)" "black"
 		ctext		"capgen slides.txt | pdfdeck ... > slides.pdf" 50 10 3.5 "mono"
 		textfile	"code/slides.txt"		2 40 1.8
@@ -693,13 +645,11 @@ deck
 		image		"images/eames.png"		80 70 1400 1050 40
 	eslide
 
-	
 	slide "rgb(240,240,240)" "black"
 		textfile	"code/ed.sh" 2.5 90 1.5 "mono"
 		image		"images/ed.png" 75 55 900 695
 	eslide
 
-	
 	slide 
 		text	"Deck Web API" 5 90 4
 		text	"deckd -dir [start dir] -listen [address:port] -maxupload [bytes]" 52 90 1.2 "mono" "rgb(127,0,0)"
@@ -744,17 +694,14 @@ deck
 		elist
 	eslide
 
-	
 	slide "black"
 		image	"images/P1220669.JPG" cx cy 4424 2376 45
 	eslide
 
-	
 	slide "steelblue" "white"
 		text	"Design Examples" 10 50 7
 	eslide
 
-	
 	slide
 		ctext	"Bottom" 50 3 4 
 		ctext	"Top" 50 93 4 
@@ -766,7 +713,6 @@ deck
 		rect	65 50 70 80 "rgb(48,76,123)"
 	eslide
 
-	
 	slide
 		ctext	"10%" 50 3 4 
 		ctext	"10%" 50 93 4 
@@ -778,7 +724,6 @@ deck
 		rect	65 50 70 80 "rgb(48,76,123)"
 	eslide
 
-	
 	slide
 		ctext	"Footer (bottom 10%)" 50 3 4 
 		ctext	"Header (top 10%)" 50 93 4
@@ -792,8 +737,6 @@ deck
 		rect	65 50 70 80 "rgb(48,76,123)"
 	eslide
 
-
-	
 	slide "black" "white"
 		text	"My Story" 5 90 6
 		ctext	"Section" 20 50 5
@@ -809,7 +752,6 @@ deck
 		line	30 80 30 10 0.1
 	eslide
 
-	// slide 80
 	slide "steelblue" "white"
 		text	"Document Links" 5 90 6
 		textblock	"Add web and mailto links with the link attribute of the text element." 5 80 20 2.5
@@ -819,31 +761,103 @@ deck
 		image	"images/links.png" 65 45 1337 820
 	eslide
 
-	// slide 81
 	slide "black" "white"
 		ctext	"BOS" 15 70 11
 		ctext	"SFO" 15 25 11
 		text	"Virgin America 351"	35 75 6.25
-		text	"Gate B38" 				35 63 6.25
-		text	"8:35am"				35 51 6.25
+		text	"Gate B38" 				35 60 6.25
+		text	"8:35am"				35 45 6.25
 		text	"On Time" 				35 25 6.25 "sans" "rgb(136,195,38)"
 		image	"images/white-plane.png" 15 55 100 100
-		line	30 90 30 15
+		line	30 90 30 15 0.2
 	eslide
 
-	// slide 82
 	slide "black" "white"
 		ctext	"JFK" 15 70 11
 		ctext	"IND" 15 25 11
 		text	"US Airways 1207"		35 75 6.25
-		text	"Gate C31C"				35 63 6.25
-		text	"5:35pm" 				35 51 6.25
+		text	"Gate C31C"				35 60 6.25
+		text	"5:35pm" 				35 45 6.25
 		text	"Delayed"				35 25 6.25 "sans" "red"
 		image	"images/white-plane.png" 15 55 100 100
-		line	30 90 30 15
+		line	30 90 30 15 0.2
+	eslide
+	
+	slide "blue" "white"
+		ctext	"Flight Information" 50 90 3 "sans" "white"
+		etext	"Los Angeles (LAX)" 45 80 2 "sans" "white"
+		text	"New York/Newark (EWR)" 55 80 2 "sans" "white"
+		text	"Distance Traveled" 5 60 1.5 "sans" "white"
+		text	"1,958 mi" 5 55 2 "sans" "white"
+		text	"3,151 km" 5 50 2 "sans" "white"
+		text	"Distance to Destination" 30 60 1.5 "sans" "white"
+		text	"596 mi" 30 55 2 "sans" "white"
+		text	"798 km" 30 50 2 "sans" "white"
+		text	"Time to Destination" 55 60 1.5 "sans" "white"
+		etext	"1:20" 90 60 2 "sans" "white"
+		text	"Estimated time of arrival" 55 55 1.5 "sans" "white"
+		etext	"12:14 am" 90 55 2 "sans" "white"
+		etext	"12:14 am" 90 50 2 "sans" "white"
+		text	"Local time of arrival" 55 50 1.5 "sans" "white"
+		ctext	"Ground speed" 20 35 1.8 "sans" "white"
+		ctext	"547 mph" 20 20 2 "sans" "white"
+		ctext	"382 kph" 20 15 1.5 "sans" "white"
+		ctext	"Headwind" 40 35 2 "sans" "white"
+		ctext	"50 mph" 40 20 2 "sans" "white"
+		ctext	"80 kph" 40 15 1.5 "sans" "white"
+		ctext	"Outside Temperature" 60 35 2 "sans" "white"
+		ctext	"-30° F" 60 20 2 "sans" "white"
+		ctext	"-34.4 C" 60 15 1.5 "sans" "white"
+		ctext	"Current Altitude" 80 35 2 "sans" "white"
+		ctext	"25,000 ft" 80 15 2 "sans" "white"
+		ctext	"7620 m" 80 10 1.5 "sans" "white"
+		image	"images/white-plane.png" 50 81 100 100 100
+		image	"images/white-plane.png" 25 69.2 100 100 50
+		image	"images/plane-head.png" 80 25 1200 1200 12.5
+		line	5 65 19 65 0 "lightblue"
+		line	31 65 45 65 0 "lightblue"
+		line	55 65 70 65 0 "lightblue"
+		line	75 65 90 65 0 "lightblue"
+		line	72.5 67.5 72.5 65 0 "white"
+		line	73.5 65 72.5 65 0 "white"
+		line	75 30 75 10 0.1 "white"
+		line	75 30 74 30 0.1 "white"
+		line	75 28 74 28 0.1 "white"
+		line	75 26 74 26 0.1 "white"
+		line	75 24 74 24 0.1 "white"
+		line	75 22 74 22 0.1 "white"
+		line	75 20 74 20 0.1 "white"
+		line	75 18 74 18 0.1 "white"
+		line	75 16 74 16 0.1 "white"
+		line	75 14 74 14 0.1 "white"
+		line	75 12 74 12 0.1 "white"
+		line	75 10 74 10 0.1 "white"
+		line	85 30 85 10 0.1 "white"
+		line	85 30 86 30 0.1 "white"
+		line	85 28 86 28 0.1 "white"
+		line	85 26 86 26 0.1 "white"
+		line	85 24 86 24 0.1 "white"
+		line	85 22 86 22 0.1 "white"
+		line	85 20 86 20 0.1 "white"
+		line	85 18 86 18 0.1 "white"
+		line	85 16 86 16 0.1 "white"
+		line	85 14 86 14 0.1 "white"
+		line	85 12 86 12 0.1 "white"
+		line	85 10 86 10 0.1 "white"
+		arc	25 65 10 5 0 90 0.1 "white"
+		arc	25 65 10 5 90 180 0.1 "white"
+		circle 20 20 12 "white" 20
+		arc	20 20 12 12 40 230 1 "lightsteelblue"
+		circle	40 20 12 "white" 20
+		arc	40 20 12 12 180 230 1 "lightsteelblue"
+		circle	60 20 12 "white" 20
+		arc	60 20 12 12 210 230 1 "lightsteelblue"
+		circle	20 65 1.5  "white"
+		circle	30 65 1.5 "white"
+		circle	72.5 65 4  "white"
+		circle	72.5 65 3.5 "blue"
 	eslide
 
-	// slide 84
 	slide "black" "white"
 		text	"AAPL" 7 85 5.6
 		etext	"179.98" 51.8 85 5.6
@@ -868,7 +882,6 @@ deck
 		text	"2018-03-10 13:08:31" 7 5 1.5 "sans" "yellow"
 	eslide
 
-	// slide 85
 	slide "black" "white"
 		text	"AAPL" 7 85 5.6
 		etext	"181.72" 51.8 85 5.6
@@ -893,7 +906,6 @@ deck
 		text	"2018-03-12 21:05:06" 7 5 1.5 "sans" "yellow"
 	eslide
 
-	// slide 86
 	slide "black" "white"
 		text	"AAPL" 7 85 5.6
 		etext	"175.30" 51.8 85 5.6
@@ -923,14 +935,12 @@ deck
 		image	"images/sd2.png" 70 70 2000 1125 45
 	eslide
 
-
 	slide "white" "black"
 		textblock	subclass 20 70 40 4 "serif"
 		text	"what would Go do" 20 35 6 "serif" "rgb(127,0,0)"
 		text	"Andrew Mackenzie-Ross" 20 15 2.5
 		image	"images/doc.png" 95 10 75 100
 	eslide
-
 
 	slide 
 		ctext	"go" 7.5 50 5 "sans" "rgb(127,0,0)"
@@ -1114,22 +1124,23 @@ deck
 		dchart -fulldeck=f -textsize=1   -top=25 -left=5  -bottom=15 -right=30  -val=f -bar=f -vol -xlabel=10 -color=brown code/sine.d
 	eslide
 
-	r1tb="-top=90 -bottom=70"
-	r2tb="-top=55 -bottom=45"
-	r3tb="-top=25 -bottom=10"
 
-	colt1="-left=10 -right=30"
-	colt2="-left=40 -right=60"
-	colt3="-left=70 -right=90"
-
-	colm1="-left=4  -right=20"
-	colm2="-left=28 -right=44"
-	colm3="-left=52 -right=68"
-	colm4="-left=76 -right=92"
-
-	r2opt="-xlabel=0 -bar=f -title=f"
 
 	slide
+		r1tb="-top=90 -bottom=70"
+		r2tb="-top=55 -bottom=45"
+		r3tb="-top=25 -bottom=10"
+
+		colt1="-left=10 -right=30"
+		colt2="-left=40 -right=60"
+		colt3="-left=70 -right=90"
+
+		colm1="-left=4  -right=20"
+		colm2="-left=28 -right=44"
+		colm3="-left=52 -right=68"
+		colm4="-left=76 -right=92"
+
+		r2opt="-xlabel=0 -bar=f -title=f"
 		ctext	"bar" 20 66 2 
 		ctext	"hbar" 47 66 2 
 		ctext	"wbar" 80 66 2 
@@ -1153,20 +1164,19 @@ deck
 		dchart -fulldeck=f -textsize=0.75 -ls=1.5 -pgrid -top=30 -left=75 -right=90 -val=f code/go-platform.d
 		dchart -fulldeck=f -textsize=0.75 -radial -psize=3.5 -pwidth=7 -top=20 -left=37  code/go-platform.d
 	eslide
-	
-	
+
 	slide 
 		textfile "code/AAPL.d" 5 70 1.25 "mono" "maroon"
 		textfile "code/mockdeck.xml" 25 65 1.25 "mono"
 		ctext	"data | dchart | pdf" 50 20 4 "mono"
 		dchart -fulldeck=f -textsize=1   -top=75 -left=72 -bottom=50 -right=95 -xlabel=5  code/AAPL.d
 	eslide
-	
+
 	slide
 		dchart -fulldeck=f code/AAPL.d
 		ctext	"dchart AAPL.d" 50 15 2.5 "mono" "black"
 	eslide
-	
+
 	slide "white" "maroon"
 		ctext	"val" 20 72 3 
 		ctext	"bar" 50 50 3 
@@ -1295,8 +1305,6 @@ deck
 			li "specify the columns to use for label,value"
 		elist
 	eslide
-
-
 
 	slide
 		rect 35 55 62 70 "gray" 10
