@@ -25,7 +25,7 @@ deck
 
 	slide "black" "white"
 		image "images/Go-Logo_White.png" 47 70 1061 938 50
-		ctext "For Information Displays" cx 40 7
+		ctext "For Information Displays" cx 30 7
 		ctext "Anthony Starks" cx 10 2 "sans" "rgb(170,170,170)"
 		ctext "@ajstarks"      cx 5  2 "sans" "rgb(170,170,170)"
 	eslide
@@ -159,7 +159,7 @@ deck
 		ctext	"Rect" 30 80 3.5 "sans" "rgb(127,0,0)"
 		ctext	"(100,200,250,125," 50 80 3.5 "sans" "rgb(0,0,127)"
 		text	"`id='box'`, `fill='gray'`, `stroke='blue'`)" 33 72 3.5 "sans" "rgb(127,127,127)"
-		ctext	`<rect x="100" y="200" width="250" height="125"` 50 60 2.5
+		ctext	`<rect x="100" y="200" width="250" height="125"` 50 60 2.5 "mono"
 		ctext	`id="box" fill="gray" stroke="blue"/>` 50 54 2.5 "mono"
 		etext	"(100, 200)" 35 35 2
 		ctext	"250" 50 7 2
