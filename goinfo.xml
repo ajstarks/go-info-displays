@@ -747,15 +747,13 @@ https://api.flickr.com/services/rest/
 	<slide bg="black" fg="white">
 		<text xp="5" yp="90" sp="6">My Story</text>
 		<line xp1="30" yp1="80" xp2="30" yp2="10" sp="0.1" color="white"/>
-		<text align="center" xp="20" yp="50" sp="5">Section</text>
-		<list xp="40" yp="75" sp="4" color="rgb(170,170,170)" lp="1.7">
-			<li>One</li>
-			<li>Two</li>
-			<li>Three</li>
-			<li color="white">Four</li>
-			<li>Five</li>
-			<li>Six</li>
-		</list>
+		<text align="end" xp="25" yp="50" sp="5">Section</text>	
+		<text xp="35" yp="74" sp="4" color="rgb(170,170,170)">One</text>
+		<text xp="35" yp="62" sp="4" color="rgb(170,170,170)">Two</text>
+		<text xp="35" yp="50" sp="4" color="rgb(170,170,170)">Three</text>
+		<text xp="35" yp="38" sp="4">Four</text>
+		<text xp="35" yp="26" sp="4" color="rgb(170,170,170)">Five</text>
+		<text xp="35" yp="14" sp="4" color="rgb(170,170,170)">Six</text>
 		<text xp="5" yp="5" sp="1.5" color="rgb(200,200,200)">A. Person, April 2017</text>
 	</slide>
 	

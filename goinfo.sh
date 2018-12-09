@@ -53,9 +53,9 @@ deck
 
 	slide "black" "white"
 		image 		"images/greyscale_edward-tufte.png"  20 70 1644 1081 30 "http://edwardtufte.com/"
-		textblock	tuftesays 35 80 50 2.5 "serif"
+		textblock	tuftesays 35 80 50 2.5 "serif" "white" 100 "http://edwardtufte.com"
 		image		"images/nigel-holmes-main.jpg" 20 30 419 281 100 "http://www.nigelholmes.com/"
-		textblock	holmesays 35 40 45 2.5 "serif"
+		textblock	holmesays 35 40 45 2.5 "serif" "white" 100 "http://www.nigelholmes.com/"
 		ctext		"Edward Tufte" 20 51 1.5 "sans" "gray"
 		ctext		"Nigel Holmes" 20 13 1.5 "sans" "gray"
 	eslide
@@ -79,13 +79,13 @@ deck
 	eslide
 	
 	slide "black"
-		image	"images/ft.png" cx cy 1910 920 80
+		image	"images/ft.png" cx cy 1910 920 80 "https://twitter.com/fatih/status/984351173737099264"
 	eslide
 
 	slide 
-		ctext	"SVGo" 15 80 7
-		ctext	"OpenVG" 50 80 7
-		ctext	"Deck" 80 80 7
+		ctext	"SVGo" 15 80 7 "sans" "black" 100 "https://github.com/ajstarks/svgo"
+		ctext	"OpenVG" 50 80 7 "sans" "black" 100 "https://github.com/ajstarks/openvg"
+		ctext	"Deck" 80 80 7 "sans" "black" 100 "https://github.com/ajstarks/deck"
 		text	"go get github.com/ajstarks/svgo/..." 5 30 1.25
 		text	"go get github.com/ajstarks/openvg" 37.5 30 1.25
 		text	"go get github.com/ajstarks/deck/" 67 30 1.25
@@ -98,11 +98,11 @@ deck
 	eslide
 
 	slide 
-		image	"images/svgopher.png" 50 60 1336 729
+		image	"images/svgopher.png" 50 60 1336 729 100 "https://github.com/ajstarks/svgo"
 	eslide
 
 	slide 
-		image	"images/android.png" cx cy 877 877
+		image	"images/android.png" cx cy 877 877 100 "https://nyti.ms/2k84rr5"
 	eslide
 
 	slide 
@@ -191,7 +191,7 @@ deck
 	eslide
 
 	slide 
-		ctext	"https://ajstarks.org:1958/" 50 95 2.5
+		ctext	"https://ajstarks.org:1958/" 50 95 2.5 "sans" "black" 100 "https://ajstarks.org:1958/"
 		cimage	"images/clock.png" "clock" 12.5 80 256 256
 		cimage	"images/funnel.png" "funnel" 37.5 80 256 256 
 		cimage	"images/rotext.png" "rotext" 62.5 80 256 256 
@@ -307,7 +307,7 @@ deck
 	eslide
 
 	slide 
-		image	"images/shining.png" cx cy 1920 1080
+		image	"images/shining.png" cx cy 1920 1080 100 "https://www.youtube.com/watch?v=5N3ME6vQOnQ"
 	eslide
 
 	slide 
@@ -320,7 +320,7 @@ deck
 	eslide
 
 	slide "black" "white"
-		text	"OpenVG" 5 65 9
+		text	"OpenVG" 5 65 9 "sans" "white" 100 "https://github.com/ajstarks/openvg"
 		image	"images/P1220686.JPG" cx cy 4224 2376 45
 	eslide
 
@@ -329,7 +329,7 @@ deck
 		image	"images/gradient.raw.png" 50 85 1920 1080 25
 		image	"images/rotext.raw.png" 80 85 1920 1080 25
 		image	"images/plot.raw.png" 20 55 1920 1080 25
-		image	"images/hellovg.raw.png" 50 55 1920 1080 25
+		image	"images/hellovg.raw.png" 50 55 1920 1080 25 "https://github.com/ajstarks/openvg/blob/master/go-client/hellovg/hellovg.go"
 		image	"images/image.raw.png" 80 55 1920 1080 25
 		image	"images/slide1.raw.png" 20 25 1920 1080 25
 		image	"images/planets.raw.png" 50 25 1920 1080 25
@@ -425,7 +425,7 @@ deck
 
 	
 	slide "white" "rgb(50,50,50)"
-		text	"Deck" 5 45 18
+		text	"Deck" 5 45 18 "sans" "black" 100 "https://github.com/ajstarks/deck"
 		square	75 50 40 "rgb(240,240,240)"
 		rect	70 55 20 20 "rgb(127,0,0)"
 		rect	80 50 20 20 "white"
@@ -739,17 +739,17 @@ deck
 
 	slide "black" "white"
 		text	"My Story" 5 90 6
-		ctext	"Section" 20 50 5
+		etext	"Section" 25 50 5
 		text	"A. Person, April 2017" 5 5 1.5
-		list	40 75 4 "sans" "rgb(170,170,170)" 100 1.7
-			li "One"
-			li "Two"
-			li "Three"
-			li "Four" "sans" "white"
-			li "Five"
-			li "Six"
-		elist
-		line	30 80 30 10 0.1
+		
+		text "One"		35 74 4 "sans" "rgb(170,170,170)"
+		text "Two"		35 62 4 "sans" "rgb(170,170,170)"
+		text "Three"	35 50 4 "sans" "rgb(170,170,170)"
+		text "Four"		35 38 4
+		text "Five" 	35 26 4 "sans" "rgb(170,170,170)"
+		text "Six"		35 14 4 "sans" "rgb(170,170,170)"
+		
+		line	30 80 30 10 0.1 "white"
 	eslide
 
 	slide "steelblue" "white"
@@ -1037,10 +1037,10 @@ deck
 	eslide
 
 	slide  
-		text	"Chapter V" 15 85 3 "serif" "rgb(127,0,0)"
-		text	"Advice from a Caterpillar" 40 85 3 "serif" "rgb(127,0,0)"
+		text	"Chapter V" 15 85 3 "serif" "rgb(127,0,0)" 100 "http://www.gutenberg.org/files/28885/28885-8.txt"
+		text	"Advice from a Caterpillar" 40 85 3 "serif" "rgb(127,0,0)" 100 "http://www.gutenberg.org/files/28885/28885-8.txt"
 		textblock alice1 40 75 40 2  "serif"
-		image	"images/Alice_05a-1116x1492.jpg" 25 50 1116 1492 45
+		image	"images/Alice_05a-1116x1492.jpg" 25 50 1116 1492 45 "http://www.gutenberg.org/files/28885/28885-8.txt"
 	eslide
 
 	slide 
@@ -1092,8 +1092,8 @@ deck
 	eslide
 
 	slide 
-		etext	"codepicdeck" 95 5 3
-		image	"images/svgplay-title.png" cx cy 1800 1200 90
+		etext	"codepicdeck" 95 5 3 "serif" "black" 100 "https://github.com/ajstarks/deck/blob/master/cmd/codepicdeck/codepicdeck.go"
+		image	"images/svgplay-title.png" cx cy 1800 1200 90 "https://speakerdeck.com/ajstarks/svgo-code-plus-picture-examples"
 	eslide
 
 	slide "rgb(200,200,200)"
@@ -1107,14 +1107,14 @@ deck
 	eslide
 
 	slide "rgb(27,116,166)" "white"
-		textblock	zukq1 7 85 40 3.5
-		textblock	zukq2 7 50 40 2
+		textblock	zukq1 7 85 40 3.5 "sans" "white" 100 "https://www.theguardian.com/commentisfree/2017/nov/19/how-tech-leaders-delivered-us-into-evil-john-naughton"
+		textblock	zukq2 7 50 40 2 "sans" "white" 100 "https://www.theguardian.com/commentisfree/2017/nov/19/how-tech-leaders-delivered-us-into-evil-john-naughton"
 		text		"John Naughton, The Guardian, 19 November, 2017" 7 10 1.5
 		image		"images/zuk.png" cx cy 3350 2002 58
 	eslide
 
 	slide
-		text "dchart: charts for deck" 5 90 5
+		text "dchart: charts for deck" 5 90 5 "sans" "black" 100 "https://github.com/ajstarks/deck/tree/master/cmd/dchart"
 		ctext "Bitcoin to USD" 35 79 1.5
 		dchart -fulldeck=f -textsize=1   -top=75 -left=10 -bottom=50 -right=60 -color=steelblue -title=f -bar=f -vol -val=f -xlabel=0 -yaxis -grid -csv -csvcol=Date,Close -yrange=0,20000,4000 code/BTC-USD.csv
 		dchart -fulldeck=f -textsize=1   -top=48 -left=10 -bottom=40 -right=60 -color=orange -yaxis=f -bar -val=f -xlabel=100 -xlast -title=f -csv -csvcol=Date,Volume code/BTC-USD.csv
@@ -1333,7 +1333,7 @@ deck
 		topts="-fulldeck=f -color=steelblue -line -bar=f -scatter -dot -min=0 -max=30 -textsize=1 -bottom=14 -top=36"
 		popts="-fulldeck=f -color=steelblue -bar=f -textsize=1.2"
 		ctext "A record 64 million Americans live in multigenerational households" 50 90 3
-		textblock multi 5 80 40 1.8 "serif"
+		textblock multi 5 80 40 1.8 "serif" "black" 100 "http://www.pewresearch.org/fact-tank/2018/04/05/a-record-64-million-americans-live-in-multigenerational-households/"
 		dchart popts -vol       -top=75 -bottom=55 -left=55 -right=95  code/kids2
 		dchart popts -line -dot -top=35 -bottom=15 -left=10 -right=45  code/kids
 		dchart topts -left=55 -right=59  code/tkids
@@ -1536,12 +1536,12 @@ deck
 
 
     slide "rgb(0,0,127)" "white"
-        textblock tquote qleft qtop qwidth qsize qfont
+        textblock tquote qleft qtop qwidth qsize qfont "white" 100 "http://csapp.cs.cmu.edu/3e/docs/chistory.html"
         text "Dennis M. Ritchie, 'The Development of the C Language'" 10 20 2
     eslide
 
     slide "rgb(0,0,127)" "white"
-        textblock pquote qleft qtop qwidth qsize qfont
+        textblock pquote qleft qtop qwidth qsize qfont "white" 100 "https://groups.google.com/d/msg/golang-nuts/19a3E6adUKw/cQajGAcqBgAJ"
         text "Rob Pike, 'Origin of Go's interface design', golang nuts" 10 20 2
     eslide
 
@@ -1557,10 +1557,10 @@ deck
 	slide "black" "white"
 		image "images/picasso-hires.png"	30 cx 1280 1391 cy
 		image "images/alan-turing.jpg"		70 51 1835 1460 45
-		etext "Pic"		30 labx 2
-		text  "asso"	30 labx 2 "sans" "gray"
-		etext "Tur"		70 labx 2
-		text  "ing"		70 labx 2 "sans" "gray"
+		etext "Pic"		30 labx 2 "sans" "white" 100 "http://www.picasso.fr/us/picasso_page_index.php"
+		text  "asso"	30 labx 2 "sans" "gray"  100 "http://www.picasso.fr/us/picasso_page_index.php"
+		etext "Tur"		70 labx 2 "sans" "white" 100 "https://en.wikipedia.org/wiki/Alan_Turing"
+		text  "ing"		70 labx 2 "sans" "gray"  100 "https://en.wikipedia.org/wiki/Alan_Turing"
 	eslide
 
 	imleft=20
