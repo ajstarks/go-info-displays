@@ -1557,8 +1557,8 @@ deck
 	slide "black" "white"
 		image "images/picasso-hires.png"	30 cx 1280 1391 cy
 		image "images/alan-turing.jpg"		70 51 1835 1460 45
-		etext "Pic"		30 labx 2 "sans" "white" 100 "http://www.picasso.fr/us/picasso_page_index.php"
-		text  "asso"	30 labx 2 "sans" "gray"  100 "http://www.picasso.fr/us/picasso_page_index.php"
+		etext "Pic"		30 labx 2 "sans" "white" 100 "https://en.wikipedia.org/wiki/Pablo_Picasso"
+		text  "asso"	30 labx 2 "sans" "gray"  100 "https://en.wikipedia.org/wiki/Pablo_Picasso"
 		etext "Tur"		70 labx 2 "sans" "white" 100 "https://en.wikipedia.org/wiki/Alan_Turing"
 		text  "ing"		70 labx 2 "sans" "gray"  100 "https://en.wikipedia.org/wiki/Alan_Turing"
 	eslide

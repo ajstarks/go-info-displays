@@ -1419,10 +1419,10 @@ We were just trying to get something that worked for us.</text>
 	<slide bg="black" fg="white">
 		<image xp="30" yp="50" width="1280" height="1391" scale="50" name="images/picasso-hires.png"/>
 		<image xp="70" yp="51" width="1835" height="1460" scale="45" name="images/alan-turing.jpg"/>
-		<text xp="30" yp="5" sp="2" align="right" link="http://www.picasso.fr/us/picasso_page_index.php">Pic</text>
-		<text xp="30" yp="5" sp="2"  color="gray" link="http://www.picasso.fr/us/picasso_page_index.php">asso</text>
+		<text xp="30" yp="5" sp="2" align="right" link="https://en.wikipedia.org/wiki/Pablo_Picasso">Pic</text>
+		<text xp="30" yp="5" sp="2" color="gray"  link="https://en.wikipedia.org/wiki/Pablo_Picasso">asso</text>
 		<text xp="70" yp="5" sp="2" align="right" link="https://en.wikipedia.org/wiki/Alan_Turing">Tur</text>
-		<text xp="70" yp="5" sp="2" color="gray" link="https://en.wikipedia.org/wiki/Alan_Turing">ing</text>
+		<text xp="70" yp="5" sp="2" color="gray"  link="https://en.wikipedia.org/wiki/Alan_Turing">ing</text>
 	</slide>
 
 	<slide bg="black" fg="rgb(240,240,240)">
