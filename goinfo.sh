@@ -160,7 +160,7 @@ deck
 		ctext	"(100,200,250,125," 50 80 3.5 "sans" "rgb(0,0,127)"
 		text	"`id='box'`, `fill='gray'`, `stroke='blue'`)" 33 72 3.5 "sans" "rgb(127,127,127)"
 		ctext	`<rect x="100" y="200" width="250" height="125"` 50 60 2.5 "mono"
-		ctext	`id="box" fill="gray" stroke="blue"/>` 50 54 2.5 "mono"
+		ctext	`id='box' fill='gray' stroke='blue'/>` 50 54 2.5 "mono"
 		etext	"(100, 200)" 35 35 2
 		ctext	"250" 50 7 2
 		ctext	"125" 70 25 2
@@ -211,8 +211,7 @@ deck
 		ctext	"Picture" 10 15 5
 		textfile "code/thing.xml" 17 87 1.6 "mono"
 		image	"images/thingss.png" 55 35 2642 1140 50
-		line	10 75 10 30 1 "lightgray"
-		polygon	"8 10 12" "31 25 31" "lightgray"
+		darrow	10 75 50 1 6 8 "lightgray"
 	eslide
 
 	slide 
@@ -648,6 +647,7 @@ deck
 	slide "rgb(240,240,240)" "black"
 		textfile	"code/ed.sh" 2.5 90 1.5 "mono"
 		image		"images/ed.png" 75 55 900 695
+		ctext "decksh" 50 5 4
 	eslide
 
 	slide 
