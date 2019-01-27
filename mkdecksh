@@ -1,7 +1,11 @@
 #!/bin/sh
+pagesize="1920,1080"
 case $1 in
-noto) shift; decksh goinfo.sh | pdf  -pagesize 1920,1080 -sans NotoSans-Regular -mono NotoMono-Regular  -serif NotoSerif-Regular ;;
-fira) shift; decksh goinfo.sh | pdf  -pagesize 1920,1080 -sans FiraSans-Regular -mono FiraMono-Regular  -serif Charter-Regular ;;
-go)   shift; decksh goinfo.sh | pdf  -pagesize 1920,1080 -sans Go-Regular       -mono Go-Mono           -serif Charter-Regular  ;;
-*)    shift; decksh goinfo.sh | pdf  -pagesize 1920,1080 -sans NotoSans-Regular -mono NotoMono-Regular  -serif NotoSerif-Regular ;;
+	noto) sans="NotoSans-Regular";  mono="NotoMono-Regular";  serif="NotoSerif-Regular" ;;
+	fira) sans="FiraSans-Regular";  mono="FiraMono-Regular";  serif="Charter-Regular"   ;;
+	go)   sans="Go-Regular";        mono="Go-Mono";           serif="Charter-Regular"   ;;
+	*)    sans="NotoSans-Regular";  mono="NotoMono-Regular"   serif="NotoSerif-Regular" ;;
 esac
+shift
+decksh goinfo.dsh | pdfdeck -stdout -pagesize "$pagesize" -sans "$sans" -mono "$mono" -serif "$serif" $* - > f.pdf
+

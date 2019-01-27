@@ -1,7 +1,11 @@
 #!/bin/sh
+pagesize="1920,1080"
 case $1 in
-noto) shift; pdfdeck -pagesize 1920,1080 -sans NotoSans-Regular -mono NotoMono-Regular  -serif NotoSerif-Regular $* goinfo.xml;;
-fira) shift; pdfdeck -pagesize 1920,1080 -sans FiraSans-Regular -mono FiraMono-Regular  -serif Charter-Regular   $* goinfo.xml;;
-go)   shift; pdfdeck -pagesize 1920,1080 -sans Go-Regular       -mono Go-Mono           -serif Charter-Regular   $* goinfo.xml;;
-*)    shift; pdfdeck -pagesize 1920,1080 -sans NotoSans-Regular -mono NotoMono-Regular  -serif NotoSerif-Regular $* goinfo.xml;;
+	noto) sans="NotoSans-Regular";  mono="NotoMono-Regular";  serif="NotoSerif-Regular" ;;
+	fira) sans="FiraSans-Regular";  mono="FiraMono-Regular";  serif="Charter-Regular"   ;;
+	go)   sans="Go-Regular";        mono="Go-Mono";           serif="Charter-Regular"   ;;
+	*)    sans="NotoSans-Regular";  mono="NotoMono-Regular"   serif="NotoSerif-Regular" ;;
 esac
+shift
+pdfdeck -pagesize "$pagesize" -sans "$sans" -mono "$mono" -serif "$serif" $* goinfo.xml
+
