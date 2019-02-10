@@ -211,7 +211,7 @@ deck
 		ctext	"Picture" 10 15 5
 		textfile "code/thing.xml" 17 87 1.6 "mono"
 		image	"images/thingss.png" 55 35 2642 1140 50
-		darrow	10 75 50 1 6 8 "lightgray"
+		arrow	10 75 10 25 1 8 6 "lightgray"
 	eslide
 
 	slide 
@@ -1198,7 +1198,7 @@ deck
 		text	"Position and Scaling" 5 45 2.5
 		text	"Measures and Attributes" 50 45 2.5
 		text	"CSV" 5 12 2.5
-		list	5 90 1.3 "mono" "maroon" 100 1.5
+		list	5 90 1.3 "mono" "maroon" 100 1.4
 			li "-bar"
 			li "-wbar"
 			li "-hbar"
@@ -1211,7 +1211,7 @@ deck
 			li "-donut"
 			li "-radial"
 		elist
-		list	15 90 1.3 "sans" "black" 100 1.5
+		list	15 90 1.3 "sans" "black" 100 1.4
 			li "bar chart (default true)"
 			li "word bar chart (default false)"
 			li "horizontal bar chart (default false)"
@@ -1224,8 +1224,9 @@ deck
 			li "donut chart (default false)"
 			li "radial chart (default false)"
 		elist
-		list	50 90 1.3 "mono" "maroon" 100 1.5
+		list	50 90 1.3 "mono" "maroon" 100 1.4
 			li "-grid"
+			li "-frame"
 			li "-val"
 			li "-valpos"
 			li "-pct"
@@ -1238,10 +1239,11 @@ deck
 			li "-xlast"
 			li "-hline"
 		elist
-		list	60 90 1.3 "sans" "black" 100 1.5
+		list	60 90 1.3 "sans" "black" 100 1.4
 			li "show gridlines on the y axis (default false)"
+			li `show a frame around the chart (default "rgb(127,127,127)")`
 			li "show values (default true)"
-			li "value position (t=top, b=bottom, m=middle) (default \"t\")"
+			li `value position (t=top, b=bottom, m=middle) (default "t")`
 			li "show computed percentage with the values (default false)"
 			li "show a y axis (default true)"
 			li "specify the y axis labels (min,max,step)"
@@ -1252,7 +1254,7 @@ deck
 			li "show the last x label"
 			li "horizontal line at value with label"
 		elist
-		list	5 40 1.3 "mono" "maroon" 100 1.5
+		list	5 40 1.3 "mono" "maroon" 100 1.4
 			li "-top"
 			li "-bottom"
 			li "-left"
@@ -1261,7 +1263,7 @@ deck
 			li "-max"
 			li "-dmin"
 		elist
-		list	15 40 1.3 "sans" "black" 100 1.5
+		list	15 40 1.3 "sans" "black" 100 1.4
 			li "top of the plot (default 80)"
 			li "bottom of the plot (default 30)"
 			li "left margin (default 20)"
@@ -1270,37 +1272,39 @@ deck
 			li "set the maximum value"
 			li "data minimum (default false, min=0)"
 		elist
-		list	50 40 1.3 "mono" "maroon" 100 1.5
+		list	50 40 1.3 "mono" "maroon" 100 1.4
 			li "-barwidth"
 			li "-linewidth"
 			li "-ls"
 			li "-textsize"
 			li "-color"
 			li "-vcolor"
+			li "-framcolor"
 			li "-volop"
 			li "-datafmt"
 			li "-psize"
 			li "-pwidth"
 			li "-spokes"
 		elist
-		list	60 40 1.3 "sans" "black" 100 1.5
+		list	60 40 1.3 "sans" "black" 100 1.4
 			li "barwidth (default computed from data size)"
 			li "linewidth (default 0.2)"
 			li "linespacing (default 2.4)"
 			li "text size (default 1.5)"
-			li "data color (default \"lightsteelblue\")"
-			li "value color (default \"rgb(127,0,0)\")"
+			li `data color (default "lightsteelblue")`
+			li `value color (default "rgb(127,0,0)")`
+			li `frame color (default "rgb(127,127,127)")`
 			li "volume opacity (default 50)"
-			li "data format for values (default \"%.1f\")"
+			li `data format for values (default "%.1f")`
 			li "diameter of the donut (default 30)"
 			li "width of the donut or proportional map (default 3)"
 			li "show spokes on radial charts (default false)"
 		elist
-		list	5 7 1.3 "mono" "maroon" 100 1.5
+		list	5 7 1.3 "mono" "maroon" 100 1.4
 			li "-csv"
 			li "-csvcol"
 		elist
-		list	12 7 1.3 "sans" "black" 100 1.5
+		list	12 7 1.3 "sans" "black" 100 1.4
 			li "read CSV files (default false)"
 			li "specify the columns to use for label,value"
 		elist

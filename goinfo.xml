@@ -1118,7 +1118,7 @@ TERMINATED</text>
 	
 	<slide>
 		<text xp="5" yp="95" sp="2.5">Chart Types</text>
-		<list lp="1.5" xp="5" yp="90" sp="1.3" font="mono" color="maroon">
+		<list lp="1.4" xp="5" yp="90" sp="1.3" font="mono" color="maroon">
 			<li>-bar</li>
 			<li>-wbar</li>
 			<li>-hbar</li>
@@ -1131,7 +1131,7 @@ TERMINATED</text>
 			<li>-donut</li>
 			<li>-radial</li>
 		</list>
-		<list lp="1.5" xp="15" yp="90" sp="1.3">
+		<list lp="1.4" xp="15" yp="90" sp="1.3">
 			<li>bar chart (default true)</li>
 			<li>word bar chart (default false)</li>
 			<li>horizontal bar chart (default false)</li>
@@ -1146,8 +1146,9 @@ TERMINATED</text>
 		</list>
 		
 		<text xp="50" yp="95" sp="2.5">Chart Elements</text>
-		<list lp="1.5" xp="50" yp="90" sp="1.3" font="mono" color="maroon">
+		<list lp="1.4" xp="50" yp="90" sp="1.3" font="mono" color="maroon">
 			<li>-grid</li>
+			<li>-frame</li>
 			<li>-val</li>
 			<li>-valpos</li>
 			<li>-pct</li>
@@ -1160,8 +1161,9 @@ TERMINATED</text>
 			<li>-xlast</li>
 			<li>-hline</li>
 		</list>
-		<list lp="1.5" xp="60" yp="90" sp="1.3">
+		<list lp="1.4" xp="60" yp="90" sp="1.3">
 			<li>show gridlines on the y axis (default false)</li>
+			<li>show a frame around the chart (default "rgb(127,127,127)")</li>
 			<li>show values (default true)</li>
 			<li>value position (t=top, b=bottom, m=middle) (default "t")</li>
 			<li>show computed percentage with the values (default false)</li>
@@ -1176,7 +1178,7 @@ TERMINATED</text>
 		</list>
 		
 		<text xp="5" yp="45" sp="2.5">Position and Scaling</text>
-		<list lp="1.5" xp="5" yp="40" sp="1.3" font="mono" color="maroon">
+		<list lp="1.4" xp="5" yp="40" sp="1.3" font="mono" color="maroon">
 			<li>-top</li>
 			<li>-bottom</li>
 			<li>-left</li>
@@ -1185,7 +1187,7 @@ TERMINATED</text>
 			<li>-max</li>
 			<li>-dmin</li>
 		</list>
-		<list lp="1.5" xp="15" yp="40" sp="1.3">
+		<list lp="1.4" xp="15" yp="40" sp="1.3">
 			<li>top of the plot (default 80)</li>
 			<li>bottom of the plot (default 30)</li>
 			<li>left margin (default 20)</li>
@@ -1197,13 +1199,14 @@ TERMINATED</text>
 		
 		
 		<text xp="50" yp="45" sp="2.5">Measures and Attributes</text>
-		<list lp="1.5" xp="50" yp="40" sp="1.3" font="mono" color="maroon">
+		<list lp="1.4" xp="50" yp="40" sp="1.3" font="mono" color="maroon">
 			<li>-barwidth</li>
 			<li>-linewidth</li>
 			<li>-ls</li>
 			<li>-textsize</li>
 			<li>-color</li>
 			<li>-vcolor</li>
+			<li>-framecolor</li>
 			<li>-volop</li>
 			<li>-datafmt</li>
 			<li>-psize</li>
@@ -1211,13 +1214,14 @@ TERMINATED</text>
 			<li>-spokes</li>
 		</list>
 		
-		<list lp="1.5" xp="60" yp="40" sp="1.3">
+		<list lp="1.4" xp="60" yp="40" sp="1.3">
 			<li>barwidth (default computed from data size)</li>
 			<li>linewidth (default 0.2)</li>
 			<li>linespacing (default 2.4)</li>
 			<li>text size (default 1.5)</li>
 			<li>data color (default "lightsteelblue")</li>
 			<li>value color (default "rgb(127,0,0)")</li>
+			<li>frame color (default "rgb(127,127,127)")</li>
 			<li>volume opacity (default 50)</li>
 			<li>data format for values (default "%.1f")</li>
 			<li>diameter of the donut (default 30)</li>
