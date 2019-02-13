@@ -1192,13 +1192,15 @@ deck
 		ctext	"dchart -left=20 -right=80 -top=75 -yaxis -xlabel=2 -grid AAPL.d" 50 15 2.5 "mono" "black"
 	eslide
 
-	slide 
+	slide
+		tablesp=1.5
+		tablets=1.2
 		text	"Chart Types" 5 95 2.5
 		text	"Chart Elements" 50 95 2.5
 		text	"Position and Scaling" 5 45 2.5
 		text	"Measures and Attributes" 50 45 2.5
 		text	"CSV" 5 12 2.5
-		list	5 90 1.3 "mono" "maroon" 100 1.4
+		list	5 90 tablets "mono" "maroon" 100 tablesp
 			li "-bar"
 			li "-wbar"
 			li "-hbar"
@@ -1211,7 +1213,7 @@ deck
 			li "-donut"
 			li "-radial"
 		elist
-		list	15 90 1.3 "sans" "black" 100 1.4
+		list	15 90 tablets "sans" "black" 100 tablesp
 			li "bar chart (default true)"
 			li "word bar chart (default false)"
 			li "horizontal bar chart (default false)"
@@ -1224,7 +1226,7 @@ deck
 			li "donut chart (default false)"
 			li "radial chart (default false)"
 		elist
-		list	50 90 1.3 "mono" "maroon" 100 1.4
+		list	50 90 tablets "mono" "maroon" 100 tablesp
 			li "-grid"
 			li "-frame"
 			li "-val"
@@ -1239,7 +1241,7 @@ deck
 			li "-xlast"
 			li "-hline"
 		elist
-		list	60 90 1.3 "sans" "black" 100 1.4
+		list	60 90 tablets "sans" "black" 100 tablesp
 			li "show gridlines on the y axis (default false)"
 			li `show a frame around the chart (default "rgb(127,127,127)")`
 			li "show values (default true)"
@@ -1254,7 +1256,7 @@ deck
 			li "show the last x label"
 			li "horizontal line at value with label"
 		elist
-		list	5 40 1.3 "mono" "maroon" 100 1.4
+		list	5 40 tablets "mono" "maroon" 100 tablesp
 			li "-top"
 			li "-bottom"
 			li "-left"
@@ -1263,7 +1265,7 @@ deck
 			li "-max"
 			li "-dmin"
 		elist
-		list	15 40 1.3 "sans" "black" 100 1.4
+		list	15 40 tablets "sans" "black" 100 tablesp
 			li "top of the plot (default 80)"
 			li "bottom of the plot (default 30)"
 			li "left margin (default 20)"
@@ -1272,21 +1274,21 @@ deck
 			li "set the maximum value"
 			li "data minimum (default false, min=0)"
 		elist
-		list	50 40 1.3 "mono" "maroon" 100 1.4
+		list	50 40 tablets "mono" "maroon" 100 tablesp
 			li "-barwidth"
 			li "-linewidth"
 			li "-ls"
 			li "-textsize"
 			li "-color"
 			li "-vcolor"
-			li "-framcolor"
+			li "-framecolor"
 			li "-volop"
 			li "-datafmt"
 			li "-psize"
 			li "-pwidth"
 			li "-spokes"
 		elist
-		list	60 40 1.3 "sans" "black" 100 1.4
+		list	60 40 tablets "sans" "black" 100 tablesp
 			li "barwidth (default computed from data size)"
 			li "linewidth (default 0.2)"
 			li "linespacing (default 2.4)"
@@ -1300,11 +1302,11 @@ deck
 			li "width of the donut or proportional map (default 3)"
 			li "show spokes on radial charts (default false)"
 		elist
-		list	5 7 1.3 "mono" "maroon" 100 1.4
+		list	5 7 tablets "mono" "maroon" 100 tablesp
 			li "-csv"
 			li "-csvcol"
 		elist
-		list	12 7 1.3 "sans" "black" 100 1.4
+		list	12 7 tablets "sans" "black" 100 tablesp
 			li "read CSV files (default false)"
 			li "specify the columns to use for label,value"
 		elist
