@@ -1048,7 +1048,7 @@
 <text xp="5" yp="46" sp="2.5" >Position and Scaling</text>
 <text xp="50" yp="46" sp="2.5" >Measures and Attributes</text>
 <text xp="5" yp="12" sp="2.5" >CSV</text>
-<list xp="5" yp="91" sp="1.1" font="mono" color="maroon" opacity="100" lp="1.4">
+<list xp="5" yp="91" sp="1.1" font="mono" color="maroon" opacity="100" lp="1.35">
 <li>-bar</li>
 <li>-wbar</li>
 <li>-hbar</li>
@@ -1061,7 +1061,7 @@
 <li>-donut</li>
 <li>-radial</li>
 </list>
-<list xp="15" yp="91" sp="1.1" font="sans" color="black" opacity="100" lp="1.4">
+<list xp="15" yp="91" sp="1.1" font="sans" color="black" opacity="100" lp="1.35">
 <li>bar chart (default true)</li>
 <li>word bar chart (default false)</li>
 <li>horizontal bar chart (default false)</li>
@@ -1074,9 +1074,10 @@
 <li>donut chart (default false)</li>
 <li>radial chart (default false)</li>
 </list>
-<list xp="50" yp="91" sp="1.1" font="mono" color="maroon" opacity="100" lp="1.4">
+<list xp="50" yp="91" sp="1.1" font="mono" color="maroon" opacity="100" lp="1.35">
 <li>-grid</li>
 <li>-frame</li>
+<li>-datacond</li>
 <li>-val</li>
 <li>-valpos</li>
 <li>-pct</li>
@@ -1091,9 +1092,10 @@
 <li>-rline</li>
 <li>-note</li>
 </list>
-<list xp="60" yp="91" sp="1.1" font="sans" color="black" opacity="100" lp="1.4">
+<list xp="60" yp="91" sp="1.1" font="sans" color="black" opacity="100" lp="1.35">
 <li>show gridlines on the y axis (default false)</li>
 <li>show a frame around the chart (default "rgb(127,127,127)")</li>
+<li>conditional data colors (relation,value,color)</li>
 <li>show values (default true)</li>
 <li>value position (t=top, b=bottom, m=middle) (default "t")</li>
 <li>show computed percentage with the values (default false)</li>
@@ -1108,7 +1110,7 @@
 <li>show a regression line (default false)</li>
 <li>show annotations (default true)</li>
 </list>
-<list xp="5" yp="42" sp="1.1" font="mono" color="maroon" opacity="100" lp="1.4">
+<list xp="5" yp="42" sp="1.1" font="mono" color="maroon" opacity="100" lp="1.35">
 <li>-top</li>
 <li>-bottom</li>
 <li>-left</li>
@@ -1117,7 +1119,7 @@
 <li>-max</li>
 <li>-dmin</li>
 </list>
-<list xp="15" yp="42" sp="1.1" font="sans" color="black" opacity="100" lp="1.4">
+<list xp="15" yp="42" sp="1.1" font="sans" color="black" opacity="100" lp="1.35">
 <li>top of the plot (default 80)</li>
 <li>bottom of the plot (default 30)</li>
 <li>left margin (default 20)</li>
@@ -1126,7 +1128,7 @@
 <li>set the maximum value</li>
 <li>data minimum (default false, min=0)</li>
 </list>
-<list xp="50" yp="42" sp="1.1" font="mono" color="maroon" opacity="100" lp="1.4">
+<list xp="50" yp="42" sp="1.1" font="mono" color="maroon" opacity="100" lp="1.35">
 <li>-barwidth</li>
 <li>-linewidth</li>
 <li>-ls</li>
@@ -1143,7 +1145,7 @@
 <li>-pmlen</li>
 <li>-spokes</li>
 </list>
-<list xp="60" yp="42" sp="1.1" font="sans" color="black" opacity="100" lp="1.4">
+<list xp="60" yp="42" sp="1.1" font="sans" color="black" opacity="100" lp="1.35">
 <li>barwidth (default computed from data size)</li>
 <li>linewidth (default 0.2)</li>
 <li>linespacing (default 2.4)</li>
@@ -1160,11 +1162,11 @@
 <li>pmap label length (default 20)</li>
 <li>show spokes on radial charts (default false)</li>
 </list>
-<list xp="5" yp="7" sp="1.1" font="mono" color="maroon" opacity="100" lp="1.4">
+<list xp="5" yp="7" sp="1.1" font="mono" color="maroon" opacity="100" lp="1.35">
 <li>-csv</li>
 <li>-csvcol</li>
 </list>
-<list xp="12" yp="7" sp="1.1" font="sans" color="black" opacity="100" lp="1.4">
+<list xp="12" yp="7" sp="1.1" font="sans" color="black" opacity="100" lp="1.35">
 <li>read CSV files (default false)</li>
 <li>specify the columns to use for label,value</li>
 </list>
