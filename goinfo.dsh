@@ -1250,7 +1250,7 @@ deck
 		list	60 t1 tts "sans" "black" 100 tsp
 			li "show gridlines on the y axis (default false)"
 			li `show a frame around the chart (default "rgb(127,127,127)")`
-			li "conditional data colors (relation,value,color)"
+			li "conditional data colors (low,high,color)"
 			li "show values (default true)"
 			li `value position (t=top, b=bottom, m=middle) (default "t")`
 			li "show computed percentage with the values (default false)"

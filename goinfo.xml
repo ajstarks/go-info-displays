@@ -1095,7 +1095,7 @@
 <list xp="60" yp="91" sp="1.1" font="sans" color="black" opacity="100" lp="1.35">
 <li>show gridlines on the y axis (default false)</li>
 <li>show a frame around the chart (default "rgb(127,127,127)")</li>
-<li>conditional data colors (relation,value,color)</li>
+<li>conditional data colors (low,high,color)</li>
 <li>show values (default true)</li>
 <li>value position (t=top, b=bottom, m=middle) (default "t")</li>
 <li>show computed percentage with the values (default false)</li>
