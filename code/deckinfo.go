@@ -12,7 +12,7 @@ import (
 
 func show(name string, value int) {
 	if value > 0 {
-		fmt.Printf("%s\t%d\n", name, value)
+		fmt.Printf("%s %d\n", name, value)
 	}
 }
 
@@ -27,7 +27,7 @@ func xmlesc(s string) string {
 
 var ltype = map[string]string{"": "", "bullet": "b", "number": "n"}
 
-func showitems(s deck.Slide, n int) { 
+func showitems(s deck.Slide, n int) {
 	fmt.Printf("\n// slide %d\nslide ", n+1)
 	if len(s.Bg) > 0 {
 		fmt.Printf("%q", s.Bg)
@@ -36,28 +36,57 @@ func showitems(s deck.Slide, n int) {
 		fmt.Printf(" %q", s.Fg)
 	}
 	fmt.Println()
+
 	for _, i := range s.Text {
 		var textalign string
+		var font, color string
+		var opacity float64
 		switch i.Align {
-			case "center", "c", "middle":
+		case "center", "c", "middle":
 			textalign = "c"
-			case "end", "right", "r", "e":
+		case "end", "right", "r", "e":
 			textalign = "e"
 		}
+		if i.Font == "" {
+			font = "sans"
+		} else {
+			font = i.Font
+		}
+		if i.Color == "" {
+			color = s.Fg
+		} else {
+			color = i.Color
+		}
+		if i.Opacity == 0 {
+			opacity = 100
+		} else {
+			opacity = i.Opacity
+		}
+
 		if i.Type == "block" {
 			if i.Wp == 0 {
 				i.Wp = 50
 			}
-			fmt.Printf("\ttextblock\t%q %v %v %v %v\n", xmlesc(i.Tdata), i.Xp, i.Yp, i.Wp, i.Sp)
+			fmt.Printf("\ttextblock\t%q %v %v %v %v %q %q %v\n", xmlesc(i.Tdata), i.Xp, i.Yp, i.Wp, i.Sp, font, color, opacity)
 		} else {
-			fmt.Printf("\t%stext\t%q %v %v %v\n", textalign, xmlesc(i.Tdata), i.Xp, i.Yp, i.Sp)
+			if len(i.File) > 0 {
+				fmt.Printf("\ttextfile\t%q %v %v %v %q %q %v\n", i.File, i.Xp, i.Yp, i.Sp, font, color, opacity)
+			} else {
+				fmt.Printf("\t%stext\t%q %v %v %v %q %q %v\n", textalign, xmlesc(i.Tdata), i.Xp, i.Yp, i.Sp, font, color, opacity)
+			}
 		}
 	}
+	var scale float64
 	for _, i := range s.Image {
 		if i.Scale == 0 {
-			fmt.Printf("\timage\t%q %v %v %d %d\n", i.Name, i.Xp, i.Yp, i.Width, i.Height)
+			scale = 100.0
 		} else {
-			fmt.Printf("\timage\t%q %v %v %d %d %v\n", i.Name, i.Xp, i.Yp, i.Width, i.Height, i.Scale)
+			scale = i.Scale
+		}
+		if len(i.Caption) == 0 {
+			fmt.Printf("\timage\t%q %v %v %d %d %v\n", i.Name, i.Xp, i.Yp, i.Width, i.Height, scale)
+		} else {
+			fmt.Printf("\tcimage\t%q %q %v %v %d %d %v\n", i.Name, xmlesc(i.Caption), i.Xp, i.Yp, i.Width, i.Height, scale)
 		}
 	}
 	for _, i := range s.List {
@@ -82,7 +111,6 @@ func showitems(s deck.Slide, n int) {
 	fmt.Println("eslide")
 }
 
-
 func main() {
 	var showit = flag.Bool("v", false, "verbose")
 	flag.Parse()
@@ -92,7 +120,10 @@ func main() {
 			fmt.Fprintf(os.Stderr, "%s: %v\n", file, err)
 			continue
 		}
-		fmt.Printf("# Elements of %s\n", file)
+		fmt.Printf("// Elements of %s\n", file)
+		if *showit {
+			fmt.Println("deck")
+		}
 		var texts, images, lists, arcs, lines, ellipses, rects, curves, polygons, links int
 		show("// slide count", len(d.Slide))
 		for ns, s := range d.Slide {
@@ -110,15 +141,18 @@ func main() {
 			polygons += len(s.Polygon)
 		}
 
-		show("text", texts)
-		show("image", images)
-		show("link", links)
-		show("list", lists)
-		show("line", lines)
-		show("rect", rects)
-		show("ellipse", ellipses)
-		show("arc", arcs)
-		show("curve", curves)
-		show("polygon", polygons)
+		show("// text", texts)
+		show("// image", images)
+		show("// link", links)
+		show("// list", lists)
+		show("// line", lines)
+		show("// rect", rects)
+		show("// ellipse", ellipses)
+		show("// arc", arcs)
+		show("// curve", curves)
+		show("// polygon", polygons)
+	}
+	if *showit {
+		fmt.Println("edeck")
 	}
 }
